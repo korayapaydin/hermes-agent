@@ -1,6 +1,7 @@
 ---
 name: himalaya
 description: "Himalaya CLI: IMAP/SMTP email from terminal."
+description_tr: "Himalaya CLI: terminalden IMAP/SMTP e-posta."
 version: 1.1.0
 author: community
 license: MIT

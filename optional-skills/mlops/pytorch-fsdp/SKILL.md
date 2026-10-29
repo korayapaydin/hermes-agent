@@ -1,6 +1,7 @@
 ---
 name: pytorch-fsdp
 description: Fully sharded data-parallel training for large models.
+description_tr: "Büyük modeller için tam parçalı veri paralel eğitim."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

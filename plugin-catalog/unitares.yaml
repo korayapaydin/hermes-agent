@@ -11,6 +11,7 @@ description: >-
   plus call timeout). After 3 consecutive failures the plugin stops reporting for that session only,
   until the session is finalized or reset; it stays fail-open and never blocks the agent. If
   UNITARES_BEARER is set, it is sent as a request header to that same server only.
+description_tr: "Çalıştırdığınız bir UNITARES sunucusunda her Hermes oturumunu kaydeder: oturum başına bir kimlik ve tamamlanan tur başına bir giriş bildirimi, böylece ajanın çalışma kaydı oturumlar arasında taşınır. Hata durumunda açık kalır; ajanı asla engellemez. Açıklama — Yalnızca sizin barındırdığınız UNITARES_MCP_URL içinde adlandırılan sunucuya gönderir; varsayılan sunucu yoktur. Oturum başına model adınızı ve platformunuzu gönderir; tamamlanan tur başına sabit bir giriş bildirimi işareti (asla kullanıcı, asistan veya araç metni değil). Kancalar eşzamanlı çalışır, bu yüzden yanıt vermeyen bir sunucu bir çağrıyı yaklaşık 40 saniye geciktirebilir (bağlantı artı çağrı zaman aşımı). 3 ardışık hatadan sonra eklenti raporlamayı yalnızca o oturum için, oturum sonlandırılana veya sıfırlanana kadar durdurur; hata durumunda açık kalır ve ajanı asla engellemez. UNITARES_BEARER ayarlıysa yalnızca aynı sunucuya istek başlığı olarak gönderilir."
 maintainer: cirwel
 tier: community
 category: automation

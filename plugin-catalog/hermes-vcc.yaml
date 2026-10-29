@@ -3,6 +3,7 @@ repo: https://github.com/agentbox-tech/hermes-vcc
 sha: d08eb0adf4aff5dc4a9ec7179687a08fd6350561
 subdir: engine
 description: "Algorithmic (no-LLM) context compaction engine: builds summaries by deterministic regex extraction instead of a summarizer-model call — zero-token, byte-reproducible, inside the built-in ContextCompressor; compacted turns stay searchable via session_search. Disclosure — no network calls, no env vars, no secrets, no telemetry; registers no tools/hooks/middleware and reads only the turns the host passes for compaction; debug: true (default false) writes one metadata-only file $HERMES_HOME/vcc-debug.json. Derived from pi-vcc (MIT, sting8k)"
+description_tr: "Algoritmik (LLM'siz) bağlam sıkıştırma motoru: özetleri bir özetleyici model çağrısı yerine deterministik düzenli ifade çıkarımıyla kurar — sıfır token, bayt bayt yeniden üretilebilir, yerleşik ContextCompressor'ın içinde; sıkıştırılmış turlar session_search ile aranabilir kalır. Açıklama — ağ çağrısı, ortam değişkeni, sır ve telemetri yoktur; hiçbir araç/hook/ara katman kaydetmez ve yalnızca ana bilgisayarın sıkıştırma için ilettiği turları okur; debug: true (varsayılan false) yalnızca üst veri içeren tek bir dosya yazar: $HERMES_HOME/vcc-debug.json. pi-vcc'den türetilmiştir (MIT, sting8k)."
 maintainer: rain-sk
 tier: community
 category: general

@@ -1,6 +1,7 @@
 ---
 name: concept-diagrams
 description: Generate flat, minimal educational SVG visuals as HTML.
+description_tr: "HTML olarak düz, sade eğitsel SVG görselleri üret."
 version: 0.1.0
 author: v1k22 (original PR), ported into hermes-agent
 license: MIT

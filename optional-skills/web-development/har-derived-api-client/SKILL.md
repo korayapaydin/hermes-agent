@@ -1,6 +1,7 @@
 ---
 name: har-derived-api-client
 description: Record a site's XHR into a HAR, derive an HTTP client.
+description_tr: "Bir sitenin XHR'ini HAR'a kaydet, HTTP istemcisi türet."
 version: 0.1.0
 author: Hermes Agent
 license: MIT

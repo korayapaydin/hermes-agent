@@ -2,6 +2,7 @@ name: jp-corporate
 repo: https://github.com/TakeshiTGAL/hermes-plugin-jp-corporate
 sha: fc0e16c2924d00774957c516f5eb14016228b91d
 description: "Japanese corporate lookup (法人照会): find or verify a company by name or corporate number and read its gBizINFO record (basic info, subsidies, government contracts, awards, certifications, financials, patents, workplace data). Disclosure — sends the company names, corporate numbers and prefectures you look up to api.info.gbiz.go.jp (METI gBizINFO) with your own GBIZINFO_API_TOKEN in a request header; no other host, nothing written to disk."
+description_tr: "Japon kuruluş sorgusu (法人照会): ad ya da kuruluş numarasına göre bir şirketi bulun ya da doğrulayın ve gBizINFO kaydını okuyun (temel bilgiler, destekler, kamu ihaleleri, ödüller, belgeler, finansal veriler, patentler, çalışma yeri verileri). Açıklama — aradığınız şirket adlarını, kuruluş numaralarını ve illeri, kendi GBIZINFO_API_TOKEN değerinizle bir istek başlığında api.info.gbiz.go.jp adresine (METI gBizINFO) gönderir; başka ana makine yoktur, diske hiçbir şey yazılmaz."
 maintainer: TakeshiTGAL
 tier: community
 category: tools

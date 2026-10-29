@@ -1,6 +1,7 @@
 ---
 name: domain-intel
 description: Passive recon of subdomains, SSL certs, WHOIS, and DNS.
+description_tr: "Alt alan, SSL sertifika, WHOIS ve DNS için pasif keşif."
 version: 1.0.0
 author: FurkanL0, Hermes Agent
 license: MIT

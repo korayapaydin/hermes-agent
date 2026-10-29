@@ -1,6 +1,7 @@
 ---
 name: page-agent
 description: Embed an in-page natural-language GUI copilot in web apps.
+description_tr: "Web uygulamalarına sayfa içi doğal dil GUI yardımcısı ekle."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

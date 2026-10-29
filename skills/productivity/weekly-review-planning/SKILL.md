@@ -1,6 +1,7 @@
 ---
 name: weekly-review-planning
 description: "Weekly reset: commitments, stalled work, next-week plan."
+description_tr: "Haftalık sıfırlama: taahhütler, duran iş, hafta planı."
 version: 0.1.0
 author: Ben Barclay (benbarclay), Hermes Agent
 license: MIT

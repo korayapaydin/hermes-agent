@@ -13,6 +13,7 @@ description: >-
   invoking tools. `doctor` checks profile credential variable names without exposing their values.
   Hosted operations contact agentplaybooks.ai (or an explicitly configured service); skill restore
   uses `apb login`, and `apb push --apply` uploads project configuration (secret references, not values).
+description_tr: "AgentPlaybooks yeteneklerini ve barındırılan MCP/OpenAPI araçlarını Hermes'e bağlayın; rehberli kimlik doğrulama ve API anahtarı kurulumuyla. Node.js 20+ ve @agentplaybooks/cli@0.5.0 gerekir; CLI ayrıca kurulur. Açıklama — yalnızca yetenek; asıl işi ayrıca kurulan apb CLI yapar. `apb connect --target=hermes --apply` ve `apb sync --target=hermes --apply`, seçili Hermes profilinin config.yaml dosyasını düzenler (barındırılan playbook MCP uç noktasını ve birleştirilmiş MCP tanımlarını ekler, böylece o playbook'un uzak araçları ajan için kullanılabilir hâle gelir); yerel yazmalar --apply gerektirir; barındırılan işlemler `apb login` sonrasında agentplaybooks.ai ile iletişim kurar ve `apb push --apply`, projenizin yapılandırmasını (sır değerlerini değil, sır başvurularını) yükler."
 maintainer: matebenyovszky
 tier: community
 category: tools

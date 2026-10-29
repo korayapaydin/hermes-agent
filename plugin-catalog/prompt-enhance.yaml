@@ -3,6 +3,7 @@ repo: https://github.com/apoapostolov/hermes-agent-awesome-plugins
 sha: 953732a9fb52b6fd89e73fc96d910aab63163e07
 subdir: public/prompt-enhance
 description: "Rewrite a composer draft outside the chat and put the finished prompt back in the field. A prompt library keeps saved prompts, and a one-call model pick does not change the session."
+description_tr: "Bir yazma alanı taslağını sohbet dışında yeniden yazın ve bitmiş istemi alana geri koyun. Bir istem kitaplığı kayıtlı istemleri tutar ve tek çağrılık bir model seçimi oturumu değiştirmez."
 maintainer: apoapostolov
 tier: community
 category: desktop

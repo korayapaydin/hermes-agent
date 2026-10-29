@@ -1,6 +1,7 @@
 ---
 name: canvas
 description: Fetch Canvas LMS courses and assignments via API token.
+description_tr: "Canvas LMS derslerini ve ödevlerini API token ile çek."
 version: 1.0.0
 author: community
 license: MIT

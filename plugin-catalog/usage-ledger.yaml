@@ -2,6 +2,7 @@ name: usage-ledger
 repo: https://github.com/3DPrintPioneers/hermes-usage-ledger
 sha: 3fa6a32187c943ff2f43959b3a7d258cf9fe067e
 description: Local-only content-free usage tally and native Desktop statusline (Windows and macOS beta).
+description_tr: "Yalnızca yerel, içeriksiz kullanım sayacı ve yerel Desktop durum satırı (Windows ve macOS beta)."
 maintainer: 3DPrintPioneers
 tier: community
 category: desktop

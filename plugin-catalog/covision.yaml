@@ -6,6 +6,7 @@ description: >-
   the Covision Streamable HTTP MCP service, plus a workflow skill. Requires a
   Covision account, organization connector enablement, and browser OAuth consent;
   no API key or client secret is stored in the plugin.
+description_tr: "Covision Streamable HTTP MCP servisi üzerinden salt okunur Covision toplantı, atanmış görev ve yayımlanmış bilgi araçları, ayrıca bir iş akışı yeteneği. Bir Covision hesabı, kuruluş bağlantısının etkinleştirilmesi ve tarayıcı OAuth onayı gerekir; eklentide API anahtarı ya da istemci sırrı saklanmaz."
 maintainer: Covision Consultants
 tier: community
 category: tools

@@ -1,6 +1,7 @@
 ---
 name: jupyter-notebook
 description: "Iterative Python via live Jupyter kernel (hamelnb)."
+description_tr: "Canlı Jupyter çekirdeğ iyle yinelemeli Python (hamelnb)."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

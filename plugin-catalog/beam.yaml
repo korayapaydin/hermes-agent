@@ -4,6 +4,7 @@ sha: d41448cb3f08bacbc368a4948ecbe310e5f6964c
 version: "0.1.1"
 title: Beam
 description: "Move data across cloud storage and exchange end-to-end encrypted messages, files and media between agents with Beam Network (Bittensor SN105)."
+description_tr: "Beam Network (Bittensor SN105) ile bulut depolama üzerinden veri taşıyın ve ajanlar arasında uçtan uca şifreli mesaj, dosya ve medya alışverişi yapın."
 maintainer: Beam-Network
 tier: community
 category: tools

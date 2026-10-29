@@ -4,6 +4,7 @@ sha: e58702e60b2697c9d1dc3daa9eb65ac1fcc50560
 description: Readable agent.log viewer in the desktop status bar — a live, colour-coded feed of
   API calls, tools, turns, fallbacks, warnings and errors, with per-call tokens/latency/cache,
   stats tables, and a single-dot alert for genuine non-self-healing faults. Follows app theme/language.
+description_tr: "Masaüstü durum çubuğunda okunabilir agent.log görüntüleyicisi — API çağrılarının, araçların, turların, yedeklemelerin, uyarıların ve hataların canlı, renk kodlu akışı; çağrı başına token/gecikme/önbellek, istatistik tabloları ve gerçek kendi kendini onarmayan arızalar için tek noktalı uyarı. Uygulama temasını ve dilini izler."
 maintainer: PixelAlchemist4
 tier: community
 category: desktop

@@ -1,6 +1,7 @@
 ---
 name: flash-attention
 description: Speed up long-sequence transformer training and inference.
+description_tr: "Uzun dizi transformer eğitimini ve çıkarımını hızlandır."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

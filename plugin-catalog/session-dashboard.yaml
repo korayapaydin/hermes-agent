@@ -3,6 +3,7 @@ repo: https://github.com/tommulkins/hermes-plugin-session-analyzer
 sha: f5a880ce8d9c4b3891c0687b4de6f30b93b5da16
 image: https://raw.githubusercontent.com/tommulkins/hermes-plugin-session-analyzer/f5a880ce8d9c4b3891c0687b4de6f30b93b5da16/assets/social-preview.png
 description: 'Session Analyzer — per-session analytics for the Hermes desktop app: full page at /session-dashboard with token/cache/cost aggregates, tool-call breakdown, file changes, failure groups, and Ask AI (copies a ready-to-run analysis prompt into a fresh draft chat). Read-only over state.db.'
+description_tr: "Oturum Analizcisi — Hermes masaüstü uygulaması için oturum başına analitik: /session-dashboard adresinde tam sayfa, token/önbellek/maliyet toplamları, araç çağrısı dağılımı, dosya değişiklikleri, hata grupları ve YZ'ye Sor (çalıştırmaya hazır bir analiz istemini yeni bir taslak sohbete kopyalar). state.db üzerinde salt okunur."
 maintainer: tommulkins
 tier: community
 category: desktop

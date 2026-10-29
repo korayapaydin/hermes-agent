@@ -7,6 +7,7 @@ name: hermes-beads
 repo: https://github.com/jacobhausler/hermes-beads
 sha: "975263183c65b1ef94160344024187b64379dc32"
 description: "Native Beads (bd) work-graph plugin: fixed-argv adapter, scoped ready frontier, claim with read-back, guarded writes. Six tools over an explicit store path + actor; honest exit-code map incl. stale-13; plain bd stays fully sufficient (escape hatch). No desktop pane ships yet."
+description_tr: "Yerel Beads (bd) iş grafiği eklentisi: sabit argümanlı bağdaştırıcı, kapsamlı hazır sınır, geri okumalı sahiplenme, korumalı yazmalar. Açık bir depo yolu + aktör üzerinde altı araç; bayat-13 dâhil dürüst çıkış kodu eşlemesi; düz bd tamamen yeterlidir (kaçış yolu). Henüz masaüstü paneli gelmiyor."
 maintainer: jacobhausler
 tier: community
 category: tools

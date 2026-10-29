@@ -12,6 +12,7 @@ description: >-
   Runtime state, a 0600 bridge token, a bounded event journal and rotated server logs are written
   under HERMES_HOME/hermes-town/runtime/. On start the server also reads HERMES_HOME/cron/jobs.json
   (job id and enabled flag only) to place one resident per enabled scheduled job.
+description_tr: "Her Hermes oturumunun bir sakini olduğu ve her araç çağrısının bir binaya yürüdüğü yerel piksel sanatlı kasaba. Yalnızca döngü üzerindeki bir sunucuya pasif yaşam döngüsü köprüsü; istemler, argümanlar ve çıktı asla süreçten çıkmaz. Açıklama — 0.3.0 sürümü, Town Node sunucusunu ve önceden derlenmiş bir tarayıcı uygulamasını eklenti dizininin içinde paketler ve bir hermes town setup/start/status/stop/open komut ağacı ekler. Hiçbir şey indirilmez ve hiçbir aşamada npm install çalışmaz; node (^20.19 veya >=22.12) önceden kurulu olmalıdır ve yalnızca açıkça verilen hermes town start komutuyla başlatılır, yalnızca 127.0.0.1 adresine bağlanır. Çalışma zamanı durumu, 0600 izinli bir köprü tokenı, sınırlı bir olay günlüğü ve döndürülen sunucu günlükleri HERMES_HOME/hermes-town/runtime/ altına yazılır. Başlangıçta sunucu ayrıca HERMES_HOME/cron/jobs.json dosyasını (yalnızca iş kimliği ve etkin bayrağı) okuyarak etkin her zamanlanmış iş için bir sakin yerleştirir."
 maintainer: sxuff
 tier: community
 category: tools

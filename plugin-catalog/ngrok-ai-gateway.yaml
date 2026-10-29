@@ -12,6 +12,7 @@ description: >-
   chat requests and the model list go to https://gateway.ngrok.ai/v1 (or NGROK_AI_GATEWAY_BASE_URL)
   through Hermes' own client with NGROK_AI_GATEWAY_KEY, which Hermes reads; the plugin itself opens
   no connections, reads and writes no files and starts no processes.
+description_tr: "ngrok AI Gateway'i bir Hermes model sağlayıcısı olarak (`--provider ngrok` ya da `hermes model` içinde ngrok AI Gateway): tüm model sağlayıcılarınız için tek bir erişim anahtarı, yedeklilikle birlikte. Model listesi gateway'inizden canlı gelir ve gateway hataları (yönlendirilmemiş model, erişim politikası ve üst anahtar hataları, kredi tükenmesi) genel bir hata yerine Hermes'in yedek davranışına eşlenir. Açıklama — içe aktarımda yalnızca bir model sağlayıcısı kaydeder, başka hiçbir şey (araç, kanca, komut veya iş parçacığı yok); sohbet istekleri ve model listesi, Hermes'in okuduğu NGROK_AI_GATEWAY_KEY ile Hermes'in kendi istemcisi üzerinden https://gateway.ngrok.ai/v1 (ya da NGROK_AI_GATEWAY_BASE_URL) adresine gider; eklentinin kendisi hiçbir bağlantı açmaz, dosya okumaz ve yazmaz, süreç başlatmaz."
 maintainer: ngrok
 tier: community
 category: models

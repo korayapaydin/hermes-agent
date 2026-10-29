@@ -1,6 +1,7 @@
 ---
 name: 3-statement-model
 description: Build integrated IS/BS/CF financial workbooks in Excel.
+description_tr: "Excel'de entegre IS/BS/CF finansal modeller kur."
 version: 1.0.0
 author: Anthropic (adapted by Nous Research)
 license: Apache-2.0

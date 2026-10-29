@@ -1,6 +1,7 @@
 ---
 name: teams-meeting-pipeline
 description: Teams meeting summaries, job replay, Graph subscriptions.
+description_tr: "Teams toplantı özetleri, iş tekrarı, Graph abonelikleri."
 version: 1.1.0
 author: Hermes Agent + Teknium
 license: MIT

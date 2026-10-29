@@ -1,6 +1,7 @@
 ---
 name: code-wiki
 description: "Generate wiki docs + Mermaid diagrams for any codebase."
+description_tr: "Her kod tabanı için wiki dokümanı + Mermaid şeması üret."
 version: 0.1.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

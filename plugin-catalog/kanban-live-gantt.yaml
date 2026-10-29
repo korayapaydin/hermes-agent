@@ -10,6 +10,7 @@ name: kanban-live-gantt
 repo: https://github.com/ningfangbin/hermes-kanban-live-gantt
 sha: 7081f6376226b6f1c65be3e4e27ae8fb5950e062   # tag v0.1.3
 description: "Live, now-centered Gantt timeline for the Hermes kanban boards — a slidable, persisted 72 h window (default now -24h -> now +48h; drag to move, drag the ends to resize), free wheel zoom down to hour ticks, a now line, status filtering, an optional done lane, and lifecycle rendering (dashed waiting vs solid run spans at real durations). Fork of kanban-gantt (GPL-3.0). Disclosure — the backend can transition, reassign, comment on and permanently delete kanban tasks on any board (Desktop asks for confirmation before deletes); local SQLite only, no network."
+description_tr: "Hermes kanban panoları için canlı, şimdiye merkezli Gantt zaman çizelgesi — kaydırılabilir, kalıcı bir 72 saatlik pencere (varsayılan şimdi -24s -> şimdi +48s; taşımak için sürükleyin, yeniden boyutlandırmak için uçları sürükleyin), saat işaretlerine kadar indirilebilen serbest tekerlek yakınlaştırma, bir şimdi çizgisi, durum süzme, isteğe bağlı bir 'tamamlandı' şeridi ve yaşam döngüsü çizimi (kesikli bekleme ile gerçek sürelerde dolu koşu aralıkları). kanban-gantt çatalı (GPL-3.0). Açıklama — arka uç, herhangi bir panodaki kanban görevlerinin durumunu değiştirebilir, yeniden atayabilir, yorum yapabilir ve kalıcı olarak silebilir (Desktop silmeden önce onay ister); yalnızca yerel SQLite, ağ yok."
 maintainer: ningfangbin
 tier: community
 category: desktop

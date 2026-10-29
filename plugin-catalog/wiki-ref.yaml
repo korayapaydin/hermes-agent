@@ -8,6 +8,7 @@ description: >-
   composer. Disclosure — sends HTTPS GET requests to <language>.wikipedia.org/w/api.php only (the
   referenced title and the typed autocomplete prefix leave the machine; a section is cut locally);
   no API key, no files written, no subprocess; register() only adds the @wiki: reference provider.
+description_tr: "@wiki:<title> bağlam referansları: bir mesaja bir Wikipedia maddesinin giriş bölümünü ekleyin ya da @wiki:<title>#<section> ile tek bir bölümü; TUI ve Desktop yazma alanında başlık otomatik tamamlama. Açıklama — yalnızca <language>.wikipedia.org/w/api.php adresine HTTPS GET istekleri gönderir (başvurulan başlık ve yazılan otomatik tamamlama öneki makineden çıkar; bölüm yerelde kesilir); API anahtarı yok, dosya yazılmaz, alt süreç yok; register() yalnızca @wiki: referans sağlayıcısını ekler."
 maintainer: EloquentBrush0x
 tier: community
 category: web

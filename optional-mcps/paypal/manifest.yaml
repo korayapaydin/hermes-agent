@@ -5,6 +5,7 @@ manifest_version: 1
 name: paypal
 description: >-
   Payments, invoices, and subscriptions via PayPal's hosted MCP.
+description_tr: "PayPal'ın barındırdığı MCP üzerinden ödemeler, faturalar ve abonelikler."
 source: https://developer.paypal.com/tools/mcp-server/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

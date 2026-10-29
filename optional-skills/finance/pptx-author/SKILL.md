@@ -1,6 +1,7 @@
 ---
 name: pptx-author
 description: Build PowerPoint decks headless with python-pptx.
+description_tr: "python-pptx ile PowerPoint sunumları başsız oluştur."
 version: 1.0.0
 author: Anthropic (adapted by Nous Research)
 license: Apache-2.0

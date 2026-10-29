@@ -1,6 +1,7 @@
 ---
 name: box
 description: Box manages cloud files, sharing, search, and metadata.
+description_tr: "Box: bulut dosyası, paylaşım, arama ve meta veri yönetimi."
 version: 1.0.0
 author: Chris Kim (iskysun96), Hermes Agent
 license: MIT

@@ -12,6 +12,7 @@ description: >-
   backends. The operator-only nerve setup CLI can copy a local HermesContextBus checkout into
   HERMES_HOME/plugins/hermes-context-bus and runs hermes plugins enable/disable for that plugin
   when a profile is saved; the model cannot trigger this.
+description_tr: "Nerve, sağlayıcıdan bağımsız Jev, Laya ve OpenJev Reflex arka uçları, kanıta dayalı Kanban gözetimi, bağlam yönetişimi, token bütçesi yörünge denetimi ve kalıcı SSH işçileriyle Hermes Agent için kontrol sinir sistemidir. Açıklama — varsayılan Reflex arka ucu barındırılan Jev'dir; varsayılan ayarlarla (enabled / admission_enabled açık) her turun kullanıcı istemi (en fazla 12k karakter) ve redakte edilmiş araç/sonuç önizlemeleri, OPENROUTER_API_KEY veya TYPESAFE_API_KEY'iniz kullanılarak yapılandırılmış Jev sağlayıcısına (OpenRouter Decisions / TypeSafe Jev) gönderilir ve her turda kredilerinizden harcanır. Laya ve OpenJev yerel/kendi barındırdığınız arka uçlar olarak yapılandırılabilir. Yalnızca operatöre ait nerve setup CLI'si, yerel bir HermesContextBus kopyasını HERMES_HOME/plugins/hermes-context-bus içine kopyalayabilir ve bir profil kaydedildiğinde o eklenti için hermes plugins enable/disable çalıştırır; model bunu tetikleyemez."
 maintainer: keeltrace
 tier: community
 category: automation

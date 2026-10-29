@@ -1,6 +1,7 @@
 ---
 name: document-to-action-items
 description: "Extract cited obligations, deadlines, tasks from documents."
+description_tr: "Belgelerden kaynaklı yükümlülük, son tarih ve görev çıkar."
 version: 0.1.0
 author: Ben Barclay (benbarclay), Hermes Agent
 license: MIT

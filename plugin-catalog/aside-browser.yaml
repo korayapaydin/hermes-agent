@@ -2,6 +2,7 @@ name: aside-browser
 repo: https://github.com/leonphull/hermes-aside-browser
 sha: ffd4e0e0de4b3a8624f3d83f98c378b88d6f9581
 description: "Use the signed-in Aside browser as Hermes's browser when the Aside CLI is installed. Disclosure — runs the local aside CLI to drive your signed-in Aside browser (page text, screenshots, Aside memory, model-written JavaScript via aside_repl) without a Hermes approval prompt; Aside's permission level is a user-only setting (default ask) that covers aside_exec only. Optional pre_tool_call hook blocks Hermes' built-in browser tools while Aside is ready when browser_policy is always. Reads Aside's settings.json for the model list; no telemetry."
+description_tr: "Aside CLI kurulu olduğunda, oturum açılmış Aside tarayıcısını Hermes'in tarayıcısı olarak kullanın. Açıklama — oturum açılmış Aside tarayıcınızı (sayfa metni, ekran görüntüleri, Aside belleği, aside_repl üzerinden model tarafından yazılan JavaScript) Hermes onay istemi olmadan sürmek için yerel aside CLI'sini çalıştırır; Aside'ın izin düzeyi yalnızca kullanıcının ayarlayabildiği bir ayardır (varsayılan ask) ve yalnızca aside_exec'i kapsar. İsteğe bağlı pre_tool_call hook'u, browser_policy always olduğunda Aside hazırken Hermes'in yerleşik tarayıcı araçlarını engeller. Model listesi için Aside'ın settings.json dosyasını okur; telemetri yoktur."
 maintainer: leonphull
 tier: community
 category: tools

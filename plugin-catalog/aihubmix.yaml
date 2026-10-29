@@ -3,6 +3,7 @@ repo: https://github.com/AIhubmix/hermes-provider-aihubmix
 sha: b55e916362ebd0528c5d8981d12f3b8f7268b847
 subdir: aihubmix
 description: AIHubMix — unified OpenAI-compatible access to 400+ models; /model picker filtered to tool-capable routes.
+description_tr: "AIHubMix — 400'den fazla modele tek noktadan, OpenAI uyumlu erişim; araç destekleyen rotalara göre süzülmüş /model seçici."
 maintainer: AIHubMix
 tier: community
 category: models

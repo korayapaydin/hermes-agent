@@ -4,6 +4,7 @@ sha: 11f8ea42e353a8fa228ed1e2b40e5bc10a9bdee3
 version: "0.0.4"
 image: https://raw.githubusercontent.com/Adolanium/hermes-rss/11f8ea42e353a8fa228ed1e2b40e5bc10a9bdee3/assets/catalog-banner.png
 description: "Read RSS and Atom feeds and discuss articles in Hermes Desktop. Disclosure — feeds and full articles are fetched with curl through the gateway's shell.exec on the connected Hermes host (public-IPv4 SSRF guard); opt-in AI grading sends article excerpts to your configured model and creates HERMES_HOME/skills/rss-importance-grading/SKILL.md if missing; opt-in image loading fetches publisher images directly from Desktop."
+description_tr: "Hermes Desktop'ta RSS ve Atom akışlarını okuyun ve makaleleri tartışın. Açıklama — akışlar ve tam makaleler, bağlı Hermes ana makinesindeki ağ geçidinin shell.exec'i üzerinden curl ile getirilir (genel IPv4 SSRF koruması); isteğe bağlı AI puanlama, makale alıntılarını yapılandırdığınız modele gönderir ve yoksa HERMES_HOME/skills/rss-importance-grading/SKILL.md dosyasını oluşturur; isteğe bağlı görsel yükleme, yayıncı görsellerini doğrudan Desktop'tan getirir."
 maintainer: Adolanium
 tier: community
 category: desktop

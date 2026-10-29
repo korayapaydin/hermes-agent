@@ -7,6 +7,7 @@ description: >-
   provider or base_url points at Lightning AI; no-op otherwise.
   Disclosure — registers one llm_execution middleware and nothing else; no network calls,
   files, or processes of its own.
+description_tr: "Lightning AI (https://lightning.ai/api/v1) için süreç başına kısıtlayıcı; bellek içi bir token kovasıyla LLM isteklerini ~15 istek/dakika sınırı içinde tutar. Yalnızca sağlayıcısı ya da base_url'i Lightning AI'yi gösteren çağrıları kısıtlar; aksi hâlde işlevsizdir. Açıklama — yalnızca bir llm_execution ara katmanı kaydeder, başka hiçbir şey; kendi ağ çağrıları, dosyaları ya da süreçleri yoktur."
 maintainer: dinosauria123
 tier: community
 category: models

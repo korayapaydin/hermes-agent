@@ -4,6 +4,7 @@ sha: 8ff37a626439caecb9ceb724b5da7718eb77a8b1
 description: Minecraft gateway adapter for Hermes Agent. Spawns a Mineflayer bot that joins a Minecraft
   server, wanders around, and relays chat messages between players and the Hermes agent. Supports offline
   and Microsoft-authenticated accounts.
+description_tr: "Hermes Agent için Minecraft ağ geçidi bağdaştırıcısı. Bir Minecraft sunucusuna katılan, etrafta dolaşan ve oyuncular ile Hermes ajanı arasında sohbet mesajları aktaran bir Mineflayer botu başlatır. Çevrimdışı ve Microsoft kimlik doğrulamalı hesapları destekler."
 maintainer: kyssta-exe
 tier: community
 category: platform

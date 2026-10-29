@@ -16,6 +16,7 @@ description: >-
   generation runs (videos up to 15 minutes by default), downloads the generated files from the
   returned URLs into Hermes' cache (the key is never sent to them), and reads a local image file
   only when the agent asks to edit one.
+description_tr: "Hermes'in image_generate, video_generate ve text_to_speech araçları için EmpirioLabs AI arka uçları (image_gen.provider, video_gen.provider ve tts.provider için arka uç `empiriolabs`): görsel üretimi ve düzenleme, metinden videoya ve görselden videoya dönüştürme ile metinden sese; modeller ve sesler canlı EmpirioLabs AI kataloğundan gelir. EmpirioLabs AI tarafından gönderildi. Açıklama — üç arka uç kaydeder, başka hiçbir şey yapmaz (araç, kanca, komut veya iş parçacığı yok); biri seçilip aracı çağrıldığında istem, kaynak görseller veya seslendirilecek metin, Hermes'in gizli kapsamı üzerinden okunan EMPIRIOLABS_API_KEY ile https://api.empiriolabs.ai/v1 (veya EMPIRIOLABS_BASE_URL) adresine gider ve her çağrı, Hermes onay istemi olmadan o EmpirioLabs AI hesabına faturalandırılır; model kataloğunu okur (GET /v1/models), üretim sürerken GET /v1/jobs/{id} adresini yoklar (videolar varsayılan olarak en fazla 15 dakika), üretilen dosyaları döndürülen URL'lerden Hermes'in önbelleğine indirir (anahtar onlara asla gönderilmez) ve yerel bir görsel dosyasını yalnızca ajan bir görseli düzenlemeyi istediğinde okur."
 maintainer: EmpirioLabs-AI
 tier: community
 category: tools

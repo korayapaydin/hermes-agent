@@ -2,6 +2,7 @@ name: magi
 repo: https://github.com/MarcosAlves90/magi
 sha: 3f1a38c1804b12080a329a41fc2cc257f1af151a
 description: Review pending Hermes memory writes and inspect, add, edit, delete, or AI-compact stored memory from Desktop.
+description_tr: "Bekleyen Hermes bellek yazmalarını gözden geçirin ve saklanan belleği Desktop'tan inceleyin, ekleyin, düzenleyin, silin ya da YZ ile sıkıştırın."
 maintainer: MarcosAlves90
 tier: community
 category: desktop

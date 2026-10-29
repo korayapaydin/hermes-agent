@@ -3,6 +3,7 @@ repo: https://github.com/axiom-agent-ai/hermes-lang-el
 sha: d290234075dc14a701c69706f7f89ea26bff7d09
 description: >-
   Greek (Ελληνικά) language pack for Hermes Agent — Desktop UI (~5,060 of 5,065 keys) plus the 102 most visible core CLI slash-command descriptions; missing keys fall back to English. TUI and the remaining core CLI strings are not covered yet. Disclosure — text-only catalogs; registering the pack never changes display.language, the user opts in via config.
+description_tr: "Yunanca (Ελληνικά) dil paketi — Desktop arayüzü (5,065 anahtardan ~5,060'ı) ve çekirdek CLI eğik çizgi komut açıklamalarının en görünür 102'si; eksik anahtarlar İngilizceye geri döner. TUI ve çekirdek CLI'nin kalan metinleri henüz kapsam dışıdır. Açıklama — yalnızca metin katalogları; paketi kaydetmek display.language ayarını asla değiştirmez, kullanıcı config üzerinden katılır."
 maintainer: axiom-agent-ai
 tier: community
 category: general

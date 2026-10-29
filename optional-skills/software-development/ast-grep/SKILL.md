@@ -1,6 +1,7 @@
 ---
 name: ast-grep
 description: "AST-aware structural code search and rewrite via ast-grep."
+description_tr: "AST destekli kod araması ve yeniden yazımı: ast-grep."
 version: 1.0.0
 author: Yeongyu Kim (code-yeongyu), adapted by Hermes Agent
 license: MIT

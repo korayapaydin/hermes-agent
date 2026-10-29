@@ -3,6 +3,7 @@ repo: https://github.com/dominikamann/agent-mail-gateway
 sha: 90c444bd7c0d2bf1955b8844ba3cf68d95f7f7fb
 subdir: integrations/hermes/agent-mail-gateway
 description: 'Email for your agents through a self-hosted Agent Mail Gateway: the agent-mail skill teaches reading, searching, replying and forwarding mail, attachments, sending and answering calendar invitations, how to react when the gateway''s pre-send review or the operator''s policies stop a message, and prompt-injection rules for email content. Portable Agent Plugins v1 package (skills/ only, no code, no mcp.json): you connect the gateway yourself as a remote MCP server in mcp_servers with your own key; the gateway enforces per-mailbox sender/recipient allow lists.'
+description_tr: "Kendi sunucunuzda çalışan Agent Mail Gateway üzerinden ajanlarınız için e-posta: agent-mail yeteneği e-posta okumayı, aramayı, yanıtlamayı ve iletmeyi, ekleri, takvim davetlerini göndermeyi ve yanıtlamayı, ağ geçidinin gönderim öncesi incelemesi ya da operatörün politikaları bir mesajı durdurduğunda nasıl tepki verileceğini ve e-posta içeriği için istem enjeksiyonu kurallarını öğretir. Taşınabilir Agent Plugins v1 paketi (yalnızca skills/, kod yok, mcp.json yok): ağ geçidini kendi anahtarınızla mcp_servers içinde uzak MCP sunucusu olarak siz bağlarsınız; ağ geçidi her posta kutusu için gönderici/alıcı izin listelerini uygular."
 maintainer: dominikamann
 tier: community
 category: tools

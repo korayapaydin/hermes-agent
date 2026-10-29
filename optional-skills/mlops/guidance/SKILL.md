@@ -1,6 +1,7 @@
 ---
 name: guidance
 description: Constrain LLM output with grammars; guarantee valid JSON.
+description_tr: "Gramerlerle LLM çıktısını kısıtla, JSON'u geçerli yap."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

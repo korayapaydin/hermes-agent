@@ -3,6 +3,7 @@ repo: https://github.com/apoapostolov/hermes-agent-awesome-plugins
 sha: 6e65021e0fa4e5de678f2dba67dda6fe097703d9
 subdir: public/sidebar-manager
 description: "Hide and reorder core sidebar navigation rows from a statusbar dialog."
+description_tr: "Çekirdek kenar çubuğu gezinme satırlarını bir durum çubuğu iletişim kutusundan gizleyin ve yeniden sıralayın."
 maintainer: apoapostolov
 tier: community
 category: desktop

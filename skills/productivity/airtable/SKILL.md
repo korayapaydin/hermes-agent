@@ -1,6 +1,7 @@
 ---
 name: airtable
 description: Airtable REST API via curl. Records CRUD, filters, upserts.
+description_tr: "Airtable REST API: kayıt CRUD, filtre, upsert (curl ile)."
 version: 1.1.0
 author: community
 license: MIT

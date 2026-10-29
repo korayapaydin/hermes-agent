@@ -16,6 +16,7 @@ description: >-
   separate explicit opt-ins; no model weights are bundled. No credentials or
   telemetry are required. No Desktop viewer or hosted service is included.
 maintainer: remesher
+description_tr: "İzole bir Remesher CLI, mevcut ComfyUI/Comfy3D veya yerel TRELLIS.2 ve Pixal3D çalışma zamanlarını kullanarak sınırlı görüntüden-GLB'ye işleri yürütür. Dört Python SDK aracı sağlık, üretim, kalıcı iş durumu ve karmaşlanmış GLB varlıkları sağlar, ayrıca bir kurulum/üretim yeteneği sunar. Remesher kodu için Apache-2.0; üçüncü taraf şartları ayrı kalır. Bilgilendirme — seçilen yerel görüntüleri ve yapılandırılan dosyaları okur, görüntüleri yapılandırılmış ComfyUI sunucusuna yükler, yerel CLI alt işlemleri ve ayrık denetleyiciler başlatır, isteğe bağlı olarak bir GPU çalışma zamanına sahip olur ve girdileri, günlükleri ve varlıkları profil eklenti verilerinde saklar. İstemci/çalışma zamanı kurulumu ve model indirmeleri ayrı açık onaylar gerektirir; model ağırlıkları paketlenmemiştir. Kimlik bilgileri veya telemetri gerekmez. Masaüstü görüntüleyici veya barındırılan bir servis dahil değildir."
 tier: community
 category: tools
 requires_hermes: ">=0.22.2"

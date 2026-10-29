@@ -8,6 +8,7 @@ description: >-
   given-name lookup helper. Disclosure — optional third-party services and commands
   described by recipes require separately authorized tools and credentials; the
   adapter itself makes no service calls and registers no tools, hooks or MCP server.
+description_tr: "DNA kanıtı, kayıt aramaları ve kanıt değerlendirmesi için gerçek denetimli soy araştırması talimatları. Tarif kaynakları ve çevrimdışı bir ad arama yardımcısıyla yerel, salt okunur yetenek paketi. Açıklama — tariflerde açıklanan isteğe bağlı üçüncü taraf hizmetleri ve komutlar, ayrıca yetkilendirilmiş araçlar ve kimlik bilgileri gerektirir; bağdaştırıcının kendisi hiçbir hizmet çağrısı yapmaz ve araç, kanca ya da MCP sunucusu kaydetmez."
 maintainer: Kinprove
 tier: community
 category: general

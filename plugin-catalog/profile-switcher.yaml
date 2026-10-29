@@ -12,6 +12,7 @@ description: 'The Alt+Tab gesture for Hermes profiles. Hold Ctrl+Alt and tap Tab
   the target profile''s backend is activated and its chrome is scoped onto it. Desktop-only
   (desktop/plugin.js inside the plugin SDK surface); no agent tools, hooks, middleware, env vars, network
   calls, or stored credentials.'
+description_tr: "Hermes profilleri için Alt+Tab hareketi. Ctrl+Alt tuşlarını basılı tutun ve profilleriniz arasında geçiş yapmak için Tab'a basın, vurgulanan profile geçmek için bırakın — işletim sistemi uygulama değiştiricisi ile aynı tut-bas-bırak ritmi. (Alt+Tab, Win+Tab ve Cmd+Tab pencere yöneticisine aittir ve herhangi bir uygulama tarafından atanamaz, bu nedenle hareket işletim sistemi ve Hermes çekirdeği tarafından sahiplenilmemiş olan ctrl+alt+tab üzerinde yer alır.) Her satır, profilin modelini ve en son konuşmasını gösterir; çalışan bir profil bir yükleme simgesi gösterir. Ayrıca tek bir katkıda bulunulan kısayol (Cmd+Alt+P / Ctrl+Alt+P, uygulamanın kendi kısayol panelinde yeniden atanabilir), bir durum çubuğu çipi ve bir palet komutu ile açılır. Geçiş, Masaüstü'nün kendi profil yolu üzerinden yapılır, böylece hedef profilin arka ucu etkinleştirilir ve arayüzü onunla sınırlandırılır. Yalnızca masaüstü (eklenti SDK yüzeyi içindeki desktop/plugin.js); ajan araçları, kancalar, ara yazılımlar, ortam değişkenleri, ağ çağrıları veya saklanan kimlik bilgileri yoktur."
 maintainer: okyssta
 tier: community
 category: desktop

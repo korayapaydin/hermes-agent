@@ -6,6 +6,7 @@ description: >-
   Disclosure — talks to reMarkable cloud with a device token under ~/.hermes/credentials/remarkable/; remarkable_upload
   sends model-chosen local PDF/EPUB files to your account; the cloud sidecar (Node 22+) and renderer venv are installed
   only by the human-run setup commands; USB/SSH off by default.
+description_tr: "Gayriresmî reMarkable bulut aktarımları, kitaplık yönetimi, yedekler, yazılan metin ve sınırlı yerel defter işleme. Açıklama — ~/.hermes/credentials/remarkable/ altındaki bir cihaz tokenıyla reMarkable bulutuyla konuşur; remarkable_upload, modelin seçtiği yerel PDF/EPUB dosyalarını hesabınıza gönderir; bulut yardımcı süreci (Node 22+) ve işleyici venv'i yalnızca insan tarafından çalıştırılan kurulum komutlarıyla kurulur; USB/SSH varsayılan olarak kapalıdır."
 maintainer: cygnostik
 tier: community
 category: tools

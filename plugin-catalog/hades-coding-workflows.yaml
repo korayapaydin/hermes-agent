@@ -3,6 +3,7 @@ repo: https://github.com/singhguri/hades-coding-workflows
 sha: b68546d66fe684a49633a9174e44362eff77cbfc
 description: Coding workflow skills — dual-model harness, subagent-driven development, and implementation
   planning patterns for Hermes Agent
+description_tr: "Kodlama iş akışı yetenekleri — Hermes Agent için çift model koşum sistemi, alt ajanla geliştirme ve uygulama planlama kalıpları"
 maintainer: singhguri
 tier: community
 category: automation

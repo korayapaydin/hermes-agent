@@ -10,6 +10,7 @@ description: 'Build, run and manage sigrex.io trading automation (code and AI st
   access, including actions that can place live trades. Disclosure — the tool set is served by the remote MCP server at
   runtime and is not covered by the pinned sha; the bundled skill instructs the agent to confirm before any
   action that moves money or changes data.'
+description_tr: "Resmî Sigrex MCP sunucusu (Streamable HTTP, https://mcp.sigrex.io, OAuth girişi, yapılandırmada anahtar yok) üzerinden sigrex.io işlem otomasyonu kurun, çalıştırın ve yönetin (kod ve YZ stratejileri, işlem botları, kripto borsaları, DEX'ler ve tahmin piyasalarında webhook'lar ve sinyaller); paketlenmiş sigrex iş akışı yeteneğiyle. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/), Python ya da çalıştırılabilir dosya yok; ücretsiz bir Sigrex hesabı gerekir. Bağlantının hesabınız üzerinde tam erişimi vardır; canlı işlem yerleştirebilecek eylemler dâhil. Açıklama — araç kümesi çalışma zamanında uzak MCP sunucusu tarafından sunulur ve sabitlenmiş sha kapsamında değildir; paketlenmiş yetenek, ajanı para hareket ettiren ya da veri değiştiren her eylemden önce onay istemeye yönlendirir."
 maintainer: sigrexio
 tier: community
 category: tools

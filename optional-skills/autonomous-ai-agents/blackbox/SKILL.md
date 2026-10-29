@@ -1,6 +1,7 @@
 ---
 name: blackbox
 description: Delegate coding tasks to the Blackbox AI multi-model CLI.
+description_tr: "Kodlama görevlerini Blackbox AI çok modelli CLI'ye devret."
 version: 1.0.1
 author: Hermes Agent (Nous Research)
 license: MIT

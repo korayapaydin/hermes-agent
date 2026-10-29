@@ -4,6 +4,7 @@ sha: 008f4fe2549bedd5a09ef0ce9615594ea388ffed
 version: "0.1.0"
 title: Codex Resets
 description: Know the moment OpenAI resets your Codex usage limits. A status-bar chip counts the time since the last reset; when a new one lands, a small card rises out of it (chip-only while you type), with a history page of every reset. Disclosure — polls the public codex-resets.com API every 60 s and loads fonts from Google Fonts; sends nothing about you or your sessions.
+description_tr: "OpenAI'nin Codex kullanım limitlerinizi ne zaman sıfırladığını bilin. Durum çubuğu çipi, son sıfırlamadan bu yana geçen süreyi sayar; yeni bir sıfırlama geldiğinde, çipin içinden küçük bir kart yükselir (yazarken yalnızca çip), her sıfırlamanın geçmiş sayfasıyla birlikte. Açıklama — her 60 s'de bir genel codex-resets.com API'sini yoklar ve Google Fonts'tan yazı tipleri yükler; sizinle ya da oturumlarınızla ilgili hiçbir şey göndermez."
 maintainer: sxuff
 tier: community
 category: desktop

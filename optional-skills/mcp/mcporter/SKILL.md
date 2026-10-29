@@ -1,6 +1,7 @@
 ---
 name: mcporter
 description: List, auth, and call MCP servers/tools from the terminal.
+description_tr: "MCP sunucularını terminalden listele, çağır, yetkilendir."
 version: 1.0.0
 author: community
 license: MIT

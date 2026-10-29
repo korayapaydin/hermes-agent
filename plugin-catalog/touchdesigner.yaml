@@ -5,6 +5,7 @@ subdir: touchdesigner
 description: 'Drive a live TouchDesigner session through the twozero MCP server (Streamable HTTP on
   127.0.0.1:40404), with the touchdesigner-mcp workflow skill bundled. Portable Agent Plugins v1 package
   (mcp.json + skills/); TouchDesigner itself runs on macOS/Windows.'
+description_tr: "Paketlenmiş touchdesigner-mcp iş akışı yeteneğiyle, canlı bir TouchDesigner oturumunu twozero MCP sunucusu (127.0.0.1:40404 üzerinde Streamable HTTP) üzerinden sürün. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/); TouchDesigner'ın kendisi macOS/Windows üzerinde çalışır."
 maintainer: NousResearch
 tier: official
 category: tools

@@ -1,6 +1,7 @@
 ---
 name: pokemon-player
 description: "Play Pokemon via headless emulator + RAM reads."
+description_tr: "Pokemon oyna: başsız emülatör + RAM okuma."
 version: 1.0.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

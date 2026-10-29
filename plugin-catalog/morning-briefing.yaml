@@ -5,6 +5,7 @@ description: 'Personal daily newspaper for Hermes: gathers weather, calendar, AQ
   36-hour news (timestamped Reddit RSS + X + web search, per-story QR codes), and
   newsletter digests, renders one 8.5x11 newsprint page, and prints it every morning
   via a cron job.'
+description_tr: "Hermes için kişisel günlük gazete: hava durumu, takvim, hava kalitesi (AQI), seçilmiş 36 saatlik haberler (zaman damgalı Reddit RSS + X + web araması, her habere QR kodu) ve bülten özetlerini toplar, 8,5x11 gazete sayfası olarak işler ve her sabah bir cron işiyle yazdırır."
 maintainer: drkpxl
 tier: community
 category: automation

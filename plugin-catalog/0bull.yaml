@@ -14,6 +14,7 @@ description: >-
   videos and captions go to 0bull.net; posts publish publicly to TikTok or YouTube; the
   server also exposes rental tools that spend money, which the skills tell the model never
   to call but Hermes does not block.
+description_tr: "0bull'dan kiralanan gerçek iPhone'ları denetleyin (ekran görüntüleri, ekrandaki metin, dokunuşlar, yazma, cihaz komutları, kayıtlı makrolar, telefondaki ajan) ve bunlardan TikTok ile YouTube Shorts videoları yayınlayın; bunu barındırılan 0bull Streamable HTTP MCP sunucusu ve üç iş akışı yeteneği üzerinden yapar. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/), eklenti kodu yok. Kiralanmış telefonlu bir 0bull hesabı ve tarayıcı OAuth onayı gerekir (sunucuyu auth: oauth ile ekleyin, sonra hermes mcp login 0bull); eklentide API anahtarı veya istemci sırrı saklanmaz. Yayınlama, kullanıcının videosunu ve açıklamasını telefonun kendi uygulamaları üzerinden TikTok veya YouTube'a gönderir. Açıklama — yalnızca barındırılan bağlayıcı; ekran görüntüleri, ekrandaki metin, telefona yazılan her şey (ajana verdiğiniz parolalar veya kodlar dahil) ve videolarınız ile açıklamalarınız 0bull.net adresine gider; gönderiler TikTok veya YouTube'da herkese açık olarak yayımlanır; sunucu ayrıca para harcayan kiralama araçları sunar; yetenekler modele bunları asla çağırmamasını söyler ama Hermes engellemez."
 maintainer: 0bull
 tier: community
 category: tools

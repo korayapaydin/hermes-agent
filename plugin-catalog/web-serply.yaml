@@ -3,6 +3,7 @@ repo: https://github.com/serply-inc/hermes-web-serply
 sha: c6cab41471586a110e5a584061168a045f566e08
 description: Serply web search provider for Hermes Agent. Google web results via the Serply
   SERP API. Requires SERPLY_API_KEY (sign up at https://serply.io).
+description_tr: "Hermes Agent için Serply web araması sağlayıcısı. Serply SERP API'si üzerinden Google web sonuçları. SERPLY_API_KEY gerekir (https://serply.io adresinden kaydolun)."
 maintainer: serply-inc
 tier: community
 category: web

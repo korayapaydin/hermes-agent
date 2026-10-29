@@ -15,6 +15,7 @@ description: >-
   and driver's licence number) and, after the user's in-chat consent recorded verbatim, Foresee's
   agents submit those details to the selected insurance carriers, who may run a soft credit-based
   insurance score pull and contact the user. Foresee does not take payment or bind policies.
+description_tr: "YZ asistanların ev ve otomatik sigorta için alışveriş yapmasına izin verin: her sigortacıdan anında teklifleri karşılaştırın. Barındırılan Foresee MCP sunucusuna (agents.go-foresee.com adresinde Streamable HTTP) bağlanır, üç iş akışı yeteneği paketlenmiştir. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/). Açıklama — taşınabilir Agent Plugins v1 paketi (barındırılan MCP sunucusu ve üç yetenek), Python yok ve yerelde hiçbir şey çalışmaz; satıcı Foresee Insurance Services, LLC (go-foresee.com). Her teklif isteği, kullanıcının sohbette verdiği profili (posta kodu, yaş veya doğum tarihi, araçlar, sürücüler, sürüş geçmişi, konut bilgileri) hesap veya API anahtarı olmadan agents.go-foresee.com adresine gönderir. live_carrier_quotes aracı ayrıca kullanıcının kimliğini (ad, doğum tarihi, açık adres, e-posta, isteğe bağlı telefon ve ehliyet numarası) gönderir ve kullanıcının sohbet içinde birebir kaydedilen onayının ardından Foresee'nin ajanları bu bilgileri seçilen sigorta şirketlerine iletir; bunlar yumuşak, krediye dayalı bir sigorta puanı sorgusu yapabilir ve kullanıcıyla iletişime geçebilir. Foresee ödeme almaz veya poliçe bağlamaz."
 maintainer: Foresee-Tech
 tier: community
 category: tools

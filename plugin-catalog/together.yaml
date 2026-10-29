@@ -3,6 +3,7 @@ repo: https://github.com/pepijndevos/hermes-together-provider
 sha: d5267d5d1e1bf98097b13546a739bd8dab8db7ec
 subdir: ""
 description: "Together AI model-provider plugin — OpenAI-compatible API, 270+ serverless open-weight models, live catalog discovery."
+description_tr: "Together AI model sağlayıcı eklentisi — OpenAI uyumlu API, 270'den fazla sunucusuz açık ağırlıklı model, canlı katalog keşfi."
 maintainer: pepijndevos
 tier: community
 category: models

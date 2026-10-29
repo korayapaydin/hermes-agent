@@ -1,6 +1,7 @@
 ---
 name: rest-graphql-debug
 description: "Debug REST/GraphQL APIs: status codes, auth, schemas, repro."
+description_tr: "REST/GraphQL API hata ayıkla: durum kodu, auth, şema, repro."
 version: 1.2.0
 author: eren-karakus0
 license: MIT

@@ -1,6 +1,7 @@
 ---
 name: cloudflare-temporary-deploy
 description: Deploy a Worker live, no account, via wrangler --temporary.
+description_tr: "wrangler --temporary ile Worker'ı hesapsız canlı dağıt."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

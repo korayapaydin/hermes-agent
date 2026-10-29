@@ -25,6 +25,7 @@ description: >-
   three small plugin-storage records (settings + last compaction + last
   review); no network calls beyond the local gateway, no credential access, no
   self-update.
+description_tr: "Arka plan kendini geliştirme incelemesi ve toplu bağlam sıkıştırma için durum çubuğu rozetleri: canlı geçen süreyle inceleme çalışıyor/tamamlandı/bayat, sonraki dürtüye kalan tur sayacı dolum çubuğu, her zaman görünür sıkıştırma rozeti (sıkıştırılıyor/tamamlandı/başarısız/bayat; uygulanan azalma veya hata sınıfıyla), yanıt koruması kurtarması ve inceleme çakışması tanılamaları ve her iki yetim tavanını ayarlayan bir Settings sayfası. Açıklama — yalnızca renderer tarafında çalışır; yaşam döngüsü işaretlerini ayrıştırmak için host.logs üzerinden agent.log dosyasının filtrelenmiş, salt okunur kuyruklarını yoklar; review.summary/message.start/message.complete olaylarını dinler; üç küçük eklenti depolama kaydı saklar (ayarlar + son sıkıştırma + son inceleme); yerel Ağ Geçidi dışında ağ çağrısı yapmaz, kimlik bilgilerine erişmez, kendi kendini güncellemez."
 maintainer: vectorforge22
 tier: community
 category: desktop

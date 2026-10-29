@@ -1,6 +1,7 @@
 ---
 name: simple-english
 description: "Rewrite text to ASD-STE100 Simplified Technical English."
+description_tr: "Metni ASD-STE100 Basitleştirilmiş Teknik İngilizce'ye yaz."
 version: 1.2.0
 author: AminBlg (https://github.com/AminBlg/SimpleEnglish), ported by Hermes Agent
 license: MIT

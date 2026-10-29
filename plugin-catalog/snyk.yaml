@@ -6,6 +6,7 @@ description: 'Scan code (SAST), dependencies, container images, IaC and SBOMs wi
   first-party MCP server (pinned snyk@1.1306.0 over npx stdio, CLI analytics disabled), with the
   snyk-security-scan workflow skill bundled. Portable Agent Plugins v1 package (mcp.json + skills/);
   needs Node.js/npm on PATH and a free Snyk account (browser login via the snyk_auth tool).'
+description_tr: "Snyk'nin birinci taraf MCP sunucusu (npx stdio üzerinden sabitlenmiş snyk@1.1306.0, CLI analitiği kapalı) üzerinden kodu (SAST), bağımlılıkları, kapsayıcı görüntülerini, IaC'yi ve SBOM'ları tarayın; paketlenmiş snyk-security-scan iş akışı yeteneğiyle. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/); PATH'te Node.js/npm gerekir ve ücretsiz bir Snyk hesabı ister (snyk_auth aracıyla tarayıcı girişi)."
 maintainer: NousResearch
 tier: official
 category: tools

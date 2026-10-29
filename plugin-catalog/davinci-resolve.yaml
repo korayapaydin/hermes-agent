@@ -3,6 +3,7 @@ repo: https://github.com/wassermanproductions/hermes-davinci-resolve-plugin
 sha: bbd5b207f823f16a20e756bfa80f44ad34790a3f
 description: Control DaVinci Resolve Studio live, or generate importable interchange files for free DaVinci
   Resolve.
+description_tr: "DaVinci Resolve Studio'yu canlı olarak kontrol edin ya da ücretsiz DaVinci Resolve için içe aktarılabilir değişim dosyaları üretin."
 maintainer: wassermanproductions
 tier: community
 category: tools

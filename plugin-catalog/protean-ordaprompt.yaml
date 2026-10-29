@@ -2,6 +2,7 @@ name: protean-ordaprompt
 repo: https://github.com/aska-digital/protean-ordaprompt
 sha: 60e89af2853072c7801c465f30999f3c6ceb35b2
 description: "Jev-style comparative classifier for OrdaPilot. It compares all topic labels and session choices in one batch, including new-topic, ambiguous, and new-session options. It uses calibrated score and margin gates, weighs continuity against context cost and contamination, and abstains when uncertain. OpenRouter is optional for provisional new-label proposals and disabled by default."
+description_tr: "OrdaPilot için Jev tarzı karşılaştırmalı sınıflandırıcı. Tüm konu etiketlerini ve oturum seçeneklerini tek bir toplu işlemde karşılaştırır; yeni konu, belirsiz ve yeni oturum seçenekleri dâhil. Kalibre edilmiş puan ve pay kapıları kullanır, sürekliliği bağlam maliyeti ve kirlilik karşısında tartar ve emin değilken çekinir. OpenRouter, geçici yeni etiket önerileri için isteğe bağlıdır ve varsayılan olarak kapalıdır."
 maintainer: aska-digital
 tier: community
 category: automation

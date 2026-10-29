@@ -4,6 +4,7 @@ sha: f922a0fc65bd9ccb0312fd8f394c9d38a503ad8c
 version: "0.2.3"
 requires_hermes: ">=0.21.3"
 description: VK Messenger gateway with community Long Poll, media attachments, allowlists, and project-lane routing.
+description_tr: "Topluluk Long Poll'u, medya ekleri, izin listeleri ve proje şeridi yönlendirmesiyle VK Messenger ağ geçidi."
 maintainer: web3blind
 tier: community
 category: platform

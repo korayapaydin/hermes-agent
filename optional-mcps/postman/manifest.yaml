@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: postman
 description: Postman workspaces, collections, environments, and APIs.
+description_tr: "Postman çalışma alanları, koleksiyonlar, ortamlar ve API'ler."
 source: https://learning.postman.com/docs/reference/postman-api/postman-mcp-server/postman-mcp-remote-server/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

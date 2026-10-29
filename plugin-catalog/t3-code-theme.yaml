@@ -3,6 +3,7 @@ title: T3 Code Theme
 repo: https://github.com/mariomondev/t3-code-theme
 sha: c84ce92c9223de1a3395e384c6404bf0e07ee2ce
 description: "Unofficial port of the standard T3 Code dark theme for Hermes Desktop. Palette, T3 composer, sidebar thread cards with project and branch, model labels and confirm dialogs. Scoped to its own theme; other themes are untouched. Disclosure — unofficial T3 Code lookalike theme; its stylesheet restyles and hides some native Desktop controls, it reads local session metadata (branch, repo, provider) for sidebar cards, and it switches the active theme once on first enable."
+description_tr: "Standart T3 Code koyu temasının Hermes Desktop için gayriresmî uyarlaması. Palet, T3 yazma alanı, proje ve dal içeren kenar çubuğu iş parçacığı kartları, model etiketleri ve onay iletişim kutuları. Yalnızca kendi temasıyla sınırlıdır; diğer temalara dokunulmaz. Açıklama — gayriresmî T3 Code benzeri tema; stil sayfası bazı yerel Desktop denetimlerini yeniden biçimlendirir ve gizler, kenar çubuğu kartları için yerel oturum üst verilerini (dal, depo, sağlayıcı) okur ve ilk etkinleştirmede etkin temayı bir kez değiştirir."
 maintainer: mariomondev
 tier: community
 category: desktop

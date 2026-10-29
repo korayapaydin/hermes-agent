@@ -1,6 +1,7 @@
 ---
 name: spike
 description: "Throwaway experiments to validate an idea before build."
+description_tr: "Yapımdan önce fikri doğrulamak için geçici deneyler."
 version: 1.0.0
 author: Hermes Agent (adapted from gsd-build/get-shit-done)
 license: MIT

@@ -5,6 +5,7 @@ manifest_version: 1
 name: calendly
 connector_slug: calendly
 description: Scheduling links, events, and invitees from Calendly.
+description_tr: "Calendly'den randevu bağlantıları, etkinlikler ve davetliler."
 source: https://developer.calendly.com/calendly-mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

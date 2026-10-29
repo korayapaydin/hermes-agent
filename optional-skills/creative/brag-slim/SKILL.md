@@ -1,6 +1,7 @@
 ---
 name: brag-slim
 description: Launch video from a project or URL, upstream-maintained.
+description_tr: "Bir projeden veya URL'den video yayınla; upstream bakımlı."
 version: 0.4.0
 author: Shunit Haviv Hakimi (shunithaviv)
 license: MIT

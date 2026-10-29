@@ -4,6 +4,7 @@ repo: https://github.com/AsoTora/hermes-context-overview
 sha: 286c9dab17576ea641bc7448dd4835882e34e107
 title: Context Overview
 description: "Context window usage at a glance: a Context button in the status bar shows tokens used vs. budget, percent full, free space and an estimated breakdown by category, plus context-file sources. Works during a running turn. Read-only token/usage monitor, no backend."
+description_tr: "Alt durum çubuğunda, odaktaki konuşmanın bağlam penceresi ne kadar dolu olduğunu gösteren bir Context düğmesi: token bütçesi, kategoriye göre tahmini dağılım ve bağlam dosyası üst verileri — çalışan bir tur sırasında da. Salt okunur, arka uç yok."
 maintainer: AsoTora
 tier: community
 category: desktop

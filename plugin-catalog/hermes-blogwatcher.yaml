@@ -9,6 +9,7 @@ description: >-
   fetch public pages and send text to the configured Hermes model after
   consent, which may incur costs. Summaries are cached locally. No telemetry
   or self-update.
+description_tr: "Hermes Desktop ve web için bir Blogwatcher gelen kutusu; temalar, okuma denetimleri ve isteğe bağlı AI özetleriyle. Açıklama — orijinal Blogwatcher CLI'sini kendi veritabanına karşı çalıştırır; abone olunan siteleri tarar; istenen özetler onaydan sonra herkese açık sayfaları getirir ve metni yapılandırılan Hermes modeline gönderir, bu da maliyet doğurabilir. Özetler yerelde önbelleğe alınır. Telemetri ya da kendini güncelleme yoktur."
 maintainer: irfansofyana
 tier: community
 category: desktop

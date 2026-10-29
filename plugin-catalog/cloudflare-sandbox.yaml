@@ -3,6 +3,7 @@ repo: https://github.com/kiyo-e/hermes-cloudflare-sandbox
 sha: 75961d77109b185bdaeef650cc9f945df0aa0551
 version: "0.1.0"
 description: "Run Hermes terminal, file and execute_code tools in Cloudflare Containers, with the workspace saved to a snapshot when idle. Disclosure — you deploy the bundled Cloudflare Worker to your own account first; running containers is billed by Cloudflare; commands and file contents run in the container at HERMES_CF_ENDPOINT using HERMES_CF_TOKEN; the container has outbound internet by default (ENABLE_INTERNET); host env vars, skills and credentials are not copied into the container; dangerous-command approval stays on."
+description_tr: "Hermes'in terminal, dosya ve execute_code araçlarını Cloudflare Containers içinde çalıştırın; çalışma alanı boştayken bir anlık görüntüye kaydedilir. Açıklama — paketlenmiş Cloudflare Worker'ı önce kendi hesabınıza dağıtırsınız; çalışan konteynerler Cloudflare tarafından faturalandırılır; komutlar ve dosya içerikleri HERMES_CF_ENDPOINT adresinde HERMES_CF_TOKEN kullanılarak konteynerde çalışır; konteyner varsayılan olarak dışa internet erişimine sahiptir (ENABLE_INTERNET); konak ortam değişkenleri, yetenekler ve kimlik bilgileri konteynere kopyalanmaz; tehlikeli komut onayı açık kalır."
 maintainer: kiyo-e
 tier: community
 category: tools

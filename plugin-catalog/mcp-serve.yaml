@@ -11,6 +11,7 @@ description: 'Run Hermes as an MCP server: `hermes mcp-serve` lets any MCP clien
   as your connected platform accounts; with `--tools` it also runs Hermes tools under your configured
   provider credentials, which can spend provider credits. The plugin itself makes no network or model
   calls beyond those tool calls and sends.'
+description_tr: "Hermes'i bir MCP sunucusu olarak çalıştırın: `hermes mcp-serve`, herhangi bir MCP istemcisinin (Claude Code, Claude Desktop, Cursor, Codex) mesajlaşma konuşmalarınızı listeleyip okumasına, canlı olayları yoklamasına, mesaj göndermesine ve onayları yanıtlamasına stdio üzerinden izin verir. `--tools` (varsayılan olarak kapalı) ayrıca Hermes'in web, tarayıcı, görüntü, görsel üretme, yetenek ve TTS araçlarını açar; terminal, dosya ve kanban araçları hiçbir zaman açılmaz. Önceden Hermes çekirdeğinde `hermes mcp serve` olarak yerleşikti (MCP istemcileri argümanlarını [\"mcp-serve\"] olarak değiştirir). Açıklama — bağlanan MCP istemcisi etkin profilin konuşma geçmişini (state.db) okur ve bağlı platform hesaplarınız olarak mesaj gönderebilir; `--tools` ile ayrıca Hermes araçlarını yapılandırdığınız sağlayıcı kimlik bilgileriyle çalıştırır, bu da sağlayıcı kredisi harcayabilir. Eklentinin kendisi bu araç çağrıları ve gönderimler dışında ağ ya da model çağrısı yapmaz."
 maintainer: NousResearch
 tier: official
 category: tools

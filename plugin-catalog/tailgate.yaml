@@ -3,6 +3,7 @@ repo: https://github.com/c0mrade/tailgate
 sha: 1d497b91e249a9fb870a822126204ca055dabdfe
 description: Per-job progress updates in chat for jobs Hermes hands off to other machines (coding agents,
   CI, scripts), with per-job mute and follow and no model calls.
+description_tr: "Hermes'in diğer makinelere devrettiği işler (kodlama ajanları, CI, betikler) için sohbet içinde iş başına ilerleme güncellemeleri; iş başına susturma ve takip ve model çağrısı yok."
 maintainer: c0mrade
 tier: community
 category: automation

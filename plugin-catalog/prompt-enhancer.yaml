@@ -2,6 +2,7 @@ name: prompt-enhancer
 repo: https://github.com/Heybinshao/prompt-enhancer
 sha: e5cc952c44d7d8ea731f406dbfcd2330fda2befb
 description: "A composer button for Hermes Desktop that rewrites a rough draft into a structured prompt (task / scope / constraints / output shape) and restores the original on a second click. One stateless gateway call, preserves @file and /command chips, per-session state. UI in EN / 简中 / 繁體."
+description_tr: "Hermes Desktop için, kaba bir taslağı yapılandırılmış bir isteme (görev / kapsam / kısıtlar / çıktı biçimi) yeniden yazan ve ikinci tıklamada özgün hâline geri alan bir yazma alanı düğmesi. Durumsuz tek bir ağ geçidi çağrısı, @file ve /command çipleri korunur, oturum başına durum. Arayüz EN / 简中 / 繁體 dillerinde."
 maintainer: Heybinshao
 tier: community
 category: desktop

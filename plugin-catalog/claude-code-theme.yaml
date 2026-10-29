@@ -4,6 +4,7 @@ repo: https://github.com/aliilhami/hermes-claude-code-theme
 sha: d2430687cde455e470f5f75b951e488eb0938e61
 requires_hermes: ">=0.21.6"
 description: "Unofficial Claude Code-inspired theme for Hermes Desktop, with light and dark palettes, rounded composer and side-panel cards, softer sidebar and menus, and a context-window meter beside the model switcher. Not affiliated with, endorsed by, or sponsored by Anthropic or Claude Code. Disclosure — unofficial Claude Code lookalike theme; its stylesheet restyles native Desktop surfaces (user bubbles, composer, file panel, sidebar rows, dropdown menus) and hides the chat backdrop image; the context meter reads session.usage through the SDK; an opt-in accent setting uses setAccentOverride; no network calls of its own."
+description_tr: "Hermes Desktop için Claude Code esintili gayriresmî tema; açık ve koyu paletler, yuvarlatılmış yazma alanı ve yan panel kartları, daha yumuşak kenar çubuğu ve menüler, model seçicinin yanında bağlam penceresi sayacı. Anthropic ya da Claude Code ile bağlantılı, onlar tarafından onaylanmış ya da desteklenmiş değildir. Açıklama — resmî olmayan Claude Code benzeri tema; stil sayfası yerel Desktop yüzeylerini (kullanıcı balonları, yazma alanı, dosya paneli, kenar çubuğu satırları, açılır menüler) yeniden biçimlendirir ve sohbet arka plan görselini gizler; bağlam ölçer, session.usage değerini SDK üzerinden okur; isteğe bağlı bir vurgu ayarı setAccentOverride kullanır; kendine ait ağ çağrısı yoktur."
 maintainer: aliilhami
 tier: community
 category: desktop

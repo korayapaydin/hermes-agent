@@ -12,6 +12,7 @@ description: >-
   https://api.groq.com/openai/v1 (or the configured model.base_url) through Hermes' own client with
   GROQ_API_KEY, which Hermes reads; the plugin itself opens no connections, reads and writes no
   files and starts no processes.
+description_tr: "Hermes model sağlayıcısı olarak Groq (`--provider groq`, ya da `hermes model` komutunda Groq): akıl yürütme çabası, her Groq modelinin kabul ettiği biçimde gönderilir, böylece gpt-oss-120b ve gpt-oss-20b çalışır (özel bir uç nokta üzerinden; Hermes 0.21.5 bu modellere Groq'ın HTTP 400 ile reddettiği bir değer gönderir) ve model listesi, Hermes'in çalıştıramadığı Groq konuşmadan metne, metinden sese, prompt-guard ve 4K bağlam modellerini dışarıda bırakır. Groq ile bağlantılı değildir. Açıklama — içe aktarımda yalnızca bir model sağlayıcısı kaydeder, başka hiçbir şey (araç, hook, komut veya iş parçacığı yok); sohbet istekleri ve model listesi, Hermes'in kendi istemcisi üzerinden Hermes'in okuduğu GROQ_API_KEY ile https://api.groq.com/openai/v1 adresine (veya yapılandırılmış model.base_url adresine) gider; eklentinin kendisi hiçbir bağlantı açmaz, dosya okumaz ve yazmaz, hiçbir süreç başlatmaz."
 maintainer: AhmetArif0
 tier: community
 category: models

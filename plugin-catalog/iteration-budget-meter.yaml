@@ -3,6 +3,7 @@ repo: https://github.com/apoapostolov/hermes-agent-awesome-plugins
 sha: 953732a9fb52b6fd89e73fc96d910aab63163e07
 subdir: public/iteration-budget-meter
 description: "Status-bar chip for the focused session per-turn iteration usage (N/60), with a hover tooltip and a click popover of per-request stats."
+description_tr: "Odaktaki oturumun tur başına yineleme kullanımı (N/60) için durum çubuğu çipi; üzerine gelince ipucu, tıklayınca istek başına istatistik açılır."
 maintainer: apoapostolov
 tier: community
 category: desktop

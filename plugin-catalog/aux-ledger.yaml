@@ -3,6 +3,7 @@ repo: https://github.com/olric3015/hermes-plugins
 sha: aee39a67b4ffb1ff786c417fb92f997a8c7663b7
 subdir: aux-ledger
 description: "Local ledger of Hermes's auxiliary LLM calls (titling, compression, vision, approval): /aux shows tokens, time and failures per task, model, provider or day, or lists the newest calls (ten, or up to 100 with /aux recent 50), for the last 24 hours, any number of hours or days, the latest session or everything recorded. Disclosure — writes auxiliary-call metadata (ids, models, timings, token counts, no prompt or response text) to plugin-data/aux-ledger/calls.jsonl, trimmed to 5,000 rows past 2 MB; no network"
+description_tr: "Hermes'in yardımcı LLM çağrılarının (başlıklandırma, sıkıştırma, görme, onay) yerel defteri: /aux, görev, model, sağlayıcı ya da gün göre token, süre ve hataları gösterir; ya da en yeni çağrıları listeler (on, ya da /aux recent 50 ile en fazla 100) — son 24 saat, istenen sayıda saat ya da gün, en son oturum ya da kayıtlı her şey için. Açıklama — yardımcı çağrı üst verisini (kimlikler, modeller, süreler, token sayıları, prompt veya yanıt metni yok) plugin-data/aux-ledger/calls.jsonl dosyasına yazar ve 2 MB sonrasında 5.000 satıra kırpar; ağ erişimi yoktur."
 maintainer: olric3015
 tier: community
 category: tools

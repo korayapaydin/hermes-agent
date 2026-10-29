@@ -13,6 +13,7 @@ description: >-
   human authentication. Printer/camera credentials are read from ORCA_*/HERMES_ORCA_*
   environment variables named in tool arguments (HTTPS required unless allow_plaintext_credentials
   is set); plugin state lives in ~/.hermes-orca (HERMES_ORCA_HOME), outside HERMES_HOME.
+description_tr: "Stok OrcaSlicer profilleriyle 3B baskıları hazırlayın, dilimleyin, ön denetimden geçirin ve dışa aktarın. Açık yazıcı yükleme/denetimi, kamera anlık görüntüleri ve desteklenen protokollerle izleme dâhil. Protokol ve donanım sınırları belgelenmiştir. OrcaSlicer ve Nous Research'ten bağımsız. Açıklama — kurulu yerel dilimleyiciyi çalıştırır ve yazıcıya yükleme, başlatma, duraklatma, sürdürme ve iptal etme olanaklarını sunar; ajan tarafından sağlanan onay, bağımsız bir insan kimlik doğrulaması değildir. Yazıcı/kamera kimlik bilgileri, araç bağımsız değişkenlerinde adlandırılan ORCA_*/HERMES_ORCA_* ortam değişkenlerinden okunur (allow_plaintext_credentials ayarlanmadıkça HTTPS gerekir); eklenti durumu ~/.hermes-orca (HERMES_ORCA_HOME) altında, HERMES_HOME dışında tutulur."
 maintainer: mazzanfar
 tier: community
 category: tools

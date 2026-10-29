@@ -5,6 +5,7 @@ manifest_version: 1
 name: prisma-postgres
 connector_slug: prisma
 description: Create and manage Prisma Postgres databases.
+description_tr: "Prisma Postgres veritabanlarını oluşturun ve yönetin."
 source: https://www.prisma.io/docs/postgres/integrations/mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

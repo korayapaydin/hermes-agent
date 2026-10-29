@@ -1,6 +1,7 @@
 ---
 name: reddit-reading
 description: "Read Reddit: subreddits, search, threads, users. No browser."
+description_tr: "Reddit: subreddit, arama, gönderi, kullanıcı; tarayıcı yok."
 version: 1.0.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

@@ -4,6 +4,7 @@ sha: e64f7d2ad56f922410071e2096a40ceab421a392
 description: Session source tray — URLs the Hermes agent opened via web_search,
   web_extract, or browser_navigate. Desktop pane and /sources. No search backend
   of its own and no API keys.
+description_tr: "Oturum kaynak tepsisi — Hermes ajanının web_search, web_extract ya da browser_navigate ile açtığı adresler. Desktop paneli ve /sources. Kendi arama arka ucu yok, API anahtarı yok."
 maintainer: aydnOktay
 tier: community
 category: web

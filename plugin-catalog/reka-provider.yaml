@@ -13,6 +13,7 @@ description: >-
   REKA_BASE_URL) through Hermes's own client with REKA_API_KEY, which Hermes reads; usage is
   billed to your Reka account; the plugin itself opens no connections.
 maintainer: reka-ai
+description_tr: "Bir Hermes model sağlayıcısı olarak Reka: Reka'nın OpenAI uyumlu API'si üzerindeki ajan yetenekli modeller, her biri beyan edilmiş bağlam penceresi, araç desteği ve görüntü girişi ile birlikte ve akıl yürütme çabası Reka'nın üst düzey reasoning_effort'ı olarak gönderilir. `hermes model` ile Reka'yı seçin veya `--provider reka` kullanın. Bilgilendirme — içe aktarma sırasında yalnızca bir model sağlayıcısı kaydeder ve başka bir şey yapmaz (araçlar, kancalar, ara yazılımlar, komutlar, arka plan çalışmaları veya dosya erişimi yoktur); sohbet istekleri (istemler, araç şemaları ve sonuçları, desteklenen kullanıcı görüntüleri) ve model listesi, REKA_API_KEY ile Hermes'in kendi istemcisi üzerinden https://api.reka.ai/v1 (veya REKA_BASE_URL) adresine gider; kullanım Reka hesabunuza faturalandırılır; eklentinin kendisi bağlantı açmaz."
 tier: verified
 category: models
 requires_hermes: ">=0.21.6"

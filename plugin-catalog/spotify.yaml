@@ -6,6 +6,7 @@ description: 'Spotify for Hermes: seven tools (playback, devices, queue, search,
   library) over the Spotify Web API, plus `hermes spotify login|status|logout` (loopback PKCE with your
   own Spotify developer app; Premium needed for playback control). Formerly built into Hermes core;
   existing users are migrated automatically.'
+description_tr: "Hermes için Spotify: Spotify Web API üzerinde yedi araç (oynatma, cihazlar, kuyruk, arama, çalma listeleri, albümler, kitaplık) ve `hermes spotify login|status|logout` (döngüsel PKCE, kendi Spotify geliştirici uygulamanızla; oynatma denetimleri için Premium gerekir). Daha önce Hermes çekirdeğine gömülüydü; mevcut kullanıcılar otomatik olarak taşınır."
 maintainer: NousResearch
 tier: official
 category: tools

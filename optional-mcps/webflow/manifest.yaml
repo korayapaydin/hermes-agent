@@ -5,6 +5,7 @@ manifest_version: 1
 name: webflow
 description: >-
   Sites, CMS collections, and pages via Webflow's hosted MCP.
+description_tr: "Webflow'un barındırdığı MCP üzerinden siteler, CMS koleksiyonları ve sayfalar."
 source: https://developers.webflow.com/mcp/reference/getting-started
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

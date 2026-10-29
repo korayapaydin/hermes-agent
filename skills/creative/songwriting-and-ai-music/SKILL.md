@@ -1,6 +1,7 @@
 ---
 name: songwriting-and-ai-music
 description: "Songwriting craft and Suno AI music prompts."
+description_tr: "Şarkı yazımı sanatı ve Suno AI müzik istemleri."
 version: 1.0.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

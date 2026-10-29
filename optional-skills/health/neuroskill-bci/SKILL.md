@@ -1,6 +1,7 @@
 ---
 name: neuroskill-bci
 description: "Use live BCI cognitive and mood state from NeuroSkill."
+description_tr: "NeuroSkill'den canlı BCI bilişsel ve ruh hali durumunu al."
 platforms: [linux, macos, windows]
 version: 1.0.0
 author: Hermes Agent + Nous Research

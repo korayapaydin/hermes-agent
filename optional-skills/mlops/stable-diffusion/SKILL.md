@@ -1,6 +1,7 @@
 ---
 name: stable-diffusion
 description: Text-to-image generation, inpainting, and img2img.
+description_tr: "Metinden görsel üretimi, inpainting ve img2img."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

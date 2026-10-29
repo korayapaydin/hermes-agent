@@ -1,6 +1,7 @@
 ---
 name: scrapling
 description: Scrape sites with stealth browsing and Cloudflare bypass.
+description_tr: "Gizli tarama ve Cloudflare atlatma ile siteleri kazı."
 version: 1.0.0
 author: FEUAZUR
 license: MIT

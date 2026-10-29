@@ -5,6 +5,7 @@ description: Reference another Hermes session in the Desktop composer with @sess
   type @ and pick from live session suggestions. Inserts a compact @session:"<title>"
   reference; nothing is injected into context, the agent resolves it with its own
   session-search. No more copying session IDs.
+description_tr: "Hermes Desktop yazma alanında @session ile başka bir Hermes oturumuna atıf yapın — @ yazın ve canlı oturum önerilerinden seçin. Kompakt bir @session:\"<title>\" referansı ekler; bağlama hiçbir şey enjekte edilmez, ajan onu kendi oturum aramasıyla çözer. Oturum kimliklerini kopyalamaya son ver."
 maintainer: kama-dev
 tier: community
 category: desktop

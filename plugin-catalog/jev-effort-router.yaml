@@ -2,6 +2,7 @@ name: jev-effort-router
 repo: https://github.com/AlphaPerseii3000/jev-effort-router
 sha: 6fd9f2ec1c53cb99b5e6c7043c25bbd37938d4a5
 description: "Per-turn model AND reasoning-effort routing, decided by TypeSafe Jev, which rewrites the outgoing Ollama:Cloud provider request itself via the llm_request middleware. Every other catalog router picks a model and stops, and the two entries that touch reasoning effort move it by hand; this one decides both per turn. Ollama:Cloud only — no other provider is routed, and every failure path leaves the request byte-identical to a plugin-disabled run. Disclosure — sends the current user message and up to 4 previous turns to OpenRouter's Decisions API (typesafe/jev, billed to your OpenRouter key) on every routed turn."
+description_tr: "TypeSafe Jev'in karar verdiği, tur başına model VE akıl yürütme çabası yönlendirmesi; llm_request ara katmanı üzerinden giden Ollama:Cloud sağlayıcı isteğinin kendisini yeniden yazar. Diğer tüm katalog yönlendiricileri bir model seçip durur, akıl yürütme çabasına dokunan iki girdi ise onu elle değiştirir; bu eklenti her ikisine de tur başına karar verir. Yalnızca Ollama:Cloud — başka hiçbir sağlayıcı yönlendirilmez ve her hata yolu isteği, eklenti devre dışıymış gibi bayt bayt aynı bırakır. Açıklama — yönlendirilen her turda geçerli kullanıcı mesajını ve en fazla 4 önceki turu OpenRouter'ın Decisions API'sine (typesafe/jev, OpenRouter anahtarınızdan ücretlendirilir) gönderir."
 maintainer: AlphaPerseii3000
 tier: community
 category: models

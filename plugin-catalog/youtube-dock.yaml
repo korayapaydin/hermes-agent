@@ -12,6 +12,7 @@ description: >-
   shell commands, backend service or self-updater. Uses the native preview
   toggle (Hide for an already-open destination), not a dedicated PIP player.
 maintainer: metamindedu
+description_tr: "Video URL'leri yapıştırmadan veya harici bir tarayıcı başlatmadan, oturum açmış olduğunuz YouTube Ana sayfa önerilerini ve Shorts videolarını mevcut Hermes Masaüstü Tarayıcısında konuşmanızın yanında açın. Yalnızca Masaüstü SDK başlatıcısıdır; ajan araçları, kancalar, ara katman yazılımları veya API anahtarları yoktur. Bilgilendirme — açık kullanıcı tıklamaları, YouTube'u ve onun normal servis/CDN isteklerini yerel Tarayıcıda yükler; bu eklenti kimlik bilgilerini, çerezleri, önerileri veya izleme geçmişini okumaz. Telemetri, kabuk komutları, arka uç servisi veya otomatik güncelleyici yoktur. Özel bir PIP oynatıcı yerine yerel önizleme anahtarını (zaten açık olan bir hedef için Gizle) kullanır."
 tier: community
 category: desktop
 requires_hermes: ">=0.22.2"

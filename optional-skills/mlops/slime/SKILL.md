@@ -1,6 +1,7 @@
 ---
 name: slime
 description: RL post-training for LLMs with Megatron and SGLang.
+description_tr: "Megatron ve SGLang ile LLM'ler için RL post-training."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

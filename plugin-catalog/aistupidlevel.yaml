@@ -4,6 +4,7 @@ repo: https://github.com/StudioPlatforms/aistupidlevel-sdk
 sha: ba908770f2e97b0a85cc1f5a83240cbe94c8dfa9
 subdir: integrations/hermes/aistupidlevel
 description: "AI Stupid Level Smart Router — OpenAI-compatible; routing modes such as auto-tooling send each request to the model currently scoring best on continuously re-run benchmarks, called with your own provider keys. Disclosure — sends your prompts, tool definitions, tool results and ASL_ROUTER_KEY to aistupidlevel.info (S.C. Studio Platforms S.R.L.), which forwards each request to the AI provider it routes to using the provider keys you store on your AI Stupid Level account; model usage is billed to your provider accounts, and prompts are logged only if you enable logging for a key."
+description_tr: "AI Stupid Level Smart Router — OpenAI uyumlu; auto-tooling gibi yönlendirme modları her isteği, sürekli yeniden çalıştırılan kıyaslamalarda şu an en yüksek puanı alan modele gönderir; kendi sağlayıcı anahtarlarınızla çağrılır. Açıklama — istemlerinizi, araç tanımlarınızı, araç sonuçlarınızı ve ASL_ROUTER_KEY'i aistupidlevel.info (S.C. Studio Platforms S.R.L.) adresine gönderir; bu hizmet her isteği, AI Stupid Level hesabınızda sakladığınız sağlayıcı anahtarlarını kullanarak yönlendirdiği yapay zekâ sağlayıcısına iletir; model kullanımı sağlayıcı hesaplarınızdan ücretlendirilir ve istemler yalnızca bir anahtar için günlüklemeyi etkinleştirirseniz günlüklenir."
 maintainer: StudioPlatforms
 tier: community
 category: models

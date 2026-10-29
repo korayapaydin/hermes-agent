@@ -3,6 +3,7 @@ repo: https://github.com/PIR8-Software/Hermes-OR-Picker
 sha: 5f360c80ecbb09216e41b62db83262c1bde4cb7f
 subdir: catalog
 description: "One install: the Desktop model picker and the OR Picker composer provider. Checking a model here is what the composer lists. Disclosure — the optional OpenRouter management key is stored in plaintext in Desktop localStorage; the plugin reads OPENROUTER_API_KEY from your environment, Hermes secret store or HERMES_HOME/.env and sends it only to openrouter.ai (credits, usage, and the Test-model button, which spends credits)."
+description_tr: "Tek kurulum: Desktop model seçicisi ve OR Picker yazma alanı sağlayıcısı. Bir modeli burada denetlemek, yazma alanının onu listelemesini sağlar. Açıklama — isteğe bağlı OpenRouter yönetim anahtarı, Desktop localStorage'da düz metin olarak saklanır; eklenti OPENROUTER_API_KEY değerini ortamınızdan, Hermes gizli deposundan veya HERMES_HOME/.env dosyasından okur ve yalnızca openrouter.ai adresine gönderir (krediler, kullanım ve kredi harcayan Test-model düğmesi)."
 maintainer: PIR8-Software
 tier: community
 category: desktop

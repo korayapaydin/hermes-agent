@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: strava
 description: 'Strava: activities, fitness trends, training load (read-only).'
+description_tr: "Strava: aktiviteler, fitness eğilimleri, antrenman yükü (salt okunur)."
 source: https://support.strava.com/en-us/articles/15401531-strava-mcp-connector
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

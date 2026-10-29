@@ -1,6 +1,7 @@
 ---
 name: comps-analysis
 description: Build comparable-company valuation workbooks in Excel.
+description_tr: "Excel'de emsal şirket değerleme kitapları hazırla."
 version: 1.0.0
 author: Anthropic (adapted by Nous Research)
 license: Apache-2.0

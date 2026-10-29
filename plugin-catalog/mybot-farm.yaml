@@ -3,6 +3,7 @@ repo: https://github.com/okita-io/mybot-farm
 sha: f875c97bf2f2c9bf601a22ea6971d28ec64ba763
 subdir: packages/hermes-mybot-farm
 description: Search mybot.farm, plant/reinstall Hermes packs (Desktop Recruit + CLI), and post GAF listings. Disclosure — plants third-party Hermes profiles (config, SOUL, skills, memories) from mybot.farm sellers with no hash pinning; force/clean delete profiles.
+description_tr: "mybot.farm'da arama yapın, Hermes paketlerini ekleyin/yeniden kurun (Desktop Recruit + CLI) ve GAF ilanları yayınlayın. Açıklama — mybot.farm satıcılarından üçüncü taraf Hermes profillerini (config, SOUL, yetenekler, bellekler) herhangi bir hash sabitlemesi olmadan yerleştirir; profilleri zorla/temizleyerek siler."
 maintainer: badkangaroo
 tier: community
 category: tools

@@ -7,6 +7,7 @@ description: 'Langfuse observability for Hermes: one trace per turn, one generat
   call and subagent. Content capture is sanitized by default (metadata-only and full are opt-in); sends
   traces only to the Langfuse project whose keys you set. Formerly built into Hermes core as
   observability/langfuse; existing users are migrated automatically.'
+description_tr: "Hermes için Langfuse gözlemlenebilirliği: tur başına bir iz, LLM çağrısı başına bir üretim (kullanım ve maliyet Hermes'in kendi fiyatlamasından, önbellek ve akıl yürütme token'ları dâhil), araç çağrısı ve alt ajan başına bir gözlem. İçerik yakalama varsayılan olarak temizlenmiştir (yalnızca üst veri ve tam içerik opt-in'dir); izleri yalnızca anahtarlarını ayarladığınız Langfuse projesine gönderir. Daha önce Hermes çekirdeğine observability/langfuse olarak gömülüydü; mevcut kullanıcılar otomatik olarak taşınır."
 maintainer: NousResearch
 tier: official
 category: general

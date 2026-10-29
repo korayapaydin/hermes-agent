@@ -10,6 +10,7 @@ description: >-
   user configures via THOMAS_PYTHON (with the author's thomas package, torch and modal installed); the
   Hermes venv only gets gonogo-eval. Runs and artifacts are written under HERMES_HOME/thomas/runs; the
   eval tool writes report files to the path the model supplies.
+description_tr: "Modal üzerinde küçük, kalibre edilmiş bir kodlayıcı sınıflandırıcısı eğitin ve gonogo ile derecelendirin. Her GPU başlatma, tam yapılandırma gösterilerek insan onay kapısından geçer; veri denetimleri ve değerlendirme yerelde ücretsiz çalışır. Açıklama — thomas_encoder_train, insan onay kapısından sonra kullanıcının Modal GPU kredilerini harcar ve seçilen eğitim JSONL satırlarını Modal'a yükler; temel model Modal tarafında Hugging Face'ten indirilir. Eğitim ve çıkarım, kullanıcının THOMAS_PYTHON ile yapılandırdığı ayrı bir Python yorumlayıcısında (yazarın thomas paketi, torch ve modal kurulu olarak) çalışır; Hermes venv'ine yalnızca gonogo-eval kurulur. Çalıştırmalar ve çıktılar HERMES_HOME/thomas/runs altına yazılır; değerlendirme aracı rapor dosyalarını modelin verdiği yola yazar."
 maintainer: keppy
 tier: community
 category: tools

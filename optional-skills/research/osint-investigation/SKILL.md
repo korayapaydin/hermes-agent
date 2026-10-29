@@ -1,6 +1,7 @@
 ---
 name: osint-investigation
 description: Follow the money via public records and sanctions data.
+description_tr: "Parayı kamu kayıtları ve yaptırım verileriyle izle."
 version: 0.1.0
 platforms: [linux, macos, windows]
 author: Hermes Agent (adapted from ShinMegamiBoson/OpenPlanter, MIT)

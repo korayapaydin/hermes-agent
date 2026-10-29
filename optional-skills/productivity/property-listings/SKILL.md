@@ -1,6 +1,7 @@
 ---
 name: property-listings
 description: Present property and rental listings as desktop cards.
+description_tr: "Mülk ve kiralama ilanlarını masaüstü kartları olarak sun."
 version: 0.1.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

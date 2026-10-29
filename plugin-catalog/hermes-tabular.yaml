@@ -3,6 +3,7 @@ repo: https://github.com/frankiethull/hermes-tabular
 sha: c5b965086d0d5b8239703c2aa8a5df99b1eee5c3
 subdir: ""
 description: "Tabular AI that grows with your tables — Hermes skills for honest tabular ML, one entry point. Disclosure — Installing pulls numpy, pandas, scikit-learn, pyarrow, joblib and pyyaml into Hermes's environment. The skills have the agent run Python on your data files, may ask it to pip install catboost, tabicl/torch, mapie or matplotlib, and the TabICL skill downloads a pretrained checkpoint of a few hundred MB on first use. Saved checkpoints are pickles: load only ones you made."
+description_tr: "Tablolarınızla büyüyen tablo yapay zekâsı — dürüst tablo makine öğrenmesi için Hermes yetenekleri, tek bir giriş noktasıyla. Açıklama — kurulum numpy, pandas, scikit-learn, pyarrow, joblib ve pyyaml paketlerini Hermes'in ortamına çeker. Yetenekler ajana veri dosyalarınızda Python çalıştırtır, catboost, tabicl/torch, mapie veya matplotlib kurmak için pip install isteyebilir ve TabICL yeteneği ilk kullanımda birkaç yüz MB'lık önceden eğitilmiş bir kontrol noktası indirir. Kaydedilen kontrol noktaları pickle'dır: yalnızca kendi oluşturduklarınızı yükleyin."
 maintainer: frankiethull
 tier: community
 category: tools

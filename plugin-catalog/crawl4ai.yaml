@@ -3,6 +3,7 @@ repo: https://github.com/mblauser/hermes-plugin-crawl4ai
 sha: 6eb0842a39e2d89fb02ca85512945700dbebdc86
 description: Crawl4ai self-hosted web content extraction. Requires CRAWL4AI_URL and CRAWL4AI_API_TOKEN
   pointing at your instance.
+description_tr: "Kendi sunucunuzda çalışan Crawl4ai ile web içeriği çıkarma. Kendi örneğinizi gösteren CRAWL4AI_URL ve CRAWL4AI_API_TOKEN değerleri gerekir."
 maintainer: mblauser
 tier: community
 category: web

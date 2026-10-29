@@ -8,6 +8,7 @@ description: "NVIDIA App control through its local MCP server: overlay capture a
   The plugin reads the endpoint and token NVIDIA App publishes in its own McpServer server.json on every
   connection, so a changed port or token needs no reconfiguration. Disclosure: the tools read and change
   NVIDIA App settings on this machine; nothing leaves loopback."
+description_tr: "Yerel MCP sunucusu üzerinden NVIDIA App denetimi: bindirme yakalama ve durum, sürücü durumu ve sürüm notları, oyun optimizasyonu ve uygulama başlatma. Windows'ta NVIDIA App 11.0 ya da daha yeni bir sürüm gerekir; uygulama yoksa kurulum reddedilir ve araçlar uygulamanın servisi çalışırken görünür. Eklenti, her bağlantıda NVIDIA App'ın kendi McpServer server.json dosyasında yayımladığı ucu ve token'ı okur, böylece port ya da token değişimi yeniden yapılandırma gerektirmez. Açıklama — araçlar bu makinede NVIDIA App ayarlarını okur ve değiştirir; hiçbir şey döngü dışına çıkmaz."
 title: NVIDIA App
 maintainer: NousResearch
 tier: verified

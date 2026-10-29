@@ -3,6 +3,7 @@ repo: https://github.com/apoapostolov/hermes-agent-awesome-plugins
 sha: 4116276225a4df1da1c899998b5f69f6ca937130
 subdir: public/drag-to-pin-session
 description: "Pin or unpin sessions from their row with supported desktop SDK actions."
+description_tr: "Desteklenen masaüstü SDK eylemleriyle oturumları satırlarından sabitleyin ya da sabitlemeyi kaldırın."
 maintainer: apoapostolov
 tier: community
 category: desktop

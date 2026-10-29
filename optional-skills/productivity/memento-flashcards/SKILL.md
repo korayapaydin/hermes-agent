@@ -1,6 +1,7 @@
 ---
 name: memento-flashcards
 description: "Spaced-repetition flashcards: create, review, quiz, export."
+description_tr: "Aralıklı tekrar flaş kartları: oluştur, çalış, sınavla."
 version: 1.0.0
 author: Memento AI
 license: MIT

@@ -1,6 +1,7 @@
 ---
 name: product-price-monitor
 description: "Watch product, flight, or listing prices; alert on target."
+description_tr: "Ürün, uçuş veya ilan fiyatlarını izle, hedefte uyar."
 version: 0.1.0
 author: Ben Barclay (benbarclay), Hermes Agent
 license: MIT

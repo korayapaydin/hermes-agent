@@ -1,6 +1,7 @@
 ---
 name: dynamic-workflow
 description: Plan-in-code fan-outs, adversarial verification, waves.
+description_tr: "Kodda planlama çatalları, adversarial doğrulama, dalgalar."
 version: 2.0.0
 author: Teknium + Hermes Agent
 license: MIT

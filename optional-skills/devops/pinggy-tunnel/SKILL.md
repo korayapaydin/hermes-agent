@@ -1,6 +1,7 @@
 ---
 name: pinggy-tunnel
 description: Zero-install localhost tunnels over SSH via Pinggy.
+description_tr: "Pinggy ile SSH üzerinden kurulum gerektirmeyen tünel."
 version: 0.1.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

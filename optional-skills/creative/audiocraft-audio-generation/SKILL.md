@@ -1,6 +1,7 @@
 ---
 name: audiocraft-audio-generation
 description: "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound."
+description_tr: "AudioCraft: MusicGen metin-müzik, AudioGen metin-ses."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

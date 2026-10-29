@@ -6,6 +6,7 @@ name: notion
 connector_slug: notion
 description: >-
   Pages and databases from your Notion workspace.
+description_tr: "Notion çalışma alanınızdaki sayfalar ve veritabanları."
 source: https://developers.notion.com/docs/mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

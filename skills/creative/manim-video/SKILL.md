@@ -1,6 +1,7 @@
 ---
 name: manim-video
 description: "Manim CE animations: 3Blue1Brown math/algo videos."
+description_tr: "Manim CE animasyonları: 3Blue1Brown matematik/algoritma."
 version: 1.0.0
 author: SHL0MS, Hermes Agent
 license: MIT

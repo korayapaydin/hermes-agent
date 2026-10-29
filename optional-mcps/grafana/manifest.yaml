@@ -5,6 +5,7 @@ manifest_version: 1
 name: grafana
 description: >-
   Query metrics, logs, dashboards, alerts, and incidents from Grafana Cloud.
+description_tr: "Grafana Cloud'dan metrikler, günlükler, panolar, uyarılar ve olaylar."
 source: https://grafana.com/docs/grafana-cloud/ai-tools/mcp-servers/cloud-mcp/
 
 # Grafana Cloud's hosted remote MCP (URL-only — Hermes never spawns a local

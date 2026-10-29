@@ -7,6 +7,7 @@ description: >-
   own Codex OAuth session to the undocumented chatgpt.com/backend-api/codex/realtime/calls
   endpoint, which is outside the vendor's published API terms and may change or stop
   working without notice.
+description_tr: "Terminal, Discord, pano ve Desktop üzerinden Hermes için gerçek zamanlı ses. Canlı ses kipi (TALK_VOICE_MODE=live, TALK_LIVE_AUTH=subscription), kendi Codex OAuth oturumunuzla, sağlayıcının yayımlanmış API koşullarının dışında olan ve haber verilmeden değişebilen ya da durabilen belgelenmemiş chatgpt.com/backend-api/codex/realtime/calls ucuna bağlanır."
 maintainer: TheSmokeDev
 tier: community
 category: voice

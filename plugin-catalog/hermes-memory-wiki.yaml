@@ -4,6 +4,7 @@ sha: 54afaf5014db23346148436c4883eb64095e8060
 subdir: memory-wiki
 description: 'Memory Wiki dashboard tab and opt-in native Desktop page: browsable subject pages and daily logs derived from local session
   history, plus a read-only Persistent Memory (MEMORY.md / USER.md) audit panel.'
+description_tr: "Bellek Wiki pano sekmesi: yerel oturum geçmişinden türetilen, gezilebilir konu sayfaları ve günlük kayıtlar, ayrıca salt okunur Kalıcı Bellek (MEMORY.md / USER.md) denetim paneli."
 maintainer: NousResearch
 tier: official
 requires_hermes: ">=0.21"

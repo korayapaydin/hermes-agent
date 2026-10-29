@@ -1,6 +1,7 @@
 ---
 name: ai-presenter-video
 description: "Make a verified AI presenter video from script + image."
+description_tr: "Betik + görselden doğrulanmış AI sunucu videosu oluştur."
 version: 1.0.0
 author: cclank (https://github.com/cclank/lanshu-create-ai-presenter-video), ported by Hermes Agent
 license: MIT

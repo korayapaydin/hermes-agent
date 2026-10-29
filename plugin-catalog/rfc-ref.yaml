@@ -9,6 +9,7 @@ description: >-
   www.rfc-editor.org/rfc/rfc<number>.json only (the referenced RFC number leaves the machine); no
   API key, no caching, no files written, no subprocess; register() only adds the @rfc: reference
   provider.
+description_tr: "@rfc:<numara> bağlam referansları: bir mesaja RFC Editor'dan bir IETF RFC kaydı ekleyin (başlık, durum, tarih, yazarlar, özet, hangisini kullanımdan kaldırdığı ve güncellediği, onu kimlerin kullanımdan kaldırdığı ya da güncellediği, düzeltme bağlantısı). Açıklama — her referans için yalnızca www.rfc-editor.org/rfc/rfc<number>.json adresine bir HTTPS GET gönderir (başvurulan RFC numarası makineden çıkar); API anahtarı yok, önbellekleme yok, yazılan dosya yok, alt süreç yok; register() yalnızca @rfc: referans sağlayıcısını ekler."
 maintainer: EloquentBrush0x
 tier: community
 category: web

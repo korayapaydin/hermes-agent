@@ -2,6 +2,7 @@ name: profile-picker
 repo: https://github.com/weltmaister/hermes-profile-picker
 sha: 9a38fa52616c8b1be5397c4d922e80a2c754613d
 description: "Pick the profile for a new chat right in the composer, next to the model pill, and see which profile a running chat belongs to."
+description_tr: "Yeni bir sohbet için profili doğrudan yazma alanında, model hapının yanında seçin ve çalışan bir sohbetin hangi profile ait olduğunu görün."
 maintainer: weltmaister
 tier: community
 category: desktop

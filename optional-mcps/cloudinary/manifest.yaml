@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: cloudinary
 description: Upload, search, and transform media assets in Cloudinary.
+description_tr: "Cloudinary'de medya varlıklarını yükleyin, arayın ve dönüştürün."
 source: https://cloudinary.com/documentation/cloudinary_llm_mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

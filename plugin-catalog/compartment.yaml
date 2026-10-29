@@ -8,6 +8,7 @@ description: Encrypted, fully offline memory provider. AEAD-encrypted local vaul
   engine (about 27 Python packages including onnxruntime, tokenizers, mcp and system-tray dependencies)
   into the Hermes venv; the provider's system prompt instructs the model to store passwords and API keys
   in the encrypted vault.
+description_tr: "Şifreli, tamamen çevrimdışı bellek sağlayıcısı. AEAD ile şifrelenmiş yerel kasa (vektörler dâhil), paketlenmiş gömme modeli, kesin hibrit arama, API anahtarı yok ve çalışma zamanında ağ yok. Makinedeki Claude, Cursor ve diğer MCP istemcilerinin paylaştığı tek kasa. Açıklama — tam compartment motorunu (onnxruntime, tokenizers, mcp ve sistem tepsisi bağımlılıkları dâhil yaklaşık 27 Python paketi) Hermes venv'ine kurar; sağlayıcının sistem istemi modele parolaları ve API anahtarlarını şifreli kasada saklamasını söyler."
 maintainer: MaxFreedomPollard
 tier: community
 category: memory

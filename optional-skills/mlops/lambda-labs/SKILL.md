@@ -1,6 +1,7 @@
 ---
 name: lambda-labs
 description: On-demand GPU cloud instances for ML training.
+description_tr: "ML eğitimi için anlık GPU bulut örnekleri."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

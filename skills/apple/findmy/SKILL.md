@@ -1,6 +1,7 @@
 ---
 name: findmy
 description: "Track Apple devices/AirTags via FindMy.app on macOS."
+description_tr: "macOS'ta FindMy.app ile Apple cihaz/AirTag takibi."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

@@ -3,6 +3,7 @@ repo: https://github.com/steveafrost/hermes-quiet
 sha: 401b04ff2dc2447d5c3f40af1254d7fe8413013a
 subdir: codex-chat-look
 description: "Independent Catppuccin Latte/Mocha desktop theme with peach accents, SDK-native gateway/profile switching and host-owned session density. Legacy plugin identity: codex-chat-look. No self-updater or native layout overrides. Disclosure — Desktop theme derived from FPSUnleashed's MIT-licensed desktop skin; switches gateway/profile via host.ensureAgent only on user selection and a palette command rewrites the native sessionListDensity setting; no network calls of its own."
+description_tr: "Şeftali vurguları, SDK-yerel ağ geçidi/profil değiştirme ve ana makineye ait oturum yoğunluğu içeren bağımsız Catppuccin Latte/Mocha masaüstü teması. Eski eklenti kimliği: codex-chat-look. Kendini güncelleme ya da yerel yerleşim geçersiz kılmaları yok. Açıklama — FPSUnleashed'in MIT lisanslı masaüstü görünümünden türetilmiş masaüstü teması; ağ geçidini/profili yalnızca kullanıcı seçiminde host.ensureAgent üzerinden değiştirir ve bir palet komutu yerel sessionListDensity ayarını yeniden yazar; kendi ağ çağrısı yoktur."
 maintainer: steveafrost
 tier: community
 category: desktop

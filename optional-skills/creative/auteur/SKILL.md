@@ -1,6 +1,7 @@
 ---
 name: auteur
 description: Design and build cinematic, award-level web pages.
+description_tr: "Sinematik, ödül seviyesinde web sayfaları tasarla ve kur."
 version: 1.3.1
 author: agiwhitelist (https://github.com/agiwhitelist, upstream agiwhitelist/auteur), ported by Hermes Agent
 license: MIT

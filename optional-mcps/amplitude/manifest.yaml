@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: amplitude
 description: 'Amplitude analytics: charts, dashboards, experiments, flags.'
+description_tr: "Amplitude analitiği: grafikler, panolar, deneyler ve özellik bayrakları."
 source: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

@@ -1,6 +1,7 @@
 ---
 name: xurl
 description: "X/Twitter via xurl CLI: raw post search, posting, DM, media."
+description_tr: "xurl CLI ile X/Twitter: ham gönderi arama, paylaşım, DM."
 version: 1.1.3
 author: xdevplatform + openclaw + Hermes Agent
 license: MIT

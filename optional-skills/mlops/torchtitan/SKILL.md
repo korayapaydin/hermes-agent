@@ -1,6 +1,7 @@
 ---
 name: torchtitan
 description: Pretrain LLMs at scale with PyTorch 4D parallelism.
+description_tr: "PyTorch 4D paralellikle büyük ölçekte LLM ön eğitimi."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

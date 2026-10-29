@@ -8,6 +8,7 @@ description: >-
   (or a configured self-hosted origin). When enabled, auto capture uploads completed user/assistant text
   for fact extraction, excluding tool results and media. A local SQLite outbox stores pending text;
   credentials are resolved through the active Hermes profile's MEMORIA_API_KEY secret.
+description_tr: "Kapsamlı geri çağırma, açık bellek araçları ve isteğe bağlı arka plan yakalama ile Memoria Cloud bellek sağlayıcısı. Açıklama — geri çağırma sorgularını ve açık bellek işlemlerini varsayılan olarak api.thememoria.ai adresine (ya da yapılandırılmış kendi barındırdığınız kaynağa) gönderir. Etkinleştirildiğinde otomatik yakalama, olgu çıkarımı için tamamlanmış kullanıcı ve asistan metnini yükler; araç sonuçları ve medya hariçtir. Yerel bir SQLite giden kutusu bekleyen metni saklar; kimlik bilgileri etkin Hermes profilinin MEMORIA_API_KEY sırrı üzerinden çözülür."
 maintainer: matrixorigin
 tier: community
 category: memory

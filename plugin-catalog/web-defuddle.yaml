@@ -3,6 +3,7 @@ repo: https://github.com/annalinneajohansson82/hermes-defuddle
 sha: d28bd52eed30c397a45f0b2aba869a28ca4789c4
 description: Defuddle content extraction — local, free, no API key. Shells out to the defuddle CLI for
   clean article markdown. Extract-only; pair with SearXNG or another search provider.
+description_tr: "Defuddle içerik çıkarımı — yerel, ücretsiz, API anahtarı yok. Temiz makale markdown'u için defuddle CLI'ına kabukla çıkar. Yalnızca çıkarma; SearXNG ya da başka bir arama sağlayıcısıyla eşleştirin."
 maintainer: annalinneajohansson82
 tier: community
 category: web

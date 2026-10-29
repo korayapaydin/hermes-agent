@@ -3,6 +3,7 @@ repo: https://github.com/shuruheel/mindgraph
 sha: b96c2590435bb625210506a47df682967215b6d7
 description: MindGraph — semantic graph memory with hybrid retrieval, goal/decision tracking, and cross-document
   synthesis.
+description_tr: "MindGraph — karma getirme, hedef/karar takibi ve belgeler arası sentez ile anlamsal grafik belleği."
 maintainer: shuruheel
 tier: community
 category: memory

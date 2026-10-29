@@ -16,6 +16,7 @@ description: >-
   connecting a remote decision service needs separate configuration and consent.
   No MCP server, native plugin entrypoint, registered tools, hooks or middleware.
 maintainer: cis2042
+description_tr: "Kullanıcı, Kanıt ve İş akışları genelinde MIT lisanslı ürün yargısı; bir adet taşınabilir Ajan Eklentileri v1 yeteneği ve 91 orijinal yetenek dosyası ile birlikte gelir. Bilgilendirme: yetenek talimatları paketli yerel Python/jsonschema doğrulayıcıları çalıştırır ve kişisel veriler içerebilen kullanıcı kontrollü yerel özetleri, bağlam paketlerini ve inceleme çıktılarını okur/yazar. İsteğe bağlı kanıt toplama, harici arama ve bağlayıcılar dahil olmak üzere açıkça kullanıcı/ana bilgisayar tarafından yetkilendirilmiş araçları kullanır; seçili iddialar, sorgular veya kanıtlar seçilen servislere onların politikaları altında gider. Yayıncı tarafından işletilen bir alma uç noktası, tutma servisi, telemetri veya arka plan işlemi yoktur. Paketlenen jev_gate.py çevrimdışı çalışır; uzak bir karar servisini bağlamak ayrı yapılandırma ve onay gerektirir. MCP sunucusu, yerel eklenti giriş noktası, kayıtlı araçlar, kancalar veya ara katman yazılımı yoktur."
 tier: community
 category: general
 requires_hermes: ">=0.22.4"

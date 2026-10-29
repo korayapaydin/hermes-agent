@@ -2,6 +2,7 @@ name: agent_memory_es
 repo: https://github.com/patrykkopycinski/hermes-plugin-agent-memory-es
 sha: e9469ee90396eae9db4a6b2526b5a0bc3d37dd62
 description: "Self-owned long-term memory backed by the agent-memory-es service (Elasticsearch). Three agent tools — recall, retain, reflect — over episodic/ semantic/procedural tiers with hybrid BM25+kNN recall and server-enforced private/team/common visibility. Requires a running agent-memory-es instance. Disclosure — each user prompt (as a recall query), each user message and Hermes memory writes are sent to the agent-memory-es service at AMES_SERVICE_URL (default localhost:8123) with AMES_SERVICE_KEY; the model may store facts in shared team/common visibility tiers."
+description_tr: "agent-memory-es hizmeti (Elasticsearch) üzerinde çalışan, kendi sahip olduğunuz uzun süreli bellek. Üç ajan aracı — recall, retain, reflect — epizodik/anlamsal/prosedürel katmanlarda hibrit BM25+kNN geri çağırma ve sunucu tarafında uygulanan özel/ekip/ortak görünürlük ile. Çalışan bir agent-memory-es örneği gerekir. Açıklama — her kullanıcı istemi (geri çağırma sorgusu olarak), her kullanıcı mesajı ve Hermes bellek yazımları, AMES_SERVICE_KEY ile AMES_SERVICE_URL adresindeki (varsayılan localhost:8123) agent-memory-es hizmetine gönderilir; model olguları paylaşılan ekip/ortak görünürlük katmanlarında saklayabilir."
 maintainer: patrykkopycinski
 tier: community
 category: memory

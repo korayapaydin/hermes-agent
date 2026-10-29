@@ -4,6 +4,7 @@ sha: de372aa34ecfe6adb424f86c04ca2de924984cb0
 description: Cursor-style composer modes (ask / agent / plan / debug) for the Hermes desktop —
   the mode's operating note reaches the model inside the turn's model-facing bytes, never the
   bubble, transcript or session titles, and ask mode is enforced read-only on the tool side.
+description_tr: "Hermes masaüstü için Cursor tarzı yazma alanı kipleri (soru / ajan / plan / hata ayıklama) — kiplerin çalışma notu, modele tur içindeki modele dönük baytlarla ulaşır, asla balonda, dökümde ya da oturum başlıklarında görünmez ve soru kipi araç tarafında salt okunur olarak uygulanır."
 maintainer: LisandroNahuelH
 tier: community
 category: desktop

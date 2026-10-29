@@ -1,6 +1,7 @@
 ---
 name: brag
 description: Project launch video via Hyperframes, upstream-maintained.
+description_tr: "Hyperframes ile proje lansman videosu, upstream bakımlı."
 version: 0.4.0
 author: Shunit Haviv Hakimi (shunithaviv)
 license: MIT

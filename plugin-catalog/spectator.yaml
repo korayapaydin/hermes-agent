@@ -2,6 +2,7 @@ name: spectator
 repo: https://github.com/Sahil-SS9/spectator-mode
 sha: a1467ded9802559b30061efe861701d8ec14bcae
 description: Harness-neutral live session sharing, summaries, and branch queries. Disclosure — reads state.db read-only and exposes masked transcripts to invite-token guests on the dashboard; host-approved guest suggestions are injected via ctx.inject_message.
+description_tr: "Koşum ortamından bağımsız canlı oturum paylaşımı, özetler ve dal sorguları. Açıklama — state.db'yi salt okunur olarak okur ve panoda davet belirteci olan konuklara maskelenmiş dökümleri sunar; ana makinenin onayladığı konuk önerileri ctx.inject_message üzerinden enjekte edilir."
 maintainer: Sahil-SS9
 tier: community
 category: tools

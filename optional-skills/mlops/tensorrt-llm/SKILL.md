@@ -1,6 +1,7 @@
 ---
 name: tensorrt-llm
 description: High-throughput LLM inference on NVIDIA GPUs.
+description_tr: "NVIDIA GPU'larda yüksek verimli LLM çıkarımı."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

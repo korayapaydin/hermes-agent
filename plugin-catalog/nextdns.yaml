@@ -4,6 +4,7 @@ sha: 6e46460e9d7f4775d247fb1e467532cf42bfc52d
 description: Read-only NextDNS tools - DNS query logs, blocked queries with the blocklist that matched,
   and aggregate analytics by domain, device, blocklist or protocol. For triaging DNS problems and answering
   "was this blocked, and by what". Uses the official NextDNS API; makes no configuration changes.
+description_tr: "Salt okunur NextDNS araçları — DNS sorgu günlükleri, eşleşen engel listesiyle birlikte engellenen sorgular ve alan adı, cihaz, engel listesi ya da protokol bazlı toplu analitikler. DNS sorunlarını triyaj etmek ve 'bu engellendi mi ve ne tarafından' sorusunu yanıtlamak için. Resmî NextDNS API'sini kullanır; hiçbir yapılandırma değişikliği yapmaz."
 maintainer: shanelord01
 tier: community
 category: tools

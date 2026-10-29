@@ -6,6 +6,7 @@ description: Create, analyze, and optimize campaigns across Google Ads, Meta Ads
   v1 package with fourteen paid-media workflow skills and approval safeguards; OAuth uses pinned mcp-remote@0.1.49
   over npx stdio, so Node.js 20.18.1+ and npm are required. Disclosure — creates and edits real ad campaigns
   that spend your ad budgets; confirm-before-spend is enforced by skill instructions, not by Hermes.
+description_tr: "Barındırılan Adspirer MCP üzerinden Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, Amazon Ads, ChatGPT Ads ve Microsoft Ads kampanyaları oluşturun, analiz edin ve optimize edin. On dört ücretli medya iş akışı yeteneği ve onay güvenceleri içeren taşınabilir Agent Plugins v1 paketi; OAuth, npx stdio üzerinde sabitlenmiş mcp-remote@0.1.49 kullanır, bu yüzden Node.js 20.18.1+ ve npm gerekir. Açıklama — reklam bütçelerinizi harcayan gerçek reklam kampanyaları oluşturur ve düzenler; harcamadan önce onay, Hermes tarafından değil yetenek talimatlarıyla uygulanır."
 maintainer: Adspirer
 tier: community
 category: tools

@@ -13,6 +13,7 @@ description: >-
   allow_remote is set, and the memory files are not read otherwise; reads at most 256 KB per
   memory file; no tools, network access, subprocesses or writes; Hermes uploads the prompt with
   the audio to the configured STT provider.
+description_tr: "Bir konuşmadan metne modelinin yanlış duyduğu adları, Hermes'in her sesli mesajla birlikte gönderdiği döküm istemine koyar: listelediğiniz terimler (genel ya da yüzey başına) ve bu profilin memories/USER.md ile MEMORY.md dosyalarında bulunan adlar, en önemlisi sonda olacak şekilde, Hermes'in Whisper ailesi arka uçlar için sakladığı 896 karakter sınırı içinde; stt.prompt'unuz başta kalır. Almanca, İspanyolca, Fransızca, İtalyanca, Felemenkçe, Portekizce ya da Türkçe yazılmış notlar, languages ayarındaki dillerde adlandırılabilir. Açıklama — register(), yeni bir istem dizesi döndüren tek bir pre_transcription kancası ekler; bellekten türetilen adlar yalnızca yerel arka uçlara gider (faster-whisper, local_command), allow_remote ayarlanmadıkça, ve bellek dosyaları başka türlü okunmaz; bellek dosyası başına en fazla 256 KB okur; araç, ağ erişimi, alt süreç veya yazma yoktur; Hermes istemi sesle birlikte yapılandırılmış STT sağlayıcısına yükler."
 maintainer: pierrenode
 tier: community
 category: voice

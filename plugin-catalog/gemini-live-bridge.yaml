@@ -12,6 +12,7 @@ description: >-
   the environment; input/output transcripts are held in backend memory for the session, and a
   Gemini session-resumption handle is written to .resume.json inside the plugin's install
   directory.
+description_tr: "Gemini Live API ile gerçek zamanlı çift yönlü sesli sohbet — Hermes masaüstü uygulaması için durum çubuğu minibarı (döküm, model kataloğu, düşünme düzeyi, oturum token sayacı, oturum yeniden başlatmayla otomatik yeniden arama). Tam vekil mimarisi: eklenti arka ucu üst düzey Live WebSocket'ini ve kullanıcının anahtarını sahiplenir (requires_env GOOGLE_API_KEY); masaüstü arayüzü yalnızca localhost ile konuşur ve tek kullanımlık geçici token'lar alır. Ajan aracı yok; masaüstü odaklıdır, pano sekmesi gizlidir. Açıklama — Başlat düğmesine basmak mikrofon sesini yakalar ve yerel arka uç üzerinden, ortamdan alınan GOOGLE_API_KEY (veya GEMINI_API_KEY) kullanılarak generativelanguage.googleapis.com adresine akıtır; giriş/çıkış dökümleri oturum boyunca arka uç belleğinde tutulur ve bir Gemini oturum devam ettirme tutamacı, eklentinin kurulum dizinindeki .resume.json dosyasına yazılır."
 maintainer: cruzlxyz
 tier: community
 version: "1.0.6"

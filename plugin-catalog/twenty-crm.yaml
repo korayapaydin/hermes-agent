@@ -3,6 +3,7 @@ repo: https://github.com/TREE-Ind/hermes-twenty-crm
 sha: 3d87c1634e4b159738b35954ac4efc15c876d46d
 description: Twenty CRM for Hermes Agent with managed self-hosting, external-instance connectivity, REST,
   GraphQL, and live schema introspection.
+description_tr: "Hermes Agent için yönetilen kendi sunucunuzda barındırma, harici örneğe bağlantı, REST, GraphQL ve canlı şema içgörüsü ile Twenty CRM."
 maintainer: TREE-Ind
 tier: community
 category: tools

@@ -8,6 +8,7 @@ description: "Local Chrome CDP debug ports in the status bar (probe, launch, sto
   local Chrome on 127.0.0.1 only, with per-port profiles under the local app-data directory,
   and closes it with a clean Browser.close; state lives in the plugin's own config file.
   Windows only."
+description_tr: "Durum çubuğunda yerel Chrome CDP hata ayıklama portları (yokla, başlat, durdur, yeniden denetle), Hermes'in canlı tuttuğu yönetilen port ve `cdp` ajan aracı — ayrıca Chrome profil seçici başlatmasını saptayıp onarır (kilitliyse kilidini açar). Açıklama — yerel Chrome'u yalnızca 127.0.0.1 üzerinde, yerel uygulama verisi dizini altında port başına profillerle başlatır ve temiz bir Browser.close ile kapatır; durum, eklentinin kendi yapılandırma dosyasında tutulur. Yalnızca Windows."
 maintainer: apoapostolov
 tier: community
 category: desktop

@@ -3,6 +3,7 @@ version: "0.1.0"
 repo: https://github.com/cspears32/hermes-long-conversations
 sha: 1a8dc52b7ae610f6db2d2ab0a7e7133b3a199807
 description: "Persistent long-term conversations across session boundaries via structured handoff briefs and token monitoring. Disclosure — stores handoff briefs (topic, work in progress, decisions, open questions, next step; in aggressive mode auto-built from the first 200 characters of recent user messages) as plain JSON under HERMES_HOME/long-conversations/ and injects the pending brief into the first turn of the next session for the same chat or user (CLI briefs stay in one local scope and are not shown to messaging users); the model can change the plugin's settings with long_conv_config_set; an opt-in HERMES_LONG_CONV_BETA_LOG writes a local event log; no network calls."
+description_tr: "Yapılandırılmış devir özetleri ve token izleme ile oturum sınırları boyunca kalıcı uzun süreli konuşmalar. Açıklama — devir özetlerini (konu, sürmekte olan iş, kararlar, açık sorular, sonraki adım; agresif kipte son kullanıcı iletilerinin ilk 200 karakterinden otomatik oluşturulur) HERMES_HOME/long-conversations/ altında düz JSON olarak saklar ve bekleyen özeti aynı sohbet veya kullanıcı için bir sonraki oturumun ilk turuna enjekte eder (CLI özetleri tek bir yerel kapsamda kalır ve mesajlaşma kullanıcılarına gösterilmez); model, eklentinin ayarlarını long_conv_config_set ile değiştirebilir; isteğe bağlı HERMES_LONG_CONV_BETA_LOG yerel bir olay günlüğü yazar; ağ çağrısı yoktur."
 maintainer: cspears32
 tier: community
 category: tools

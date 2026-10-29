@@ -3,6 +3,7 @@ repo: https://github.com/aydnOktay/hermes-sketch-pad
 sha: de7cd07ff29666ca1bcc3897f13b39f9472fab55
 description: Draw a shape on a Desktop pad and attach the PNG to the next Hermes
   chat message. For "what is this shape" when you have no photo.
+description_tr: "Bir masaüstü çizim tablasına bir şekil çizin ve PNG'yi bir sonraki Hermes sohbet mesajına ekleyin. Fotoğrafınız yokken 'bu şekil nedir' sorusu için."
 maintainer: aydnOktay
 tier: community
 category: desktop

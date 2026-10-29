@@ -1,6 +1,7 @@
 ---
 name: maps
 description: "Geocode, POIs, routes, timezones via OpenStreetMap/OSRM."
+description_tr: "OpenStreetMap/OSRM ile coğrafi kod, POI, rota, saat dilimi."
 version: 1.2.0
 author: Mibayy
 license: MIT

@@ -1,6 +1,7 @@
 ---
 name: grounded-citations
 description: "Ground answers and documents in cited, verifiable sources."
+description_tr: "Yanıtları ve belgeleri doğrulanabilir kaynaklara dayandır."
 version: 1.2.0
 author: Hermes Agent + Teknium
 license: MIT

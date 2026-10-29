@@ -1,6 +1,7 @@
 ---
 name: instructor
 description: Structured LLM outputs validated with Pydantic.
+description_tr: "Pydantic ile doğrulanan yapılandırılmış LLM çıktıları."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

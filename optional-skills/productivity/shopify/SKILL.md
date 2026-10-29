@@ -1,6 +1,7 @@
 ---
 name: shopify
 description: Query Shopify Admin/Storefront GraphQL APIs via curl.
+description_tr: "Shopify Admin/Storefront GraphQL API sorgula: curl ile."
 version: 1.0.0
 author: community
 license: MIT

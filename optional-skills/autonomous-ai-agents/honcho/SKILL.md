@@ -1,6 +1,7 @@
 ---
 name: honcho
 description: Configure and troubleshoot Honcho memory for Hermes.
+description_tr: "Hermes için Honcho belleğini yapılandır ve hata ayıkla."
 version: 2.0.0
 author: Hermes Agent
 license: MIT

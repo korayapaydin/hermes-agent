@@ -13,6 +13,7 @@ description: >-
   api_request_error hook records quota errors in memory. Quota is read with Hermes' fetch_account_usage
   (Anthropic and OpenAI Codex) on /ohx quota and after a provider error. No other network egress, no files
   written.
+description_tr: "Kendi abonelikleriniz arasında çağrı başına delegasyon. Model, her alt ajanı delegate_to(route, goal, context) ile adlandırılmış bir rotaya gönderir; her rota, Hermes'in zaten bildiği bir sağlayıcıyı (Claude, Codex ya da Antigravity abonelik eklentileri, ACP sağlayıcı eklentileri) ve bir modeli sabitler. Buna karşılık delegate_task, config.yaml içindeki tek hedefi kullanır. Alt ajanlar ctx.subagent_lifecycle üzerinden başlatılır. Bir alt ajan ancak belirsiz bir sağlayıcı hatasında ya da %100 ölçülen bir pencerede kotanın dışında sayılır ve rota asla kendi kendine geçmez: bir politika, ebeveynin size sorup soramayacağını, başka bir rota seçip seçmeyeceğini ya da bekleyip beklemeyeceğini karar verir. Açıklama — rota yapılandırılmışken bir pre_tool_call kancası delegate_task başlatmalarını engeller (list/steer/stop geçer); bir api_request_error kancası kota hatalarını bellekte kaydeder. Kota, /ohx quota üzerinde ve bir sağlayıcı hatasından sonra Hermes'in fetch_account_usage işleviyle (Anthropic ve OpenAI Codex) okunur. Başka ağ çıkışı yok, dosya yazılmaz."
 maintainer: TicoraX
 tier: community
 category: automation

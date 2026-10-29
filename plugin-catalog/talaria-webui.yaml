@@ -3,6 +3,7 @@ repo: https://github.com/liamsmith86/talaria-webui
 sha: 14dbcd48e381558643770d54f644714f89204dc3
 subdir: src/talaria/hermes_plugin
 description: "Extends Hermes Agent API capabilities to deliver a richer chat interface with Talaria WebUI. Disclosure — adds API_SERVER_KEY-authenticated /talaria/v1 routes to the Hermes API server (cross-session history search, rewind/branch/compress of API sessions, runs with the profile's instructions and prefill); stores response metadata (no message bodies) in $HERMES_HOME/talaria/observations.db; relies on private api_server/AIAgent internals behind feature detection."
+description_tr: "Talaria WebUI ile daha zengin bir sohbet arayüzü sunmak için Hermes Agent API yeteneklerini genişletir. Açıklama — Hermes API sunucusuna API_SERVER_KEY ile kimlik doğrulanan /talaria/v1 rotaları ekler (oturumlar arası geçmiş araması, API oturumlarını geri alma/dallandırma/sıkıştırma, profilin talimatları ve ön dolgusuyla çalıştırmalar); yanıt üst verilerini (mesaj gövdeleri hariç) $HERMES_HOME/talaria/observations.db içinde saklar; özellik algılamanın arkasında özel api_server/AIAgent iç bileşenlerine dayanır."
 maintainer: liamsmith86
 tier: community
 category: web

@@ -3,6 +3,7 @@ title: Nord Theme
 repo: https://github.com/Audiofool934/hermes-nord-theme
 sha: d7cd1cd84e04b12a0e4cc242a2703a25c8447233
 description: "Unofficial Nord theme for Hermes Desktop with hand-tuned Polar Night (dark) and Snow Storm (light) palettes, Nord terminal colors, Nord code-block syntax colors, and Aurora status colors. Scoped to its own theme; other themes are untouched. Disclosure — its stylesheet recolors Desktop surfaces, code-block syntax colors, status colors, selection and inline code only while Nord is selected, and it switches the active theme to Nord once on first enable; no network calls, file reads or shell commands."
+description_tr: "Hermes Masaüstü için resmi olmayan Nord teması; el ile ayarlanmış Polar Night (koyu) ve Snow Storm (açık) paletleri, Nord terminal renkleri, Nord kod bloğu sözdizimi renkleri ve Aurora durum renkleri içerir. Kendi temasıyla sınırlıdır; diğer temalar etkilenmez. Bilgilendirme — stil sayfası, yalnızca Nord seçiliyken Masaüstü yüzeylerini, kod bloğu sözdizimi renklerini, durum renklerini, seçimi ve satır içi kodları yeniden renklendirir ve ilk etkinleştirmede aktif temayı bir kez Nord'a geçirir; ağ çağrısı, dosya okuması veya kabuk komutu yoktur."
 maintainer: Audiofool934
 tier: community
 category: desktop

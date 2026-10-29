@@ -4,6 +4,7 @@ sha: 24d1906a285fdfe37ecaf6253da8712db28f5a7b
 description: Your system prompt is message zero and the user's question is message N. On models that weight
   recency hard, that is not a fair fight, and the instruction you care about most quietly loses to whatever
   was just asked. This plugin restates it at the end of every user turn instead. Append-only, API cop
+description_tr: "Sistem isteminiz mesaj sıfır, kullanıcının sorusu ise mesaj N'dir. Yakınlığa sert ağırlık veren modellerde bu adil bir mücadele değildir ve önem verdiğiniz talimat, az önce sorulan şeye sessizce yenilir. Bu eklenti, talimatı her kullanıcı turunda sonunda yeniden söyler. Yalnızca eklenen, API çağrısı başına"
 maintainer: etkecc
 tier: community
 category: general

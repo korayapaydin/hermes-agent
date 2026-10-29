@@ -12,6 +12,7 @@ description: >-
   re-verified against current main. Disclosure — instructions only: no tools,
   hooks, middleware, network calls or credentials, and the destructive
   diagnostics are marked and gated on asking the user first.
+description_tr: "Hermes için Windows ve WSL sorun giderme yetenekleri: bir çıkıştan sonra hayatta kalan süreçler (başıboş kalan stdio MCP ağaçları, kapanmayan python/uv/node alt süreçleri), bir argümanın kabuk sözdizimi olarak cmd.exe'e ulaştığı WSL-Windows birlikte çalışma durumları, yapılandırma ve kodlama tuzakları (UTF-8 BOM, eski konsol kod sayfaları) ve uzun yol ya da ayrılmış ad hataları. Tek bir yetenek ve kopyala-yapıştır komut referansı; süreç, argv ve iş nesnesi hata modelleri #131561, #132069 ve #61059 raporlarına sabitlenmiştir ve güncel main'e karşı yeniden doğrulanmıştır. Açıklama — yalnızca talimatlar: araç, kanca, ara katman, ağ çağrısı veya kimlik bilgisi yoktur ve yıkıcı tanılamalar işaretlenmiştir ve önce kullanıcıya sorulması şartına bağlanmıştır."
 maintainer: Yicheng-Mark
 tier: community
 category: tools

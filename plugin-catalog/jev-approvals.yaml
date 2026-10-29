@@ -3,6 +3,7 @@ repo: https://github.com/anpicasso/hermes-jev-approvals
 sha: 28be98a19539b29768398fb400f4c62f41337c26
 subdir: plugin
 description: "TypeSafe's Jev decision model as Hermes' smart-approval reviewer only: it cannot generate text and refuses every other task. Supports TypeSafe direct, OpenRouter, and configurable Jev-compatible HTTPS endpoints with optional endpoint-specific authentication; validates typed answers and endpoint/redirect boundaries, redacts command credentials, and records bounded structured audit logs. Disclosure — each command routed to smart approval (redacted best-effort) and the operator's smart-policy text leave the machine for the configured third-party endpoint; provider or validation failures fail closed to ESCALATE."
+description_tr: "TypeSafe'ın Jev karar modeli, yalnızca Hermes'in akıllı onay inceleyicisi olarak: metin üretemez ve başka her görevi reddeder. TypeSafe doğrudan bağlantıyı, OpenRouter'ı ve isteğe bağlı uç noktaya özgü kimlik doğrulamasıyla yapılandırılabilir Jev uyumlu HTTPS uç noktalarını destekler; tipli yanıtları ve uç nokta/yönlendirme sınırlarını doğrular, komut kimlik bilgilerini maskeler ve sınırlı yapılandırılmış denetim günlükleri tutar. Açıklama — akıllı onaya yönlendirilen her komut (en iyi çaba ile maskelenir) ve operatörün akıllı ilke metni, yapılandırılan üçüncü taraf uç noktası için makineden ayrılır; sağlayıcı ya da doğrulama hataları kapalı biçimde ESCALATE durumuna düşer."
 maintainer: anpicasso
 tier: community
 category: models

@@ -10,6 +10,7 @@ description: >-
   Disclosure: creates and edits real ad campaigns that spend your ad budgets; every write is a
   separate approval-gated operation and the skills instruct confirm-before-spend, but that is enforced
   by the skills and the server's approval flag, not by Hermes.
+description_tr: "Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, GA4, Shopify, HubSpot ve 50'den fazla platformu Markifact'ın barındırılmış MCP sunucusu üzerinden çalıştırın. On yetenekle (işletim protokolü, yazma güvenliği kuralları, kampanya başlatma, yaratıcı rotasyonu, negatif süpürmeler, teşhis) taşınabilir Agent Plugins v1 paketi; Node.js ya da API anahtarı gerekmez, dinamik istemci kaydıyla OAuth 2.1 kullanan uzak streamable-http. Açıklama — reklam bütçelerinizi harcayan gerçek reklam kampanyaları oluşturur ve düzenler; her yazma ayrı bir onay kapılı işlemdir ve yetenekler harcamadan önce onay ister, ancak bunu Hermes değil yetenekler ve sunucunun onay bayrağı uygular."
 maintainer: Markifact
 tier: community
 category: tools

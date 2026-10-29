@@ -1,6 +1,7 @@
 ---
 name: email-inbox-triage
 description: "Triage an inbox: prioritize threads, draft replies safely."
+description_tr: "Gelen kutusunu triyaj et: önceliklendir, güvenle yanıt yaz."
 version: 0.2.0
 author: Ben Barclay (benbarclay), Hermes Agent
 license: MIT

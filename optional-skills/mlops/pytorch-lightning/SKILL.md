@@ -1,6 +1,7 @@
 ---
 name: pytorch-lightning
 description: Clean training loops with built-in distributed support.
+description_tr: "Yerleşik dağıtık destekli temiz eğitim döngüleri."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

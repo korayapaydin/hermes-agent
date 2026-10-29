@@ -1,6 +1,7 @@
 ---
 name: sketch
 description: "Throwaway HTML mockups: 2-3 design variants to compare."
+description_tr: "Geçici HTML maketleri: 2-3 tasarım varyantı karşılaştırması."
 version: 1.0.1
 author: Hermes Agent (adapted from gsd-build/get-shit-done)
 license: MIT

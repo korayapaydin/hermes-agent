@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: motherduck
 description: 'MotherDuck: query DuckDB cloud warehouses with SQL.'
+description_tr: "MotherDuck: SQL ile DuckDB bulut veri depolarını sorgulayın."
 source: https://motherduck.com/docs/key-tasks/ai-and-motherduck/mcp-setup/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

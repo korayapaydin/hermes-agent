@@ -8,6 +8,7 @@ description: Experimental model provider that runs Hermes turns on a Claude Pro/
   and before every request, and refuses cleanly with the install hint when it is missing. Disclosure — every
   turn is billed against your Claude subscription's Agent SDK allowance, and the provider inherits whatever
   account claude is logged into.
+description_tr: "Claude Pro/Max aboneliğiyle Hermes turlarını resmî Claude Code CLI'ı (Agent SDK yolu) üzerinden çalıştıran deneysel model sağlayıcısı; böylece ayrı bir API anahtarı ya da token başına fatura gerekmez. Kurulu ve giriş yapmış claude CLI'ını gerektirir; eklenti onu yükleme sırasında, hermes model komutunda, seçicilerde ve her istekten önce kontrol eder, eksikse kurulum ipucuyla temiz şekilde reddeder. Açıklama — her tur, Claude aboneliğinizin Agent SDK kotasından faturalandırılır ve sağlayıcı, claude'un giriş yaptığı hesabı devralır."
 maintainer: NousResearch
 tier: official
 category: models

@@ -7,6 +7,7 @@ description: 'Turn any MCP server into a portable Agent Plugin (mcp.json + workf
   errors in use. Disclosure: starts the target MCP server to introspect it; reads this profile''s
   state.db read-only; logs redacted mcp__* call summaries locally (log_calls: false turns it off);
   inline server launches, writes outside its data dir and installs ask for approval.'
+description_tr: "Herhangi bir MCP sunucusunu kanıtlara dayanarak kurulmuş taşınabilir bir Agent Plugin'e (mcp.json + iş akışı yeteneği) dönüştürün: sunucunun kendi açıklaması, onunla geçmiş oturumlarınız, belgeleri ve salt okunur bir prob. Paketi bağlı modda doğrular ve kurar; derlenmiş bir eklentide sunucu sapmasını ve kullanımda ortaya çıkan yeni hataları denetler. Açıklama — hedef MCP sunucusunu içini incelemek için başlatır; bu profilin state.db dosyasını salt okunur okur; redakte edilmiş mcp__* çağrı özetlerini yerel olarak günlükler (log_calls: false bunu kapatır); satır içi sunucu başlatmaları, veri dizininin dışına yazmalar ve kurulumlar onay ister."
 maintainer: tonbistudio
 tier: community
 category: tools

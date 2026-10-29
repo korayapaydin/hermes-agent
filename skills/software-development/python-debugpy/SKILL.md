@@ -1,6 +1,7 @@
 ---
 name: python-debugpy
 description: "Debug Python: pdb REPL + debugpy remote (DAP)."
+description_tr: "Python hata ayıklama: pdb REPL + debugpy uzak (DAP)."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

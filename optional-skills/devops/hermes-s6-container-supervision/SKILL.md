@@ -1,6 +1,7 @@
 ---
 name: hermes-s6-container-supervision
 description: Modify or debug s6 services in the Hermes Docker image.
+description_tr: "Hermes Docker imajındaki s6 servislerini düzenle ve ayıkla."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

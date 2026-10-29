@@ -1,6 +1,7 @@
 ---
 name: inference-sh-cli
 description: Run 150+ AI apps (image, video, LLM) via inference.sh CLI.
+description_tr: "inference.sh CLI ile 150+ AI uygulaması çalıştır."
 version: 1.0.0
 author: okaris
 license: MIT

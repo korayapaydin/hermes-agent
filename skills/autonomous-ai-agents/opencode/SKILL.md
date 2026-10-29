@@ -1,6 +1,7 @@
 ---
 name: opencode
 description: "Delegate coding to OpenCode CLI (features, PR review)."
+description_tr: "Kodlamayı OpenCode CLI'ye devret (özellik, PR inceleme)."
 version: 1.2.0
 author: Hermes Agent
 license: MIT

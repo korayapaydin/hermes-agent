@@ -1,6 +1,7 @@
 ---
 name: impeccable
 description: Frontend design guidance, upstream-maintained (impeccable).
+description_tr: "Frontend tasarım rehberi, upstream bakımlı (impeccable)."
 version: 4.1.2
 author: Paul Bakaus (pbakaus)
 license: Apache-2.0

@@ -11,6 +11,7 @@ description: 'Singularity/Apptainer terminal backend: Hermes''s terminal, file a
   `docker://nousresearch/hermes-sandbox:desktop`) and caches a SIF under your scratch directory. Your skills
   and registered credential files are bind-mounted read-only into the container, and because the container
   is a disposable sandbox Hermes skips its dangerous-command prompts there, as for its other container backends.'
+description_tr: "Singularity/Apptainer terminal arka ucu: Hermes'in terminal, dosya ve kod araçları bu makinede sertleştirilmiş, root gerektirmeyen bir konteyner içinde çalışır (--containall --no-home), CPU/bellek sınırları ve isteğe bağlı oturum başına kalıcı overlay ile (`hermes config set terminal.backend singularity`; imaj `terminal.singularity_image` ayarından). Önceden Hermes çekirdeğinde yerleşikti; mevcut kullanıcılar otomatik olarak geçirilir. Açıklama — Python bağımlılığı yoktur ve kendi ağ çağrısını yapmaz: sizin kurduğunuz `apptainer` (veya `singularity`) CLI'sini çalıştırır; bu CLI yapılandırılmış imajı çeker (varsayılan `docker://nousresearch/hermes-sandbox:desktop`) ve scratch dizininiz altında bir SIF önbelleğe alır. Yetenekleriniz ve kayıtlı kimlik bilgisi dosyalarınız konteynere salt okunur bağlanır; konteyner tek kullanımlık bir sandbox olduğu için Hermes, diğer konteyner arka uçlarında olduğu gibi burada tehlikeli komut istemlerini atlar."
 maintainer: NousResearch
 tier: official
 category: tools

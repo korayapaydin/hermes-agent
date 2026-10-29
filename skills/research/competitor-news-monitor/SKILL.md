@@ -1,6 +1,7 @@
 ---
 name: competitor-news-monitor
 description: "Watch named companies for material news; cited digests."
+description_tr: "Adı geçen şirketlerin önemli haberlerini kaynaklı özetle."
 version: 0.1.0
 author: Ben Barclay (benbarclay), Hermes Agent
 license: MIT

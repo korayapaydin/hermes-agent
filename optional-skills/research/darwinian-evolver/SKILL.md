@@ -1,6 +1,7 @@
 ---
 name: darwinian-evolver
 description: Evolve prompts/regex/SQL/code with Imbue's evolution loop.
+description_tr: "Imbue evrim döngüsüyle prompt/regex/SQL/kod geliştir."
 version: 0.1.0
 author: Bihruze (Asahi0x), Hermes Agent
 license: MIT

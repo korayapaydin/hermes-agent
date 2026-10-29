@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: miro
 description: Read and edit Miro boards, diagrams, and frames.
+description_tr: "Miro panolarını, diyagramlarını ve çerçevelerini okuyun ve düzenleyin."
 source: https://developers.miro.com/docs/connecting-to-miro-mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

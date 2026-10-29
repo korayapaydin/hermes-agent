@@ -4,6 +4,7 @@ sha: c0023f37820e05147f1dcd1cb8ebd712e6b122e2
 subdir: model-providers/runcrate
 title: "Runcrate"
 description: "Runcrate (runcrate.ai) open models via the OpenAI-compatible API at api.runcrate.ai/v1: live model list from /v1/models, DeepSeek V4.1 Flash as the default, and Hermes reasoning settings sent as reasoning_effort. Disclosure: model provider; prompts, tool schemas and RUNCRATE_API_KEY go to api.runcrate.ai, and free requests can be served by third-party model providers under their own terms (runcrate.ai/privacy)."
+description_tr: "Runcrate (runcrate.ai), OpenAI uyumlu API'si (api.runcrate.ai/v1) aracılığıyla açık modeller sunar: /v1/models üzerinden canlı model listesi, varsayılan olarak DeepSeek V4.1 Flash ve reasoning_effort olarak gönderilen Hermes akıl yürütme ayarları. Bilgilendirme: model sağlayıcıdır; promptlar, araç şemaları ve RUNCRATE_API_KEY api.runcrate.ai adresine gider ve ücretsiz istekler, kendi şartları altında üçüncü taraf model sağlayıcılar tarafından sunulabilir (runcrate.ai/privacy)."
 maintainer: runcrateai
 tier: community
 category: models

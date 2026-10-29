@@ -2,6 +2,7 @@ name: jev-cron-gate
 repo: https://github.com/superlowburn/hermes-jev-cron-gate
 sha: cfd999802bd8d6eb25b986f128323fae0572429c
 description: "Skip agent cron runs that would do nothing: a pre-run wake-gate script asks TypeSafe Jev one yes/no question over a small state snapshot (files, changed-since-last-run, localhost URLs) and prints {\"wakeAgent\": false} when it is confident the run is pointless. Fail-open on every error, forced wake after N consecutive skips, stdlib only. Disclosure — each gated cron tick (and the tool's test action) sends the configured snapshot of file contents, localhost URL response bodies and change flags (≤6,000 chars) to api.typesafe.ai with your TypeSafe key."
+description_tr: "Hiçbir iş yapmayacak ajan cron koşularını atlayın: bir koşu öncesi uyandırma kapısı betiği, küçük bir durum anlık görüntüsü (dosyalar, son koşudan bu yana değişenler, localhost adresleri) üzerinden TypeSafe Jev'e tek bir evet/hayır sorusu sorar ve koşunun işe yaramadığından emin olduğunda {\"wakeAgent\": false} yazdırır. Her hatada açık kalır, N ardışık atlamadan sonra zorla uyandırır, yalnızca standart kitaplık kullanır. Açıklama — kapıya takılan her cron tetiklemesi (ve aracın test eylemi), yapılandırılan dosya içerikleri, localhost URL yanıt gövdeleri ve değişiklik bayrakları anlık görüntüsünü (≤6.000 karakter) TypeSafe anahtarınızla api.typesafe.ai adresine gönderir."
 maintainer: superlowburn
 tier: community
 category: automation

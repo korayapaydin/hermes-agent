@@ -1,6 +1,7 @@
 ---
 name: pretext
 description: Build creative browser demos with DOM-free text layout.
+description_tr: "DOM'suz metin düzeniyle yaratıcı tarayıcı demoları kur."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

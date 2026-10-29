@@ -2,6 +2,7 @@ name: linkup
 repo: https://github.com/LinkupPlatform/linkup-hermes-plugin
 sha: d83d1162f2941e51bb4cbf34841b4c6b3305081c
 description: "Linkup web search: live cited search (fast/standard/deep), URL-to-Markdown fetch with JS rendering, async deep research, and a Linkup backend for the built-in web_search / web_extract tools. Disclosure — sends search queries, fetch URLs and research briefs to api.linkup.so with your LINKUP_API_KEY (Linkup fetches pages server-side); when selected with hermes linkup use-as-web-backend it also handles the built-in web_search and web_extract calls; large fetched pages are cached under $HERMES_HOME/cache/linkup for 24 hours."
+description_tr: "Linkup web araması: canlı ve atıflı arama (fast/standard/deep), JS işleme ile URL'den Markdown'a getirme, asenkron derin araştırma ve yerleşik web_search / web_extract araçları için bir Linkup arka ucu. Açıklama — arama sorgularını, getirme URL'lerini ve araştırma özetlerini LINKUP_API_KEY'inizle api.linkup.so adresine gönderir (Linkup sayfaları sunucu tarafında getirir); hermes linkup use-as-web-backend ile seçildiğinde yerleşik web_search ve web_extract çağrılarını da yürütür; getirilen büyük sayfalar $HERMES_HOME/cache/linkup altında 24 saat önbelleklenir."
 maintainer: LinkupPlatform
 tier: community
 category: web

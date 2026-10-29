@@ -1,6 +1,7 @@
 ---
 name: dcf-model
 description: Build discounted cash flow valuation workbooks in Excel.
+description_tr: "Excel'de indirgenmiş nimet akışı değerleme modeli kur."
 version: 1.0.0
 author: Anthropic (adapted by Nous Research)
 license: Apache-2.0

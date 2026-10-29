@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: fireflies
 description: Meeting transcripts, summaries, and action items.
+description_tr: "Toplantı transkriptleri, özetler ve eylem maddeleri."
 source: https://docs.fireflies.ai/getting-started/mcp-configuration
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

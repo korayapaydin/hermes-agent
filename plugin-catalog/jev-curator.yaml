@@ -13,6 +13,7 @@ description: >-
   sent to the configured TypeSafe, OpenRouter, or custom Jev endpoint and may
   spend provider credits. Automatic refreshes never apply mutations, and
   missing, stale, or incomplete evidence fails closed.
+description_tr: "Hermes'in yerleşik Yetenek Yöneticisi için TypeSafe Jev anlamsal yönetişimi: eksiksiz yetenek paketleri arasındaki ilişkileri sınıflandırır, içerik karmasına bağlı ve hata durumunda kapalı kalan birleştirme planları üretir ve arka plandaki yıkıcı skill_manage çağrılarını yerelde korurken Hermes yedeklemeleri ve değişiklikler üzerindeki denetimi korur. Profil kapsamlı 60 saniyelik yaşam döngüsü debounce'u, yetenek değişikliklerini kuru yenilemelerde birleştirir. Açıklama — varsayılan olarak hiçbir dışa aktarım olmaz; allow_content_egress açıkça etkinleştirildikten sonra, maskelenmiş sınırlı yetenek içeriği yapılandırılan TypeSafe, OpenRouter ya da özel Jev uç noktasına gönderilir ve sağlayıcı kredileri harcanabilir. Otomatik yenilemeler hiçbir zaman değişiklik uygulamaz; eksik, eskimiş ya da tamamlanmamış kanıtlar kapalı biçimde başarısız olur."
 maintainer: anpicasso
 tier: community
 category: automation

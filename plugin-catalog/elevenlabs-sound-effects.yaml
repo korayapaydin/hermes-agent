@@ -13,6 +13,7 @@ description: 'ElevenLabs sound effects for Hermes: one tool, elevenlabs_sound_ef
   ElevenLabs account. Only the sound description and its parameters are sent, to api.elevenlabs.io (or the
   data-residency endpoint you set). Files are written to cache/generated/audio under the Hermes home and
   never overwritten. One Python dependency (httpx, already part of Hermes).'
+description_tr: "Hermes için ElevenLabs ses efektleri: Metin açıklamasını (\"fayans zeminde kırılan cam\", \"90'lar hip-hop davul döngüsü, 90 BPM\") 0,5 ila 30 saniye uzunluğunda, isteğe bağlı olarak kesintisiz bir döngüye dönüştüren ve bunu sohbette size gönderen tek bir araç, elevenlabs_sound_effect. Yerel bir ffmpeg betiği (kırpma, yüksek ses, mono, döngü düzeltme, oyun varyasyon paketleri) ile bir ses tasarımı yeteneğini ve Hermes Desktop'ta satır içi bir ses kartı ile bir ses kütüphanesi sekmesini paketler. Model, ses formatı ve uç nokta eklenti ayarlarıdır. Açıklama: ElevenLabs API anahtarınızı (ELEVENLABS_API_KEY, Hermes'in ElevenLabs sesiyle aynı anahtar; kısıtlı bir anahtar Ses Efektleri izni gerektirir) kullanır; her çağrı ElevenLabs hesabunuza faturalandırılan ücretli bir üretimdir. Yalnızca ses açıklaması ve parametreleri api.elevenlabs.io (veya ayarladığınız veri yerleşimi uç noktası) adresine gönderilir. Dosyalar, Hermes ana dizini altındaki cache/generated/audio yoluna yazılır ve asla üzerine yazılmaz. Bir Python bağımlılığı (httpx, zaten Hermes'in parçasıdır)."
 maintainer: NousResearch
 tier: official
 category: tools

@@ -8,6 +8,7 @@ description: "NVIDIA Broadcast control through its local MCP gateway: camera, mi
   refused when the app is absent, and the tools appear while NVIDIA Broadcast is running in the user's
   desktop session. Disclosure: the tools change live audio and video effects on this machine; nothing
   leaves loopback."
+description_tr: "Yerel MCP ağ geçidi üzerinden NVIDIA Broadcast denetimi: kamera, mikrofon ve hoparlör efektleri, Studio Voice profilleri, cihaz seçimi, kamera çözünürlüğü ve yerel medya dosyaları üzerinde efektler. Windows'ta NVIDIA Broadcast 2.3 ya da daha yeni bir sürüm gerekir (2.2 ve daha eskilerinde ağ geçidi yoktur); uygulama yoksa kurulum reddedilir ve araçlar NVIDIA Broadcast kullanıcının masaüstü oturumunda çalışırken görünür. Açıklama — araçlar bu makinede canlı ses ve görüntü efektlerini değiştirir; hiçbir şey döngü dışına çıkmaz."
 title: NVIDIA Broadcast
 maintainer: NousResearch
 tier: verified

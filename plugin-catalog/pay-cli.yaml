@@ -12,6 +12,7 @@ description: 'Discover priced APIs and pay per request (HTTP 402, x402, MPP) in 
   payment is confirmed by the user through MCP elicitation (PAY_FORCE_ELICITATION=1, declined when
   nobody can answer) and the server is marked untrusted; every profile using the plugin shares the
   same local wallet.'
+description_tr: "Fiyatlandırılmış API'leri keşfedin ve istek başına ödeme yapın (HTTP 402, x402, MPP) — resmi Pay CLI'ın yerel `pay mcp` stdio sunucusu üzerinden, bu makinedeki bir cüzdanın stabilcoinleriyle; pay iş akışı yeteneği paketle birlikte gelir. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/), Python veya çalıştırılabilir dosya yok; kullanıcı önce `pay` CLI'ı (brew veya npm) kurar ve `pay setup` çalıştırır, sunucu yalnızca `pay` PATH'te bulunduğu sürece sunulur. Açıklama — pay.sh için ödemeler eklentisi: Hermes, `pay mcp` komutunu uzun süre çalışan yerel bir süreç olarak başlatır; curl aracı yerel cüzdanın stabilcoin bakiyesini harcar; her ödeme kullanıcı tarafından MCP elicitation yoluyla onaylanır (PAY_FORCE_ELICITATION=1, kimse yanıt veremediğinde reddedilir) ve sunucu güvenilmez (untrusted) olarak işaretlenir; eklentiyi kullanan her profil aynı yerel cüzdanı paylaşır."
 maintainer: solana-foundation
 tier: verified
 category: tools

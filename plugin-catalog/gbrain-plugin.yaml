@@ -2,6 +2,7 @@ name: gbrain-plugin
 repo: https://github.com/kerrz2020/hermes-gbrain
 sha: 51f5b558e00aa3ea412801d423f436fdd43385ec
 description: "Community (non-official) plugin wiring GBrain (garrytan/gbrain, MIT) into Hermes as a local memory layer over MCP: /gbrain status command, desktop starter, and per-profile Postgres setup/update/maintenance scripts. Not affiliated with upstream. Disclosure — the plugin itself only adds a /gbrain status command and a Desktop pane; GBrain is installed by the user via scripts/setup.sh, which installs bun (curl|bash), an unpinned gbrain from GitHub HEAD, and provisions PostgreSQL with sudo."
+description_tr: "GBrain'ı (garrytan/gbrain, MIT) Hermes'e yerel bir bellek katmanı olarak bağlayan topluluk (resmî olmayan) eklenti: /gbrain status komutu, masaüstü başlatıcısı ve profile özgü Postgres kurulum/güncelleme/bakım betikleri. Upstream ile bağlantılı değildir. Açıklama — eklentinin kendisi yalnızca bir /gbrain status komutu ve bir Desktop bölmesi ekler; GBrain, kullanıcı tarafından scripts/setup.sh ile kurulur; bu betik Bun'ı (curl|bash), GitHub HEAD'den sabitlenmemiş bir gbrain'i kurar ve sudo ile PostgreSQL hazırlar."
 maintainer: kerrz2020
 tier: community
 category: memory

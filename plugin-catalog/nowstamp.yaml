@@ -2,6 +2,7 @@ name: nowstamp
 repo: https://github.com/zakiyys/hermes-nowstamp
 sha: 26148cca897f0798ca2cfc035e9eb2e00349bcf8
 description: Give the agent a clock. Appends the current date and time, plus the real gap since the previous message, to every user turn. Optional spaced-out timestamps on tool results for long runs.
+description_tr: "Ajana bir saat verin. Her kullanıcı turuna, önceki mesajdan bu yana gerçek farkla birlikte, güncel tarihi ve saati ekler. Uzun koşular için araç sonuçlarında isteğe bağlı aralıklı zaman damgaları."
 maintainer: zakiyys
 tier: community
 category: general

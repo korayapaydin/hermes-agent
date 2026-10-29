@@ -4,6 +4,7 @@ sha: 57cbd4d23eba978dc9a53ab6387a84c336992b74
 description: Today's git digest in the current repo, plus the last failed terminal
   command the Hermes agent ran. Desktop pane, status chip, optional local LLM
   summary. Does not watch OS or editor terminals.
+description_tr: "Geçerli depodaki bugünün git özeti ve Hermes ajanının çalıştırdığı son başarısız terminal komutu. Masaüstü paneli, durum çipi, isteğe bağlı yerel LLM özeti. İşletim sistemi ya da düzenleyici terminallerini izlemez."
 maintainer: aydnOktay
 tier: community
 category: desktop

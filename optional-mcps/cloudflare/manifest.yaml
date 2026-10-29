@@ -5,6 +5,7 @@ manifest_version: 1
 name: cloudflare
 connector_slug: cloudflare_mcp
 description: Full Cloudflare API access via the official remote MCP.
+description_tr: "Resmî uzak MCP üzerinden Cloudflare API'sine tam erişim."
 source: https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/
 
 # Cloudflare's official API MCP server (github.com/cloudflare/mcp) is a

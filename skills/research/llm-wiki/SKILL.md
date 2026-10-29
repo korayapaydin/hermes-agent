@@ -1,6 +1,7 @@
 ---
 name: llm-wiki
 description: "Karpathy's LLM Wiki: build/query interlinked markdown KB."
+description_tr: "Karpathy LLM Wiki: bağlantılı markdown KB kur ve sorgula."
 version: 2.1.0
 author: Hermes Agent
 license: MIT

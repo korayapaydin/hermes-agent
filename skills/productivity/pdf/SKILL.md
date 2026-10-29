@@ -1,6 +1,7 @@
 ---
 name: pdf
 description: "PDF files: create, read, merge, fill, OCR, edit text."
+description_tr: "PDF: oluştur, oku, birleştir, doldur, OCR, metin düzenle."
 version: 1.1.0
 author: Nous Research
 license: MIT

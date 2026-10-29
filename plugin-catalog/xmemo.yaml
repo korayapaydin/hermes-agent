@@ -10,6 +10,7 @@ description: >-
   partitioned by a hashed account identity; reads the key from XMEMO_KEY (also MEMORY_OS_API_KEY / MEMORY_OS_MCP_TOKEN)
   and, if none is set, falls back to the xmemo login token in ~/.config/xmemo/credentials.json (a catalog rule 11
   deviation kept for existing users); workflow and destructive tools and timeline capture are off by default and opt-in.
+description_tr: "Hermes Agent için yerel XMemo bellek sağlayıcısı — dayanıklı, kimlik farkındalıklı, oturumlar arası bellek ve anlamsal arama. Açıklama — bulut bellek sağlayıcısı: her kullanıcı istemini (hatırlama ve arama araçları için), model tarafından yazılan anıları ve yansıtılan yerleşik Hermes bellek yazımlarını, ayrıca sabit bir kurulum kimliğini xmemo.dev (Yonro Co., Ltd.) adresine gönderir; hatırlanan sonuçların yerel bir SQLite önbelleğini ve gönderilmemiş yazımların kuyruğunu $HERMES_HOME/xmemo_cache.db içinde, karma bir hesap kimliğine göre bölümlenmiş olarak tutar; anahtarı XMEMO_KEY (ayrıca MEMORY_OS_API_KEY / MEMORY_OS_MCP_TOKEN) üzerinden okur ve hiçbiri ayarlanmamışsa ~/.config/xmemo/credentials.json içindeki xmemo oturum açma token'ına geri döner (mevcut kullanıcılar için mevcut kullanıcılar için korunan bir katalog kuralı 11 istisnası); iş akışı ve yıkıcı araçlar ile zaman çizelgesi yakalama varsayılan olarak kapalıdır ve isteğe bağlıdır."
 maintainer: yonro
 tier: community
 category: memory

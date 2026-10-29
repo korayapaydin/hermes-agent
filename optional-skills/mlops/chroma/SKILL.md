@@ -1,6 +1,7 @@
 ---
 name: chroma
 description: Embedding database for RAG and semantic search.
+description_tr: "RAG ve anlamsal arama için gömme veritabanı."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

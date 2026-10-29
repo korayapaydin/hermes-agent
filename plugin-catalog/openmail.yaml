@@ -3,6 +3,7 @@ repo: https://github.com/openmailsh/hermes-plugin
 sha: 4035b7d1f8775304443f60f67bcd636acb1a325d
 description: Gives a Hermes agent its own email address. Inbound mail wakes the agent over a websocket,
   replies go out in-thread, plus tools for sending, reading and provisioning inboxes.
+description_tr: "Bir Hermes ajanına kendi e-posta adresini verir. Gelen posta ajanı bir websocket üzerinden uyandırır, yanıtlar aynı zincir içinde gider, ayrıca gönderme, okuma ve posta kutusu sağlama araçları vardır."
 maintainer: openmailsh
 tier: community
 category: platform

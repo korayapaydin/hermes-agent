@@ -1,6 +1,7 @@
 ---
 name: qdrant
 description: Vector search engine for production RAG systems.
+description_tr: "Üretim RAG sistemleri için vektör arama motoru."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

@@ -1,6 +1,7 @@
 ---
 name: powerpoint
 description: Create, read, edit .pptx decks with python-pptx.
+description_tr: "python-pptx ile .pptx sunum oluştur, oku, düzenle."
 version: 1.1.0
 author: Nous Research
 license: MIT

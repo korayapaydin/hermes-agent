@@ -2,6 +2,7 @@ name: prompt-snippets
 repo: https://github.com/Heybinshao/prompt-snippets
 sha: a6ecc3f73a1ccb7f003f498ca950c525d0537222
 description: "Prompt snippet library for the Hermes Desktop composer: a quick-pick overlay styled after the app's own slash menu (own shortcut), plus a management view with drag reordering, group tags and import/export. Inserts into the focused session, not the active one. UI in EN / 简中 / 繁體. v1.8.0 is fully SDK-only: the quick-pick overlay renders as an official Popover anchored to the plugin's own contributed node and all draft writes go through the host composer draft API. No local network; v1.6.0+ adds local JSON import/export via the system clipboard."
+description_tr: "Hermes Desktop yazma alanı için istem parçası kitaplığı: uygulamanın kendi bölüm menüsünden esinlenen bir hızlı seçim katmanı (kendi kısayolu) ve sürükle-ayarak sıralama, grup etiketleri ile içe/içe aktarma içeren bir yönetim görünümü. Odaktaki oturuma ekler, etkin oturuma değil. Arayüz EN / 简中 / 繁體 dillerinde. v1.8.0 tamamen SDK tabanlıdır: hızlı seçim katmanı, eklentinin kendi koyduğu düğüme çıpalı resmî bir Popover olarak çizilir ve tüm taslak yazımları konak yazma alanı taslak API'si üzerinden geçer. Yerel ağ yok; v1.6.0+ sistem pano aracılığıyla yerel JSON içe/içe aktarma ekler."
 maintainer: Heybinshao
 tier: community
 category: desktop

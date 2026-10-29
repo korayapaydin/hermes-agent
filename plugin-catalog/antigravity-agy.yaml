@@ -12,6 +12,7 @@ description: >-
   default the plugin moves the agy conversation records created by its own idle pre-warmed processes under
   ~/.gemini/antigravity-cli/ to the trash (trash-put from PATH; ANTIGRAVITY_AGY_CLEANUP=off disables) and pre-warms up
   to 4 idle agy processes (~400 MB each).
+description_tr: "Hermes'i resmî agy CLI'si üzerinden bir Google Antigravity aboneliğiyle çalıştırın; model yalnızca agy'dir: oluşturulan özel bir ajan agy'nin yerleşik araçlarını kaldırır, Hermes araçları yalnızca envanter sunan bir MCP sunucusuyla yerel işlev çağırma desteğiyle açılır ve her araç çağrısı Hermes'e geri verilir. Hermes dışındaki her araç adımında ya da sessiz ajan geri düşüşünde kapalı hâlde başarısız olur; hızlı araç döngüleri için agy'yi önden ısıtır. Açıklama — çıkarımı Google'ın resmî agy CLI'si üzerinden yönlendirir ve agy'nin oturum açtığı Antigravity/Gemini aboneliğine sayılır; eklenti agy'nin kimlik bilgisi dosyalarını asla okumaz, kopyalamaz ya da bağlantılamaz. agy, gerçek HOME dizininizde ağ geçidinin ortamıyla çalışır; eklenti varsayılan olarak kendi boşta önceden ısıtılmış süreçlerinin oluşturduğu agy görüşme kayıtlarını ~/.gemini/antigravity-cli/ altından çöp kutusuna taşır (PATH'teki trash-put; ANTIGRAVITY_AGY_CLEANUP=off devre dışı bırakır) ve en fazla 4 boşta agy sürecini (her biri ~400 MB) önceden ısıtır."
 maintainer: Realtyxxx
 tier: community
 category: models

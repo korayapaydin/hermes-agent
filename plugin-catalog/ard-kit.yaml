@@ -7,6 +7,7 @@ description: Agentic Resource Discovery — search a local tool catalog by inten
   keys and no environment variables read by the MCP front, which ranks a catalog JSON on disk; no
   catalog ships in the repo, so the first call returns an explicit error naming the
   `python -m ard_kit.catalogize` command that builds one.
+description_tr: "Ajan tabanlı kaynak keşfi — yerel bir araç kataloğunu niyete göre arayın ve çağırma komutunu almak için bir girdiyi inceleyin. ard-registry yeteneğiyle ve bir stdio MCP sunucusuyla gelir (ard_search / ard_inspect / ard_verify); yalnızca standart kitaplık kullanır, çalıştırma yerelde kalır. Açıklama — ağ çıkışı yok, API anahtarı yok ve diskteki bir katalog JSON'unu sıralayan MCP ön yüzü tarafından okunan ortam değişkeni yok; depoda hiçbir katalog gelmez, bu yüzden ilk çağrı bir katalog oluşturan `python -m ard_kit.catalogize` komutunu adlandıran açık bir hata döndürür."
 maintainer: ameobius-ai
 tier: community
 category: tools

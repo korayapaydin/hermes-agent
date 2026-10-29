@@ -2,6 +2,7 @@ name: chutes-provider
 repo: https://github.com/TheStreamCode/hermes-chutes-provider
 sha: d1165cdd5c65a1179c559e9169a428adb9a36b42
 description: "Chutes model provider for Hermes Agent via API key. Disclosure — model provider; prompts, tool schemas and CHUTES_API_KEY go to llm.chutes.ai (or CHUTES_BASE_URL), plus a GET /models catalog probe with the same key"
+description_tr: "API anahtarıyla Hermes Agent için Chutes model sağlayıcısı. Açıklama — model sağlayıcısı; prompt'lar, araç şemaları ve CHUTES_API_KEY llm.chutes.ai (veya CHUTES_BASE_URL) adresine gider, ayrıca aynı anahtarla bir GET /models katalog yoklaması yapılır."
 maintainer: TheStreamCode
 tier: community
 category: models

@@ -4,6 +4,7 @@ repo: https://github.com/TREE-Ind/hermes-aac
 sha: 45d855ff2d8f448e1f98b62870aa72c3a02ea013
 subdir: ""
 description: "Communication boards, explicit speech, switch scanning and reviewed AI proposals for Hermes Desktop. Disclosure — Desktop-only page; Speak sends your message text through the Hermes gateway to the TTS provider configured in Hermes (cloud providers receive it) and the audio plays on the gateway host, which may be remote; the AI helpers open a separate Hermes chat session per request and send your topic or message as a normal agent turn on your model provider; saved phrases and approved boards are kept in plaintext in the plugin's Desktop storage."
+description_tr: "Hermes Desktop için iletişim panoları, açık konuşma, anahtar taraması ve incelenmiş YZ önerileri. Açıklama — Yalnızca Desktop sayfası; Konuş, mesaj metninizi Hermes ağ geçidi üzerinden Hermes'te yapılandırılmış metinden sese sağlayıcısına gönderir (bulut sağlayıcıları bunu alır) ve ses, uzak olabilecek ağ geçidi konağında çalar; YZ yardımcıları istek başına ayrı bir Hermes sohbet oturumu açar ve konunuzu veya mesajınızı model sağlayıcınızda normal bir ajan turu olarak gönderir; kaydedilen ifadeler ve onaylanmış panolar eklentinin Desktop deposunda düz metin olarak tutulur."
 maintainer: TREE-Ind
 tier: community
 category: desktop

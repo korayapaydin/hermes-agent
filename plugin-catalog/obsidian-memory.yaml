@@ -3,6 +3,7 @@ repo: https://github.com/kyssta-exe/hermes-obsidian-memory
 sha: 11239984e82caa6dbf02106ce315e3019368b5fc
 description: Browse, search, and edit Obsidian vault notes from the Hermes dashboard. Features force-directed
   graph visualization, multi-vault support, markdown rendering with wikilinks, and inline note editing.
+description_tr: "Obsidian kasenizin notlarını Hermes panosundan inceleyin, arayın ve düzenleyin. Kuvvet yönlendirmeli graf görselleştirmesi, çoklu kasa desteği, wikilink'lerle Markdown işleme ve satır içi not düzenleme özellikleri."
 maintainer: kyssta-exe
 tier: community
 category: desktop

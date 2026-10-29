@@ -6,6 +6,7 @@ name: asana
 connector_slug: asana
 description: >-
   Tasks, projects, and goals from your Asana workspace.
+description_tr: "Asana çalışma alanınızdaki görevler, projeler ve hedefler."
 source: https://developers.asana.com/docs/integrating-with-asanas-mcp-server
 
 # Asana's V2 remote MCP (Streamable HTTP). The V1 beta endpoint

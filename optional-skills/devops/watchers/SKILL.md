@@ -1,6 +1,7 @@
 ---
 name: watchers
 description: Poll RSS, JSON APIs, and GitHub with watermark dedup.
+description_tr: "RSS, JSON API ve GitHub'ı filigranla tekilleştirerek izle."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

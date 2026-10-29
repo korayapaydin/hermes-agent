@@ -1,6 +1,7 @@
 ---
 name: inspecting-hermes-desktop-dom
 description: "Read the live Hermes desktop DOM/CSS over CDP."
+description_tr: "Canlı Hermes masaüstü DOM/CSS'i CDP ile oku."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

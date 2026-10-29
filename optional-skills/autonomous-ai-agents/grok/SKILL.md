@@ -1,6 +1,7 @@
 ---
 name: grok
 description: "Delegate coding to xAI Grok Build CLI (features, PRs)."
+description_tr: "Kodlamayı xAI Grok Build CLI'ye devret (özellik, PR)."
 version: 0.1.1
 author: Matt Maximo (MattMaximo), Hermes Agent
 license: MIT

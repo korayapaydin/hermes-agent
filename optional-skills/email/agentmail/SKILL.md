@@ -1,6 +1,7 @@
 ---
 name: agentmail
 description: Use when an agent needs AgentMail CLI email inboxes.
+description_tr: "Ajanın AgentMail CLI e-posta kutusu gerektiğinde."
 version: 1.0.0
 author: Haakam Aujla (Haakam21), AgentMail
 license: MIT

@@ -1,6 +1,7 @@
 ---
 name: hermes-agent-skill-authoring
 description: "Author in-repo SKILL.md files: frontmatter and structure."
+description_tr: "Depo içi SKILL.md yazımı: frontmatter ve yapı."
 version: 2.0.0
 author: Hermes Agent
 license: MIT

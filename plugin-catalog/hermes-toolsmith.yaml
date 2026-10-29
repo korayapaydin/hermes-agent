@@ -4,6 +4,7 @@ sha: 419669c1efd49513cc404f5503c99b61ed68593f
 version: "1.0.1"
 image: https://raw.githubusercontent.com/Adolanium/hermes-toolsmith/419669c1efd49513cc404f5503c99b61ed68593f/assets/catalog-banner.png
 description: Local developer tools, transformation recipes, and reviewed chat handoff inside Hermes Desktop.
+description_tr: "Hermes Desktop içinde yerel geliştirici araçları, dönüşüm tarifleri ve incelenmiş sohbet devri."
 maintainer: Adolanium
 tier: community
 category: desktop

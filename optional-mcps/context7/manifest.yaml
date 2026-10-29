@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: context7
 description: Up-to-date, version-specific library docs and code examples.
+description_tr: "Güncel, sürüme özgü kütüphane belgeleri ve kod örnekleri."
 source: https://context7.com/docs/resources/all-clients
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

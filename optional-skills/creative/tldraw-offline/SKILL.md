@@ -1,6 +1,7 @@
 ---
 name: tldraw-offline
 description: Drive and script tldraw offline canvases with an agent.
+description_tr: "tldraw çevrimdışı tuvalini ajanla sür ve betimle."
 version: 1.0.0
 author: Teknium + Hermes Agent
 license: MIT

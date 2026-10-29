@@ -1,6 +1,7 @@
 ---
 name: unbroker
 description: Remove your info from data-broker sites, by name or phone.
+description_tr: "Bilginizi veri aracısı sitelerinden otomatik kaldır."
 version: 1.0.0
 author: SHL0MS (github.com/SHL0MS)
 license: MIT

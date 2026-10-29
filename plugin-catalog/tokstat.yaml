@@ -2,6 +2,7 @@ name: tokstat
 repo: https://github.com/heerey525/tokstat
 sha: 5c11db13bd8ddba5fb958f07bce564efd947ce71
 description: "Live token usage in the Hermes Desktop status bar: cumulative total, a real-time this-turn counter, last-turn delta, context occupancy, and prompt-cache hit rate. Event-driven (no polling, no RPC); English and Chinese, follows the app locale."
+description_tr: "Hermes Desktop durum çubuğunda canlı token kullanımı: kümülatif toplam, gerçek zamanlı bu tur sayacı, son tur farkı, bağlam doluluğu ve istem önbelleği isabet oranı. Olay tabanlı (yoklama yok, RPC yok); İngilizce ve Çince, uygulamanın dilini izler."
 maintainer: heerey525
 tier: community
 category: desktop

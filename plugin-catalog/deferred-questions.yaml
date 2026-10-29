@@ -2,6 +2,7 @@ name: deferred-questions
 repo: https://github.com/web3blind/hermes-deferred-questions
 sha: eeb86254725e8ba0d599f85d25c63488efd06364
 description: "Durable non-blocking questions with exact answer binding and gateway continuation. Disclosure — its pre_gateway_dispatch hook sees every gateway message and consumes only `dq <id> …` answers from the stored recipient; with `enable_tool` on, the model can send questions to any chat the gateway already authorizes, and a question marked continue_agent resumes that chat's agent with the user's answer; questions and answers are stored unencrypted in $HERMES_HOME/deferred-questions/questions.sqlite3; it calls private gateway and adapter methods, so a Hermes update can break delivery until it is re-pinned."
+description_tr: "Kalıcı, engellemeyen sorular; kesin yanıt bağlama ve ağ geçidi devamıyla. Açıklama — pre_gateway_dispatch hook'u her ağ geçidi mesajını görür ve yalnızca saklanan alıcıdan gelen `dq <id> ` yanıtlarını tüketir; `enable_tool` açıkken model, ağ geçidinin zaten yetkilendirdiği herhangi bir sohbete soru gönderebilir ve continue_agent olarak işaretlenen bir soru, o sohbetin ajanını kullanıcının yanıtıyla sürdürür; sorular ve yanıtlar $HERMES_HOME/deferred-questions/questions.sqlite3 içinde şifrelenmemiş olarak saklanır; özel ağ geçidi ve bağdaştırıcı yöntemlerini çağırır, bu nedenle bir Hermes güncellemesi yeniden sabitlenene kadar teslimi bozabilir."
 maintainer: web3blind
 tier: community
 category: automation

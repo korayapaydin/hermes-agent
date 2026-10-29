@@ -3,6 +3,7 @@ title: Minimizer
 repo: https://github.com/nosliwhtes/hermes-minimizer
 sha: d209ed0824e2787cd6454bd4b060dbf0381b7b79
 description: "YAGNI coding and code-review guidance for Hermes: reduce over-engineering, reuse existing behavior, and preserve requirements. One static prompt section; no tools or hooks."
+description_tr: "Hermes için YAGNI kodlama ve kod inceleme rehberliği: aşırı mühendisliği azaltın, mevcut davranışı yeniden kullanın ve gereksinimleri koruyun. Tek bir statik istem bölümü; araç veya hook yok."
 maintainer: nosliwhtes
 tier: community
 category: general

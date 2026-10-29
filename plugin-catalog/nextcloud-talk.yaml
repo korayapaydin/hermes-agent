@@ -4,6 +4,7 @@ repo: https://github.com/Cliff3c/hermes-nextcloud-talk
 sha: 0df0679d1ed28c2087774fea9ae646a858e7ed70
 subdir: plugin
 description: "Signed Nextcloud Talk bot webhooks and text replies for Hermes, with JSON/XML OCS support. Disclosure — runs an HTTP webhook listener (default 0.0.0.0:8788, HMAC-verified with the bot secret) and sends messages and optional Basic-auth room lookups to your Nextcloud server; registers the `nextcloud_talk` gateway platform."
+description_tr: "Hermes için imzalı Nextcloud Talk bot webhook'ları ve metin yanıtları, JSON/XML OCS desteğiyle. Açıklama — bir HTTP webhook dinleyicisi çalıştırır (varsayılan 0.0.0.0:8788, bot sırrıyla HMAC doğrulamalı) ve mesajları ve isteğe bağlı Basic kimlik doğrulamalı oda sorgularını Nextcloud sunucunuza gönderir; `nextcloud_talk` ağ geçidi platformunu kaydeder."
 maintainer: Cliff3c
 tier: community
 category: platform

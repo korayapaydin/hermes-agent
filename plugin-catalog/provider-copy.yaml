@@ -6,6 +6,7 @@ description: Copy provider API keys (and provider base-URL overrides) from one p
   other profiles — a one-time, explicit copy from a desktop page. Per-profile missing/present
   badges, fill-missing by default with an explicit overwrite opt-in. OAuth sign-ins and
   messaging bot tokens never travel; values never cross back in responses.
+description_tr: "Sağlayıcı API anahtarlarını (ve sağlayıcı temel adres geçersiz kılmalarını) bir profilden diğer profillere kopyalayın — masaüstündeki bir sayfadan tek seferlik, açık bir kopyalama. Profil başına eksik/mevcut rozetleri, açık bir üzerine yazma opt-in'i ile varsayılan olarak eksikleri doldurma. OAuth girişleri ve mesajlaşma bot jetonları asla taşınmaz; değerler yanıtlarda asla geri dönmez."
 maintainer: tobenwarrior
 tier: community
 category: desktop

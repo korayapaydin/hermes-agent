@@ -1,6 +1,7 @@
 ---
 name: rss-feeds
 description: "Read RSS, Atom, JSON feeds; discover feeds behind a page."
+description_tr: "RSS, Atom, JSON akışlarını oku, sayfa arkasını keşfet."
 version: 1.0.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

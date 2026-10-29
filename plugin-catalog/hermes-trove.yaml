@@ -8,6 +8,7 @@ description: >-
   secret redaction OFF by default; with TROVE_EMBEDDING_PROVIDER=voyage, transcript text is sent
   to Voyage AI for embeddings; as a fallback it reads private AIAgent attributes read-only via
   frame inspection. No other network egress.
+description_tr: "Hiçbir mesajı kaybetmeyen DAG tabanlı bağlam motoru — tam metin arama, anlamsal geri çağırma, iddia destekli kanıt derleme ve yanıt öncesi yeterlilik denetimi. Açıklama — bağlam motorunu değiştirir ve her turun tam ham transkriptini HERMES_HOME/trove.db içinde, gizli bilgi redaksiyonu varsayılan olarak KAPALI şekilde saklar; TROVE_EMBEDDING_PROVIDER=voyage ile transkript metni gömme vektörleri için Voyage AI'ya gönderilir; yedek olarak, özel AIAgent niteliklerini çerçeve incelemesiyle salt okunur biçimde okur. Başka ağ çıkışı yoktur."
 maintainer: misterdas
 tier: community
 category: general

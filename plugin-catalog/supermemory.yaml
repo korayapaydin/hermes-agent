@@ -4,6 +4,7 @@ sha: 91405dd00fdf2a0b3515b25c25557598f6793299
 version: "1.0.1"
 description: Supermemory semantic long-term memory provider — profile recall, semantic search, explicit
   memory tools, and per-turn conversation capture. Maintained by Supermemory; the same provider that shipped in-tree.
+description_tr: "Supermemory anlamsal uzun süreli bellek sağlayıcısı — profil geri çağırma, anlamsal arama, açık bellek araçları ve tur başına konuşma yakalama. Supermemory tarafından sürdürülür; ağaç içinde gelen sağlayıcının aynısıdır."
 maintainer: supermemoryai
 tier: community
 category: memory

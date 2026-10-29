@@ -1,6 +1,7 @@
 ---
 name: architecture-diagram
 description: "Dark-themed SVG architecture/cloud/infra diagrams as HTML."
+description_tr: "Koyu temalı SVG mimari/bulut/altyapı diyagramları (HTML)."
 version: 1.0.0
 author: Cocoon AI (hello@cocoon-ai.com), ported by Hermes Agent
 license: MIT

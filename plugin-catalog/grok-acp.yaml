@@ -2,6 +2,7 @@ name: grok-acp
 repo: https://github.com/nicolasdmolina/hermes-grok-acp
 sha: 2851d6667be7f1a9044fee5006a382699d942c6f
 description: 'xAI Grok subscription as a Hermes model provider, driven over ACP stdio. Disclosure — spawns the vendor grok CLI found on PATH (grok agent over ACP stdio, plus grok models / grok login during setup) and drives your existing Grok subscription login; no API key is stored and Hermes provider secrets are stripped from the child environment.'
+description_tr: "ACP stdio üzerinden sürülen, Hermes model sağlayıcısı olarak xAI Grok aboneliği. Açıklama — PATH'te bulunan satıcı grok CLI'sını başlatır (ACP stdio üzerinden grok agent, ayrıca kurulum sırasında grok models / grok login) ve mevcut Grok abonelik oturumunuzu sürer; hiçbir API anahtarı saklanmaz ve Hermes sağlayıcı sırları alt süreç ortamından çıkarılır."
 maintainer: nicolasdmolina
 tier: community
 category: models

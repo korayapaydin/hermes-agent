@@ -3,6 +3,7 @@ repo: https://github.com/apoapostolov/hermes-agent-awesome-plugins
 sha: a503f2d3166f41bb0eacd7158150894da7eff14d
 subdir: public/better-session-appearance
 description: "Set a color for each session and show an idle glyph to make rows easier to scan."
+description_tr: "Her oturum için bir renk belirleyin ve satırların daha kolay taranması için boşta göstergesi gösterin."
 maintainer: apoapostolov
 tier: community
 category: desktop

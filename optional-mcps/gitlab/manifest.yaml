@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: gitlab
 description: 'GitLab: issues, merge requests, pipelines, and repo context.'
+description_tr: "GitLab: sorunlar, birleştirme istekleri, işlem hatları ve depo bağlamı."
 source: https://docs.gitlab.com/user/model_context_protocol/mcp_server/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

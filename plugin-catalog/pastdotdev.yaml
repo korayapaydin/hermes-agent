@@ -4,6 +4,7 @@ sha: 22f7abdd1e73bebda6f876cd1f07fe383c25ada4
 subdir: past_hermes
 version: "0.2.0"
 description: "past.dev memory provider: recall before each turn from source-traced memory of past conversations, with sessions sent to past.dev when they end. Maintained by past.dev. Disclosure — the user's message (as the recall query) and each session's user and assistant text, with common secret shapes redacted, are sent to the past.dev API (api.past.dev by default, or the address you configure) under your past project key, with a past-hermes/<version> User-Agent; the key and identity are read from PAST_API_KEY or ~/.past/config.json, which past.dev's other connectors share; off by default on messaging-gateway sessions."
+description_tr: "past.dev bellek sağlayıcısı: her turdan önce, geçmiş konuşmaların kaynak izini taşıyan bellekten geri çağırma yapılır ve oturumlar bittiğinde past.dev'e gönderilir. past.dev tarafından sürdürülür. Açıklama — kullanıcının mesajı (geri çağırma sorgusu olarak) ve her oturumun kullanıcı ve asistan metni, yaygın gizli bilgi biçimleri maskelenerek, past proje anahtarınız altında, past-hermes/<version> User-Agent ile past.dev API'sine (varsayılan olarak api.past.dev ya da yapılandırdığınız adres) gönderilir; anahtar ve kimlik, past.dev'in diğer bağlayıcılarının da paylaştığı PAST_API_KEY veya ~/.past/config.json dosyasından okunur; mesajlaşma ağ geçidi oturumlarında varsayılan olarak kapalıdır."
 maintainer: pastdotdev
 tier: community
 category: memory

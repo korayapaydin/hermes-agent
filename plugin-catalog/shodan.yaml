@@ -2,6 +2,7 @@ name: shodan
 repo: https://github.com/Adolanium/hermes-plugin-shodan
 sha: d12828e9c90654bca598d45832cee2ef6454cf30
 description: Shodan tools with complete capability declarations.
+description_tr: "Eksiksiz yetenek bildirimleriyle Shodan araçları."
 maintainer: Adolanium
 tier: community
 category: tools

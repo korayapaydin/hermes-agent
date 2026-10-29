@@ -13,6 +13,7 @@ description: >-
   requests go to the URL in CLOUDFLARE_WORKERS_AI_BASE_URL through Hermes' own client with
   CLOUDFLARE_WORKERS_AI_API_TOKEN, both read by Hermes per profile; the plugin itself opens no
   connections, reads and writes no files and starts no processes.
+description_tr: "Hermes model sağlayıcısı olarak Cloudflare Workers AI (`--provider workers-ai`, ya da `hermes model` komutunda Cloudflare Workers AI — token ve hesabın taban URL'sini ister): işlev çağırma ve 64K+ bağlam destekli 16 Workers AI modeli, Cloudflare'ın bağlam pencereleri (özel bir uç nokta model listelemez ve 128K gpt-oss için 256K varsayar), her modelin kabul ettiği biçimde akıl yürütme çabası ve ücretsiz planlı bir hesap ücretli planlı bir model seçtiğinde açık bir mesaj. Cloudflare ile bağlantılı değildir. Açıklama — içe aktarım sırasında tek bir model sağlayıcısı kaydeder, başka bir şey yapmaz (araç, hook, komut veya iş parçacığı yok); model listesi ve ayrıntıları yerleşiktir, bu nedenle bunları göstermek için hiçbir şey getirilmez; sohbet istekleri, Hermes'in kendi istemcisi aracılığıyla CLOUDFLARE_WORKERS_AI_BASE_URL içindeki URL'ye CLOUDFLARE_WORKERS_AI_API_TOKEN ile gider; her ikisi de Hermes tarafından profil başına okunur; eklentinin kendisi hiçbir bağlantı açmaz, dosya okumaz veya yazmaz ve süreç başlatmaz."
 maintainer: AhmetArif0
 tier: community
 category: models

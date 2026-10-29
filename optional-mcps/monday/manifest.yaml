@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: monday
 description: Boards, items, docs, and workflows in monday.com.
+description_tr: "monday.com'daki panolar, ögeler, belgeler ve iş akışları."
 source: https://developer.monday.com/apps/docs/mondaycom-mcp-integration
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

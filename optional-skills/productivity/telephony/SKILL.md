@@ -1,6 +1,7 @@
 ---
 name: telephony
 description: Provision Twilio numbers, SMS/MMS, and AI outbound calls.
+description_tr: "Twilio numarası, SMS/MMS ve AI giden araması sağla."
 version: 1.0.0
 author: Nous Research
 license: MIT

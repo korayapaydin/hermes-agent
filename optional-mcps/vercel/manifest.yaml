@@ -6,6 +6,7 @@ name: vercel
 connector_slug: vercel_mcp
 description: >-
   Deployments, logs, and projects via Vercel's hosted MCP.
+description_tr: "Vercel'in barındırdığı MCP üzerinden dağıtımlar, günlükler ve projeler."
 source: https://vercel.com/docs/mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

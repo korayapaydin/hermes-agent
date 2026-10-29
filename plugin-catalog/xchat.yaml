@@ -6,6 +6,7 @@ description: 'X Chat gateway platform: talk to Hermes in X''s end-to-end encrypt
   account you connect: chat with it in your own self-chat ("message yourself"), or give it a separate account and
   DM that. Messages are decrypted and encrypted locally with X''s official Chat XDK, so X only routes ciphertext.
   Encrypted media, threaded replies, group mention gating and cron delivery.'
+description_tr: "X Chat gateway platformu: Hermes ile X'in uçtan uca şifreli DM'lerinde konuşun. Hermes, bağlandığınız X hesabı olarak çalışır: kendi kendinize mesaj atma (\"message yourself\") sohbetiyle onunla konuşun ya da ona ayrı bir hesap verip o hesaba DM atın. Mesajlar X'in resmî Chat XDK'siyle yerel olarak çözülür ve şifrelenir, böylece X yalnızca şifreli metni yönlendirir. Şifreli medya, iş parçacığı içindeki yanıtlar, grup bahsetme denetimi ve cron ile teslim."
 maintainer: NousResearch
 tier: official
 category: platform

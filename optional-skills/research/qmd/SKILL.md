@@ -1,6 +1,7 @@
 ---
 name: qmd
 description: Hybrid local search over notes, docs, and transcripts.
+description_tr: "Notlar, belgeler ve kayıtlar üzerinde hibrit yerel arama."
 version: 1.0.0
 author: Hermes Agent + Teknium
 license: MIT

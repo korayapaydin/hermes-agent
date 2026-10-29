@@ -1,6 +1,7 @@
 ---
 name: ascii-video
 description: "ASCII video: convert video/audio to colored ASCII MP4/GIF."
+description_tr: "ASCII video: video/sesi renkli ASCII MP4/GIF'e çevir."
 version: 1.0.0
 author: SHL0MS, Hermes Agent
 license: MIT

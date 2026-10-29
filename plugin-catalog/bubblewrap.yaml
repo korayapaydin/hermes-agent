@@ -11,6 +11,7 @@ description: 'Bubblewrap terminal backend for Linux: every terminal and execute_
   under the default `network` profile those commands share the host network. It reads no credentials. File tools
   (read_file, write_file, patch, search_files) still run on the host and are not confined, and because the working
   directory is a real host directory Hermes keeps its dangerous-command prompts, as for the local backend.'
+description_tr: "Linux için Bubblewrap terminal arka ucu: her terminal ve execute_code komutu bu makinede, ana makinenin kendi yollarıyla, kendi bwrap sandbox'ında çalışır; kök dizin salt okunur, çalışma dizini yazılabilir (profil başına: restricted, workspace veya network), SSH anahtarları, bulut kimlik bilgileri ve Hermes ana dizini gizlidir, geçici ve süreç dizinleri özeldir, ajan ve docker soketleri maskelenir ve komut başına bellek, CPU ve süreç sınırları uygulanır (`hermes config set terminal.backend bubblewrap`). Açıklama — Python bağımlılığı yoktur ve kendi ağ çağrısını yapmaz: komutlarınızı sizin kurduğunuz `bwrap` ve `prlimit` ikilileri (bubblewrap, util-linux) üzerinden çalıştırır ve varsayılan `network` profilinde bu komutlar ana makinenin ağını paylaşır. Hiçbir kimlik bilgisini okumaz. Dosya araçları (read_file, write_file, patch, search_files) hâlâ ana makinede çalışır ve kısıtlanmaz; çalışma dizini gerçek bir ana makine dizini olduğu için Hermes, yerel arka uçta olduğu gibi tehlikeli komut istemlerini korur."
 maintainer: NousResearch
 tier: official
 category: tools

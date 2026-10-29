@@ -1,6 +1,7 @@
 ---
 name: saelens
 description: Train sparse autoencoders to interpret model features.
+description_tr: "Seyrek otoencoder eğiterek model özelliklerini yorumlayın."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

@@ -6,6 +6,7 @@ description: >-
   system. Users define regex patterns in YAML; a pre_tool_call hook sends
   block patterns to Hermes's human approval gate and blocks deny patterns
   immediately. Modifies no Hermes internals.
+description_tr: "Hermes'in yerleşik onay sistemine kendi tehlikeli komut desenlerinizi ekleyin. Kullanıcılar YAML'da düzenli ifade desenleri tanımlar; bir pre_tool_call kancası engelleme desenlerini Hermes'in insan onay kapısına gönderir ve reddetme desenlerini anında engeller. Hermes'in hiçbir iç bileşenini değiştirmez."
 maintainer: scross01
 tier: community
 category: tools

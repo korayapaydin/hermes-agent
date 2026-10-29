@@ -8,6 +8,7 @@ repo: https://github.com/jacobhausler/hermes-rich-ui
 sha: "693fe296579ae69cfc78b90624a7b6bfc2564755"
 subdir: ""
 description: "Rich, evidence-backed answer cards — tables, charts, metrics, timelines, sources — rendered inline in the desktop transcript Disclosure — Image and ImageGallery cards load agent-supplied https image URLs (up to 8 per gallery) from any host when the card renders in Desktop"
+description_tr: "Zengin, kanıta dayalı yanıt kartları — tablolar, grafikler, ölçütler, zaman çizelgeleri, kaynaklar — masaüstü dökümüne satır içi işlenir. Açıklama — Image ve ImageGallery kartları, kart Desktop'ta işlendiğinde ajan tarafından sağlanan https görsel URL'lerini (galeri başına en fazla 8) herhangi bir ana bilgisayardan yükler."
 maintainer: jacobhausler
 tier: community
 category: desktop                       # README vocabulary: desktop|memory|platform|web|tools|voice|automation|models|general

@@ -11,6 +11,7 @@ description: 'Read-only audit of local TLS posture — certificate validity, key
   nginx/Apache config paths under / (or a caller-supplied prefix); makes no network connections and runs no subprocesses.
   If the sibling plugin pcs-security-core is installed, its copy of the shared contract is loaded in preference to the
   bundled one.'
+description_tr: "Yerel TLS duruşunun salt okunur denetimi — sertifika geçerliliği, anahtar gücü, kullanımdan kaldırılmış protokoller, zayıf şifre paketleri ve her sunucunun yapılandırmasının gösterdiği sertifika. Açıklama — sistem sertifikalarının ve / altındaki nginx/Apache yapılandırma yollarının (ya da çağıranın verdiği önekin) sabit bir listesini okur; hiçbir ağ bağlantısı kurmaz ve hiçbir alt süreç çalıştırmaz. Kardeş eklenti pcs-security-core kuruluysa, paylaşılan sözleşmenin onun kopyası, paketlenmiş olana tercih edilerek yüklenir."
 maintainer: Pacific-Cloud-Solutions
 tier: community
 category: tools

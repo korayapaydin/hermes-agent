@@ -1,6 +1,7 @@
 ---
 name: xlsx
 description: Create, read, edit Excel .xlsx workbooks and CSVs.
+description_tr: "Excel .xlsx dosyalarını ve CSV'leri oluştur, oku, düzenle."
 version: 1.1.0
 author: Nous Research
 license: MIT

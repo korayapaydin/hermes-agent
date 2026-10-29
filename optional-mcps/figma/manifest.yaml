@@ -7,6 +7,7 @@ connector_slug: figma
 description: >-
   Official Figma remote MCP — design context, Code Connect, and
   write-to-canvas via https://mcp.figma.com/mcp (OAuth).
+description_tr: "Resmî Figma uzak MCP'si — tasarım bağlamı, Code Connect ve tuval yazma (https://mcp.figma.com/mcp, OAuth)."
 source: https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/
 
 # Figma's hosted endpoint requires OAuth 2.1 + DCR. Their registration

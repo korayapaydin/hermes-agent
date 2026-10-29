@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: algolia
 description: 'Algolia search: indices, analytics, and settings (read-only).'
+description_tr: "Algolia araması: dizinler, analitikler ve ayarlar (salt okunur)."
 source: https://www.algolia.com/doc/guides/model-context-protocol/productivity-mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

@@ -1,6 +1,7 @@
 ---
 name: hyperframes
 description: Render MP4/WebM videos from HTML compositions.
+description_tr: "HTML kompozisyonlarından MP4/WebM video oluştur."
 version: 1.0.0
 author: heygen-com
 license: Apache-2.0

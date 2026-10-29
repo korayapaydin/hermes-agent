@@ -1,6 +1,7 @@
 ---
 name: here-now
 description: Publish sites to {slug}.here.now and store files in Drives.
+description_tr: "{slug}.here.now'a site yayınla, dosyaları Drives'ta sakla."
 version: 1.15.3
 author: here.now
 license: MIT

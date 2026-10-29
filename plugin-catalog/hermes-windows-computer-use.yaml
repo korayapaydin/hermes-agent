@@ -4,6 +4,7 @@ sha: 6c73f53617c68e74618a6d6783e966795afe0e7a
 description: 'THEIA — The Human Environment Intelligence Aperture: virtual-desktop capture, fused stage
   observation, guarded caches, bounded dynamic workflows, and persistent raw-RGB LocateAnything C++/Q5
   CUDA grounding.'
+description_tr: "THEIA — İnsan Ortam Zekâsı Diyaframı: sanal masaüstü yakalama, birleşik sahne gözlemi, korumalı önbellekler, sınırlı dinamik iş akışları ve kalıcı ham-RGB LocateAnything C++/Q5 CUDA yerleştirme."
 maintainer: TREE-Ind
 tier: community
 category: tools

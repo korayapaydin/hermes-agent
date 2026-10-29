@@ -1,6 +1,7 @@
 ---
 name: peft
 description: Fine-tune large LLMs with LoRA on limited GPU memory.
+description_tr: "Sınırlı GPU belleğiyle büyük LLM'leri LoRA ile ince ayarla."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

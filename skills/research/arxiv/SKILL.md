@@ -1,6 +1,7 @@
 ---
 name: arxiv
 description: "Search arXiv papers by keyword, author, category, or ID."
+description_tr: "arXiv makalelerini kelime, yazar, kategori veya ID ile ara."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

@@ -2,6 +2,7 @@ name: snag-shelf
 repo: https://github.com/aydnOktay/hermes-snag-shelf
 sha: da1b51c53235010ca161bfda67097bfbc74ae277
 description: "Everything that snagged - cross-session shelf of failed tool calls. Full Desktop page, chip, pin, fix-prompt insert. No API keys. Disclosure — stores failed tool-call metadata (tool, truncated args with key-name redaction, error snippet) locally in plugin-data; no network."
+description_tr: "Takılan her şey — başarısız araç çağrılarının oturumlar arası rafı. Tam Desktop sayfası, çip, sabitleme, düzeltme istemi ekleme. API anahtarı yok. Açıklama — başarısız araç çağrısı üst verilerini (araç, anahtar adları gizlenmiş kısaltılmış bağımsız değişkenler, hata parçacığı) plugin-data içinde yerel olarak saklar; ağ yok."
 maintainer: aydnOktay
 tier: community
 category: desktop

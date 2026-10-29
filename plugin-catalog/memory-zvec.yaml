@@ -5,6 +5,7 @@ version: "1.3.2"
 description: Community Zvec memory backend for Hermes Agent - in-process HNSW + RocksDB FTS
   store with native hybrid retrieval and session-safe lock governance; embeddings via any
   Ollama-compatible endpoint (local Ollama bge-m3 by default).
+description_tr: "Hermes Agent için topluluk Zvec bellek arka ucu — yerel HNSW + RocksDB FTS deposu, yerel karma getirme ve oturum güvenli kilit yönetimiyle; gömme için herhangi bir Ollama uyumlu uç (varsayılan yerel Ollama bge-m3)."
 maintainer: kuntao2011
 tier: community
 category: memory

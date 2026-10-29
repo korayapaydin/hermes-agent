@@ -3,6 +3,7 @@ repo: https://github.com/ourines/hermes-jev
 sha: 28a4ea390f80d97fcdc8c20d6b630dfe2de645de
 subdir: ""
 description: "Explicit Jev decision sidekick via TypeSafe or Cloudflare; advisory judgments, no automatic tool gating."
+description_tr: "TypeSafe ya da Cloudflare üzerinden açık Jev karar yardımcısı; öneri niteliğinde yargılar, otomatik araç kapılama yok."
 maintainer: ourines
 tier: community
 category: tools

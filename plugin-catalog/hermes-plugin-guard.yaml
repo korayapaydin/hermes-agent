@@ -2,6 +2,7 @@ name: hermes-plugin-guard
 repo: https://github.com/mauricemohr88-debug/hermes-plugin-guard
 sha: 857d881be77249c192c5fefa8254db186a7abbca
 description: Static review of candidate Hermes plugins; target code is never executed.
+description_tr: "Aday Hermes eklentileri için statik inceleme; hedef kod asla çalıştırılmaz."
 maintainer: mauricemohr88-debug
 tier: community
 category: tools

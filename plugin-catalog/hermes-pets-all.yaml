@@ -3,6 +3,7 @@ repo: https://github.com/poponline63/hermes-pets-all
 sha: 4ea8dfab97fe591f598886d699c3076ea1bb58ad
 description: Browse every pet installed for this Hermes profile in its own desktop pane
   (thumbnails, search, click-to-adopt), plus a read-only list_pets tool for the agent.
+description_tr: "Bu Hermes profiline kurulmuş her hayvanı kendi masaüstü panelinde görüntüleyin (küçük resimler, arama, tıklayıp sahiplenme); ayrıca ajan için salt okunur bir list_pets aracı."
 maintainer: poponline63
 tier: community
 category: desktop

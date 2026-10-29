@@ -14,6 +14,7 @@ description: >-
   to show a workstream's chat. No network calls, telemetry, credentials or background processes.
   Depends on the paper-docx, paper-pptx and paper-xlsx forks. They provide the docx, pptx and openpyxl
   import names, so they must not share an environment with python-docx, python-pptx or openpyxl.
+description_tr: "Koruma altında Word, PowerPoint ve Excel düzenleme: izlenen Word değişiklikleri ve yorumlar, slayt ve sunum düzenlemeleri ve LibreOffice yeniden hesaplamasıyla Excel düzenlemeleri. Her yazma işlemi bir yedek ve geri alınabilir bir makbuz alır ve hepsini Desktop uygulamasındaki bir Desk sayfasında incelersiniz. Ayarlar Settings > Plugins içindedir. Açıklama — ajanın yönlendirildiği her Office dosyasını okur, ancak yalnızca kullanıcının Desk'e eklediği klasörlerin içine yazar (yedekler ve makbuzlar eklentinin kendi veri dizininde bulunur). xlsx_recalc, kullanıcının kurulu LibreOffice'ini (soffice, headless) geçici bir kopya üzerinde çalıştırır. Desk sayfası, bir iş akışının sohbetini göstermek için oturum deposunu salt okunur olarak okur. Ağ çağrısı, telemetri, kimlik bilgisi veya arka plan süreci yoktur. paper-docx, paper-pptx ve paper-xlsx çatallarına bağlıdır. Bu çatallar docx, pptx ve openpyxl içe aktarma adlarını sağlar, bu nedenle python-docx, python-pptx veya openpyxl ile aynı ortamı paylaşmamalıdır."
 maintainer: DECRUX9812
 tier: community
 category: tools

@@ -9,6 +9,7 @@ description: >-
   the remote transcription and uploaded file. SONIOX_API_KEY is resolved through Hermes' active-profile
   secret scope. No telemetry, shell commands, background processes, or stored credentials.
 maintainer: XimilalaXiang
+description_tr: "Yapılandırılabilir diller ve sesler, otomatik STT dil algılama ve Hermes ses balonu desteği ile yerel BYOK Soniox metinden konuşmaya (TTS) ve asenkron konuşmadan metne (STT) sağlayıcıları. Açıklama — TTS, yanıt metnini ve sentez ayarlarını tts-rt.soniox.com adresine gönderir; STT sesi, isteğe bağlı dil ipuçlarını ve isteğe bağlı istem bağlamını api.soniox.com adresine yükler, ardından uzak dökümü ve yüklenen dosyayı en iyi çabayla siler. SONIOX_API_KEY, Hermes'in aktif-profil gizli kapsamı üzerinden çözümlenir. Telemetri, kabuk komutları, arka plan süreçleri veya saklanan kimlik bilgileri yoktur."
 tier: community
 version: "0.2.0"
 category: voice

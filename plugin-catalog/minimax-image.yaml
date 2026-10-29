@@ -3,6 +3,7 @@ repo: https://github.com/rriggs/hermes-plugin-minimax-image
 sha: 5a07a0f67d74a67ac426d7b901f8bfc60f28951c
 description: MiniMax image generation -- Image-01 models via MiniMax platform. Supports text-to-image
   and image-to-image with subject reference.
+description_tr: "MiniMax görüntü üretimi — MiniMax platformu üzerinden Image-01 modelleri. Metinden görüntüye ve konu referanslı görüntüden görüntüye destekler."
 maintainer: rriggs
 tier: community
 category: tools

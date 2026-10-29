@@ -6,6 +6,7 @@ name: atlassian
 connector_slug: jira
 description: >-
   Jira issues and Confluence pages via Atlassian's hosted remote MCP.
+description_tr: "Atlassian'ın barındırdığı uzak MCP üzerinden Jira sorunları ve Confluence sayfaları."
 source: https://support.atlassian.com/rovo/docs/getting-started-with-the-atlassian-remote-mcp-server/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

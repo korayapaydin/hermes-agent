@@ -14,6 +14,7 @@ description: >-
   requires the newer public execution-identity capability; auxiliary routing is
   an explicit provider configuration, not an auxiliary middleware claim.
 maintainer: midhatn
+description_tr: "Host tarafından bilinen devredilmiş oturumlar için isteğe bağlı arka plan zamanlaması; mevcut bir Adaptive Inference ağ geçidi kullanarak desteklenen cron yürütme ve açık çalışan profilleri sağlar. Etkileşimli ve açıkça sınıflandırılmış istekler yönlendirmelerini korur; model, araçlar, istemler, çıktı sınırları ve kimlik bilgileri değişmez. Açıklama: Yalnızca tam olarak yapılandırılmış bir chat-completions uç noktasına X-Adaptive-Class ekler. Eklenti kodunda ağ çağrıları, dosya erişimi, süreçler, telemetri veya kimlik bilgisi yönetimi yoktur. Sınırlı bir bellek içi oturum dizini kullanır. Cron algılaması, daha yeni olan genel yürütme kimliği yeteneğini gerektirir; yardımcı yönlendirme açık bir sağlayıcı yapılandırmasıdır, yardımcı bir ara yazılım beyanı değildir."
 tier: community
 category: models
 requires_hermes: ">=0.21.5"

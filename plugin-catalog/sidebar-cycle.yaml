@@ -3,6 +3,7 @@ repo: https://github.com/devseunggwan/hermes-sidebar-cycle
 sha: c42f19eeb48159e02f0e2d8c1615523529b35507
 description: 'Step through Hermes Desktop sidebar sessions in on-screen order with Ctrl+Cmd+] / Ctrl+Cmd+[ (rebindable), wrapping at both ends. SDK-only: session-row
   slot markers for order, host.state for the focused session, host.openSession for navigation.'
+description_tr: "Ctrl+Cmd+] / Ctrl+Cmd+[ (yeniden atanabilir) ile Hermes Desktop kenar çubuğu oturumlarında ekrandaki sırayla ilerleyin; iki uçta da sarmalar. Yalnızca SDK: sıra için oturum satırı yuva işaretleri, odaktaki oturum için host.state, gezinme için host.openSession."
 maintainer: devseunggwan
 tier: community
 category: desktop

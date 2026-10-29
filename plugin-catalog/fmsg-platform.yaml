@@ -5,6 +5,7 @@ description: fmsg platform adapter for Hermes Agent. Real-time inbound over the 
   (/fmsg/ws), outbound via its JSON REST routes. Authenticates with an fmsg API key (fmsgk_...) exchanged
   for a short-lived JWT — run the agent as a derived sub-account such as @alice_hermes@example.com. Only
   http
+description_tr: "Hermes Agent için fmsg platform bağdaştırıcısı. fmsg-webapi WebSocket'i (/fmsg/ws) üzerinden gerçek zamanlı gelen mesajlar, giden mesajlar için JSON REST rotaları. fmsg API anahtarıyla (fmsgk_...) kimlik doğrulanır ve kısa ömürlü bir JWT ile değiştirilir — ajanı @alice_hermes@example.com gibi türetilmiş bir alt hesap olarak çalıştırın. Yalnızca http"
 maintainer: markmnl
 tier: community
 category: platform

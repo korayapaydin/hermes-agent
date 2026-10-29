@@ -6,6 +6,7 @@ name: airtable
 connector_slug: airtable
 description: >-
   Bases, tables, and records from your Airtable workspace.
+description_tr: "Airtable çalışma alanınızdaki tabanlar, tablolar ve kayıtlar."
 source: https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

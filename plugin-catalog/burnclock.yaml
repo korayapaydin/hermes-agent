@@ -3,6 +3,7 @@ repo: https://github.com/jersilb/burnclock-hermes
 sha: "80dbfd197a14dd1531ef2d30bb38a6dea4450f82"
 title: Burnclock
 description: "Status-bar chip showing the provider balance and runway tracked by the MIT burnclock CLI, read from its local badge cache. Requires the CLI (pip install burnclock); the plugin makes no network calls and reads no credentials. Disclosure — runs a read-only shell command (cat of burnclock's local cache file) in your active local session every 60 seconds; balances come from the separately installed burnclock CLI (PyPI `burnclock`), which you configure with your provider keys and run yourself."
+description_tr: "MIT burnclock CLI tarafından izlenen sağlayıcı bakiyesini ve kalan süreyi gösteren durum çubuğu çipi, yerel rozet önbelleğinden okunur. CLI gerektirir (pip install burnclock); eklenti ağ çağrısı yapmaz ve kimlik bilgisi okumaz. Açıklama — etkin yerel oturumunuzda her 60 saniyede bir salt okunur bir kabuk komutu çalıştırır (burnclock'un yerel önbellek dosyasının cat'i); bakiyeler, sağlayıcı anahtarlarınızla yapılandırıp kendiniz çalıştırdığınız ayrıca kurulu burnclock CLI'sından (PyPI `burnclock`) gelir."
 maintainer: jersilb
 tier: community
 category: desktop

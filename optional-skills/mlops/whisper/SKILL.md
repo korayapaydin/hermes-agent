@@ -1,6 +1,7 @@
 ---
 name: whisper
 description: Transcribe and translate speech in 99 languages.
+description_tr: "99 dilde konuşma yazıya geçirme ve çeviri."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

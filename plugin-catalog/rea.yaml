@@ -10,6 +10,7 @@ description: 'Reverse engineer programs with REA (rea.tools): native binaries, .
   Disclosure — a few REA tools run a command under a PTY, launch or drive an application, change
   a connected Android device or overwrite a chosen file, and Hermes does not prompt before them;
   the bundled skill tells the agent to ask first and to skip them in unattended runs.'
+description_tr: "Programları REA ile tersine mühendislikle inceleyin (rea.tools): yerel ikili dosyalar, .NET derlemeleri, Electron/JavaScript uygulamaları, Android paketleri, firmware ve tarayıcı/işlem etkinliği; REA'nın MCP sunucusu üzerinden (npx stdio ile sabitlenmiş rea-agents@6.7.0) ve Hermes için uyarlanmış REA'nın reverse-engineer-anything yeteneğiyle. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/); PATH üzerinde Node.js 22.19+/24.11+/26+ ve yerel ikili dosya çözümlemesi için kendi Ghidra, Hopper veya IDA'nız gerekir. Açıklama — birkaç REA aracı bir PTY altında komut çalıştırır, bir uygulama başlatır ya da sürer, bağlı bir Android cihazı değiştirir veya seçilen bir dosyanın üzerine yazar ve Hermes onlardan önce istemde bulunmaz; paketlenen yetenek ajana önce sormasını ve gözetimsiz çalışmalarda bunları atlamasını söyler."
 maintainer: NousResearch
 tier: official
 category: tools

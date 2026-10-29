@@ -1,6 +1,7 @@
 ---
 name: drug-discovery
 description: "Drug discovery: ChEMBL search, drug-likeness, interactions."
+description_tr: "İlaç keşfi: ChEMBL arama, ilaca benzerlik, etkileşimler."
 platforms: [linux, macos, windows]
 version: 1.0.0
 author: bennytimz

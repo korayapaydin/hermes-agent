@@ -15,6 +15,7 @@ description: >-
   catalogs (/v1/models/managed and /v1/models, no credentials), once per process, sometimes on a
   short-lived background thread. No attribution headers, telemetry, file access or processes.
   Supersedes #27908.
+description_tr: "Requesty LLM ağ geçidi, bir Hermes model sağlayıcısı olarak (`--provider requesty`, `rq` takma adı ya da `hermes model` içinde Requesty). Seçici, Requesty'nin yönetilen yönlendirme politikalarını listeler (özenle seçilmiş, yedekli rotalar, yalnızca AB'de barındırma için `@eu` varyantları); herhangi bir Requesty model kimliği ya da kurum politikası da çalışır. `/reasoning`, akıl yürütebilen modeller için Requesty'nin `reasoning_effort` alanına eşlenir, Hermes oturum kimliği `requesty.trace_id` olarak gönderilir ve bağlam pencereleri ile tahmini maliyet Requesty kataloğundan gelir. İstem önbelleğini Requesty sunucu tarafında yapar. Açıklama — sohbet istekleri, Hermes'in kendi istemcisi üzerinden Hermes'in okuduğu REQUESTY_API_KEY ile https://router.requesty.ai/v1 (veya REQUESTY_BASE_URL) adresine gider; eklentinin kendisi yalnızca Requesty'nin herkese açık model kataloglarını (/v1/models/managed ve /v1/models, kimlik bilgisi yok) süreç başına bir kez, bazen kısa ömürlü bir arka plan iş parçacığında getirir. Atıf başlıkları, telemetri, dosya erişimi veya süreç yoktur. #27908'in yerini alır."
 maintainer: requestyai
 tier: community
 category: models

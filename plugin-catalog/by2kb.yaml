@@ -3,6 +3,7 @@ repo: https://github.com/Charlesmpc/by2kb
 sha: 5983ca8a479feb87321f5c37f59cf8ae28818451
 subdir: by2kb/integrations/hermes
 description: "Discover learning videos by topic, select numbered recommendations, and turn Bilibili and YouTube videos into transcripts, abstracts, and study notes using the Hermes host model. Disclosure — intercepts gateway messages with a Bilibili/YouTube URL, a \"by2kb <topic>\" prefix, or (for 1 h after a recommendation list, same user/chat) a bare number reply, and runs the separately installed by2kb CLI (BY2KB_COMMAND or PATH), which searches Bilibili/YouTube, downloads media and runs ASR; enrichment prompts go to your active Hermes model."
+description_tr: "Konuya göre öğrenme videoları keşfedin, numaralandırılmış önerileri seçin ve Bilibili ile YouTube videolarını Hermes ana makinesinin modeliyle transkriptlere, özetlere ve çalışma notlarına dönüştürün. Açıklama — Bilibili/YouTube URL'si, “by2kb <topic>” öneki ya da (bir öneri listesinden sonraki 1 saat içinde, aynı kullanıcı/sohbet için) yalın bir sayı yanıtı içeren ağ geçidi mesajlarını yakalar ve ayrıca kurulmuş by2kb CLI'sini (BY2KB_COMMAND veya PATH) çalıştırır; bu CLI Bilibili/YouTube'da arama yapar, medyayı indirir ve ASR çalıştırır; zenginleştirme istemleri etkin Hermes modelinize gider."
 maintainer: Charlesmpc
 tier: community
 category: tools

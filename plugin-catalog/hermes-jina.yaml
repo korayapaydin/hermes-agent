@@ -3,6 +3,7 @@ repo: https://github.com/Adolanium/hermes-jina
 sha: 98505951a3d26230dc30dfd47a502fcdc396f793
 description: Jina Reader web backend for web_extract (r.jina.ai, works without a key) and web_search
   (s.jina.ai, needs JINA_API_KEY). Unofficial; not affiliated with Jina AI.
+description_tr: "web_extract (r.jina.ai, anahtarsız çalışır) ve web_search (s.jina.ai, JINA_API_KEY gerektirir) için Jina Reader web arka ucu. Gayriresmi; Jina AI ile bağlantılı değil."
 maintainer: Adolanium
 tier: community
 category: web

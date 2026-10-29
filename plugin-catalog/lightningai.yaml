@@ -8,6 +8,7 @@ description: >-
   or threads); chat requests and the model list go to lightning.ai through Hermes' own client with
   LIGHTNING_API_KEY (or LIGHTNING_AI_API_KEY), optional LIGHTNING_BASE_URL overrides the endpoint;
   the plugin itself opens no connections, reads/writes no files and starts no processes.
+description_tr: "Lightning AI, Hermes model sağlayıcısı olarak (--provider lightning, lightning-ai, lightningai): https://lightning.ai/api/v1 adresinde OpenAI uyumlu ağ geçidi, modeller /models ucundan canlı olarak alınır. Açıklama — içe aktarımda yalnızca bir model sağlayıcısı kaydeder, başka hiçbir şey (araç, hook, komut veya iş parçacığı yok); sohbet istekleri ve model listesi, Hermes'in kendi istemcisi üzerinden LIGHTNING_API_KEY (veya LIGHTNING_AI_API_KEY) ile lightning.ai adresine gider, isteğe bağlı LIGHTNING_BASE_URL uç noktayı geçersiz kılar; eklentinin kendisi hiçbir bağlantı açmaz, dosya okumaz/yazmaz ve hiçbir süreç başlatmaz."
 maintainer: dinosauria123
 tier: community
 category: models

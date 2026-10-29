@@ -1,6 +1,7 @@
 ---
 name: pinecone-research
 description: Agent RAG and long-term memory with Pinecone.
+description_tr: "Pinecone ile ajan RAG ve uzun süreli bellek."
 version: 1.0.0
 author: immuhammadfurqan
 license: MIT

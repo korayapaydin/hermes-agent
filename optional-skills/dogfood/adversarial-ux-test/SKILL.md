@@ -1,6 +1,7 @@
 ---
 name: adversarial-ux-test
 description: Roleplay a hostile user to find and triage UX pain points.
+description_tr: "Düşman kullanıcı rolüyle UX sorunlarını bul ve sınıflandır."
 version: 1.0.0
 author: Omni @ Comelse
 license: MIT

@@ -3,6 +3,7 @@ repo: https://github.com/3L0935/hermes-lancedb-memory-suite
 sha: 9a83a57335f4b1074d075b255ca289fda5290099
 subdir: "plugin"
 description: Local-first LanceDB vector memory with a strict write contract, calibrated abstention, typed relations, conflict tracking and a retrieval-quality gate. Requires local Ollama + nomic-embed-text.
+description_tr: "Sıkı bir yazma sözleşmesi, kalibre edilmiş çekinme, tipli ilişkiler, çakışma takibi ve bir geri çağırma kalitesi kapısıyla yerel öncelikli LanceDB vektör belleği. Yerel Ollama + nomic-embed-text gerekir."
 maintainer: 3L0935
 tier: community
 category: memory

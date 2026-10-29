@@ -1,6 +1,7 @@
 ---
 name: simpo
 description: Reference-free preference alignment, simpler than DPO.
+description_tr: "DPO'dan daha basit, referanssız tercih hizalama."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

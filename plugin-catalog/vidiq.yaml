@@ -2,6 +2,7 @@ name: vidiq
 repo: https://github.com/vid-io/vidiq-mcp
 sha: 1c094797d036577519e378e3ee4856682cbe1818
 description: "Grow on YouTube, Instagram, and TikTok with vidIQ. Disclosure — skills only; you add vidIQ's hosted MCP server yourself with hermes mcp add vidiq --url https://mcp.vidiq.com/mcp --auth oauth; tool calls send your prompts and authorized channel data to vidIQ and spend vidIQ account credits."
+description_tr: "vidIQ ile YouTube, Instagram ve TikTok'ta büyüyün. Açıklama — yalnızca yetenekler; vidIQ'nun barındırılan MCP sunucusunu hermes mcp add vidiq --url https://mcp.vidiq.com/mcp --auth oauth komutuyla kendiniz eklersiniz; araç çağrıları istemlerinizi ve yetkilendirilmiş kanal verilerinizi vidIQ'ya gönderir ve vidIQ hesap kredilerini harcar."
 maintainer: vid-io
 tier: community
 category: tools

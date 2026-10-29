@@ -1,6 +1,7 @@
 ---
 name: actual-setup
 description: Set up Actual Computer (actual.inc) inference in Hermes.
+description_tr: "Hermes'te Actual Computer (actual.inc) çıkarımını kur."
 version: 2.0.0
 author: shl0ms + Hermes Agent
 license: MIT

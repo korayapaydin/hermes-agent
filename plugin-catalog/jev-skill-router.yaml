@@ -12,6 +12,7 @@ description: Names the one skill from your live roster that fits the turn, befor
   automatically when no TypeSafe key is set, and the OpenRouter route also reads Hermes'
   OpenRouter credential pool (auth.json) when OPENROUTER_API_KEY is absent, rotating that
   pool's entries through the core pool API.
+description_tr: "Model çağrısından önce, canlı kadronuzdan o tura uyan tek yeteneği adlandırır — TypeSafe Jev ile tipli yönlendirme (kadro üzerinde tek seçim artı kapı doğruluk değerleri, ardından kısa listenin aday başına uyumla yeniden okunması) ve her iki eşik de kodda uygulanır. Hiçbir şeye uymuyorsa hiçbir şey söylemez; isteğe bağlı, hata durumunda açık kalır, yalnızca standart kitaplık, Node yok; yönlendirme yok, vekil ortam değişkenleri yok sayılır, yük sınırlıdır. Açıklama — Uygun turlarda mesajınızı (4.000 karaktere kadar) ve yerel kadronuzdaki yetenek adlarını ve kısa SKILL.md alıntılarını, anahtarınızı kullanarak TypeSafe, OpenRouter veya yapılandırdığınız ağ geçidine gönderir. backend auto ile TypeSafe anahtarı ayarlı değilken bir OpenRouter anahtarı otomatik kullanılır ve OpenRouter yolu, OPENROUTER_API_KEY yokken Hermes'in OpenRouter kimlik havuzunu (auth.json) da okur ve bu havuzun girdilerini çekirdek havuz API'si üzerinden döndürür."
 maintainer: DoGMaTiiC
 tier: community
 category: automation

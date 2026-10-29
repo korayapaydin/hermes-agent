@@ -1,6 +1,7 @@
 ---
 name: dspy
 description: "DSPy: declarative LM programs, auto-optimize prompts, RAG."
+description_tr: "DSPy: bildirimsel LM programları, prompt optimizasyonu, RAG."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

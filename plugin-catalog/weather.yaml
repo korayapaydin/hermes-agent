@@ -3,6 +3,7 @@ repo: https://github.com/FahrenheitResearch/hermes-weather-plugin
 sha: d474493ef4ffeefabad9dbf0188f72bce3b47b67
 description: Weather data, radar/model imagery, and verified meteorological calculations. Built on metrust,
   rusbie, wrf-rust, rustdar, and ecape-rs.
+description_tr: "Hava durumu verisi, radar/model görüntüleri ve doğrulanmış meteorolojik hesaplamalar. metrust, rusbie, wrf-rust, rustdar ve ecape-rs üzerine kuruludur."
 maintainer: FahrenheitResearch
 tier: community
 category: tools

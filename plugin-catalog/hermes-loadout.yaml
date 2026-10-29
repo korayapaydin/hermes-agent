@@ -6,6 +6,7 @@ description: >-
   named loadouts, review changes, apply them, and undo the latest managed
   operation. Agent half is inert (no tools or hooks).
   Disclosure — MCP sync copies your Hermes mcp_servers env/header secrets into ~/.codex/config.toml and claude_desktop_config.json (with 0600 backups).
+description_tr: "Ajan uygulamaları arasında yetenekleri ve MCP bağlantılarını yönetmek için masaüstü paneli: adlandırılmış yüklemeleri kaydedin, değişiklikleri inceleyin, uygulayın ve son yönetilen işlemi geri alın. Ajan tarafı etkisizdir (araç ya da kanca yok). Açıklama — MCP eşitleme, Hermes mcp_servers ortam/başlık sırlarını ~/.codex/config.toml ve claude_desktop_config.json dosyalarına kopyalar (0600 izinli yedeklerle)."
 maintainer: qwertyuiop97
 tier: community
 category: desktop

@@ -8,6 +8,7 @@ description: 'Live decode tokens-per-second chip for the Hermes Desktop status
   separately, cumulative totals calibrated against authoritative provider usage
   at turn end. Desktop-only (desktop/plugin.js); no agent tools, hooks, middleware
   or env vars.'
+description_tr: "Hermes Desktop durum çubuğu için canlı çözümleme saniyede-token göstergesi: model hâlâ akarken 1 saniyelik kayan pencere, araç çalıştırma süresi çözümleme saniyelerine dâhil edilmez, arayüz spinner kareleri asla sayılmaz, TTFT ayrı izlenir, kümülatif toplamlar tur sonunda yetkili sağlayıcı kullanımıyla kalibre edilir. Yalnızca Desktop (desktop/plugin.js); ajan aracı, hook, middleware veya ortam değişkeni yok."
 maintainer: Ayshinko
 tier: community
 category: desktop

@@ -3,6 +3,7 @@ repo: https://github.com/aydnOktay/hermes-needs-you
 sha: f903b8eb8f166b609e2ee3c535209fb4602b60d3
 description: Hermes is waiting — full Desktop page for pending approvals.
   Queue, chip, OS notify. Redacted previews only. No API keys.
+description_tr: "Hermes bekliyor — bekleyen onaylar için tam Desktop sayfası. Kuyruk, çip, işletim sistemi bildirimi. Yalnızca maskelenmiş önizlemeler. API anahtarı yok."
 maintainer: aydnOktay
 tier: community
 category: desktop

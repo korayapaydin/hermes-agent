@@ -1,6 +1,7 @@
 ---
 name: huggingface-hub
 description: "HuggingFace hf CLI: search/download/upload models, datasets."
+description_tr: "HuggingFace hf CLI: model/dataset ara, indir, yükle."
 version: 1.0.1
 author: Hugging Face
 license: MIT

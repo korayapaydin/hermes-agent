@@ -5,6 +5,7 @@ manifest_version: 1
 name: neon
 connector_slug: neon_mcp
 description: 'Neon serverless Postgres: projects, branches, and SQL.'
+description_tr: "Neon sunucusuz Postgres: projeler, dallar ve SQL."
 source: https://neon.com/docs/ai/neon-mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

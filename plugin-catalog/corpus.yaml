@@ -12,6 +12,7 @@ description: 'Hosted Corpus MCP (Streamable HTTP at corpuslaw.us/api/mcp) plus t
   founder PII (name, email, phone, address) to Corpus through links and MCP tools.
   Intake instructions are vendored; checkout requires exact-amount confirmation
   from the user in the current turn.'
+description_tr: "Barındırılan Corpus MCP (corpuslaw.us/api/mcp adresinde Streamable HTTP) ve iki paketlenmiş yetenek: 571 binden fazla hüküm üzerinde ABD hukuku arama/get_node/list_coverage ve LLC/kâr amacı gücü oluşturma kabul akışı (gereklilikler, karşılaştırma, NAICS sorgusu, devir, USDC ödeme, payment_status) ile kota için account.status. Dosyalama her zaman insan onayına bağlıdır ve USDC ödemesi e-postayla doğrulanır. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/); anonim araştırma için API anahtarı gerekmez. Oluşturma yeteneği, ilk yanıtta ve ödemeden önce sabit, satıcı tarafından yazılmış pazarlama metnini ister ve kurucunun kişisel verilerini (ad, e-posta, telefon, adres) bağlantılar ve MCP araçları üzerinden Corpus'a gönderir. Kabul talimatları satıcıdan gelmiştir; ödeme, kullanıcının geçerli turda tam tutar onayını gerektirir."
 maintainer: teakesdev
 tier: community
 category: tools

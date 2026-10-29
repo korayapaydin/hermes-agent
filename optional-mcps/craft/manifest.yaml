@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: craft
 description: 'Craft: structured docs, tasks, and personal knowledge base.'
+description_tr: "Craft: yapılandırılmış belgeler, görevler ve kişisel bilgi tabanı."
 source: https://support.craft.do/hc/en-us/articles/29455875123101
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

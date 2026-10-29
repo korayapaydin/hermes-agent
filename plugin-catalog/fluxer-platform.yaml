@@ -4,6 +4,7 @@ sha: 6d2ef9767d0a0811a3ae26a76290b9b1e4636d4c
 description: Fluxer gateway adapter for Hermes Agent. Native Fluxer integration using Fluxer's bot REST
   API for outbound messages, Gateway WebSocket events for inbound dispatches, message edits, agent-requested
   reactions, pins, reply references, media delivery, and channel-directory enumeration. Component button
+description_tr: "Hermes Agent için Fluxer ağ geçidi bağdaştırıcısı. Giden mesajlar için Fluxer'ın bot REST API'sini, gelen sevkler, mesaj düzenlemeleri, ajanın istediği tepkiler, sabitlemeler, yanıt referansları, medya teslimi ve kanal dizini sayımı için Gateway WebSocket olaylarını kullanan yerel Fluxer entegrasyonu. Bileşen düğmesi"
 maintainer: elkimek
 tier: community
 category: platform

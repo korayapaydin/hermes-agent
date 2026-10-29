@@ -3,6 +3,7 @@ repo: https://github.com/aska-digital/cognition-memory
 sha: a31ae960034ef3f0f860a33dc5ab8637549343aa
 version: "0.1.1"
 description: "Cognition session-end memory — facts regex-extracted from your messages at session end, stored in a local SQLite queue and JSON log under one repo label, with fetch-first merge, per-entry provenance, and budgeted prefetch (tools: cognition_search, cognition_status, read-only cognition_dream). Disclosure — saves verbatim excerpts (up to 400 chars) of your own messages that match preference/decision phrases in plain local files under HERMES_HOME/cognition/ (SQLite queue, JSON commit log) and re-injects them into later prompts sent to your model provider; the author name is read from ~/.gitconfig; the plugin makes no network calls of its own."
+description_tr: "Cognition oturum sonu belleği — oturum sonunda mesajlarınızdan düzenli ifadeyle çıkarılan olgular, tek bir depo etiketi altında yerel bir SQLite kuyruğunda ve JSON günlüğünde saklanır; önce getirip birleştirme, girdi başına köken ve bütçeli ön getirme sunar (araçlar: cognition_search, cognition_status, salt okunur cognition_dream). Açıklama — tercih/karar ifadeleriyle eşleşen kendi mesajlarınızın birebir alıntılarını (400 karaktere kadar) HERMES_HOME/cognition/ altındaki düz yerel dosyalara kaydeder (SQLite kuyruğu, JSON işleme günlüğü) ve bunları model sağlayıcınıza gönderilen sonraki istemlere yeniden enjekte eder; yazar adı ~/.gitconfig dosyasından okunur; eklenti kendi başına hiçbir ağ çağrısı yapmaz."
 maintainer: aska-digital
 tier: community
 category: memory

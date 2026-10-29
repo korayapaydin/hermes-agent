@@ -1,6 +1,7 @@
 ---
 name: pinecone
 description: Managed vector DB for production RAG and search.
+description_tr: "Üretim RAG ve arama için yönetilen vektör DB."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

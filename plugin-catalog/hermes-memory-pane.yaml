@@ -3,6 +3,7 @@ title: Memory Pane
 repo: https://github.com/Adolanium/hermes-memory-pane
 sha: 4ba8ae3577249d3c9a0f3ad6f8336f43bda3bbf4
 description: "A Hermes Desktop pane for the built-in memory: see what the focused chat remembered, updated or forgot, and edit, delete or undo any entry without leaving the conversation. Works alongside the built-in memory; not a memory provider. Disclosure — a tool_execution middleware reads MEMORY.md and USER.md around each memory call and logs the entry-level changes to $HERMES_HOME/plugin-data/hermes-memory-pane/; the pane rewrites memory entries only when the user edits, deletes, adds or undoes one, through Hermes's own memory store; no network, credentials, shell commands or background processes."
+description_tr: "Yerleşik bellek için bir Hermes Desktop paneli: odaktaki sohbetin neyi hatırladığını, güncellediğini veya unuttuğunu görün ve sohbetten ayrılmadan herhangi bir kaydı düzenleyin, silin ya da geri alın. Yerleşik bellekle birlikte çalışır; bir bellek sağlayıcısı değildir. Açıklama — bir tool_execution ara katmanı, her bellek çağrısı çevresinde MEMORY.md ve USER.md dosyalarını okur ve girdi düzeyindeki değişiklikleri $HERMES_HOME/plugin-data/hermes-memory-pane/ dizinine günlükler; panel, bellek girdilerini yalnızca kullanıcı birini düzenlediğinde, sildiğinde, eklediğinde veya geri aldığında Hermes'in kendi bellek deposu üzerinden yeniden yazar; ağ, kimlik bilgisi, kabuk komutu veya arka plan süreci yoktur."
 maintainer: Adolanium
 tier: community
 category: desktop

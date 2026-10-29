@@ -3,6 +3,7 @@ repo: https://github.com/duoi/hermes-sendblue-plugin
 sha: 3318aaa4402769ce440d43e0445ea2151ad5e73e
 description: Sendblue iMessage / SMS integration. Provides typing indicators, async daemon routing, and
   Active LLM Tools for SMS dispatch.
+description_tr: "Sendblue iMessage / SMS entegrasyonu. Yazıyor göstergeleri, asenkron daemon yönlendirmesi ve SMS gönderimi için Active LLM araçları sağlar."
 maintainer: duoi
 tier: community
 category: platform

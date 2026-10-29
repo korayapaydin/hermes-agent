@@ -9,6 +9,7 @@ description: >-
   redraws, CRLF line endings and output without a carriage return are left as they are.
   Disclosure — register() adds one transform_terminal_output hook that rewrites the output string
   in memory; no tools, network access, subprocesses, files, settings or environment variables.
+description_tr: "Terminal çıktısındaki satır sonu dönüşlü ilerleme çubuklarını (tqdm, git clone --progress ve benzeri), bir terminalin göstereceği kareye indirger, böylece model her yeniden çizim yerine tek satır okur: 300 adımlık bir tqdm döngüsü 17,396 karakterden yaklaşık 120 karaktere iner. Yeniden çizimler arasında yazılan diğer metin, CRLF satır sonları ve satır sonu dönüşü olmayan çıktı olduğu gibi bırakılır. Açıklama — register() bellek içindeki çıktı dizesini yeniden yazan tek bir transform_terminal_output kancası ekler; araç, ağ erişimi, alt süreç, dosya, ayar ya da ortam değişkeni yok."
 maintainer: pierrenode
 tier: community
 category: tools

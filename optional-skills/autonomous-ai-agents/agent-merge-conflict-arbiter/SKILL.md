@@ -1,6 +1,7 @@
 ---
 name: agent-merge-conflict-arbiter
 description: "Neutral arbiter for merge conflicts between two agents."
+description_tr: "Tarafsız hakem: iki ajan arasındaki birleştirme çakışmaları."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

@@ -7,6 +7,7 @@ description: Routes selected Hermes auxiliary tasks (approval, MCP sampling, com
   prompts, MCP tool names and compression transcript blocks to openrouter.ai using your OpenRouter key
   (read-only); on any error approvals escalate to you, never auto-approve; the default decision_model
   is a moving alias, pin it.
+description_tr: "Seçili Hermes yardımcı görevlerini (onay, MCP örnekleme, sıkıştırma), serbest biçimli sohbet istemleri yerine OpenRouter üzerinden sınırlı Jev karar çağrılarıyla yönlendirir; karar olarak ifade edemediği her şeyde operatörün kendi yardımcı sağlayıcısına açık kalarak düşer. Açıklama — redakte edilmiş onay istemlerini, MCP araç adlarını ve sıkıştırma döküm bloklarını OpenRouter anahtarınızı kullanarak openrouter.ai adresine gönderir (salt okunur); herhangi bir hatada onaylar size yükseltilir, asla otomatik onaylanmaz; varsayılan decision_model değişen bir takma addır, sabitleyin."
 maintainer: trajectoire-ai
 tier: community
 category: models

@@ -5,6 +5,7 @@ description: Chatto gateway adapter for Hermes Agent. Connects to a Chatto serve
   and relays messages between rooms/DMs and the Hermes agent.  Uses the Chatto ConnectRPC API (JSON over
   HTTP) for outbound messages and the Chatto realtime WebSocket protocol (binary protobuf) for inbound
   eve
+description_tr: "Hermes Agent için Chatto ağ geçidi bağdaştırıcısı. Bir Chatto sunucusuna (kendi sunucunuzda çalışan takım sohbeti) bağlanır ve odalar/DM'ler ile Hermes ajanı arasında mesaj aktarır. Giden mesajlar için Chatto ConnectRPC API'sini (HTTP üzerinde JSON), gelen olaylar için Chatto gerçek zamanlı WebSocket protokolünü (ikili protobuf) kullanır."
 maintainer: jrimmer
 tier: community
 category: platform

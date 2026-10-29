@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: circleci
 description: 'CircleCI: diagnose build failures, read logs, rerun workflows.'
+description_tr: "CircleCI: derleme hatalarını teşhis edin, günlükleri okuyun, iş akışlarını yeniden çalıştırın."
 source: https://circleci.com/docs/guides/toolkit/circleci-mcp-overview/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

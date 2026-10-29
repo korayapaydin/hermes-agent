@@ -6,6 +6,7 @@ description: TypeSafe Jev (System One) decision tools — atomic yes/no checks, 
   agents. Disclosure — every tool call sends the model-supplied question/state together with your TYPESAFE_API_KEY
   to api.typesafe.ai (TypeSafe AI, an independent vendor); the catalog has not verified the plugin author's
   affiliation with that vendor.
+description_tr: "TypeSafe Jev (System One) karar araçları — atomik evet/hayır denetimleri, yönlendirme, rubrik puanlama ve kalibre edilmiş olasılıklarla karma tipli sorular; kodlama ajanlarında ön eleme, yönlendirme ve inceleme kapıları için. Açıklama — her araç çağrısı, modelin sağladığı soruyu/durumu TYPESAFE_API_KEY ile birlikte api.typesafe.ai adresine gönderir (TypeSafe AI, bağımsız bir satıcı); katalog, eklenti yazarının bu satıcıyla bağlantısını doğrulamamıştır."
 maintainer: Anders Jensen-Waud
 tier: community
 category: tools

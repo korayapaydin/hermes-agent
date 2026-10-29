@@ -5,6 +5,7 @@ subdir: integrations/hermes-catalog
 requires_hermes: ">=0.21.4"
 version: "0.7.3"
 description: "Local-first memory layer for Hermes Agent — SQLite with vector + FTS5 hybrid recall, episodic consolidation, temporal knowledge graph. Zero cloud. Disclosure — the mnemosyne_remember_media tool refuses local file paths unless MNEMOSYNE_MEDIA_ALLOWED_PATHS is set and sends media only to an operator-configured OpenAI-compatible endpoint when modality_enabled is on; video uses ffmpeg/ffprobe from PATH; the embedding model (BAAI/bge-small-en-v1.5) downloads from Hugging Face on first use."
+description_tr: "Hermes Agent için yerel öncelikli bellek katmanı — vektör + FTS5 karma geri çağırmalı SQLite, olaysal birleştirme, zamansal bilgi grafiği. Bulut yok. Açıklama — mnemosyne_remember_media aracı, MNEMOSYNE_MEDIA_ALLOWED_PATHS ayarlanmadıkça yerel dosya yollarını reddeder ve medyayı yalnızca modality_enabled açıkken işletmeci tarafından yapılandırılmış OpenAI uyumlu bir uç noktaya gönderir; video, PATH'teki ffmpeg/ffprobe kullanır; gömme modeli (BAAI/bge-small-en-v1.5) ilk kullanımda Hugging Face'ten indirilir."
 maintainer: mnemosyne-oss
 tier: community
 category: memory

@@ -1,6 +1,7 @@
 ---
 name: 1password
 description: Set up op CLI, sign in, and read or inject secrets.
+description_tr: "1Password op CLI: kur, oturum aç, sırları oku, enjekte et."
 version: 1.0.0
 author: arceus77-7, enhanced by Hermes Agent
 license: MIT

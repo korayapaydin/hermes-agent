@@ -3,6 +3,7 @@ repo: https://github.com/nosliwhtes/hermes-markdown-new
 sha: dab049e0fd338ab8f7159c120fe55490410d0a6e
 subdir: plugin/markdown-new
 description: "Search the public web, read pages as Markdown, crawl sites, and convert documents in Hermes. No API key required. Disclosure — search queries, submitted URLs and explicitly approved local file uploads go to the public markdown.new service; needs the companion markdown-new CLI (uv tool install from the same repo tag), which the plugin runs as a subprocess with the Hermes process environment."
+description_tr: "Hermes'te herkese açık web'i arayın, sayfaları Markdown olarak okuyun, siteleri tarayın ve belgeleri dönüştürün. API anahtarı gerekmez. Açıklama — arama sorguları, gönderilen URL'ler ve açıkça onaylanan yerel dosya yüklemeleri herkese açık markdown.new hizmetine gider; eklentinin Hermes süreç ortamıyla alt süreç olarak çalıştırdığı eşlik eden markdown-new CLI'sını (aynı depo etiketinden uv tool install) gerektirir."
 maintainer: nosliwhtes
 tier: community
 category: web

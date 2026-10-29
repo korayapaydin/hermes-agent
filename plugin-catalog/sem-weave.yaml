@@ -6,6 +6,7 @@ description: >-
   CLI-backed skills for local code discovery and entity-diff review with Sem,
   plus optional Weave branch-merge previews. Requires user-installed CLIs;
   does not apply edits or merges, install binaries, or change Git configuration.
+description_tr: "Sem ile yerel kod keşfi ve varlık farkı incelemesi için CLI destekli yetenekler, ayrıca isteğe bağlı Weave dal-birleştirme önizlemeleri. Kullanıcının kurduğu CLI'ları gerektirir; düzenleme ya da birleştirme uygulamaz, ikili dosya kurmaz ve Git yapılandırmasını değiştirmez."
 maintainer: rs545837
 tier: community
 category: tools

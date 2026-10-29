@@ -1,6 +1,7 @@
 ---
 name: unsloth
 description: "Unsloth: 2-5x faster LoRA/QLoRA fine-tuning, less VRAM."
+description_tr: "Unsloth: 2-5x hızlı LoRA/QLoRA ince ayarlama, daha az VRAM."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

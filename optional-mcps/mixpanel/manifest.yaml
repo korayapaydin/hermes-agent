@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: mixpanel
 description: 'Mixpanel analytics: events, funnels, retention, dashboards.'
+description_tr: "Mixpanel analitiği: olaylar, huniler, tutundurma, panolar."
 source: https://docs.mixpanel.com/docs/mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

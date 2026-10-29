@@ -1,6 +1,7 @@
 ---
 name: draw-your-font
 description: "Turn a handwriting photo into an installable TTF font."
+description_tr: "El yazısı fotoğrafını kurulabilir TTF yazı tipine çevir."
 version: 0.1.0
 author: Danilo Znamerovszkij (https://github.com/danilo-znamerovszkij/draw-your-font), ported by Hermes Agent
 license: MIT

@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: rentahuman
 description: Find people and manage real-world work through RentAHuman.
+description_tr: "RentAHuman aracılığıyla insanları bulun ve gerçek dünyadaki işleri yönetin."
 source: https://rentahuman.ai/docs#mcp
 
 transport:

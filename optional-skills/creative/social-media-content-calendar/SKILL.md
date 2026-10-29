@@ -1,6 +1,7 @@
 ---
 name: social-media-content-calendar
 description: "Plan multi-platform social campaigns: briefs to posting."
+description_tr: "Çok platformlu sosyal kampanyalar: brief'ten paylaşıma."
 version: 0.1.0
 author: Ben Barclay (benbarclay), Hermes Agent
 license: MIT

@@ -1,6 +1,7 @@
 ---
 name: sherlock
 description: Find accounts for a username across 400+ platforms.
+description_tr: "400+ platformda bir kullanıcı adı için hesap bul."
 version: 1.0.0
 author: unmodeled-tyler
 license: MIT

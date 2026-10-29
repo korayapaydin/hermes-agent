@@ -12,6 +12,7 @@ description: >-
   registering the pack never changes display.language, the user opts in via
   config.
 maintainer: Adolanium
+description_tr: "Hermes için İbranice (עברית) dil paketi — çekirdek CLI, ağ geçidi ve ipuçları (main üzerindeki 3,486 anahtarın 3,396'sı), TUI (1,356 anahtarın 1,331'i) ve Masaüstü (5,245 anahtarın 5,153'ü), Masaüstü sağdan sola (RTL) olarak çevrilmiştir. Hermes İbranice barındırmadığından, paket her üç kataloğu da sunar; İngilizce ile aynı olan değerler ve İngilizce ifadesi bir argümana bağlı olan (açık/kapalı, göster/gizle) girişler atlanmıştır, böylece İngilizceye dönerler. Açıklama — Yalnızca metin katalogları ve register() fonksiyonu işlem yapmayan bir __init__.py dosyası (Masaüstü \"Git'ten Yükle\" akışının paketi kabul etmesi için tutulmuştur, #138118); paketin kaydolması display.language ayarını asla değiştirmez, kullanıcı yapılandırma üzerinden bunu seçer."
 tier: community
 category: general
 requires_hermes: ">=0.21.6"

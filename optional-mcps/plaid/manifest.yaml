@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: plaid
 description: 'Plaid dashboard: integrations, Items, and usage debugging.'
+description_tr: "Plaid panosu: entegrasyonlar, ögeler ve kullanım hata ayıklama."
 source: https://plaid.com/docs/resources/mcp/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

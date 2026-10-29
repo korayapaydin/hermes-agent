@@ -3,6 +3,7 @@ repo: https://github.com/d31tcjg/hermes-sidepulse
 sha: 864785d72bfcdec6605622a0dcf211ea35a11917
 subdir: python
 description: SidePulse lifecycle status backend; Desktop focus tracking requires the separate companion in the linked setup guide. Disclosure — forwards event names, a hashed agent id, the raw session_id and tool names to a local AF_UNIX socket and a 0600 jsonl log; no network egress.
+description_tr: "SidePulse yaşam döngüsü durum arka ucu; masaüstü odağı takibi, bağlantılı kurulum rehberindeki ayrı yardımcı gerektirir. Açıklama — olay adlarını, karmalanmış bir ajan kimliğini, ham session_id'yi ve araç adlarını yerel bir AF_UNIX soketine ve bir 0600 jsonl günlüğüne iletir; ağ çıkışı yoktur."
 maintainer: d31tcjg
 tier: community
 category: desktop

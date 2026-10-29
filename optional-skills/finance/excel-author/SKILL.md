@@ -1,6 +1,7 @@
 ---
 name: excel-author
 description: Build auditable financial workbooks headless via openpyxl.
+description_tr: "Denetlenebilir finansal kitapları openpyxl ile üret."
 version: 1.0.0
 author: Anthropic (adapted by Nous Research)
 license: Apache-2.0

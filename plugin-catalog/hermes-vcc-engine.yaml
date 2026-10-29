@@ -2,6 +2,7 @@ name: hermes-vcc-engine
 repo: https://github.com/danbiocchi/hermes-vcc-engine
 sha: 31ee4fe7ef3e3f6c67dadfd45ebc1a3cb9773f95
 description: "Instant context compaction for Hermes Agent: builds the compaction summary in milliseconds with no LLM call, keeping the exact commands, exit codes, errors and files, each linked back to its original message for recall via session_search. Disclosure — no network calls, shell commands or credentials; reads Hermes's config.yaml through Hermes's own loader; subclasses ContextCompressor and relies on its private methods, falling back to the stock compressor if they are missing."
+description_tr: "Hermes Agent için anında bağlam sıkıştırma: LLM çağrısı olmadan sıkıştırma özetini milisaniyeler içinde oluşturur; komutları, çıkış kodlarını, hataları ve dosyaları birebir korur, her biri session_search ile geri çağırma için özgün mesajına bağlanır. Açıklama — ağ çağrısı, kabuk komutu ya da kimlik bilgisi yok; Hermes'in config.yaml dosyasını Hermes'in kendi yükleyicisiyle okur; ContextCompressor'ı alt sınıflar ve özel yöntemlerine dayanır, bunlar yoksa stok sıkıştırıcıya geri döner."
 maintainer: danbiocchi
 tier: community
 category: general

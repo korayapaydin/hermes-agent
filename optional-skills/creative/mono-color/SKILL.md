@@ -1,6 +1,7 @@
 ---
 name: mono-color
 description: "Generate one- or two-ink editorial print poster images."
+description_tr: "Tek veya iki mürekkepli editoryal basılı poster görselleri."
 version: 1.0.0
 author: Yan Liu (adapted by Nous Research)
 license: MIT

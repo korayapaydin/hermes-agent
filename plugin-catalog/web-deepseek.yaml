@@ -12,6 +12,7 @@ description: "DeepSeek Search + Fetch — routes web_search and web_extract thro
   and sends it only to api.deepseek.com; extract returns Markdown only (no HTML variant,
   so web_extract(format=\"html\") gets Markdown), and anti-bot or JS-rendered sites fail
   (zhihu.com, x.com, nytimes.com returned HTTP 404 in testing) while static pages work."
+description_tr: "DeepSeek Search + Fetch — web_search ve web_extract isteklerini DeepSeek'in kendi yapay zekâ arama motoru ve sunucu tarafı getiricisi üzerinden api.deepseek.com'a yönlendirir (üreticinin 2026-10-17 değişiklik kaydında açıldı: yüzlerce milyar sayfayı indeksleyen yapay zekâ odaklı motor, çok dilli, SEO spam / GEO manipülasyon / düşük kaliteli AIGC filtreli). `deepseek-web` sağlayıcı kimliğini kaydeder. Açıklama — her arama/getirme, uç nokta başına 1.000 başarılı istek için $0.75 üzerinden ayrı ayrı faturalandırılan bir DeepSeek çağrısıdır ve yalnızca sonuç üreten HTTP 200 yanıtları faturalandırılır (hesap ve uç nokta başına 5 QPS, ayrıca getirmede alan adı başına QPS sınırı); sağlayıcı DEEPSEEK_API_KEY'i yeniden kullanır ve yalnızca api.deepseek.com adresine gönderir; extract yalnızca Markdown döndürür (HTML sürümü yok, bu yüzden web_extract(format=\"html\") Markdown alır) ve bot karşıtı ya da JS ile oluşturulan siteler başarısız olur (test sırasında zhihu.com, x.com, nytimes.com HTTP 404 döndürdü), statik sayfalar ise çalışır."
 maintainer: Leegenux
 tier: community
 category: web

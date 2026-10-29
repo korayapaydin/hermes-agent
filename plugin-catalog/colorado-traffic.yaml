@@ -4,6 +4,7 @@ sha: e7ae48527f7069ed4e311516773d4828e8453efb
 description: 'Live Colorado highway events from CDOT COtrip. No API key. Default corridor
   is I-70 Golden to east Denver. Separates incidents happening now from scheduled
   work and unverified Waze reports.'
+description_tr: "CDOT COtrip'ten canlı Colorado otoyol olayları. API anahtarı yok. Varsayılan güzergâh I-70 Golden ile doğu Denver arasıdır. Şu anda olan olayları, planlanan çalışmaları ve doğrulanmamış Waze raporlarını ayırır."
 maintainer: drkpxl
 tier: community
 category: tools

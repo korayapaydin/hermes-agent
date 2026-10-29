@@ -1,6 +1,7 @@
 ---
 name: shop
 description: "Shop catalog search, checkout, order tracking, returns."
+description_tr: "Mağaza kataloğunda arama, ödeme, sipariş takibi, iade."
 version: 1.0.1
 author: Joe Rinaldi Johnson (joerj123), Hermes Agent
 license: MIT

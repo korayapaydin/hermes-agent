@@ -1,6 +1,7 @@
 ---
 name: accelerate
 description: Run PyTorch training across GPUs with minimal changes.
+description_tr: "PyTorch eğitimini çoklu GPU'da az değişiklikle çalıştır."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

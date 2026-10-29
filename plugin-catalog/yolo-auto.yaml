@@ -3,6 +3,7 @@ repo: https://github.com/yolo-auto-org/hermes-provider-yolo-auto
 sha: e81ef7c28cf79e8664cac6634e0e6bafb28cad3a
 subdir: yolo-auto
 description: "Yolo-Auto: flat-rate OpenAI-compatible API with plan-filtered live model discovery."
+description_tr: "Yolo-Auto: sabit ücretli OpenAI uyumlu API ve plana göre süzülmüş canlı model keşfi."
 maintainer: yolo-auto-org
 tier: community
 category: models

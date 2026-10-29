@@ -5,6 +5,7 @@ description: Provider-native Claude and Codex remaining allowance windows in the
   bar. Disclosure — spawns the local `codex app-server` and `claude auth status` CLIs and reads the Claude
   OAuth token read-only through Hermes core; the optional install.sh (not part of the catalog install)
   edits the statusLine in ~/.claude/settings.json; macOS only.
+description_tr: "Hermes Desktop durum çubuğunda, sağlayıcıya özgü Claude ve Codex kalan izin pencereleri. Açıklama — yerel `codex app-server` ve `claude auth status` CLI'larını başlatır ve Claude OAuth token'ını Hermes çekirdeği üzerinden salt okunur okur; isteğe bağlı install.sh (katalog kurulumunun parçası değildir) ~/.claude/settings.json içindeki statusLine'ı düzenler; yalnızca macOS."
 maintainer: krapwoo
 tier: community
 category: desktop

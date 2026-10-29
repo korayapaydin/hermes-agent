@@ -1,6 +1,7 @@
 ---
 name: stocks
 description: Stock quotes, history, search, compare, crypto via Yahoo.
+description_tr: "Yahoo ile hisse, geçmiş, arama, karşılaştırma, kripto."
 version: 0.1.0
 author: Mibay (Mibayy), Hermes Agent
 license: MIT

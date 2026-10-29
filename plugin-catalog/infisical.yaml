@@ -4,6 +4,7 @@ sha: d1c5d46267bcc05f1ee2ae68e06f0ba3072d656a
 description: Secret source plugin that resolves environment variables from an Infisical secret store (cloud
   or self-hosted) at Hermes startup. Registers a mapped source ("infisical", inf:// references) and a
   bulk source ("infisical_bulk").
+description_tr: "Hermes başlangıcında ortam değişkenlerini bir Infisical gizli bilgi deposundan (bulut ya da kendi sunucunuz) çözen gizli bilgi kaynağı eklentisi. Eşlenmiş bir kaynak ('infisical', inf:// referansları) ve bir toplu kaynak ('infisical_bulk') kaydeder."
 maintainer: antonba
 tier: community
 category: general

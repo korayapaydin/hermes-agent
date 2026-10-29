@@ -2,6 +2,7 @@ name: lancedb
 repo: https://github.com/lancedb/hermes-agent-memory
 sha: 6691591e62e10438ee32ff671afad337208fdd43
 description: LanceDB hybrid memory — embedded vector + FTS recall, workspace facts, transparent forget.
+description_tr: "LanceDB karma belleği — gömülü vektör + FTS geri çağırma, çalışma alanı olguları, saydam unutma."
 maintainer: lancedb
 tier: community
 category: memory

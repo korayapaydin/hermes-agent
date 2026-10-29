@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: close
 description: 'Sales CRM: leads, opportunities, calls, and emails.'
+description_tr: "Satış CRM'i: potansiyel müşteriler, fırsatlar, aramalar ve e-postalar."
 source: https://help.close.com/docs/mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

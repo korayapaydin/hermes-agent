@@ -6,6 +6,7 @@ description: Local-first, file-native long-term memory with HTTP and embedded Re
   — search queries and full user/assistant turns are sent to the configured ReMe endpoint (default http://127.0.0.1:2333;
   a non-loopback http:// endpoint receives them in plaintext) or handled by the in-process ReMe SDK; no
   API keys are forwarded.
+description_tr: "HTTP ve gömülü ReMe arka uçlarıyla yerel öncelikli, dosya tabanlı uzun süreli bellek. Açıklama — arama sorguları ve tam kullanıcı/asistan turları yapılandırılan ReMe uç noktasına gönderilir (varsayılan http://127.0.0.1:2333; geri döngü olmayan bir http:// uç noktası bunları düz metin olarak alır) ya da süreç içi ReMe SDK'sı tarafından işlenir; hiçbir API anahtarı iletilmez."
 maintainer: agentscope-ai
 tier: community
 category: memory

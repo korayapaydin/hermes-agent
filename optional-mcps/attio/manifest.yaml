@@ -5,6 +5,7 @@ manifest_version: 1
 name: attio
 connector_slug: attio
 description: CRM records, lists, and notes in Attio.
+description_tr: "Attio'daki CRM kayıtları, listeler ve notlar."
 source: https://attio.com/help/apps/other-apps/using-the-attio-mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

@@ -1,6 +1,7 @@
 ---
 name: ip-as-logo
 description: "Design minimal cute IP mascot marks readable at 32px."
+description_tr: "32px'te okunabilen minimal sevimli IP maskot işaretleri."
 version: 1.0.0
 author: s1dashu (https://github.com/s1dashu, upstream s1dashu/ip-as-logo-skill), ported by Hermes Agent
 license: MIT

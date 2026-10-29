@@ -12,6 +12,7 @@ readme: true
 # The package uses portable skills and HTTPS; live validation was on macOS arm64.
 platforms: []
 description: "Deploy, debug and manage Render applications with 20 unchanged skills from render-oss/skills and Render's hosted MCP connection. Disclosure — connects Hermes to Render's hosted MCP server (mcp.render.com) with your RENDER_API_KEY; the server is marked untrusted so tools without a read-only annotation need approval; account permissions apply and changes can incur Render charges; bundled skills guide shell commands, file edits and Render CLI installs (including the vendor's curl | sh installer)."
+description_tr: "Render uygulamalarını, render-oss/skills kaynağından değişiklik yapılmadan gelen 20 yetenek ve Render'ın barındırılan MCP bağlantısıyla dağıtın, hata ayıklayın ve yönetin. Açıklama — Hermes'i RENDER_API_KEY'inizle Render'ın barındırılan MCP sunucusuna (mcp.render.com) bağlar; sunucu güvenilmez olarak işaretlenmiştir, bu yüzden salt okunur açıklaması olmayan araçlar onay gerektirir; hesap izinleri geçerlidir ve değişiklikler Render ücretlerine yol açabilir; paketlenmiş yetenekler kabuk komutlarına, dosya düzenlemelerine ve Render CLI kurulumlarına (satıcının curl | sh kurucusu dâhil) rehberlik eder."
 known_issues:
   - "render-docker is excluded because its upstream Dockerfile cleanup example triggers a critical scanner rule."
   - "Render's list_workspaces lacks a read-only annotation and requires approval; unattended calls are denied."

@@ -2,6 +2,7 @@ name: deepseek-search-fetch
 repo: https://github.com/JasonSwindle/hermes-deepseek-search-fetch
 sha: b17ae50d243beacfd6ee9171e42f2af29b3c6d65
 description: "DeepSeek Search & Fetch as a backend for the built-in web_search and web_extract. Disclosure — sends web_search queries and web_extract URLs to api.deepseek.com with your DEEPSEEK_API_KEY and DeepSeek fetches the pages server-side; billed to your DeepSeek balance per successful request; no other endpoint, no telemetry, no file or shell access."
+description_tr: "Yerleşik web_search ve web_extract için arka uç olarak DeepSeek Search & Fetch. Açıklama — web_search sorgularını ve web_extract URL'lerini DEEPSEEK_API_KEY'inizle api.deepseek.com adresine gönderir ve DeepSeek sayfaları sunucu tarafında getirir; başarılı her istek için DeepSeek bakiyenizden ücretlendirilir; başka uç nokta yok, telemetri yok, dosya veya kabuk erişimi yok."
 maintainer: JasonSwindle
 tier: community
 category: web

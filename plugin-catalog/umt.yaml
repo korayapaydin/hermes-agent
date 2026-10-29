@@ -7,6 +7,7 @@ description: 'Connect 28 production-ready MCP servers to any coding agent. Porta
   (Hacker News, arXiv, npm registry, each pinned to an exact npm version), plus the umt-mcp
   skill that drives the umt CLI to wire any of the 28 servers into Claude Code, Cursor,
   Codex, Windsurf, Zed and more. Needs Node.js and npm on PATH.'
+description_tr: "28 üretime hazır MCP sunucusunu herhangi bir kodlama ajanına bağlayın. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/): kutudan çıktığı gibi üç sıfır yapılandırmalı stdio sunucusu (Hacker News, arXiv, npm dizini; her biri tam bir npm sürümüne sabitli) ve 28 sunucudan herhangi birini Claude Code, Cursor, Codex, Windsurf, Zed ve daha fazlasına bağlamak için umt CLI'ını süren umt-mcp yeteneği. PATH'te Node.js ve npm gerekir."
 maintainer: Markgatcha
 tier: community
 category: tools

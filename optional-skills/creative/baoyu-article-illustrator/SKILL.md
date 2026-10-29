@@ -1,6 +1,7 @@
 ---
 name: baoyu-article-illustrator
 description: "Article illustrations: type × style × palette consistency."
+description_tr: "Makale illüstrasyonları: tür × stil × palet tutarlılığı."
 version: 1.57.0
 author: 宝玉 (JimLiu)
 license: MIT

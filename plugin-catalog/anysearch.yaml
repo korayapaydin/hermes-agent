@@ -2,6 +2,7 @@ name: anysearch
 repo: https://github.com/vollegrewar/hermes-plugin-anysearch
 sha: 43c1757a5d12d4d7adb4e74326c99182f4957b6f
 description: 'AnySearch web search and extraction plus two real-time fallback chains: when a primary backend fails (Exa quota, Firecrawl timeout), the same call is served by AnySearch (1,000 free requests/day).'
+description_tr: "AnySearch web araması ve çıkarımı, ayrıca iki gerçek zamanlı yedek zinciri: birincil arka uç başarısız olduğunda (Exa kotası, Firecrawl zaman aşımı) aynı çağrı AnySearch tarafından karşılanır (günde 1,000 ücretsiz istek)."
 maintainer: vollegrewar
 tier: community
 category: web

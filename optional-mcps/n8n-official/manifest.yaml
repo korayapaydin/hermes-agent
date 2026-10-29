@@ -3,6 +3,7 @@ manifest_version: 1
 # A distinct name keeps the retired n8n stdio bridge's saved configuration intact.
 name: n8n-official
 description: Connect to your n8n instance's official MCP server with browser OAuth.
+description_tr: "Tarayıcı OAuth ile n8n örneğinizin resmî MCP sunucusuna bağlanın."
 source: https://docs.n8n.io/connect/connect-to-n8n-mcp-server/
 
 transport:

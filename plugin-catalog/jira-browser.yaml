@@ -2,6 +2,7 @@ name: jira-browser
 repo: https://github.com/LikelyLucid/hermes-jira-browser
 sha: 03ba860d7241af620860968fa747b109d4664cc2
 description: "Jira workspace for Hermes Desktop, linking tickets to Hermes Projects, worktrees, and conversations. Disclosure — reads a Jira API token from JIRA_* env vars or ~/jira-config/config.json (owner-only, read-only) and sends it only to your configured https Jira origin; agent tools are read-only but return Jira text (untrusted) to the model; Start work / Draft update create chats seeded with ticket descriptions (Draft update auto-runs a turn); PR/CI status is read through your local gh CLI login."
+description_tr: "Hermes Desktop için Jira çalışma alanı; Jira fişlerini Hermes Projeleri, çalışma ağaçları ve sohbetlerle ilişkilendirir. Açıklama — JIRA_* ortam değişkenlerinden veya ~/jira-config/config.json dosyasından (yalnızca sahibine ait, salt okunur) bir Jira API token'ı okur ve yalnızca yapılandırdığınız https Jira kaynağına gönderir; ajan araçları salt okunurdur ancak Jira metnini (güvenilmez) modele döndürür; İşe başla / Güncelleme taslağı, fiş açıklamalarıyla tohumlanmış sohbetler oluşturur (Güncelleme taslağı bir turu otomatik çalıştırır); PR/CI durumu yerel gh CLI oturum açmanız üzerinden okunur."
 maintainer: LikelyLucid
 tier: community
 category: desktop

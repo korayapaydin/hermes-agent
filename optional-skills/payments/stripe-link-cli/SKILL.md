@@ -1,6 +1,7 @@
 ---
 name: stripe-link-cli
 description: Agent payments via Stripe Link — cards, SPT, approvals.
+description_tr: "Stripe Link ile ajan ödemeleri — kartlar, SPT, onaylar."
 version: 0.1.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

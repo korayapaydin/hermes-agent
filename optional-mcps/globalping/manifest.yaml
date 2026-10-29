@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: globalping
 description: Ping, traceroute, DNS, and HTTP tests from global probes.
+description_tr: "Genel yoklamalardan ping, traceroute, DNS ve HTTP testleri."
 source: https://github.com/jsdelivr/globalping-mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

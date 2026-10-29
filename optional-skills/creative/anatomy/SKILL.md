@@ -1,6 +1,7 @@
 ---
 name: anatomy
 description: Explain an idea as an interactive isometric machine figure.
+description_tr: "Bir fikri etkileşimli izometrik makine figürüyle anlat."
 version: 1.0.0
 author: Ryan (wheresryan22), ported to Hermes by Nous Research
 license: MIT

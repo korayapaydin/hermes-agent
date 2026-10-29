@@ -1,6 +1,7 @@
 ---
 name: system-atlas
 description: "Build explorable isometric architecture atlases as HTML."
+description_tr: "İncelenebilir izometrik mimari atlaslarını HTML olarak kur."
 version: 1.0.0
 author: Harshyt Goel (adapted by Nous Research)
 license: MIT

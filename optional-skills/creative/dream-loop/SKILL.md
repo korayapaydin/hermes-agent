@@ -1,6 +1,7 @@
 ---
 name: dream-loop
 description: "Build stunning 3D scenes via a concept-art fidelity loop."
+description_tr: "Konsept sanat sadakat döngüsüyle çarpıcı 3D sahneler kur."
 version: 1.0.0
 author: Anshu Chimala (adapted by Nous Research)
 license: MIT

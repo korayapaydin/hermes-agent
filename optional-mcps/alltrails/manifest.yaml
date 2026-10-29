@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: alltrails
 description: 'AllTrails: find hikes and trails with reviews and ratings.'
+description_tr: "AllTrails: yürüyüş ve patika rehberi, incelemeler ve puanlar."
 source: https://www.alltrails.com/mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

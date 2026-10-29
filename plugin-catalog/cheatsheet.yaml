@@ -3,6 +3,7 @@ repo: https://github.com/Bonorinoa/hermes-cheatsheet
 sha: d5a4f0121184ed789e138f423249b5c2f7c57eee
 subdir: ""
 description: "Title-bar cheatsheet. Describe what you want to do and it points to a real command or a cited passage; live slash commands and plugins, plus cited passages from this install's docs. No runtime network. No self-update. Disclosure — reads the Markdown docs shipped with your Hermes install (website/docs next to hermes_cli) through a local dashboard route and lists your commands, plugins and MCP servers via read-only gateway calls; no network at runtime (doc and GitHub links open in your browser only when clicked)."
+description_tr: "Başlık çubuğu hızlı başvurusu. Ne yapmak istediğinizi anlatın, gerçek bir komuta ya da kaynak gösterilmiş bir alıntıya işaret etsin; canlı eğik çizgi komutları ve eklentiler, ayrıca bu kurulumun belgelerinden kaynak gösterilmiş alıntılar. Çalışma zamanında ağ yok. Kendini güncelleme yok. Açıklama — Hermes kurulumunuzla birlikte gelen Markdown belgelerini (hermes_cli yanındaki website/docs) yerel bir pano rotası üzerinden okur ve komutlarınızı, eklentilerinizi ve MCP sunucularınızı salt okunur ağ geçidi çağrılarıyla listeler; çalışma zamanında ağ yoktur (belge ve GitHub bağlantıları yalnızca tıklandığında tarayıcınızda açılır)."
 maintainer: Bonorinoa
 tier: community
 category: desktop

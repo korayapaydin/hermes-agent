@@ -1,6 +1,7 @@
 ---
 name: searxng-search
 description: Free keyless meta-search aggregating 70+ engines.
+description_tr: "70+ motoru birleştiren ücretsiz anahtarsız meta-arama."
 version: 1.0.1
 author: hermes-agent
 license: MIT

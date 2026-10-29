@@ -12,6 +12,7 @@ description: >-
   route reads only JSON files inside the user's home directory (or XDG_*_HOME) under 256 KiB and
   returns colour fields only, never raw file text. No network calls, no shell commands, no
   credentials, no telemetry.
+description_tr: "Duvar kâğıdınızı izleyen bir Hermes Desktop teması. Varsayılan olarak Pywal'ın ~/.cache/wal/colors.json dosyasını, ya da işaret ettiğiniz herhangi bir palet JSON'unu (ayarlar sayfası veya ~/.config/hermes-wallpaper-theme/config.json) okur, kontrast alt sınırları denetlenmiş bir palet türetir ve dosya değiştiğinde canlı olarak yeniden boyar. İsteğe bağlı cam modu, yerel pencere malzemeleri veya compositor bulanıklığı için yarı saydam bir arka plan boyar. Açıklama — masaüstü yarısı yalnızca @hermes/plugin-sdk kullanır; palet dosyası, paketin kendi arka uç rotası tarafından okunur (dashboard/plugin_api.py, GET /api/plugins/wallpaper-theme/palette, eklenti plugins.enabled içine girdiğinde bağlanır) ve bir değişiklik damgasıyla her 3 saniyede bir yoklanır. Bu rota yalnızca kullanıcının ev dizini (veya XDG_*_HOME) içindeki 256 KiB altındaki JSON dosyalarını okur ve yalnızca renk alanlarını döndürür, asla ham dosya metnini döndürmez. Ağ çağrısı yok, kabuk komutu yok, kimlik bilgisi yok, telemetri yok."
 maintainer: strnadchristopher
 tier: community
 category: desktop

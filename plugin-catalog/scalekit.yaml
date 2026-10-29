@@ -9,6 +9,7 @@ description: >-
   plugin-data/scalekit/identifier; the model can request an approval link, run
   a named tool, or proxy one HTTP request. Provider tokens stay in Scalekit;
   no shell, no background process, no telemetry.
+description_tr: "Hermes üzerinden herhangi bir Scalekit bağlantısını çağırın: 500+ bağlantı ve 20.000+ araç. Açıklama — HTTP çağrıları yapıştırdığınız Scalekit ortam URL'sine gider; üç Scalekit değeri get_secret ile okunur; bir kişi kimliği plugin-data/scalekit/identifier konumunda saklanır; model bir onay bağlantısı isteyebilir, adlandırılmış bir araç çalıştırabilir ya da tek bir HTTP isteğine vekillik edebilir. Sağlayıcı token'ları Scalekit'te kalır; kabuk yok, arka plan süreci yok, telemetri yok."
 maintainer: scalekit-inc
 tier: community
 category: tools

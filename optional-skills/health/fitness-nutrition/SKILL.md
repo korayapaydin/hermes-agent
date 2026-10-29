@@ -1,6 +1,7 @@
 ---
 name: fitness-nutrition
 description: "Workout planning, macros, and body metrics via wger/USDA."
+description_tr: "Antrenman planı, makro ve vücut ölçüleri: wger/USDA."
 platforms: [linux, macos, windows]
 version: 1.0.0
 author: Hailey Marshall (haileymarshall), Hermes Agent

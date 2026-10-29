@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: buildkite
 description: CI/CD pipelines, builds, and test results from Buildkite.
+description_tr: "Buildkite'ten CI/CD işlem hatları, derlemeler ve test sonuçları."
 source: https://buildkite.com/docs/apis/mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

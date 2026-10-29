@@ -1,6 +1,7 @@
 ---
 name: clip
 description: Zero-shot image classification and image-text search.
+description_tr: "Zero-shot görsel sınıflandırma ve görsel-metin arama."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

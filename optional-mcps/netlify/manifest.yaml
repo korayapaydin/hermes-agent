@@ -5,6 +5,7 @@ manifest_version: 1
 name: netlify
 description: >-
   Sites, deploys, and env vars via Netlify's hosted MCP.
+description_tr: "Netlify'in barındırdığı MCP üzerinden siteler, dağıtımlar ve ortam değişkenleri."
 source: https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

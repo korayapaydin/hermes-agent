@@ -5,6 +5,7 @@ description: >-
   TypeSafe (Jev) skill routing: the request is routed before the model call and the one skill
   from the live roster that fits it is named in a single <skill_relevance> line on the user
   message — nothing is injected when nothing fits.
+description_tr: "TypeSafe (Jev) yetenek yönlendirme: istek, model çağrısından önce yönlendirilir ve canlı listedeki uyan tek yetenek, kullanıcı mesajındaki tek bir <skill_relevance> satırında adlandırılır — hiçbir şey uymadığında hiçbir şey enjekte edilmez."
 maintainer: DECRUX9812
 tier: community
 category: automation

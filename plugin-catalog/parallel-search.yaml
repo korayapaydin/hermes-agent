@@ -5,6 +5,7 @@ description: >-
   Free web search and page fetching through Parallel's hosted MCP, with a setup
   skill bundled. No account or API key required. Queries and requested URLs are
   sent to Parallel. Adds direct MCP tools alongside Hermes's native web providers.
+description_tr: "Parallel'ın barındırılmış MCP'si üzerinden ücretsiz web araması ve sayfa getirme; paketlenmiş bir kurulum yeteneğiyle. Hesap ya da API anahtarı gerekmez. Sorgular ve istenen adresler Parallel'a gönderilir. Hermes'in yerel web sağlayıcılarının yanına doğrudan MCP araçları ekler."
 maintainer: georgeatparallel
 tier: community
 category: web

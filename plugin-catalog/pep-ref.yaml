@@ -10,6 +10,7 @@ description: >-
   PEP's page; section names and autocomplete text are matched locally); keeps the index in memory
   for an hour; no API key, no files written, no subprocess; register() only adds the @pep:
   reference provider.
+description_tr: "@pep:<number> bağlam referansları: bir mesaja bir Python Geliştirme Önerisi ekleyin (durum, tür, yazarlar, Python sürümü ve ilk bölümü, genellikle Özet), ya da @pep:<number>#<section> ile tek bir bölümü; TUI ve Desktop yazma alanında PEP numarası ve başlığı otomatik tamamlama. Açıklama — yalnızca peps.python.org adresine HTTPS GET istekleri gönderir (PEP dizini ve başvurulan PEP'in sayfası; bölüm adları ve otomatik tamamlama metni yerelde eşleştirilir); dizini bir saat boyunca bellekte tutar; API anahtarı yok, dosya yazılmaz, alt süreç yok; register() yalnızca @pep: referans sağlayıcısını ekler."
 maintainer: EloquentBrush0x
 tier: community
 category: web

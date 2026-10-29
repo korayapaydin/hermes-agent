@@ -1,6 +1,7 @@
 ---
 name: gitnexus-explorer
 description: Serve an interactive codebase knowledge graph web UI.
+description_tr: "Etkileşimli kod tabanı bilgi grafiği web arayüzü sun."
 version: 1.0.0
 author: Hermes Agent + Teknium
 license: MIT

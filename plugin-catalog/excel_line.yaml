@@ -2,6 +2,7 @@ name: excel_line
 repo: https://github.com/kalice-vi/hermes-excel-line
 sha: a48cc5a9d1763e7bbc21b28fb12ed1289870150c
 description: Excel-backed hierarchical long-term memory tree (10-row cap per workbook, dynamic branching, leaf pointers). Classifier defaults to the host model; third-party keyless rotation is opt-in.
+description_tr: "Excel destekli hiyerarşik uzun süreli bellek ağacı (çalışma kitabı başına 10 satır sınırı, dinamik dallanma, yaprak işaretçileri). Sınıflandırıcı varsayılan olarak ana makine modelini kullanır; üçüncü taraf anahtarsız döndürme isteğe bağlıdır."
 maintainer: kalice-vi
 tier: community
 category: memory

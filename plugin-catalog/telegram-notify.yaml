@@ -13,6 +13,7 @@ description: >-
   notify_on_approval_response is enabled, Telegram-origin approval-response copies) are suppressed
   because the core Telegram gateway already delivers them in that chat; token and state are
   stored 0600 under HERMES_HOME/telegram-notify.
+description_tr: "Ana Hermes ajanı için uzak Telegram yaşam döngüsü bildirimleri: tur başlangıcı, sınırlandırılmış nihai yanıtla tamamlanma, kesinti/hata ve kullanıcıya dönük onay istekleri. Alt ajan, Telegram kaynaklı yaşam döngüsü ve otomatik/akıllı onay gürültüsünü bastırır. Yalnızca giden, girdi kanalı yok. Açıklama — kurulduktan sonra varsayılan olarak etkindir ve mevcut olduğunda çekirdek Telegram ağ geçidinin TELEGRAM_BOT_TOKEN ve TELEGRAM_HOME_CHANNEL değerlerini yeniden kullanır; böylece CLI, Desktop ve uygun ağ geçidi platformlarından her ana ajan turunun nihai yanıtı (en fazla 3.200 karakter) ve onay isteği komut metni (en fazla 700 karakter), o tek sohbete teslim edilmek üzere api.telegram.org adresine gönderilir; Telegram kaynaklı yaşam döngüsü ve onay istemi kopyaları (ve notify_on_approval_response etkinleştirildiğinde Telegram kaynaklı onay yanıtı kopyaları) bastırılır çünkü çekirdek Telegram ağ geçidi bunları o sohbette zaten teslim eder; token ve durum HERMES_HOME/telegram-notify altında 0600 ile saklanır."
 maintainer: madpower2000
 tier: community
 category: automation

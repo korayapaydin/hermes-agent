@@ -6,6 +6,7 @@ name: datadog
 connector_slug: datadog_mcp
 description: >-
   Logs, monitors, dashboards, and incidents from Datadog.
+description_tr: "Datadog'dan günlükler, izlemeler, panolar ve olaylar."
 source: https://docs.datadoghq.com/bits_ai/mcp_server/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

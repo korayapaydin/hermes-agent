@@ -1,6 +1,7 @@
 ---
 name: huggingface-tokenizers
 description: Fast BPE/WordPiece tokenization and custom vocab training.
+description_tr: "Hızlı BPE/WordPiece tokenizasyonu ve özel sözlük eğitimi."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

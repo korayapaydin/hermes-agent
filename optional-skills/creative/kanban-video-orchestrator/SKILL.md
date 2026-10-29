@@ -1,6 +1,7 @@
 ---
 name: kanban-video-orchestrator
 description: Plan and run multi-agent video production pipelines.
+description_tr: "Çok ajanlı video üretim hatlarını planla ve çalıştır."
 version: 1.0.0
 author: [SHL0MS, alt-glitch]
 license: MIT

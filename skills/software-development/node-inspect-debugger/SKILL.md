@@ -1,6 +1,7 @@
 ---
 name: node-inspect-debugger
 description: "Debug Node.js via --inspect + Chrome DevTools Protocol CLI."
+description_tr: "Node.js hata ayıklama: --inspect + Chrome DevTools Protocol."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

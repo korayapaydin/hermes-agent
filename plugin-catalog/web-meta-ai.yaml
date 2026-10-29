@@ -2,6 +2,7 @@ name: web-meta-ai
 repo: https://github.com/ajaynomics/hermes-web-meta-ai
 sha: 302cc18866a6255d768a5a79b5e7cb50cd0adb09
 description: "Meta web search — routes web_search through the server-side web_search tool on Meta's Responses API (Muse Spark); search-only. Disclosure — each search is a separate billed Meta Model API call (per-query web search fee plus tokens) on MODEL_API_KEY."
+description_tr: "Meta web araması — web_search isteğini Meta'nın Responses API'sindeki (Muse Spark) sunucu tarafı web_search aracı üzerinden yönlendirir; yalnızca arama. Açıklama — her arama, MODEL_API_KEY üzerinden ayrı ayrı faturalandırılan bir Meta Model API çağrısıdır (sorgu başına web arama ücreti artı tokenlar)."
 maintainer: ajaynomics
 tier: community
 category: web

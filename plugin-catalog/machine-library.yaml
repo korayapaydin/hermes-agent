@@ -2,6 +2,7 @@ name: machine-library
 repo: https://github.com/SpaceFrontiers/hermes-machine-library
 sha: 3d31000cd4995ffb452b246d268a5031acdd3744
 description: Research search for web_search and web_extract — papers, books, patents, standards and Wikipedia, with citable source links (Machine Library API key).
+description_tr: "web_search ve web_extract için araştırma araması — makaleler, kitaplar, patentler, standartlar ve Wikipedia, kaynak gösterilebilir bağlantılarla (Machine Library API anahtarı)."
 maintainer: SpaceFrontiers
 tier: community
 category: web

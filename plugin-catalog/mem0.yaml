@@ -9,6 +9,7 @@ description: Mem0 memory provider — server-side LLM fact extraction with seman
   configured Mem0 backend (api.mem0.ai in platform mode); at this pin the mem0ai library's anonymous
   PostHog usage telemetry stays on unless MEM0_TELEMETRY=false is set; `hermes memory setup` can start
   Docker (pgvector) and Ollama containers for local mode.
+description_tr: "Mem0 bellek sağlayıcısı — sunucu tarafı LLM olgu çıkarımı, anlamsal arama, otomatik tekilleştirme ve isteğe bağlı yeniden sıralama; platform, kendi sunucunuzda barındırma ya da yerel OSS kipinde. Mem0 tarafından sürdürülür; önceden Hermes ağacıyla birlikte gelen sağlayıcının aynısıdır. Açıklama — konuşma turları ve geri çağırma sorguları yapılandırılmış Mem0 arka ucuna gider (platform kipinde api.mem0.ai); bu sabitlemede mem0ai kitaplığının anonim PostHog kullanım telemetrisi, MEM0_TELEMETRY=false ayarlanmadıkça açık kalır; `hermes memory setup` yerel kip için Docker (pgvector) ve Ollama konteynerlerini başlatabilir."
 maintainer: mem0ai
 tier: community
 category: memory

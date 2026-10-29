@@ -2,6 +2,7 @@ name: prompt-tray
 repo: https://github.com/aydnOktay/hermes-prompt-tray
 sha: e693e91f2c83031653a62fe286efb90d081f051b
 description: "Saved chat prompts — click a tray item to insert it into the Hermes composer. Review / Plan / Explain defaults, then your own. No API keys. Disclosure — inserts prompts through Hermes Desktop's internal hermes:composer-insert event (not a public SDK API); stores prompts in $HERMES_HOME/plugin-data/prompt-tray/prompts.json; no network."
+description_tr: "Kayıtlı sohbet istemleri — bir tepsi öğesine tıklayın ve onu Hermes yazma alanına ekleyin. İncele / Planla / Açıkla varsayılanları, sonra kendi istemleriniz. API anahtarı yok. Açıklama — istemleri Hermes Desktop'ın dahili hermes:composer-insert olayı üzerinden ekler (herkese açık bir SDK API'si değildir); istemleri $HERMES_HOME/plugin-data/prompt-tray/prompts.json içinde saklar; ağ yok."
 maintainer: aydnOktay
 tier: community
 category: desktop

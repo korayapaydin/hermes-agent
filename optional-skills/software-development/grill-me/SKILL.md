@@ -1,6 +1,7 @@
 ---
 name: grill-me
 description: "Adversarial plan interview before implementation."
+description_tr: "Uygulama öncesi hasımlı plan görüşmesi."
 version: 2.0.0
 author: "Rafael Zendron (rafaumeu) + Matt Pocock (mattpocock/skills, grilling) + Hermes Agent"
 license: MIT

@@ -2,6 +2,7 @@ name: replaid
 repo: https://github.com/replaid-pro/replaid-hermes
 sha: 3f8881f2f9f6ee27b59515ff9fef0afee33b87e0
 description: Connect Replaid with OAuth to read, triage, and draft replies in your social inbox.
+description_tr: "OAuth ile Replaid'a bağlanın; sosyal gelen kutunuzda okumak, sınıflandırmak ve yanıt taslakları hazırlamak için."
 maintainer: replaid-pro
 tier: community
 category: tools

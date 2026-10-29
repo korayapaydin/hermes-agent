@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: wordpress-com
 description: 'WordPress.com: posts, pages, drafts, stats, and comments.'
+description_tr: "WordPress.com: gönderiler, sayfalar, taslaklar, istatistikler ve yorumlar."
 source: https://developer.wordpress.com/docs/mcp/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

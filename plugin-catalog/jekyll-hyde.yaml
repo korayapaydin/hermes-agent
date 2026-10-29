@@ -2,6 +2,7 @@ name: jekyll-hyde
 repo: https://github.com/jnorthrup/hermes-jekyl-hyde
 sha: 10149e57ec2cf47a0184d475ca4d5cb797b54c2d
 description: Context optimization and execution alignment for agent sessions.
+description_tr: "Ajan oturumları için bağlam optimizasyonu ve yürütme hizası."
 maintainer: jnorthrup
 tier: community
 category: general

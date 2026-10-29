@@ -2,6 +2,7 @@ name: time-gap
 repo: https://github.com/Randool/time-gap
 sha: bc5e65503a412808029573a98b6008387a0ac2f6
 description: Inject an implicit time-gap sense only when a gap or a date rollover crosses.
+description_tr: "Yalnızca bir boşluk ya da bir tarih devri sınırı geçtiğinde örtük bir zaman boşluğu duygusu enjekte eder."
 maintainer: Randool
 tier: community
 category: general

@@ -10,6 +10,7 @@ description: >-
   your Hermes slash-command list and the names and descriptions of installed
   skills to the Inline server (INLINE_SYNC_COMMANDS=false disables); error
   telemetry is off unless a Sentry DSN is set.
+description_tr: "Hermes Agent'ı Inline iş sohbeti DM'lerinden, sohbetlerden ve yanıt iş parçacıklarından kullanın. Açıklama — kurulum sihirbazı, açık onay verilmesi durumunda https://inline.chat/cli/install.sh dosyasını indirip bir sağlama toplamı olmadan sh'e aktarabilir, ardından satıcının inline CLI oturum açma komutunu çalıştırabilir; bağlanınca bağdaştırıcı, Hermes eğik çizgi komutu listenizi ve yüklü yeteneklerin adlarını ve açıklamalarını Inline sunucusuna yayımlar (INLINE_SYNC_COMMANDS=false bunu devre dışı bırakır); bir Sentry DSN ayarlanmadıkça hata telemetrisi kapalıdır."
 maintainer: morajabi
 tier: community
 category: platform

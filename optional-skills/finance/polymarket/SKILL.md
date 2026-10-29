@@ -1,6 +1,7 @@
 ---
 name: polymarket
 description: "Query Polymarket: markets, prices, orderbooks, history."
+description_tr: "Polymarket: piyasalar, fiyatlar, emir defteri, geçmiş."
 version: 1.0.0
 author: Hermes Agent + Teknium
 license: MIT

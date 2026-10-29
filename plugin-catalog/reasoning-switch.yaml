@@ -6,6 +6,7 @@ description: Rotate the focused session reasoning effort from the status bar. A 
   colors, and per-level prompt limits. Disclosure — changes the focused session's reasoning effort through
   the gateway config.set API (core may fall back to writing the global config.yaml when the session id
   is stale) and auto-demotes the level after the configured number of prompts.
+description_tr: "Odaktaki oturumun akıl yürütme çabasını durum çubuğundan değiştirin. Bir iletişim kutusu düzeyleri, renkleri ve düzey başına istem sınırlarını ayarlar. Açıklama — odaktaki oturumun akıl yürütme çabasını ağ geçidi config.set API'si üzerinden değiştirir (oturum kimliği eskimişse çekirdek, genel config.yaml dosyasını yazmaya geri dönebilir) ve yapılandırılan istem sayısından sonra düzeyi otomatik olarak düşürür."
 maintainer: apoapostolov
 tier: community
 category: desktop

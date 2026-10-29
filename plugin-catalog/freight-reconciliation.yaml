@@ -9,6 +9,7 @@ description: 'Payer-side freight reconciliation: import carrier bills and trip l
   writes back to ERP/TMS; final confirmations route through a local admin page the model cannot
   reach. Disclosure — the optional freight-admin page listens on 127.0.0.1 and is where a human
   confirms mappings, rules, matches and exports; nothing leaves the machine.'
+description_tr: "Açıklama — isteğe bağlı freight-admin sayfası 127.0.0.1 üzerinde dinler; eşlemeleri, kuralları, eşleşmeleri ve dışa aktarımları burada bir insan onaylar; hiçbir şey makineden çıkmaz."
 maintainer: harrylabsj
 tier: community
 category: tools

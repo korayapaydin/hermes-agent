@@ -3,6 +3,7 @@ repo: https://github.com/dandacompany/hermes-lang-ko
 sha: 454364157cc7cad777d3c534ab19be2ff866cf39
 description: >-
   Korean (한국어) language pack for Hermes Desktop — Desktop UI (5,282 of 5,384 keys on v0.22.5 and main cb757fac59; 349 new translations); CLI, gateway and TUI keep the Korean catalogs already bundled with Hermes. Independent translation from the English source; values identical to English are omitted so missing strings fall back to English. Disclosure — text-only catalogs plus an __init__.py whose register() is a no-op (kept so Desktop "Install from Git" accepts the pack, #138118); registering the pack never changes display.language, the user opts in via config.
+description_tr: "Korece (한국어) dil paketi — Hermes Desktop için Desktop arayüzü (v0.21.7'de 5.065 anahtardan 4.962'si, main'de 5.085'ten 4.982'si); CLI, ağ geçidi ve TUI, Hermes ile paketlenmiş Korece katalogları kullanmaya devam eder. İngilizce kaynaktan bağımsız çeviri; İngilizceyle aynı olan değerler çıkarılır, böylece eksik metinler İngilizceye geri döner. Açıklama — yalnızca metin katalogları ve register() işlevi hiçbir şey yapmayan bir __init__.py (Desktop'un \"Install from Git\" özelliğinin paketi kabul etmesi için tutulur, #138118); paketi kaydetmek display.language değerini asla değiştirmez, kullanıcı config üzerinden seçer."
 maintainer: dandacompany
 tier: community
 category: general

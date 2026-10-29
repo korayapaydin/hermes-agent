@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: unreal-engine
 description: Drive the Unreal Engine 5.8 editor over its local MCP server.
+description_tr: "Unreal Engine 5.8 düzenleyicisini yerel MCP sunucusu üzerinden yönetin."
 source: https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor
 
 # Epic's official "Unreal MCP" plugin (internal id ModelContextProtocol)

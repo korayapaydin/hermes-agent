@@ -1,6 +1,7 @@
 ---
 name: publish-site
 description: Versioned site deploys to GitHub/Cloudflare/Netlify Pages.
+description_tr: "Sürümlü site dağıtımları: GitHub/Cloudflare/Netlify Pages."
 version: 1.0.0
 author: Hermes Agent (Nous Research)
 license: MIT

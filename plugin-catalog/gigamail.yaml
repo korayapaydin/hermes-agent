@@ -13,6 +13,7 @@ description: >-
   or a configured path, points it at GigaMail's own data directory under your user profile
   (%APPDATA%\ADE or ~/.ade), and send, delete and calendar writes are gated by that backend's
   out-of-band approval rather than by Hermes.
+description_tr: "Mevcut yerel GigaMail MCP sunucusu üzerinden e-posta ve takvim; bir iş akışı yeteneği ve stdio başlatıcısıyla. Python ve ayrıca yapılandırılmış bir arka uç gerekir; otomatik arka uç kurulumu ya da güncellemesi yoktur. Gerçek postaları ve ekleri okur; gönderme, silme ve takvim yazma işlemleri GigaMail'in bant dışı insan onayını kullanır. Açıklama — Adecubed inc. tarafından ayrıca kurulan GigaMail MCP sunucusu için ince bir stdio başlatıcısıdır (gigamail.ai, github.com/adecubed/gigamail, bu eklentiyle aynı yazar); eklenti hiçbir posta mantığı ya da kimlik bilgisi tutmaz ve hiçbir şey indirmez, ancak bu üçüncü taraf çalıştırılabilir dosyasını PATH'ten ya da yapılandırılmış bir yoldan başlatır, onu kullanıcı profiliniz altındaki GigaMail'in kendi veri dizinine (%APPDATA%\\ADE veya ~/.ade) yönlendirir ve gönderme, silme ile takvim yazma işlemleri Hermes yerine o arka ucun bant dışı onayıyla denetlenir."
 maintainer: adecubed
 tier: community
 category: tools

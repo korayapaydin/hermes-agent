@@ -1,6 +1,7 @@
 ---
 name: segment-anything-model
 description: "SAM: zero-shot image segmentation via points, boxes, masks."
+description_tr: "SAM: nokta, kutu, maske ile zero-shot görsel segmentasyonu."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

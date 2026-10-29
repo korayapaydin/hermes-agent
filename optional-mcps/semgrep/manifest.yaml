@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: semgrep
 description: Scan code for security vulnerabilities with Semgrep.
+description_tr: "Semgrep ile kodu güvenlik açıklarına karşı tarayın."
 source: https://semgrep.dev/docs/mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

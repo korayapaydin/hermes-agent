@@ -3,6 +3,7 @@ repo: https://github.com/rriggs/hermes-plugin-ollama-cloud-search
 sha: 9c739a9ea5985e0ba86c20d7160af06382c2198e
 description: Ollama Cloud web search + content extraction via Ollama's native REST API. Search returns
   web results; extract fetches page content. Reuses OLLAMA_API_KEY (https://ollama.com/settings/keys).
+description_tr: "Ollama'nın yerel REST API'si üzerinden Ollama Cloud web araması + içerik çıkarımı. Arama web sonuçlarını döndürür; çıkarma sayfa içeriğini getirir. OLLAMA_API_KEY değerini yeniden kullanır (https://ollama.com/settings/keys)."
 maintainer: rriggs
 tier: community
 category: web

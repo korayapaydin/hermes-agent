@@ -3,6 +3,7 @@ repo: https://github.com/albertocvrrbs/hermes-home-dashboard
 sha: a8a018225d8ecd21b281788131775adeade4c577
 description: Personalizable rice-style Home page with draggable, resizable glass widgets for Hermes Web
   and Desktop.
+description_tr: "Hermes Web ve Desktop için kişiselleştirilebilir, pirinç tarzı Ana sayfa; sürüklenebilir, yeniden boyutlandırılabilir cam bileşenlerle."
 maintainer: albertocvrrbs
 tier: community
 category: desktop

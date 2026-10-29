@@ -11,6 +11,7 @@ description: >-
   signing) to keep a bare repository in $HERMES_HOME/plugin-data/memory-rewind/; reads only the
   tracked files (never .env, auth.json, databases or skills/.hub/); rewrites tracked files only
   when the user runs `restore`; no network.
+description_tr: "Yerleşik bellek (MEMORY.md, USER.md), SOUL.md ve skills/ (yetenek yöneticisi tarafından arşivlenen yetenekler dâhil) için otomatik sürüm geçmişi: `hermes memory-rewind` ile geçmiş bir sürümü inceleyin, karşılaştırın ve geri yükleyin ya da salt okunur `/memory-history` ile herhangi bir sohbetten görüntüleyin. Yerleşik bellekle birlikte çalışır; bir bellek sağlayıcısı değildir. Açıklama — yerel git ikili dosyasını (kullanıcının git yapılandırmasından, hook'larından ve imzalamasından yalıtılmış) $HERMES_HOME/plugin-data/memory-rewind/ içinde çıplak bir depo tutmak için çalıştırır; yalnızca izlenen dosyaları okur (.env, auth.json, veritabanları veya skills/.hub/ asla); izlenen dosyaları yalnızca kullanıcı `restore` komutunu çalıştırdığında yeniden yazar; ağ yok."
 maintainer: AhmetArif0
 tier: community
 category: general

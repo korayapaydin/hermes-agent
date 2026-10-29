@@ -5,6 +5,7 @@ subdir: hermes-plugin
 description: Local-first persistent memory for coding agents. SQLite on your disk -
   decisions, preferences, error patterns, and guidelines with project and global
   scopes and guideline-aware search. No cloud, no API key, nothing leaves the machine.
+description_tr: "Kodlama ajanları için yerel öncelikli kalıcı bellek. Diskte SQLite — kararlar, tercihler, hata desenleri ve yönergeler, proje ve genel kapsamlarla ve yönerge farkındalıklı aramayla. Bulut yok, API anahtarı yok, hiçbir şey makineden çıkmaz."
 maintainer: Steven Leggett
 tier: community
 category: memory

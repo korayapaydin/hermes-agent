@@ -17,6 +17,7 @@ description: >-
   no network requests of its own, adds no headers, sends no telemetry, reads or writes no files and
   stores no credentials.
 maintainer: RuAPI
+description_tr: "RuAPI üzerinden Hermes model sağlayıcıları tek bir anahtarda: `ruapi`, Claude modellerini RuAPI'nin yerel Anthropic Messages API'si üzerinden sunar (böylece Hermes'in Anthropic prompt önbelleğe alma ve düşünme özellikleri uygulanır) ve `ruapi-openai`, GPT, Gemini, DeepSeek, GLM, Qwen, Kimi ve diğer sohbet modellerini OpenAI uyumlu API'si üzerinden sunar. Her /model seçici, hesabın GET /v1/models listesinden ilgili tarafın sohbet modellerini listeler, görüntü ve video modellerini hariç tutar; ana modeller için bağlam pencereleri ve görüntü girdileri beyan edilir. RuAPI tarafından sürdürülmektedir. Bilgilendirme — içe aktarma sırasında yalnızca iki model sağlayıcısı kaydeder, başka hiçbir şey yapmaz (araçlar, kancalar, komutlar veya iş parçacıkları yoktur). Promptlar, araç şemaları ve RUAPI_API_KEY, Hermes'in kendi istemcileri aracılığıyla https://www.ruapi.ai (/v1/messages ve /v1/chat/completions) adresine gider ve RuAPI her isteği modeli sunan üst sağlayıcıya iletir. Model listesi, anahtar ile yapılan standart GET https://www.ruapi.ai/v1/models isteğidir; eklenti kendi başına ağ isteği yapmaz, başlık eklemez, telemetri göndermez, dosya okuyup yazmaz ve kimlik bilgisi saklamaz."
 tier: community
 category: models
 requires_hermes: ">=0.21.5"

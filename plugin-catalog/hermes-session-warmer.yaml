@@ -7,6 +7,7 @@ description: >-
   text-chat endpoints. Sends potentially billable requests; no tool execution or
   conversation writes. Does not support Codex/Responses or native Anthropic.
   Authenticated endpoints use optional HERMES_SESSION_WARMER_API_KEY.
+description_tr: "Yalnızca açıkça izin listesine eklenmiş OpenAI uyumlu metin sohbeti uçları için isteğe bağlı, sınırlı boşta istem ısıtma. Faturalanabilir istekler gönderir; araç çalıştırma ya da sohbet yazımı yok. Codex/Responses ya da yerel Anthropic desteklenmez. Kimlik doğrulamalı uçlar isteğe bağlı HERMES_SESSION_WARMER_API_KEY değerini kullanır."
 maintainer: mojomast
 tier: community
 category: models

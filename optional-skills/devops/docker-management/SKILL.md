@@ -1,6 +1,7 @@
 ---
 name: docker-management
 description: Manage Docker containers, images, volumes, and Compose.
+description_tr: "Docker konteyner, imaj, hacim ve Compose yönetimi."
 version: 1.0.0
 author: sprmn24
 license: MIT

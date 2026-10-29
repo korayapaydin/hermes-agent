@@ -10,6 +10,7 @@ description: Persistent agent memory over a mnemostack service or a local Qdrant
   plugin.yaml pip_dependencies (hermes-mnemostack==1.0.3) into the Hermes venv.
   Configured via MNEMOSTACK_* env vars; no key is required for a purely local
   Qdrant setup.
+description_tr: "Bir mnemostack servisi ya da yerel bir Qdrant üzerinden kalıcı ajan belleği — karma geri çağırma (vektör + sözcüksel + graf), kendi yankısını bastıran birebir yakalama ve yumuşak geri alma. Paylaşılan kimlik doğrulamalı bir hizmete yönlendirildiğinde çok kiracılıdır; kiracı, hizmet anahtarından sunucu tarafında çözülür. Açıklama — sabitlenmiş dizin bir keşif dolgusu; sağlayıcı kodu, plugin.yaml pip_dependencies içinde sabitlenmiş sürümde (hermes-mnemostack==1.0.3) PyPI'dan Hermes venv'ine kurulur. MNEMOSTACK_* ortam değişkenleriyle yapılandırılır; tamamen yerel bir Qdrant kurulumu için anahtar gerekmez."
 maintainer: udjin-labs
 tier: community
 category: memory

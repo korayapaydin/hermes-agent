@@ -4,6 +4,7 @@ sha: 3fa519a291d91b0e6c44bd42762190363ce80c39
 description: Ring when a Hermes turn finishes so you can leave the window. OS
   notification, optional chime, and a busy/done chip. Optional "needs you"
   when approval is waiting. No API keys.
+description_tr: "Pencereyi terk edebilmeniz için bir Hermes turu bitince zil çalın. İşletim sistemi bildirimi, isteğe bağlı ses ve meşgul/bitti çipi. Onay beklerken isteğe bağlı 'sizin müdahale gerekiyor' durumu. API anahtarı yok."
 maintainer: aydnOktay
 tier: community
 category: desktop

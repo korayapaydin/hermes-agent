@@ -1,6 +1,7 @@
 ---
 name: siyuan
 description: Query and edit a SiYuan knowledge base via its API.
+description_tr: "SiYuan bilgi tabanını API ile sorgula ve düzenle."
 version: 1.0.0
 author: FEUAZUR
 license: MIT

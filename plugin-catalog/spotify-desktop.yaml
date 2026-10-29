@@ -6,6 +6,7 @@ description: 'Spotify Connect remote for Hermes Desktop — status-bar mini play
   (Spotify Premium required for playback control). Unified agent+desktop
   package: Electron status-bar player plus a dashboard-API backend (desktop-focused, no web UI).
   No agent tools; config via plugins.entries.spotify-desktop.settings (poll intervals).'
+description_tr: "Hermes Desktop için Spotify Connect uzaktan kumandası — durum çubuğu mini oynatıcısı (şu an çalan, taşıma, ses, cihazlar, arama, çalma listeleri, kuyruk), Hermes'in Spotify girişini yeniden kullanır (oynatma denetimleri için Spotify Premium gerekir). Birleşik ajan+masaüstü paketi: Electron durum çubuğu oynatıcısı ve pano API arka ucu (masaüstü odaklı, web arayüzü yok). Ajan aracı yok; yapılandırma plugins.entries.spotify-desktop.settings ile yapılır (yoklama aralıkları)."
 maintainer: cruzlxyz
 tier: community
 version: "0.1.2"

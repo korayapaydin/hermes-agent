@@ -3,6 +3,7 @@ repo: https://github.com/Zamoca42/hermes-completion-sound
 sha: 160883daf31f7e788f862197cf2bedb7b8715be2
 title: Completion Sound
 description: 'Pick the sound Hermes Desktop plays when a turn finishes: one of the 14 built-in presets or your own audio file (mp3, wav, ogg), with an optional different sound during night hours. Files stay in the plugin''s local storage. Desktop-only (desktop/plugin.js inside the plugin SDK surface); no agent tools, hooks, middleware or env vars.'
+description_tr: "Bir tur bittiğinde Hermes Desktop'un çalacağı sesi seçin: 14 yerleşik ön ayardan biri ya da kendi ses dosyanız (mp3, wav, ogg); gece saatleri için isteğe bağlı farklı bir sesle. Dosyalar eklentinin yerel deposunda kalır. Yalnızca Desktop (plugin SDK yüzeyi içinde desktop/plugin.js); ajan aracı, hook, middleware veya ortam değişkeni yok."
 maintainer: Zamoca42
 tier: community
 category: desktop

@@ -1,6 +1,7 @@
 ---
 name: archify
 description: Validated interactive HTML diagrams, upstream-maintained.
+description_tr: "Doğrulanmış etkileşimli HTML şemaları, upstream bakımlı."
 version: 2.17.0
 author: tt-a1i
 license: MIT

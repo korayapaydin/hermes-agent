@@ -5,6 +5,7 @@ version: "1.1.0"
 description: Analyze git diffs for common code quality issues — debug prints, hardcoded secrets, bare
   except clauses, and unresolved TODOs, in a diff you pass, the working tree (untracked files included) or
   a branch against its merge base.
+description_tr: "Git farklarını yaygın kod kalitesi sorunları için inceleyin — hata ayıklama çıktıları, sabit kodlanmış sırlar, çıplak except blokları ve çözülmemiş TODO'lar."
 maintainer: sprmn24
 tier: community
 category: tools

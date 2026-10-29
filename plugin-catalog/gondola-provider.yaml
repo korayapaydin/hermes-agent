@@ -2,6 +2,7 @@ name: gondola-provider
 repo: https://github.com/Gondola-Market/hermes-gondola-provider
 sha: ad3f352b6a9814f1b550c819bee5ef2fb92a1851
 description: Gondola, a USDC-settled marketplace API for Venice AI inference
+description_tr: "Gondola — Venice AI çıkarımı için USDC ile mutabakaya geçen bir pazar yeri API'si"
 maintainer: Gondola-Market
 tier: community
 category: models

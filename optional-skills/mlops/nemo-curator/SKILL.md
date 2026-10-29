@@ -1,6 +1,7 @@
 ---
 name: nemo-curator
 description: "Curate LLM training data: dedupe, filter, PII redaction."
+description_tr: "LLM eğitim verisi: tekilleştir, filtrele, PII maskele."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

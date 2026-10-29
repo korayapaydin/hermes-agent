@@ -1,6 +1,7 @@
 ---
 name: p5js
 description: "p5.js sketches: gen art, shaders, interactive, 3D."
+description_tr: "p5.js eskizleri: jeneratif sanat, shader, etkileşim, 3B."
 version: 1.0.0
 author: SHL0MS, Hermes Agent
 license: MIT

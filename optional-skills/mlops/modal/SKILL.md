@@ -1,6 +1,7 @@
 ---
 name: modal
 description: Serverless GPU cloud for ML jobs and model APIs.
+description_tr: "ML işleri ve model API'leri için sunucusuz GPU bulutu."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

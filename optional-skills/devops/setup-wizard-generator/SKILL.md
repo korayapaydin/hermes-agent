@@ -1,6 +1,7 @@
 ---
 name: setup-wizard-generator
 description: "Generate a bash wizard guiding a human through manual setup."
+description_tr: "İnsanı manuel kurulumdan geçiren bir bash sihirbazı üret."
 version: 1.0.0
 author: "Matt Pocock (mattpocock/skills, wizard) + Hermes Agent"
 license: MIT

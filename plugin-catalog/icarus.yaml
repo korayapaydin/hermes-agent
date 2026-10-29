@@ -2,6 +2,7 @@ name: icarus
 repo: https://github.com/esaradev/icarus-plugin
 sha: e46cba30fb95a0b54b7c4d6c26169a424283d72b
 description: Self-memory and replacement models for Hermes agents. Remember your work. Train your replacement.
+description_tr: "Hermes ajanları için öz-bellek ve halef modelleri. İşinizi hatırlayın. Halefinizi eğitin."
 maintainer: esaradev
 tier: community
 category: memory

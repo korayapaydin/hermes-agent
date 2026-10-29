@@ -1,6 +1,7 @@
 ---
 name: merger-model
 description: Build M&A accretion/dilution workbooks in Excel.
+description_tr: "Excel'de M&A kazanç/dilüyon modelleri oluştur."
 version: 1.0.0
 author: Anthropic (adapted by Nous Research)
 license: Apache-2.0

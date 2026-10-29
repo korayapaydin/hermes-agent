@@ -1,6 +1,7 @@
 ---
 name: oss-forensics
 description: "GitHub supply-chain forensics: recovery, IOCs, reporting."
+description_tr: "GitHub tedarik zinciri forensics: kurtarma, IOC, raporlama."
 version: 1.0.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

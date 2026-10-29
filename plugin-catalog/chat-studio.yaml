@@ -2,6 +2,7 @@ name: chat-studio
 repo: https://github.com/gchablemeneses-web/hermes-chat-studio
 sha: 8b97b6c99a1f34abc6a8c5f461c894a8bb3f95d2
 description: "Offline conversation customization with one-click presets and plugin-owned settings. Disclosure — enabled by default; injects a stylesheet that restyles the Desktop chat transcript (width, fonts, spacing, optional colours) keyed on app data-slot selectors, so a Desktop update can break the styling; settings stay in plugin storage, no network."
+description_tr: "Tek tıkla hazır ayarlar ve eklentiye ait ayarlarla çevrimdışı sohbet özelleştirme. Açıklama — varsayılan olarak etkindir; Desktop sohbet dökümünü (genişlik, yazı tipleri, aralık, isteğe bağlı renkler) uygulamanın data-slot seçicilerine bağlı olarak yeniden biçimlendiren bir stil sayfası enjekte eder, bu yüzden bir Desktop güncellemesi biçimlendirmeyi bozabilir; ayarlar eklenti depolamasında kalır, ağ erişimi yoktur."
 maintainer: gchablemeneses-web
 tier: community
 category: desktop

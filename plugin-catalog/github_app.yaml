@@ -14,6 +14,7 @@ description: >-
   Issue/comment/review/merge writes stay disabled until settings.allow_write_actions is true and each
   one additionally goes through Hermes's human-approval prompt via its pre_tool_call hook (an 'always'
   answer does not persist).
+description_tr: "Bot öncelikli atıf ve onay kapılı sorun/PR yazımlarıyla GitHub ve GitHub Enterprise araçları. Açıklama — GITHUB_APP_ID, GITHUB_APP_INSTALLATION_ID ve GITHUB_APP_PRIVATE_KEY ya da GITHUB_APP_PRIVATE_KEY_PATH/_FILE içindeki özel anahtarla (profil ortamından ya da HERMES_HOME/.env dosyasından okunur, yalnızca bellekte tutulur, asla yazılmaz veya günlüğe kaydedilmez) bir GitHub App olarak kimlik doğrular; hiçbir App değişkeni ayarlanmamışsa GITHUB_TOKEN/GH_TOKEN ya da `gh auth token` seçeneğine döner ve her sonuçta hangi kimliğin işlem yaptığını bildirir. Yalnızca https://api.github.com ya da operatör tarafından yapılandırılmış GITHUB_API_URL / settings.api_url ile konuşur (HTTPS, yönlendirme yok; hiçbir araç bağımsız değişkeni ana makineyi değiştiremez). Sorun/yorum/inceleme/birleştirme yazmaları, settings.allow_write_actions true olana kadar devre dışı kalır ve her biri ayrıca pre_tool_call kancası üzerinden Hermes'in insan onayı isteminden geçer ('always' yanıtı kalıcı olmaz)."
 maintainer: himanusia
 tier: community
 category: tools

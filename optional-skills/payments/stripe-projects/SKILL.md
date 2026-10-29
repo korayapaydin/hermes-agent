@@ -1,6 +1,7 @@
 ---
 name: stripe-projects
 description: Provision SaaS services + sync creds via Stripe Projects.
+description_tr: "Stripe Projects ile SaaS kur, kimlik bilgilerini eşitle."
 version: 0.1.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

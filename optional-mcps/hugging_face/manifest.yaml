@@ -5,6 +5,7 @@ manifest_version: 1
 name: hugging_face
 description: >-
   Models, datasets, Spaces, and papers from the Hugging Face Hub.
+description_tr: "Hugging Face Hub'dan modeller, veri kümeleri, Spaces ve makaleler."
 source: https://huggingface.co/docs/hub/agents-mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

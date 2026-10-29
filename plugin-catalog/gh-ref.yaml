@@ -9,6 +9,7 @@ description: >-
   api.github.com only (the referenced owner/repo and number leave the machine; no token, public
   repositories only, 60 requests an hour per IP address); no files written, no subprocess;
   register() only adds the @gh: reference provider.
+description_tr: "@gh:sahip/depo#123 bağlam referansları: bir mesaja herkese açık bir GitHub sorununu ya da çekme isteğini ekleyin (başlık, durum, etiketler, açıklama, en son yorumlar; çekme isteklerinde ayrıca dallar, birleştirme durumu ve değişiklik boyutu). Açıklama — yalnızca api.github.com adresine anonim HTTPS GET istekleri gönderir (başvurulan sahip/depo ve numara makineden çıkar; token yok, yalnızca herkese açık depolar, IP adresi başına saatte 60 istek); dosya yazılmaz, alt süreç yok; register() yalnızca @gh: referans sağlayıcısını ekler."
 maintainer: EloquentBrush0x
 tier: community
 category: web

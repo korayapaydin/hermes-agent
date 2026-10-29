@@ -1,6 +1,7 @@
 ---
 name: yuanbao
 description: "Yuanbao (元宝) groups: @mention users, query info/members."
+description_tr: "Yuanbao (元宝) grupları: etiketle, bilgi ve üye sorgula."
 version: 1.0.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

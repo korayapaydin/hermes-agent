@@ -9,6 +9,7 @@ description: >-
   published birkin-mnemosyne 0.7.2 with compatible updates below 1.0;
   no API key, network service or telemetry.
   Session handoff capture is opt-in. Native Hermes memory files remain separate.
+description_tr: "Çok dilli sözcüksel geri çağırma ve profil düzeyinde kalıcı notlarla yerel Markdown hafıza sağlayıcısı. Yalnızca oluşturma biçimindeki yazmalar birincil ajan bağlamlarıyla sınırlıdır. 1.0 altındaki uyumlu güncellemelerle yayımlanmış birkin-mnemosyne 0.7.2 sürümünü kullanır; API anahtarı, ağ servisi ya da telemetri yoktur. Oturum devri yakalama isteğe bağlıdır. Yerel Hermes bellek dosyaları ayrı kalır."
 maintainer: ashmoonori-afk
 tier: community
 category: memory

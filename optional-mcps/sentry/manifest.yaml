@@ -6,6 +6,7 @@ name: sentry
 connector_slug: sentry_mcp
 description: >-
   Issues, stack traces, and error context from Sentry.
+description_tr: "Sentry'den sorunlar, yığın izleri ve hata bağlamı."
 source: https://docs.sentry.io/product/sentry-mcp/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

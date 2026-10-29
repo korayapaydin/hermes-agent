@@ -1,6 +1,7 @@
 ---
 name: sdlc-review
 description: Review Kanban handoffs and route verified outcomes.
+description_tr: "Kanban devirlerini incele, doğrulanmış sonuçları yönlendir."
 version: 1.1.0
 author: Jakub Wolniewicz (@frizikk) + Hermes Agent
 license: MIT

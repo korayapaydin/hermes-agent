@@ -3,6 +3,7 @@ title: AI Clone Videos
 repo: https://github.com/TechHiveDev/promoat_partner_hermes_plugin
 sha: 4dc481465d39691483b37caca66944b9311a0468
 description: Make realistic AI videos of yourself, with your own face and voice, from inside Hermes. Powered by Promoat. Disclosure — sends your scripts, prompts and the public media URLs you supply to Promoat's hosted API (promoat-platform-plugins.vercel.app) with your PROMOAT_KEY; video, character, voice-clone and speech tools spend paid Promoat credits; clone_voice and create_character build a reusable voice or face from the samples you pass; delete_character and delete_voice permanently remove account assets.
+description_tr: "Kendi yüzünüz ve sesinizle gerçekçi AI videolarını Hermes'in içinden oluşturun. Promoat tarafından desteklenir. Açıklama — senaryolarınızı, istemlerinizi ve sağladığınız genel medya URL'lerini PROMOAT_KEY'inizle Promoat'ın barındırılan API'sine (promoat-platform-plugins.vercel.app) gönderir; video, karakter, ses klonlama ve konuşma araçları ücretli Promoat kredileri harcar; clone_voice ve create_character, verdiğiniz örneklerden yeniden kullanılabilir bir ses veya yüz oluşturur; delete_character ve delete_voice hesap varlıklarını kalıcı olarak kaldırır."
 maintainer: Promoat
 tier: community
 category: tools

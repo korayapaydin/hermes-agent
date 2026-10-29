@@ -1,6 +1,7 @@
 ---
 name: scrollcraft
 description: "Premium scroll-driven landing pages; scroll = timeline."
+description_tr: "Üst düzey açılış sayfaları; kaydırma = zaman çizelgesi."
 version: 1.0.0
 author: 'nateherkai (upstream scroll-craft), ported by Hermes Agent'
 license: MIT

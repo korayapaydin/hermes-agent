@@ -7,6 +7,7 @@ description: 'Wrong-question diagnosis and study-action loop for parents and stu
   MCP server pinned to immutable commit 2469cbb over uvx, with the good-student workflow skill bundled.
   Needs Python 3.10+ via uv. No credentials required; all data stays on-device and
   nothing is uploaded.'
+description_tr: "Veliler ve öğrenciler için yanlış soru tespiti ve çalışma eylemi döngüsü — deterministik yerel çekirdek (SQLite, bulut yok), veli onayıyla korunan ana makine modeli tanıma. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/); good-student MCP sunucusu, değişmez işleme 2469cbb üzerinden uvx ile sabitlenmiştir ve good-student iş akışı yeteneği paketlenmiştir. uv üzerinden Python 3.10+ gerekir. Kimlik bilgisi gerekmez; tüm veri cihazda kalır ve hiçbir şey yüklenmez."
 maintainer: harrylabsj
 tier: community
 category: tools

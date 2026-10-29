@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: trivago
 description: 'trivago hotel search: compare prices by city and dates.'
+description_tr: "trivago otel araması: şehir ve tarihlere göre fiyat karşılaştırması."
 source: https://mcp.trivago.com/mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

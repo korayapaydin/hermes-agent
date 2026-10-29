@@ -7,6 +7,7 @@ description: Privacy-first agent email inboxes and workspace automation through 
   expose Mermail's paybox wallet tools over the hosted MCP (x402 payments, xStocks trading, standing grants);
   the skills allow the agent to move funds without a same-turn confirmation when your message already
   states exact terms, so spending controls live on your Mermail account, not in Hermes.
+description_tr: "Barındırılan Mermail MCP üzerinden gizlilik öncelikli ajan e-posta gelen kutuları ve çalışma alanı otomasyonu. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/, on yedi yetenek paketlenmiş); `hermes mcp login mermail` ile OAuth üzerinden kimlik doğrulayın. mcp.json içinde hiçbir kimlik bilgisi saklanmaz. Açıklama — paketlenen yetenekler ayrıca Mermail'in paybox cüzdan araçlarını barındırılan MCP üzerinden sunar (x402 ödemeleri, xStocks alım satımı, kalıcı yetkiler); mesajınız zaten kesin koşulları belirtiyorsa yetenekler ajanın aynı turda onay almadan para taşımasına izin verir; bu nedenle harcama kontrolleri Hermes'te değil, Mermail hesabınızda bulunur."
 maintainer: Nudgen-Marketing
 tier: community
 category: platform

@@ -3,6 +3,7 @@ repo: https://github.com/apoapostolov/hermes-agent-awesome-plugins
 sha: c0445f956ee581a49972c5333467b96b264f9172
 subdir: public/intelligent-tool-break
 description: "Abort a stalled in-flight tool call with /break, send a note with /break {message}, or retry it with /again without cancelling the rest of the task."
+description_tr: "Takılmış, uçuştaki bir araç çağrısını /break ile durdurun, /break {mesaj} ile bir not gönderin ya da görevin geri kalanını iptal etmeden /again ile yeniden deneyin."
 maintainer: apoapostolov
 tier: community
 category: desktop

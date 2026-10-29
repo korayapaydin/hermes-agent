@@ -2,6 +2,7 @@ name: memlock
 repo: https://github.com/Sahil-SS9/hermes-memlock
 sha: 123b9fd252d6fc2c9c7c4f254164915874aa54d5
 description: Reasserts pinned standing instructions after context compaction. Disclosure — scope=global pins apply to every session sharing the same HERMES_HOME; memlock_setup.py edits config.yaml and .claude/settings.json (with backups) only when you run it.
+description_tr: "Bağlam sıkıştırmasından sonra sabitlenen kalıcı talimatları yeniden ileri sürer. Açıklama — scope=global sabitlemeleri, aynı HERMES_HOME'u paylaşan her oturumda geçerlidir; memlock_setup.py, config.yaml ve .claude/settings.json dosyalarını (yedekleriyle birlikte) yalnızca siz çalıştırdığınızda düzenler."
 maintainer: Sahil-SS9
 tier: community
 category: tools

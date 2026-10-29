@@ -5,6 +5,7 @@ manifest_version: 1
 name: linear
 connector_slug: linear
 description: Find, create, and update Linear issues, projects, and comments.
+description_tr: "Linear sorunlarını, projelerini ve yorumlarını bulun, oluşturun ve güncelleyin."
 source: https://linear.app/docs/mcp
 
 # Linear ships a remote MCP server with native OAuth 2.1 + Dynamic Client

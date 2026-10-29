@@ -10,6 +10,7 @@ description: >-
   challenge returned to core HTTPX traffic (not only mpp_fetch) is auto-paid
   from the Tempo wallet with no per-payment cap or confirmation; the origin
   allowlist is the operator's control.
+description_tr: "Tempo üzerinden desteklenen HTTP 402 MPP meydan okumalarını mpp_fetch ve süreç içi HTTPX istemcileriyle ödeyin. Ayrı bir cüzdan kullanır. Açıklama — MPP_ALLOWED_ORIGINS ayarlanmadığında, çekirdek HTTPX trafiğine dönen (yalnızca mpp_fetch değil) desteklenen her HTTP 402 MPP meydan okuması, ödeme başına üst sınır veya onay olmadan Tempo cüzdanından otomatik ödenir; kaynak izin listesi operatörün denetimidir."
 maintainer: tempoxyz
 tier: community
 category: tools

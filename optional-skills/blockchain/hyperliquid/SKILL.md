@@ -1,6 +1,7 @@
 ---
 name: hyperliquid
 description: Hyperliquid market data, account history, trade review.
+description_tr: "Hyperliquid: piyasa verisi, geçmiş, işlem incelemesi."
 version: 0.1.0
 author: Hugo Sequier (Hugo-SEQUIER), Hermes Agent
 license: MIT

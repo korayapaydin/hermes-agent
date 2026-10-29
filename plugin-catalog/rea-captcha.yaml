@@ -3,6 +3,7 @@ repo: https://github.com/masakaai/rea-captcha
 sha: bac84a628e989d330b807974789cde0ec689be18
 subdir: integrations/hermes
 description: "Inspect captured browser verification evidence locally when an agent task is interrupted by a CAPTCHA. Portable Agent Plugins v1 package (pinned stateless mcp.json + skill); needs Node.js 22.19+/24.11+/26+ with npx on PATH. Disclosure — on first start Hermes runs `npx rea-captcha@0.3.1`, which downloads that exact npm package and its dependencies (incl. Playwright) from the npm registry; the catalog config is stateless, so only the read-only, local captcha_analyze works and the browser-session tools fail closed until you configure a separate stateful server; no telemetry, hosted solver, browser-profile copying, or cookie/token transfer."
+description_tr: "Bir ajan görevi bir CAPTCHA tarafından kesildiğinde yakalanmış tarayıcı doğrulama kanıtını yerelde inceleyin. Taşınabilir Agent Plugins v1 paketi (sabitlenmiş durumsuz mcp.json + yetenek); PATH üzerinde npx ile Node.js 22.19+/24.11+/26+ gerektirir. Açıklama — ilk başlatmada Hermes `npx rea-captcha@0.3.1` çalıştırır; bu, tam o npm paketini ve bağımlılıklarını (Playwright dahil) npm kayıt defterinden indirir; katalog yapılandırması durumsuzdur, bu nedenle yalnızca salt okunur yerel captcha_analyze çalışır ve ayrı bir durumlu sunucu yapılandırana kadar tarayıcı oturumu araçları güvenli biçimde başarısız olur; telemetri, barındırılan çözücü, tarayıcı profili kopyalama veya çerez/token aktarımı yoktur."
 maintainer: masakaai
 tier: community
 category: automation

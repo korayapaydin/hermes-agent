@@ -3,6 +3,7 @@ repo: https://github.com/fred0m/hermes-memobase-provider
 sha: 4e8e447966acefaea372395e2db96ca0d0127f18
 description: Memobase memory provider — self-hosted user profile + event timeline
   recall, with hybrid BM25/vector/entity retrieval and automatic per-turn prefetch.
+description_tr: "Memobase bellek sağlayıcısı — kendinizde barındırılan kullanıcı profili + olay zaman çizelgesi geri çağırma; karma BM25/vektör/varlık getirme ve otomatik tur başına ön getirme ile."
 maintainer: fred0m
 tier: community
 category: memory

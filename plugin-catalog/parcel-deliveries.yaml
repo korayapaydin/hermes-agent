@@ -2,6 +2,7 @@ name: parcel-deliveries
 repo: https://github.com/promptclickrun/hermes-parcel
 sha: 9641b4092f1373ca021285e80b0885cb9e1c7fa3
 description: "Track package deliveries with the Parcel app (parcelapp.net). List what's on the way, add tracking numbers and look up carrier codes, with a built-in guard for Parcel's strict rate limits. Disclosure — sends tracking numbers, descriptions and optional postcode/order email to api.parcel.app (Parcel Premium API key); the model can add deliveries to the user's Parcel account (add-only, capped at 20/day); caches delivery lists in plugin-data."
+description_tr: "Parcel uygulaması (parcelapp.net) ile paket teslimatlarını izleyin. Yolda olanları listeleyin, takip numarası ekleyin ve taşıyıcı kodlarını arayın; Parcel'in katı hız sınırları için yerleşik bir koruma vardır. Açıklama — takip numaralarını, açıklamaları ve isteğe bağlı posta kodu/sipariş e-postasını api.parcel.app adresine gönderir (Parcel Premium API anahtarı); model, kullanıcının Parcel hesabına teslimat ekleyebilir (yalnızca ekleme, günde en fazla 20 ile sınırlı); teslimat listelerini plugin-data içinde önbelleğe alır."
 maintainer: promptclickrun
 tier: community
 category: tools

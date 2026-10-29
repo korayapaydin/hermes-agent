@@ -2,6 +2,7 @@ name: jot
 repo: https://github.com/Totoro-qaq/hermes-jot
 sha: 'b65b550108c8e742cc5737055213da947dc54e0f'
 description: Notes, checklists and documents beside Hermes that your agent can read and update safely, with revision checks and undo for AI edits.
+description_tr: "Hermes'in yanında notlar, kontrol listeleri ve belgeler; ajanınız bunları güvenle okuyup güncelleyebilir, sürüm denetimleri ve YZ düzenlemeleri için geri alma vardır."
 maintainer: Totoro-qaq
 tier: community
 category: desktop

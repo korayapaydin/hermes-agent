@@ -2,6 +2,7 @@ name: serpapi
 repo: https://github.com/serpapi/serpapi-hermes-plugin
 sha: b5049b4aa0f56836d2f88908c1c2ebca2b9dcf64
 description: "SerpApi web, Maps, News, Shopping, Hotels, Flights, and Travel Explore for Hermes Agent."
+description_tr: "Hermes Agent için SerpApi web, Haritalar, Haberler, Alışveriş, Oteller, Uçuşlar ve Travel Explore."
 maintainer: serpapi
 tier: community
 category: web

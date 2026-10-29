@@ -8,6 +8,7 @@ description: 'Local-first persistent memory: store durable facts once and recall
   to recall. All data stays in a local SQLite database under the user home directory; no cloud,
   no telemetry, no API keys. Server cwd is ${PLUGIN_DATA} so nothing is written into the install
   tree. Needs Node.js and npm on PATH.'
+description_tr: "Yerel öncelikli kalıcı bellek: dayanıklı olguları bir kez saklayın ve her oturumda geri çağırın. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/): npx stdio üzerinden @mem-os/sdk MCP sunucusu (sabitlenmiş 1.6.26) ve ne zaman saklanıp ne zaman geri çağrılacağını anlatan mem-os-memory yeteneği. Tüm veriler kullanıcı ana dizini altındaki yerel bir SQLite veritabanında kalır; bulut yok, telemetri yok, API anahtarı yok. Sunucu çalışma dizini ${PLUGIN_DATA} olduğu için kurulum ağacına hiçbir şey yazılmaz. PATH'te Node.js ve npm gerekir."
 maintainer: Markgatcha
 tier: community
 category: memory

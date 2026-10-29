@@ -1,6 +1,7 @@
 ---
 name: evm
 description: "Read-only EVM client: wallets, tokens, gas across 8 chains."
+description_tr: "Salt okunur EVM istemcisi: 8 zincirde cüzdan, token, gaz."
 version: 1.0.0
 author: Mibayy (@Mibayy), youssefea (@youssefea), ethernet8023 (@ethernet8023), Hermes Agent
 license: MIT

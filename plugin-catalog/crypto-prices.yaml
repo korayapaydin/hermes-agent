@@ -2,6 +2,7 @@ name: crypto-prices
 repo: https://github.com/cruzlxyz/crypto-prices
 sha: 69d34d7fa8d600f3c57b634c5cfdb8fdd2fe995a
 description: Live crypto price ticker for the desktop status bar — Top 10 by market cap, seamless marquee, custom coins & 60+ display currencies, adjustable width (CoinGecko, no API key).
+description_tr: "Masaüstü durum çubuğu için canlı kripto fiyat şeridi — piyasa değerine göre ilk 10, kesintisiz kayan yazı, özel kripto birimler ve 60'tan fazla gösterge para birimi, ayarlanabilir genişlik (CoinGecko, API anahtarı yok)."
 maintainer: cruzlxyz
 tier: community
 category: desktop

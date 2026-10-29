@@ -4,6 +4,7 @@ sha: fd739bc532f351d22f056ff74bf48a1a14beca7f
 subdir: plugin
 title: Comment Scraper
 description: "Ask about the Reddit and Hacker News threads you exported with the Comment Scraper browser extension: list, read, search and quote them by comment number. Disclosure — starts a local stdio MCP server with npx -y comment-scraper-mcp@0.1.0, which npx downloads from npm on first run; the server only reads JSON exports in ~/Downloads and the folders directly inside it, never writes files, makes no network requests, stores no credentials and sends no telemetry."
+description_tr: "Comment Scraper tarayıcı eklentisiyle dışa aktardığınız Reddit ve Hacker News tartışmaları hakkında soru sorun: yorum numarasına göre listeleyin, okuyun, arayın ve alıntılayın. Açıklama — npx -y comment-scraper-mcp@0.1.0 ile yerel bir stdio MCP sunucusu başlatır; npx bunu ilk çalıştırmada npm'den indirir; sunucu yalnızca ~/Downloads içindeki JSON dışa aktarımlarını ve doğrudan onun içindeki klasörleri okur, hiçbir dosya yazmaz, ağ isteği yapmaz, kimlik bilgisi saklamaz ve telemetri göndermez."
 maintainer: Comment Scraper
 tier: community
 category: tools

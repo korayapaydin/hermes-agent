@@ -9,6 +9,7 @@ description: >-
   preview server (127.0.0.1:8765) and on macOS compiles a Swift overlay and installs a
   RunAtLoad+KeepAlive LaunchAgent with no uninstall command. No network egress, no credential
   reads.
+description_tr: "Gerçek Hermes ajan etkinliğinden yerel bir TamaHermes evcil hayvanı büyütün. Açıklama — hook'lar yalnızca $HERMES_HOME altına bir evcil hayvan defteri ve sprite atlası yazar; isteğe bağlı python -m tamahermes CLI'si ayrıca ~/.codex, ~/.petdex ve ~/.evopet okur/yazar, kimlik doğrulaması olmayan bir geri döngü önizleme sunucusu çalıştırır (127.0.0.1:8765) ve macOS'ta bir Swift katmanı derleyip kaldırma komutu olmayan bir RunAtLoad+KeepAlive LaunchAgent kurar. Ağ çıkışı yok, kimlik bilgisi okuma yok."
 maintainer: ahrazzle
 tier: community
 category: general

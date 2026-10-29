@@ -3,6 +3,7 @@ title: Speechify
 repo: https://github.com/Speechify-AI/hermes-speechify
 sha: d9923efa6b4ab2d28aecd283c2afea9ae9e79b25
 description: "The official Speechify text-to-speech provider (tts.provider: speechify), maintained by Speechify. Simba 3.5 voices in 48 languages with low-latency streaming in voice mode, Opus voice notes for messaging platforms, and a hermes speechify command to list voices and hear a test line. Disclosure — sends the text being spoken, the chosen voice and model, the plugin's name and version (Speechify-Caller attribution headers), and your SPEECHIFY_API_KEY to api.speechify.ai (or the base_url / SPEECHIFY_BASE_URL you configure); synthesis is billed to your Speechify workspace; generated audio is written to Hermes's audio cache; no tools, hooks or middleware; no telemetry."
+description_tr: "Speechify tarafından sürdürülen resmî Speechify metinden sese sağlayıcısı (tts.provider: speechify). Ses kipinde düşük gecikmeli akışla Simba 3 sesleri, mesajlaşma platformları için Opus sesli notları ve sesleri listelemek ve bir deneme cümlesi dinlemek için bir hermes speechify komutu. Açıklama — konuşulan metni, seçilen sesi ve modeli, eklentinin adını ve sürümünü (Speechify-Caller atıf başlıkları) ve SPEECHIFY_API_KEY'inizi api.speechify.ai adresine (ya da yapılandırdığınız base_url / SPEECHIFY_BASE_URL adresine) gönderir; sentez, Speechify çalışma alanınıza faturalandırılır; üretilen ses Hermes'in ses önbelleğine yazılır; araç, kanca veya ara katman yok; telemetri yok."
 maintainer: Lokeshm24
 tier: community
 category: voice

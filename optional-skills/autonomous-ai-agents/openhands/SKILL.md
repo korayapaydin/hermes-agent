@@ -1,6 +1,7 @@
 ---
 name: openhands
 description: Delegate coding to OpenHands CLI (model-agnostic, LiteLLM).
+description_tr: "Kodlamayı model-bağımsız OpenHands CLI'ye devret (LiteLLM)."
 version: 0.1.0
 author: Tim Koepsel (xzessmedia), Hermes Agent
 license: MIT

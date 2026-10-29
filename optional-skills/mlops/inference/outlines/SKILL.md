@@ -1,6 +1,7 @@
 ---
 name: outlines
 description: "Outlines: structured JSON/regex/Pydantic LLM generation."
+description_tr: "Outlines: yapılandırılmış JSON/regex/Pydantic LLM üretimi."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

@@ -3,6 +3,7 @@ repo: https://github.com/jacobhausler/hermes-pinned-folders
 sha: ec3cecf321c022ae0babd55db49fcfbb32f71db9
 subdir: ""
 description: "A Pinned tab in the Desktop sidebar that files your pinned chats into nested folders: drag to order and nest, folder colors, right-click menus (including Unpin), unread/working badges on collapsed folders, a filter box, open-folder-as-tabs, and layout export/import via the clipboard. Layout stays local to the app; pins belong to the backend. SDK-only build (desktop/plugin.js); no network."
+description_tr: "Masaüstü kenar çubuğunda sabitlenmiş sohbetlerinizi iç içe klasörlere ayıran bir Sabit sekmesi: sıralamak ve iç içe yerleştirmek için sürükleme, klasör renkleri, sağ tık menüleri (Sabitlemeyi Kaldır dâhil), kapalı klasörlerde okunmamış/çalışıyor rozetleri, bir süzgeç kutusu, klasörü sekme olarak açma ve pano aracılığıyla düzen dışa/içe aktarma. Düzen uygulamaya bağlı kalır; sabitler arka uca aittir. Yalnızca SDK derlemesi (desktop/plugin.js); ağ yok."
 maintainer: jacobhausler
 tier: community
 category: desktop

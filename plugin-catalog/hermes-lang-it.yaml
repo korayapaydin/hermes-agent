@@ -2,6 +2,7 @@ name: hermes-lang-it
 repo: https://github.com/Lazzdaycod/hermes-lang-it
 sha: 21fa60e724ffb74a9d3b90375eb51f5e6a71c6d3
 description: "Italian (Italiano) language pack for Hermes Agent — UI translation for core (approval prompts, gateway/slash replies, CLI, tips), TUI and Desktop. Coverage: core 3437/3437, TUI 1259/1259 and Desktop ~5,000 keys (missing ones fall back to English). Parser-safe: hard-parsed menu brackets and [Y/n] prompts stay verbatim; placeholders, URLs and CLI flags preserved. Manifest-only plugin, no code execution, no network. Traduzione italiana dell'interfaccia Hermes Agent. Disclosure — text-only catalogs; registering the pack never changes display.language, the user opts in via config."
+description_tr: "İtalyanca (Italiano) dil paketi — çekirdek (onay istemleri, ağ geçidi/eğik çizgi yanıtları, CLI, ipuçları), TUI ve Desktop için arayüz çevirisi. Kapsam: çekirdek 3437/3437, TUI 1259/1259 ve Desktop ~5.000 anahtar (eksik olanlar İngilizceye geri döner). Ayrıştırıcı güvenli: sert ayrıştırılan menü köşeli parantezleri ve [Y/n] istemleri olduğu gibi kalır; yer tutucular, URL'ler ve CLI bayrakları korunur. Yalnızca manifest içeren eklenti, kod çalıştırmaz, ağ yok. Hermes Agent arayüzünün İtalyanca çevirisi. Açıklama — yalnızca metin katalogları; paketi kaydetmek display.language değerini asla değiştirmez, kullanıcı config üzerinden katılır."
 maintainer: Lazzdaycod
 tier: community
 category: general

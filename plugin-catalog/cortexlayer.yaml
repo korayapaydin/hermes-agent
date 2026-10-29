@@ -9,6 +9,7 @@ description: >
   saved first. Platform mode only: each turn's query and conversational content is sent to the
   hosted api.cortexlayer.net (HTTPS, API-key authenticated) for storage/retrieval — no
   local/offline mode. Requires a free CortexLayer account and API key.
+description_tr: "CortexLayer bellek sağlayıcısı — bağlantı genişletmeli geri çağırma ile sayfaya bağlı uzun süreli bellek; Hermes'in otomatik tur başına geri çağırmasına (prefetch) ve kalıcılığına (sync_turn) bağlanır, ayrıca sıkıştırma öncesi bir kontrol noktası sunar — böylece Hermes'in kendi bağlam sıkıştırmasının yok sayacağı kanıtlar önce kaydedilir. Yalnızca platform kipi: her turun sorgusu ve sohbet içeriği, barındırılan api.cortexlayer.net adresine (HTTPS, API anahtarıyla kimlik doğrulanır) saklama/erişim için gönderilir — yerel/çevrimdışı kip yoktur. Ücretsiz bir CortexLayer hesabı ve API anahtarı gerekir."
 maintainer: Cortex-Layer
 tier: community
 category: memory

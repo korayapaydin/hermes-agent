@@ -1,6 +1,7 @@
 ---
 name: decision-questionnaire
 description: "Turn an unanswerable decision into a questionnaire doc."
+description_tr: "Cevaplanamayan kararı soru formu belgesine dönüştür."
 version: 1.0.0
 author: "Matt Pocock (mattpocock/skills, to-questionnaire) + Hermes Agent"
 license: MIT

@@ -3,6 +3,7 @@ repo: https://github.com/rriggs/hermes-plugin-dashscope-image
 sha: f13665c97eb852b3ef90e30e020dbdcf0c9dc38b
 description: DashScope (Qwen Cloud) image generation -- Wan 2.7 models via Alibaba Cloud Model Studio.
   Works with token plan (sk-sp-*) and PAYG (sk-ws-*) keys.
+description_tr: "DashScope (Qwen Cloud) görsel üretimi — Alibaba Cloud Model Studio üzerinden Wan 2.7 modelleri. Token paketi (sk-sp-*) ve PAYG (sk-ws-*) anahtarlarıyla çalışır."
 maintainer: rriggs
 tier: community
 category: tools

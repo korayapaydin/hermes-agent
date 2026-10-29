@@ -6,6 +6,7 @@ description: >-
   (Hermes, Codex, Claude, Grok) actually have installed and builds a
   Frontier -> Middle Manager -> Frontier routing structure with pinned models
   and provenance from execution records. `hermes fusion teams|validate|plan|run|index|report|status`.
+description_tr: "Hermes için çok modelli füzyon yönlendiricisi: koşum ortamlarınızın (Hermes, Codex, Claude, Grok) gerçekte hangi model filolarına sahip olduğunu algılar ve sabitlenmiş modeller ile yürütme kayıtlarından gelen kaynak bilgisiyle Frontier -> Orta Yönetici -> Frontier yönlendirme yapısı kurar. `hermes fusion teams|validate|plan|run|index|report|status`."
 maintainer: Jordan Rosenberg
 tier: community
 docs_url: https://github.com/BoredSexyJordan/hermes-fusion

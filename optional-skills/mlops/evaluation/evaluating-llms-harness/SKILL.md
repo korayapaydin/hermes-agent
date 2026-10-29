@@ -1,6 +1,7 @@
 ---
 name: evaluating-llms-harness
 description: "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.)."
+description_tr: "lm-eval-harness: LLM kıyaslaması (MMLU, GSM8K vb.)."
 version: 1.0.1
 author: Orchestra Research
 license: MIT

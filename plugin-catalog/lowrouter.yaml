@@ -14,6 +14,7 @@ description: >-
   LowRouter forwards each request to the host serving the model. The plugin's own requests are
   GET /v1/models (cached for an hour) and GET /v1/credits on /usage, to the same base URL with the
   same key, through Hermes' open_credentialed_url. No files read or written, no processes.
+description_tr: "LowRouter, Hermes model sağlayıcısı olarak (`--provider lowrouter`, ya da `hermes model` içinde LowRouter). Seçici, /v1/models'deki 719 kimliğin tümü yerine, araç çağırma ve 64K+ bağlamı olan 180 `auto/` sohbet modelini ve kullanıcının kendi `alias/` modellerini gösterir. Bağlam pencereleri Hermes'in 256K yedeği yerine LowRouter'ın kataloğundan gelir ve /usage, kredi bakiyesini euro olarak gösterir. LowRouter EUR ile faturalandığı için eklenti USD maliyet bildirmez ve Hermes bunu bilinmiyor olarak gösterir. LowRouter tarafından geliştirilir ve sürdürülür. Açıklama — yalnızca bir model sağlayıcısı kaydeder, başka hiçbir şey (araç, hook, komut veya iş parçacığı yok). İstemler, araç şemaları ve LOWROUTER_API_KEY, Hermes'in istemcisi üzerinden https://api.lowrouter.ai/v1 adresine (veya yapılandırılmış model.base_url adresine) gider ve LowRouter her isteği modeli sunan ana bilgisayara yönlendirir. Eklentinin kendi istekleri, aynı temel URL'ye aynı anahtarla Hermes'in open_credentialed_url'i üzerinden giden GET /v1/models (bir saat önbelleklenir) ve /usage üzerindeki GET /v1/credits'tir. Dosya okunmaz veya yazılmaz, süreç yoktur."
 maintainer: carboniferio
 tier: community
 category: models

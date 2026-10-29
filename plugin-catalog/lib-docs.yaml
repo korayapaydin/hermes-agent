@@ -7,6 +7,7 @@ description: >-
   pypi.org and cdn.jsdelivr.net (npm READMEs) only; package name and version leave the machine;
   recent lookups are stored under $HERMES_HOME/plugin-data/lib-docs; the Desktop pane inserts text
   through Hermes Desktop's internal hermes:composer-insert event (not a public SDK API).
+description_tr: "Güncel kütüphane belgelerini herkese açık npm ve PyPI'den arayın (API anahtarı yok). Bir paketi çözümleyin, README ve üst veriyi getirin, son aramaları Desktop'ta tutun. Açıklama — yalnızca registry.npmjs.org, pypi.org ve cdn.jsdelivr.net (npm README'leri) adreslerine HTTPS; paket adı ve sürümü makineden çıkar; son aramalar $HERMES_HOME/plugin-data/lib-docs altında saklanır; Desktop paneli metni Hermes Desktop'ın dahili hermes:composer-insert olayı (herkese açık bir SDK API'si değil) aracılığıyla ekler."
 maintainer: aydnOktay
 tier: community
 category: tools

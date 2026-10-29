@@ -1,6 +1,7 @@
 ---
 name: faiss
 description: Fast vector similarity search at billion scale.
+description_tr: "Milyar ölçeğinde hızlı vektör benzerlik arama."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

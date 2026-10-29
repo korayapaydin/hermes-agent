@@ -5,6 +5,7 @@ description: Carbon Voice gateway adapter for Hermes Agent. Connects via Socket.
   polling fallback — no public webhook or tunnel required. Persists a cursor to disk so messages received
   while Hermes is offline are processed on the next startup. Replies via POST /v3/messages/start, so the
   Her
+description_tr: "Hermes Agent için Carbon Voice ağ geçidi bağdaştırıcısı. Socket.IO üzerinden bağlanır (birincil), REST yoklaması yedeğiyle — herkese açık webhook ya da tünel gerekmez. Bir imleci diske kalıcılaştırır, böylece Hermes çevrimdışıyken alınan mesajlar sonraki açılışta işlenir. Yanıtlar POST /v3/messages/start üzerinden gider, bu yüzden Her"
 maintainer: PhononX
 tier: community
 category: platform

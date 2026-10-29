@@ -15,6 +15,7 @@ description: >-
   plugin-data/provenance-gate (30-day default retention, `hermes provenance-gate purge`); reads
   MEMORY.md, USER.md and skill files to reproduce what a patch produces; no network, no credentials,
   never asks for approval.
+description_tr: "Kullanıcının kendi sözleri olmadan bir kullanıcı kararını ifade eden (\"the user decided ...\", \"用户决定 ...\") bellek ve skill_manage yazmalarını işaretler: bu türden her cümle, bu oturumda kullanıcının yazdığı metinde birebir geçen, kararla anahtar kelimeleri paylaşan ve bir olumsuzluğu düşürmeyen bir alıntıya ihtiyaç duyar. Bir yama, ürettiği metin üzerinden denetlenir. İzleme modu (varsayılan) işaretlenen yazmaları kaydeder ve `hermes provenance-gate report` bunları listeler; engelleme modu onları reddeder ve modele yazmanın nasıl düzeltileceğini söyler. 133 satırlık bağımsız bir kör küme üzerinde ölçüldü: precision 1.000, recall 0.694. Açıklama — iki kanca (pre_llm_call, pre_tool_call); kullanıcının yazdığı metnin, gönderen kimliği ve oturum bağlantısıyla birlikte yerel bir kopyasını ve denetlenen iddiaların bir kanıt günlüğünü plugin-data/provenance-gate altında tutar (varsayılan 30 gün saklama, `hermes provenance-gate purge`); bir yamanın ne ürettiğini yeniden oluşturmak için MEMORY.md, USER.md ve yetenek dosyalarını okur; ağ yok, kimlik bilgisi yok, asla onay istemez."
 maintainer: simin-yuan
 tier: community
 category: general

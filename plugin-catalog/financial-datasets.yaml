@@ -2,6 +2,7 @@ name: financial-datasets
 repo: https://github.com/financial-datasets/hermes-plugin
 sha: 6745cb6261f86895364579d897be2b6067f117f1
 description: Stock market data from Financial Datasets - financial statements, prices, SEC filings, insider and institutional ownership, KPIs, news, macro data, and a stock screener.
+description_tr: "Financial Datasets'ten borsa verisi — finansal tablolar, fiyatlar, SEC bildirimleri, içeriden ve kurumsal mülkiyet, KPI'lar, haberler, makro veri ve bir hisse süzgeci."
 maintainer: financial-datasets
 tier: community
 category: tools

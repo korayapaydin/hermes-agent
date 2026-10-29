@@ -2,6 +2,7 @@ name: commandcode-oauth
 repo: https://github.com/NanamiMio/hermes-commandcode-oauth
 sha: e51eb61613604aefbcf3203c8fcce531706232ee
 description: Command Code CLI-key model provider with a live OAuth catalog property bridge, plan limits and failover classification. Disclosure — uses the CLI-internal api.commandcode.ai/alpha/generate endpoint and CLI client headers, sends the full conversation, tool schemas, cwd path and OS/Python version, and imports a static key from the read-only CLI credential file or a browser hand-off; no OAuth exchange takes place. Hermes also bundles commandcode for the documented Provider API.
+description_tr: "Command Code CLI anahtarlı model sağlayıcısı; canlı OAuth katalog özellik köprüsü, plan sınırları ve hata devri (failover) sınıflandırması sunar. Açıklama — CLI'ye içkin api.commandcode.ai/alpha/generate uç noktasını ve CLI istemci başlıklarını kullanır, tüm konuşmayı, araç şemalarını, cwd yolunu ve işletim sistemi/Python sürümünü gönderir ve salt okunur CLI kimlik bilgisi dosyasından ya da tarayıcı aktarımından statik bir anahtar içe aktarır; hiçbir OAuth değişimi gerçekleşmez. Hermes ayrıca belgelenmiş Sağlayıcı API'si için commandcode paketini de içerir."
 maintainer: NanamiMio
 tier: community
 category: models

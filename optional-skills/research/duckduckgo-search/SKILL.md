@@ -1,6 +1,7 @@
 ---
 name: duckduckgo-search
 description: Free keyless web, news, and image search via ddgs.
+description_tr: "Ücretsiz web, haber ve görsel arama: ddgs ile."
 version: 1.3.0
 author: gamedevCloudy
 license: MIT

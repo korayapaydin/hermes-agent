@@ -1,6 +1,7 @@
 ---
 name: excalidraw
 description: "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq)."
+description_tr: "Elle çizilmiş Excalidraw JSON şemaları (mimari, akış, seq)."
 version: 1.0.1
 author: Hermes Agent
 license: MIT

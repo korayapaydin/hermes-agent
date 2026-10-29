@@ -11,6 +11,7 @@ description: lumberroom memory provider. One durable store shared with every age
   self-hosted engine; the model is instructed to store decisions, preferences and facts there through
   memory_write, the engine's live tool descriptions and server instructions are injected into the
   system prompt each session, and setup switches off Hermes' built-in MEMORY.md/USER.md store.
+description_tr: "lumberroom bellek sağlayıcısı. Kullandığınız her ajanla paylaşılan tek bir kalıcı depo; her turda geri çağrılır ve motorun kendi memory_write'ı üzerinden yazılır. Kendi sunucunuzda barındırılan açık kaynaklı motor ya da lumberroom.cloud; OAuth ya da statik token. lumberroom ekibi tarafından sürdürülür. Açıklama — etkinken, her önemsiz olmayan kullanıcı mesajı (ilk 1.000 karakter) ve çalışma dizininin mutlak git kök yolu her turda yapılandırılan lumberroom motoruna gönderilir; bu motor, base_url kendi sunucunuzda barındırılan bir motoru belirtmediği sürece varsayılan olarak https://mcp.lumberroom.cloud adresidir (Cybersapien Technologies, Hindistan tarafından işletilir); modele kararları, tercihleri ve olguları memory_write üzerinden oraya depolaması söylenir, motorun canlı araç açıklamaları ve sunucu talimatları her oturumda sistem istemine enjekte edilir ve kurulum Hermes'in yerleşik MEMORY.md/USER.md deposunu kapatır."
 maintainer: lumberroom
 tier: community
 category: memory

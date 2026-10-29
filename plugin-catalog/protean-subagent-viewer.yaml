@@ -2,6 +2,7 @@ name: protean-subagent-viewer
 repo: https://github.com/aska-digital/protean-subagent-viewer
 sha: facbb14b83e932165070394eb664c92dcd17036b
 description: Read-only Hermes Desktop pane for live and past delegated subagent workers.
+description_tr: "Canlı ve geçmiş devredilen alt ajan işçileri için salt okunur Hermes Desktop paneli."
 maintainer: aska-digital
 tier: community
 category: desktop

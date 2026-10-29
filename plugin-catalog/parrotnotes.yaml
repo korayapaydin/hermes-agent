@@ -11,6 +11,7 @@ description: >-
   context, and text the model passes to save_note_insight is written to that account. OAuth
   must be enabled with `hermes mcp add parrotnotes --url https://mcp.parrotnotes.app/mcp --auth oauth`;
   the bundled mcp.json alone yields 401.
+description_tr: "Barındırılan ParrotNotes MCP sunucusu (Streamable HTTP, OAuth 2.0 + DCR) üzerinden, yüz yüze toplantı notlarınız için ParrotNotes içgörülerinizi bulun, arayın, özetleyin ve kaydedin; parrotnotes iş akışı yeteneği pakete dahildir. Taşınabilir Agent Plugins v1 paketi (mcp.json + skills/). Açıklama — yerel kod içermeyen, yalnızca barındırılan bağlayıcı: her araç çağrısı satıcının mcp.parrotnotes.app adresindeki uzak MCP sunucusuna gider (kimlik doğrulama, Supabase kimlik doğrulama arka ucu üzerinden OAuth ile yapılır); kullanıcının ParrotNotes hesabındaki not başlıkları, transkriptler ve içgörüler oturum bağlamına çekilir ve modelin save_note_insight aracına geçirdiği metin o hesaba yazılır. OAuth, `hermes mcp add parrotnotes --url https://mcp.parrotnotes.app/mcp --auth oauth` komutuyla etkinleştirilmelidir; paketlenmiş mcp.json tek başına 401 döndürür."
 maintainer: ParrotNotes
 tier: community
 category: tools

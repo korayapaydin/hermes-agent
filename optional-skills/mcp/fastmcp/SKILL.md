@@ -1,6 +1,7 @@
 ---
 name: fastmcp
 description: Build, test, and deploy Python MCP servers.
+description_tr: "Python MCP sunucuları geliştir, test et ve dağıt."
 version: 1.0.0
 author: Hermes Agent
 license: MIT

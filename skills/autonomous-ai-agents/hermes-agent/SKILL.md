@@ -1,6 +1,7 @@
 ---
 name: hermes-agent
 description: "Use, configure, theme, extend, and orchestrate Hermes Agent."
+description_tr: "Hermes Agent'ı kullan, yapılandır, temala, genişlet, yönet."
 version: 3.2.0
 author: Hermes Agent + Teknium
 license: MIT

@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: robinhood
 description: 'Robinhood agentic trading: portfolio, balances, and orders.'
+description_tr: "Robinhood ajan tabanlı işlem: portföy, bakiyeler ve emirler."
 source: https://robinhood.com/us/en/support/articles/agentic-trading-overview/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

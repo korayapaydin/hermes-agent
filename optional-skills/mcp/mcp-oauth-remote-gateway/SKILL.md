@@ -1,6 +1,7 @@
 ---
 name: mcp-oauth-remote-gateway
 description: Manual OAuth for remote MCP servers on headless gateways.
+description_tr: "Uzak MCP sunucuları için headless gateway'lerde elle OAuth."
 version: 1.0.0
 author: Ben Barclay (benbarclay), Hermes Agent
 license: MIT

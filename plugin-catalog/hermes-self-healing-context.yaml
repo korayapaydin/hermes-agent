@@ -15,3 +15,5 @@ capabilities:
 description: |
   Intercepts runtime errors and dynamically patches the context window 
   using local SQLite FTS5 memory for zero-downtime recovery.
+
+description_tr: "Çalışma zamanı hatalarını yakalar ve bağlam penceresini dinamik olarak yamalar"

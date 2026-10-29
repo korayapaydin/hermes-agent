@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: gamma
 description: 'Gamma: generate and edit AI presentations, docs, and sites.'
+description_tr: "Gamma: yapay zekâ sunumları, belgeler ve siteleri oluşturun ve düzenleyin."
 source: https://developers.gamma.app/docs/gamma-mcp-server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

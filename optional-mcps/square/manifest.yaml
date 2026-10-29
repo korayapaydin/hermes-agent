@@ -5,6 +5,7 @@ manifest_version: 1
 name: square
 description: >-
   Catalog, orders, and payments via Square's hosted MCP.
+description_tr: "Square'ın barındırdığı MCP üzerinden katalog, siparişler ve ödemeler."
 source: https://developer.squareup.com/docs/mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

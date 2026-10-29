@@ -1,6 +1,7 @@
 ---
 name: live-dashboard
 description: "Build self-updating dashboards from live sources."
+description_tr: "Canlı kaynaklardan kendini güncelleyen panolar kur."
 version: 0.2.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

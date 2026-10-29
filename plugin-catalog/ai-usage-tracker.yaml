@@ -9,6 +9,7 @@ sha: "14e844f6ced5e0d618c767d726330a78c5cadadd"   # tag v1.0.2
 description: Live subscription-quota windows for every AI provider Hermes can route to, as a
   desktop page plus a status-bar chip, with a per-profile picker — Codex, Claude, Copilot,
   OpenCode Go/Zen, Z.AI, Kimi, MiniMax, Nous, OpenRouter, DeepSeek.
+description_tr: "Hermes'in yönlendirebileceği her YZ sağlayıcısı için canlı abonelik kotası pencereleri; bir masaüstü sayfası ve durum çubuğu çipi olarak, profil başına seçiciyle — Codex, Claude, Copilot, OpenCode Go/Zen, Z.AI, Kimi, MiniMax, Nous, OpenRouter, DeepSeek."
 maintainer: lvabarajithan
 tier: community
 category: desktop

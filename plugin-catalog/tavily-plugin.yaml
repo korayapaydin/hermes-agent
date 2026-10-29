@@ -3,6 +3,7 @@ title: Tavily
 repo: https://github.com/tavily-ai/tavily-hermes-plugin
 sha: ac556341056dc903988f63d627d595e468f1cfa9
 description: "Search, extract, map, crawl, and research through Tavily hosted MCP, with Tavily skills. The default connection requires TAVILY_API_KEY; supports Hermes-managed OAuth through a native MCP override. Disclosure — Connects to Tavily's hosted MCP server at `mcp.tavily.com` and sends it the search queries, URLs and research prompts the agent issues, authenticated with `TAVILY_API_KEY` or a Hermes-managed Tavily OAuth sign-in."
+description_tr: "Tavily barındurulan MCP ve Tavily yetenekleri aracılığıyla ara, çıkar, eşle, tara ve araştır. Varsayılan bağlantı TAVILY_API_KEY gerektirir; yerel bir MCP geçersiz kılma aracılığıyla Hermes tarafından yönetilen OAuth'u destekler. Bilgilendirme — `mcp.tavily.com` adresindeki Tavily barındurulan MCP sunucusuna bağlanır ve ajanın oluşturduğu arama sorgularını, URL'leri ve araştırma promptlarını `TAVILY_API_KEY` veya Hermes tarafından yönetilen bir Tavily OAuth oturum açma işlemi ile kimlik doğrulaması yaparak gönderir."
 maintainer: tavily-ai
 tier: verified
 category: web

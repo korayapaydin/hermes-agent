@@ -10,6 +10,7 @@ description: >-
   keeps a bounded in-memory record of private-chat message ids, 60-character excerpts and
   reactions; writes nothing to disk, makes no network requests, starts no processes and
   reads no secrets.
+description_tr: "Ajanın, Telegram mesajlarınızda bıraktığınız emoji tepkileri görmesini sağlar: bir yanıta 👍 ya da 👎 tepkisi verin ve ajanın o özel sohbetteki bir sonraki turu, tepkiyi ve izlediği mesajı belirten kısa bir notla başlar. Açıklama — pre_gateway_dispatch (her zaman None döndürür, böylece yönlendirme asla değişmez), pre_llm_call ve gateway_platform_event kancalarını kaydeder; özel sohbet mesaj kimliklerinin, 60 karakterlik alıntıların ve tepkilerin sınırlı bir bellek içi kaydını tutar; diske hiçbir şey yazmaz, ağ isteği yapmaz, süreç başlatmaz ve gizli bilgi okumaz."
 maintainer: AhmetArif0
 tier: community
 category: general

@@ -5,6 +5,7 @@ manifest_version: 1
 name: canva
 connector_slug: canva_mcp
 description: Create, search, and manage Canva designs.
+description_tr: "Canva tasarımları oluşturun, arayın ve yönetin."
 source: https://www.canva.dev/docs/mcp/
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

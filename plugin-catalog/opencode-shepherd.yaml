@@ -8,6 +8,7 @@ name: opencode-shepherd
 repo: https://github.com/okazakee/opencode-shepherd
 sha: "207a1443a5daa20e20824d13776794c0057cd539"   # tag v0.2.5
 description: "Watch over opencode sessions from anywhere: alerts for stopped turns, questions and permissions, plus a dependency-free CLI to reply. Disclosure — the skill has the agent install the ocshepherd CLI from GitHub at a pinned commit and, after asking you, add a cron entry or systemd unit that polls your opencode server; the CLI talks to that server with the password you provide, can reply to its questions and permission prompts, and optionally sends alerts to Telegram or runs a notify command you configure."
+description_tr: "opencode oturumlarını her yerden izleyin: duran turlar, sorular ve izinler için uyarılar, ayrıca yanıt vermek için bağımlılıksız bir CLI. Açıklama — yetenek, ajanın ocshepherd CLI'ını GitHub'dan sabitlenmiş bir commit'te kurmasını ve sizden izin istedikten sonra opencode sunucunuzu yoklayan bir cron girdisi ya da systemd birimi eklemesini sağlar; CLI, verdiğiniz parolayla o sunucuyla konuşur, sorularına ve izin istemlerine yanıt verebilir ve isteğe bağlı olarak Telegram'a uyarı gönderir veya yapılandırdığınız bir bildirim komutunu çalıştırır."
 maintainer: okazakee
 tier: community
 category: automation

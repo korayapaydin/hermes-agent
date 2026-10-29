@@ -1,6 +1,7 @@
 ---
 name: meme-generation
 description: Create meme PNGs from templates with Pillow text overlay.
+description_tr: "Şablonlardan Pillow metin katmanıyla meme PNG üret."
 version: 2.0.0
 author: adanaleycio
 license: MIT

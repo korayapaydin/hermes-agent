@@ -1,6 +1,7 @@
 ---
 name: llava
 description: "Vision-language chat: VQA, captioning, image dialogue."
+description_tr: "Görü-dil sohbeti: VQA, betimleme, görsel diyalog."
 version: 1.0.0
 author: Orchestra Research
 license: MIT

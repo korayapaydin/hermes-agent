@@ -8,6 +8,7 @@ description: >-
   $HERMES_HOME/plugin-data/command-tray/state.json; the Desktop pane inserts text through Hermes
   Desktop's internal hermes:composer-insert event (not a public SDK API) with clipboard fallback;
   no network.
+description_tr: "Oturum komut tepsisi — Hermes ajanının terminal aracıyla çalıştırdığı kabuk komutları (başarılı ve başarısız). Desktop paneli ve /commands. API anahtarı yok. Açıklama — terminal komutlarını çıkış kodu, çalışma dizini ve 160 karakterlik gizlenmiş çıktı önizlemesiyle $HERMES_HOME/plugin-data/command-tray/state.json dosyasına kaydeder; Desktop paneli metni Hermes Desktop'ın dahili hermes:composer-insert olayı (herkese açık bir SDK API'si değil) aracılığıyla, panoya kopyalama yedeğiyle ekler; ağ erişimi yoktur."
 maintainer: aydnOktay
 tier: community
 category: desktop

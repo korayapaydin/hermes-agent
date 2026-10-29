@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: klaviyo
 description: 'Klaviyo marketing: campaigns, flows, segments, and reporting.'
+description_tr: "Klaviyo pazarlama: kampanyalar, akışlar, segmentler ve raporlama."
 source: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

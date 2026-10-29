@@ -1,6 +1,7 @@
 ---
 name: computer-use
 description: "Drive the desktop background-first; escalate on signal."
+description_tr: "Masaüstünü arka plan öncelikli sür; sinyalde yükselt."
 version: 2.1.0
 author: Francesco Bonacci (f-trycua), Hermes Agent
 license: MIT

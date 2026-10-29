@@ -1,6 +1,7 @@
 ---
 name: bioinformatics
 description: Gateway to 400+ genomics and computational biology skills.
+description_tr: "400+ genomik ve hesaplamalı biyoloji yeteneğine geçit."
 version: 1.0.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

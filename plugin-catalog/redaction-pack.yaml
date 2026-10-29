@@ -11,6 +11,7 @@ description: >-
   ctx.register_redaction_patterns; no tools, hooks, network access, subprocesses, files or
   environment variables; the patterns can only add masks, and security.redact_secrets: false still
   turns redaction off.
+description_tr: "Hermes'in yerleşik gizli bilgi redaktörüne 71 satıcı daha kimlik bilgisi biçimi öğretir (HashiCorp Vault, Doppler, Amazon Bedrock, Atlassian, Cloudflare, Supabase, Tailscale, Docker Hub, JFrog Artifactory, CircleCI, HubSpot, PostHog, Grafana, Sentry, Shopify ve diğerleri) ve bu jetonlar yerleşikler gibi günlüklerde, araç çıktılarında ve modele giden metinde maskelenir. Açıklama — register() tek bir çağrı yapar: ctx.register_redaction_patterns; araç, kanca, ağ erişimi, alt süreç, dosya ya da ortam değişkeni yok; desenler yalnızca maske ekleyebilir ve security.redact_secrets: false yine de redaksiyonu kapatır."
 maintainer: pierrenode
 tier: community
 category: tools

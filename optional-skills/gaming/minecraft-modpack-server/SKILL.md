@@ -1,6 +1,7 @@
 ---
 name: minecraft-modpack-server
 description: "Host modded Minecraft servers (CurseForge, Modrinth)."
+description_tr: "Modlu Minecraft sunucuları barındır (CurseForge, Modrinth)."
 version: 1.0.0
 author: Teknium (teknium1), Hermes Agent
 license: MIT

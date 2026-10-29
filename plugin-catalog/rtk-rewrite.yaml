@@ -13,6 +13,7 @@ description: >-
   upstream's hooks/hermes/rtk-rewrite, not affiliated with rtk-ai.
   scripts/update.sh downloads the pinned RTK release binary (v0.49.0,
   checksum-verified).
+description_tr: "Hermes terminal komutlarını, çalıştırılmadan önce RTK (rtk-ai/rtk, Apache-2.0) üzerinden yeniden yazan topluluk (resmî olmayan) eklentisi, böylece model ham komut spam'i yerine sıkıştırılmış çıktı görür — yaygın geliştirici komutlarında token tasarrufu sağlar. Hata durumunda açık kalan bir pre_tool_call kancası (2 sn zaman aşımı, beklenmeyen çıkışlar komutu olduğu gibi bırakır), isteğe bağlı bir masaüstü paneli ve güncelleme betikleri ekler. Açıklama — her terminal aracı komutu, PATH'te bulunan rtk ikilisine (rtk-ai/rtk, ayrıca kurulur) aktarılır ve onay ile çalıştırmadan önce rtk'nin yeniden yazımıyla değiştirilir; rtk yoksa ya da hata verirse hata durumunda açık kalır. Üst kaynaktaki hooks/hermes/rtk-rewrite dizininin topluluk aynasıdır; rtk-ai ile bağlantılı değildir. scripts/update.sh, sabitlenmiş RTK sürüm ikilisini (v0.49.0, sağlama toplamı doğrulanmış) indirir."
 maintainer: kerrz2020
 tier: community
 category: tools

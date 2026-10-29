@@ -2,6 +2,7 @@ name: deepseek-whale
 repo: https://github.com/bmtrnavsky/deepseek-whale
 sha: 9b284b47a1db1f2cc05e71b0d0b2b58f9d773f1b
 description: Live DeepSeek API peak/off-peak pricing whale for the Hermes desktop titlebar. Blue x0.5 off-peak, grey PEAK at full price, countdown on click, 30s repaint, no backend or API key.
+description_tr: "Hermes masaüstü başlık çubuğu için canlı DeepSeek API tepe/düşük saat fiyatı göstergesi. Mavi x0,5 düşük saat, gri PEAK tam fiyat, tıklamada geri sayım, 30 saniyede yeniden çizim, arka uç ya da API anahtarı yok."
 maintainer: bmtrnavsky
 tier: community
 category: desktop

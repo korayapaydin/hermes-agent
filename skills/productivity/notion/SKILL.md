@@ -1,6 +1,7 @@
 ---
 name: notion
 description: "Notion API + ntn CLI: pages, databases, markdown, Workers."
+description_tr: "Notion API + ntn CLI: sayfa, veritabanı, markdown, Workers."
 version: 2.0.0
 author: community
 license: MIT

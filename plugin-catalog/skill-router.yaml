@@ -2,6 +2,7 @@ name: skill-router
 repo: https://github.com/xXLODXx/hermes-skill-router
 sha: 445c32f9b274f53bf3d37ce1b37ec1b3e5530ac4
 description: Evidence-based, session-safe skill routing with auditable decisions and opt-in learning
+description_tr: "Denetlenebilir kararlar ve isteğe bağlı öğrenme ile kanıta dayalı, oturum güvenli yetenek yönlendirme"
 maintainer: xXLODXx
 tier: community
 category: general

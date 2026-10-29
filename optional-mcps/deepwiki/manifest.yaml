@@ -4,6 +4,7 @@ manifest_version: 1
 
 name: deepwiki
 description: Ask questions about any public GitHub repo (Devin's DeepWiki).
+description_tr: "Herhangi bir herkese açık GitHub deposu hakkında soru sorun (Dev'in DeepWiki'si)."
 source: https://docs.devin.ai/work-with-devin/deepwiki-mcp
 
 # Official vendor-hosted remote MCP (URL-only — Hermes never spawns a local

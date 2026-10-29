@@ -3,6 +3,7 @@ repo: https://github.com/anpicasso/hermes-cursor-provider
 sha: bf7d61fb1e37fa78ec58de7683ec436dff5b71bf
 subdir: provider
 description: "Cursor model provider using the official proprietary Cursor SDK. Disclosure — uses Cursor's proprietary cursor-sdk (PyPI, bundled binary bridge on loopback) with the user's CURSOR_API_KEY; sends the full conversation, tool schemas/results and images (HTTPS URLs or base64) to Cursor; keeps private per-session SDK workspaces under HERMES_HOME/cache/cursor-sdk; Cursor built-in tools and MCP are requested off and Hermes keeps tool execution and approvals."
+description_tr: "Resmî, özel Cursor SDK'sını kullanan Cursor model sağlayıcısı. Açıklama — kullanıcının CURSOR_API_KEY'i ile Cursor'ın tescilli cursor-sdk'sını (PyPI, loopback üzerinde paketlenmiş ikili köprü) kullanır; tüm konuşmayı, araç şemalarını/sonuçlarını ve görselleri (HTTPS URL'leri veya base64) Cursor'a gönderir; HERMES_HOME/cache/cursor-sdk altında oturum başına özel SDK çalışma alanları tutar; Cursor yerleşik araçları ve MCP kapalı istenir ve Hermes araç yürütmeyi ve onayları elinde tutar."
 maintainer: anpicasso
 tier: community
 category: models

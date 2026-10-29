@@ -3,6 +3,7 @@ repo: https://github.com/rriggs/hermes-plugin-minimax-video
 sha: 759bec0f124c50e868facc8da5e6cf054403d761
 description: MiniMax (Hailuo) video generation -- Hailuo 2.3/02 and S2V-01 models via MiniMax platform.
   Async task API. Supports text-to-video, image-to-video, and subject-reference-to-video.
+description_tr: "MiniMax (Hailuo) video üretimi — MiniMax platformu üzerinden Hailuo 2.3/02 ve S2V-01 modelleri. Asenkron görev API'si. Metinden videoya, görüntüden videoya ve konu referansından videoya destekler."
 maintainer: rriggs
 tier: community
 category: tools

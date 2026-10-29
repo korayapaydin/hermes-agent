@@ -12,6 +12,7 @@ description: >-
   Windows x86_64. Disclosure — agents can send messages and mutate WhatsApp
   state through the linked account; session databases grant account access.
   The plugin does not ingest incoming messages or configure webhooks.
+description_tr: "GOWA üzerinden giden WhatsApp araçları: GOWA'nın yerel MCP sunucusunu kaydeder ve cihaz listeleme, eşleştirme ve kaldırma ekler. Kurulum, var olan bir sunucuya bağlanabilir ya da sabitlenmiş GOWA v9.5.0 sürümünü yalnızca döngü üzerinde çalışan, kimlik doğrulamalı yerel kullanıcı servisi olarak açıkça kurabilir (Linux x86_64, macOS x86_64/arm64 ya da Windows x86_64). Açıklama — ajanlar bağlı hesap üzerinden mesaj gönderebilir ve WhatsApp durumunu değiştirebilir; oturum veritabanları hesap erişimi verir. Eklenti gelen mesajları almaz ya da webhook yapılandırmaz."
 maintainer: anpicasso
 tier: community
 category: tools

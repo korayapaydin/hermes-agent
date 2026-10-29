@@ -1,6 +1,7 @@
 ---
 name: lbo-model
 description: Build leveraged buyout workbooks with IRR/MOIC in Excel.
+description_tr: "Excel'de IRR/MOIC ile kaldıraçlı satın alma modelleri kur."
 version: 1.0.0
 author: Anthropic (adapted by Nous Research)
 license: Apache-2.0

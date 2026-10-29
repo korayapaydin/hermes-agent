@@ -5,6 +5,7 @@ description: Give your agent the voice it deserves. Guided TTS and STT setup for
   Hermes, with voice search and previews, model switching, testing, and native
   spoken replies across supported providers. Access 80+ speech models through a
   single API key with the AllModels router.
+description_tr: "Ajanınıza hak ettiği sesi verin. Hermes için rehberli TTS ve STT kurulumu; ses araması ve önizlemeleri, model değiştirme, test etme ve desteklenen sağlayıcılarda yerel sesli yanıtlar. AllModels yönlendiricisiyle tek bir API anahtarıyla 80'den fazla konuşma modeline erişin."
 maintainer: moeadham
 tier: community
 category: voice
