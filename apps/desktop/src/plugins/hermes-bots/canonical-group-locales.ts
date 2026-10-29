@@ -329,5 +329,39 @@ export const CANONICAL_GROUP_LOCALES = {
     memberWorking: 'Trabajando',
     memberQueued: 'En cola',
     groupWorking: 'El grupo está trabajando…'
-  }
+  },
+  tr: {
+    roomStopped: 'Grup durduruldu',
+    roomDisbanded: 'Grup dağıtıldı',
+    authorityLost: 'Grubun sahibi değişti',
+    workLimitReached: 'Grup çalışma sınırına ulaşıldı',
+    turnFailed: 'Tur başarısız oldu',
+    turnCancelled: 'Tur iptal edildi',
+    turnDeferred: 'Tur ertelendi',
+    memberUnavailable: 'Üye kullanılamıyor',
+    members: 'Üyeler',
+    refreshGroups: 'Ağ geçidi gruplarını yenileyin',
+    openGroup: 'Grup sohbetini açın',
+    loadingGroup: 'Grup yükleniyor',
+    loadingGroups: 'Ağ geçidi grupları yükleniyor',
+    emptyGroups: 'Ağ geçidi grubu bulunamadı.',
+    driverUnavailable:
+      'Grup sürücüsü kullanılamıyor. Sahibi olan ağ geçidini güncelleyin veya yeniden bağlayın.',
+    invalidLogCursor: 'Geçersiz oda günlüğü imleci',
+    allowOnce: 'Bir kez izin ver',
+    deny: 'Reddet',
+    discardUnknown: 'Sonucu bilinmeyen işi bırak',
+    discardWarning: 'Yan etkiler zaten oluşmuş olabilir. Bırakmak bunları geri almaz.',
+    confirmDiscard: 'Bırakmayı onayla',
+    unconfirmedSend:
+      'Önceki gönderim onaylanmadı. Başka bir mesaj göndermeden önce özgün metnini yeniden deneyin.',
+    restoredPendingSend: 'Onaylanmamış bir gönderim geri yüklendi. Başka bir mesaj göndermeden önce yeniden deneyin.',
+    groupMessage: 'Grup mesajı',
+    attachFiles: 'Dosya ekle',
+    removeAttachment: 'Eki kaldır',
+    uploadFailed: 'Yükleme başarısız',
+    memberWorking: 'Çalışıyor',
+    memberQueued: 'Kuyrukta',
+    groupWorking: 'Grup çalışıyor'
+  },
 } satisfies Record<string, CanonicalGroupMessages>
