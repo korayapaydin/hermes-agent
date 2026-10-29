@@ -1084,7 +1084,7 @@ function SidebarSystemActions({
       confirmLabel={sharedGateway ? "Restart all" : t.status.restartGateway}
       description={
         sharedGateway
-          ? sharedGatewayRestartDescription(sharedGateway)
+          ? sharedGatewayRestartDescription(sharedGateway, t)
           : (t.status.restartGatewayConfirmMessage ??
             "This restarts the Hermes gateway process. Connected channels and active sessions will reconnect afterward.")
       }

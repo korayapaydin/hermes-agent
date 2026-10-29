@@ -712,7 +712,7 @@ export default function EnvPage() {
       });
       showToast(`${key} ${t.common.save.toLowerCase()}d`, "success");
     } catch (e) {
-      showToast(`${t.config.failedToSave} ${key}: ${errorMessage(e)}`, "error");
+      showToast(`${t.config.failedToSave} ${key}: ${errorMessage(e, t)}`, "error");
     } finally {
       setSaving(null);
     }
@@ -737,13 +737,13 @@ export default function EnvPage() {
           });
           showToast(`${key} ${t.common.removed}`, "success");
         } catch (e) {
-          showToast(`${t.common.failedToRemove} ${key}: ${errorMessage(e)}`, "error");
+          showToast(`${t.common.failedToRemove} ${key}: ${errorMessage(e, t)}`, "error");
           throw e;
         } finally {
           setSaving(null);
         }
       },
-      [showToast, t.common.removed, t.common.failedToRemove],
+      [showToast, t.common.removed, t.common.failedToRemove, t],
     ),
   });
 

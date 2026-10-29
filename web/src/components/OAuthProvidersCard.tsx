@@ -67,9 +67,9 @@ export function OAuthProvidersCard({ onError, onSuccess }: Props) {
     api
       .getOAuthProviders()
       .then((resp) => setProviders(resp.providers))
-      .catch((e) => onErrorRef.current?.(`Failed to load providers: ${errorMessage(e)}`))
+      .catch((e) => onErrorRef.current?.(`Failed to load providers: ${errorMessage(e, t)}`))
       .finally(() => setLoading(false));
-  }, []);
+  }, [t]);
 
   useEffect(() => {
     refresh();
@@ -83,7 +83,7 @@ export function OAuthProvidersCard({ onError, onSuccess }: Props) {
       onSuccess?.(`${provider.name} ${t.oauth.disconnect.toLowerCase()}ed`);
       refresh();
     } catch (e) {
-      onError?.(`${t.oauth.disconnect} failed: ${errorMessage(e)}`);
+      onError?.(`${t.oauth.disconnect} failed: ${errorMessage(e, t)}`);
     } finally {
       setBusyId(null);
     }

@@ -431,8 +431,7 @@ function CronJobFormFields({
           emptyLabel="No skills installed for this profile."
         />
         <p className="text-xs text-muted-foreground">
-          Selected skills are loaded before the prompt runs — the cron
-          sets when, the skill sets how.
+          {t.cron.selectedSkillsHint!}
         </p>
       </div>
 
@@ -649,7 +648,7 @@ export default function CronPage() {
           jobsRequestGenerationRef.current === generation &&
           selectedProfileRef.current === profile
         ) {
-          setJobsLoadError(errorMessage(e));
+          setJobsLoadError(errorMessage(e, t));
         }
       })
       .finally(() => {
@@ -658,7 +657,7 @@ export default function CronPage() {
           selectedProfileRef.current === profile
         ) setLoading(false);
       });
-  }, []);
+  }, [t]);
 
   useEffect(() => {
     api
@@ -740,7 +739,7 @@ export default function CronPage() {
       setCreateModalOpen(false);
       loadJobs(selectedProfile);
     } catch (e) {
-      showToast(`${t.config.failedToSave}: ${errorMessage(e)}`, "error");
+      showToast(`${t.config.failedToSave}: ${errorMessage(e, t)}`, "error");
     } finally {
       setCreating(false);
     }
@@ -768,11 +767,11 @@ export default function CronPage() {
         payload,
         getJobProfile(editJob),
       );
-      showToast("Saved changes ✓", "success");
+      showToast(t.cron.savedChanges!, "success");
       setEditJob(null);
       loadJobs(selectedProfile);
     } catch (e) {
-      showToast(`${t.config.failedToSave}: ${errorMessage(e)}`, "error");
+      showToast(`${t.config.failedToSave}: ${errorMessage(e, t)}`, "error");
     } finally {
       setSaving(false);
     }
@@ -797,7 +796,7 @@ export default function CronPage() {
       }
       loadJobs(selectedProfile);
     } catch (e) {
-      showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+      showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
     }
   };
 
@@ -832,7 +831,7 @@ export default function CronPage() {
         triggerControllerRef.current === controller &&
         selectedProfileRef.current === viewProfile
       ) {
-        showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+        showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
       }
     }
   };
@@ -850,11 +849,11 @@ export default function CronPage() {
           );
           loadJobs(selectedProfile);
         } catch (e) {
-          showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+          showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
           throw e;
         }
       },
-      [jobs, loadJobs, selectedProfile, showToast, t.common.delete, t.status.error],
+      [jobs, loadJobs, selectedProfile, showToast, t.common.delete, t.status.error, t],
     ),
   });
 

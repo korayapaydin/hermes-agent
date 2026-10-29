@@ -1,8 +1,9 @@
 import type { SessionImportResponse } from "@/lib/api";
+import type { Translations } from "@/i18n/types";
 
 export type ImportableSession = Record<string, unknown>;
 
-function normalizeImportSessions(value: unknown): ImportableSession[] {
+function normalizeImportSessions(value: unknown, t: Translations): ImportableSession[] {
   const candidate =
     value &&
     typeof value === "object" &&
@@ -18,21 +19,21 @@ function normalizeImportSessions(value: unknown): ImportableSession[] {
       !!item && typeof item === "object" && !Array.isArray(item),
   );
   if (sessions.length !== candidate.length) {
-    throw new Error("Expected exported session JSON or JSONL");
+    throw new Error(t.session!.import!.expectedJson!);
   }
   return sessions;
 }
 
-export function parseImportSessions(text: string): ImportableSession[] {
+export function parseImportSessions(text: string, t: Translations): ImportableSession[] {
   const trimmed = text.trim();
-  if (!trimmed) throw new Error("File is empty");
+  if (!trimmed) throw new Error(t.session!.import!.fileEmpty!);
 
   try {
-    return normalizeImportSessions(JSON.parse(trimmed));
+    return normalizeImportSessions(JSON.parse(trimmed), t);
   } catch (jsonError) {
     const lines = trimmed.split(/\r?\n/).filter((line) => line.trim());
     if (lines.length <= 1) throw jsonError;
-    return normalizeImportSessions(lines.map((line) => JSON.parse(line)));
+    return normalizeImportSessions(lines.map((line) => JSON.parse(line)), t);
   }
 }
 

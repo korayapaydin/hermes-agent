@@ -2,7 +2,10 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { fetchJSON } from "./api";
-import { API_UNREACHABLE_MESSAGE, ApiError, errorMessage, extractDetail } from "./api-error";
+import { API_UNREACHABLE_MESSAGE, ApiError, apiErrorFromResponse, errorMessage, extractDetail } from "./api-error";
+import { en } from "@/i18n/en";
+import { tr } from "@/i18n/tr";
+import { pageCopy } from "@/lib/page-copy";
 
 vi.mock("./dashboard-auth-reload", () => ({
   attemptDashboardTokenReloadOnce: vi.fn(() => false),
@@ -48,7 +51,7 @@ describe("fetchJSON error contract", () => {
     expect(apiErr.status).toBe(404);
     expect(apiErr.details).toContain("404");
     // The toast pattern `\`Error: ${e}\`` must no longer double-prefix.
-    expect(`${errorMessage(apiErr)}`).not.toMatch(/^Error:/);
+    expect(`${errorMessage(apiErr, en)}`).not.toMatch(/^Error:/);
   });
 
   it("shows a structured detail's message, not the generic status sentence", async () => {
@@ -78,6 +81,15 @@ describe("fetchJSON error contract", () => {
     );
     const err = (await fetchJSON("/api/status").catch((e: unknown) => e)) as ApiError;
     expect(err.message).not.toMatch(/^\d{3}/);
+  });
+
+  it("renders a generated sentence in the active locale, server details as sent", () => {
+    const statusErr = apiErrorFromResponse(503, "", "/api/status");
+    expect(errorMessage(statusErr, en)).toBe(en.error.status[503]);
+    expect(errorMessage(statusErr, tr)).toBe(pageCopy(tr, "error").status[503]);
+
+    const detailErr = apiErrorFromResponse(503, JSON.stringify({ detail: "state.db corrupt" }), "/x");
+    expect(errorMessage(detailErr, tr)).toBe("state.db corrupt");
   });
 
   it("turns a network failure into the 'is hermes dashboard running' sentence", async () => {

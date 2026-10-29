@@ -59,7 +59,7 @@ export function OAuthLoginModal({ provider, onClose, onSuccess }: Props) {
       .catch((e) => {
         if (!isMounted.current) return;
         setPhase("error");
-        setErrorMsg(`Failed to start login: ${errorMessage(e)}`);
+        setErrorMsg(`Failed to start login: ${errorMessage(e, t)}`);
       });
     return () => {
       isMounted.current = false;
@@ -142,14 +142,14 @@ export function OAuthLoginModal({ provider, onClose, onSuccess }: Props) {
       } catch (e) {
         if (!isMounted.current) return;
         setPhase("error");
-        setErrorMsg(`Polling failed: ${errorMessage(e)}`);
+        setErrorMsg(`Polling failed: ${errorMessage(e, t)}`);
         if (pollTimer.current !== null) window.clearInterval(pollTimer.current);
       }
     }, 2000);
     return () => {
       if (pollTimer.current !== null) window.clearInterval(pollTimer.current);
     };
-  }, [start, phase, provider.id, provider.name, onSuccess, onClose]);
+  }, [start, phase, provider.id, provider.name, onSuccess, onClose, t]);
 
   const handleSubmitPkceCode = async () => {
     if (!start || start.flow !== "pkce") return;
@@ -174,7 +174,7 @@ export function OAuthLoginModal({ provider, onClose, onSuccess }: Props) {
     } catch (e) {
       if (!isMounted.current) return;
       setPhase("error");
-      setErrorMsg(`Submit failed: ${errorMessage(e)}`);
+      setErrorMsg(`Submit failed: ${errorMessage(e, t)}`);
     }
   };
 
@@ -412,7 +412,7 @@ export function OAuthLoginModal({ provider, onClose, onSuccess }: Props) {
                       .catch((e) => {
                         if (!isMounted.current) return;
                         setPhase("error");
-                        setErrorMsg(`${t.common.retry} failed: ${errorMessage(e)}`);
+                        setErrorMsg(`${t.common.retry} failed: ${errorMessage(e, t)}`);
                       });
                   }}
                 >

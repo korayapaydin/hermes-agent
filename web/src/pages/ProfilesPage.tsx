@@ -46,6 +46,7 @@ import { useI18n } from "@/i18n";
 import { usePageHeader } from "@/contexts/usePageHeader";
 import { cn, themedBody } from "@/lib/utils";
 import { errorMessage } from "@/lib/api-error";
+import { pageCopy } from "@/lib/page-copy";
 
 // Mirrors hermes_cli/profiles.py::_PROFILE_ID_RE so we can reject obviously
 // invalid names (uppercase, spaces, …) before round-tripping a doomed POST.
@@ -264,54 +265,48 @@ export default function ProfilesPage() {
   const { setEnd } = usePageHeader();
   const { setProfile } = useProfileScope();
 
-  // Locale strings with English fallbacks. The enriched keys are optional in
-  // the i18n type so untranslated locales don't break the build — they render
-  // the English literal until translated.
+  // Locale strings, resolved once over the English catalog so no field here is optional.
   const L = useMemo(() => {
-    const p = t.profiles;
+    const p = pageCopy(t, "profiles");
     return {
-      activeProfile: p.activeProfile ?? "Active profile",
-      activeBadge: p.activeBadge ?? "active",
-      setActive: p.setActive ?? "Set as active",
-      activeSet: p.activeSet ?? "Active profile set",
-      gatewayRunning: p.gatewayRunning ?? "Gateway running",
-      gatewayStopped: p.gatewayStopped ?? "Gateway stopped",
-      gatewayRunningWarning:
-        p.gatewayRunningWarning ??
-        "This profile's gateway is running — it will be stopped.",
-      aliasBadge: p.aliasBadge ?? "alias",
-      description: p.description ?? "Description",
-      descriptionPlaceholder:
-        p.descriptionPlaceholder ??
-        "What is this profile good at? Used to route kanban tasks by role.",
-      noDescription: p.noDescription ?? "No description",
-      editDescription: p.editDescription ?? "Edit description",
-      descriptionSaved: p.descriptionSaved ?? "Description saved",
-      reviewBadge: p.reviewBadge ?? "review",
-      autoGenerate: p.autoGenerate ?? "Auto-generate",
-      generating: p.generating ?? "Generating…",
-      describeFailed: p.describeFailed ?? "Could not generate description",
-      distribution: p.distribution ?? "Distribution",
-      advancedOptions: p.advancedOptions ?? "Advanced options",
-      cloneAll:
-        p.cloneAll ?? "Clone everything (memories, sessions, skills, state)",
-      noSkillsOption: p.noSkillsOption ?? "Don't seed bundled skills",
-      descriptionOptional: p.descriptionOptional ?? "Description (optional)",
-      modelOptional: p.modelOptional ?? "Model (optional)",
-      modelInherit: p.modelInherit ?? "Inherit from clone / default",
-      modelLoading: p.modelLoading ?? "Loading models…",
-      modelNone:
-        p.modelNone ?? "No model providers are set up yet. Add an API key under Keys or sign in to a provider under Models.",
-      editModel: p.editModel ?? "Change model",
-      modelSaved: p.modelSaved ?? "Model updated",
-      modelSelect: p.modelSelect ?? "Select a model",
-      actions: p.actions ?? "Actions",
-      manageSkills: p.manageSkills ?? "Manage skills & tools",
+      activeProfile: p.activeProfile,
+      activeBadge: p.activeBadge,
+      setActive: p.setActive,
+      activeSet: p.activeSet,
+      gatewayRunning: p.gatewayRunning,
+      gatewayStopped: p.gatewayStopped,
+      gatewayRunningWarning: p.gatewayRunningWarning,
+      aliasBadge: p.aliasBadge,
+      description: p.description,
+      descriptionPlaceholder: p.descriptionPlaceholder,
+      noDescription: p.noDescription,
+      editDescription: p.editDescription,
+      descriptionSaved: p.descriptionSaved,
+      reviewBadge: p.reviewBadge,
+      autoGenerate: p.autoGenerate,
+      generating: p.generating,
+      describeFailed: p.describeFailed,
+      distribution: p.distribution,
+      advancedOptions: p.advancedOptions,
+      cloneAll: p.cloneAll,
+      noSkillsOption: p.noSkillsOption,
+      descriptionOptional: p.descriptionOptional,
+      modelOptional: p.modelOptional,
+      modelInherit: p.modelInherit,
+      modelLoading: p.modelLoading,
+      modelNone: p.modelNone,
+      editModel: p.editModel,
+      modelSaved: p.modelSaved,
+      modelSelect: p.modelSelect,
+      actions: p.actions,
+      // `manageSkills`/`activeSetHint` are optional in the Translations type but absent from the
+      // English catalog, so pageCopy cannot supply them; they keep their literal fallback.
+      manageSkills: t.profiles.manageSkills ?? "Manage skills & tools",
       activeSetHint:
-        p.activeSetHint ??
+        t.profiles.activeSetHint ??
         "Dashboard switched to manage {name}. New CLI/gateway runs will use this profile too.",
     };
-  }, [t.profiles]);
+  }, [t]);
 
   // Create modal
   const [createModalOpen, setCreateModalOpen] = useState(false);
@@ -400,9 +395,9 @@ export default function ProfilesPage() {
         setProfiles(res.profiles);
         setActiveInfo(active);
       })
-      .catch((e) => showToast(`${t.status.error}: ${errorMessage(e)}`, "error"))
+      .catch((e) => showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error"))
       .finally(() => setLoading(false));
-  }, [showToast, t.status.error]);
+  }, [showToast, t.status.error, t]);
 
   useEffect(() => {
     load();
@@ -464,7 +459,7 @@ export default function ProfilesPage() {
       setCreateModalOpen(false);
       load();
     } catch (e) {
-      showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+      showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
     } finally {
       setCreating(false);
     }
@@ -489,7 +484,7 @@ export default function ProfilesPage() {
       setRenameTo("");
       load();
     } catch (e) {
-      showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+      showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
     }
   };
 
@@ -508,7 +503,7 @@ export default function ProfilesPage() {
         prev ? { ...prev, active } : { active, current: active },
       );
     } catch (e) {
-      showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+      showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
     } finally {
       setSettingActive(null);
     }
@@ -543,11 +538,11 @@ export default function ProfilesPage() {
         }
       } catch (e) {
         if (activeSoulRequest.current === name) {
-          showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+          showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
         }
       }
     },
-    [closeEditor, editingSoulFor, showToast, t.status.error],
+    [closeEditor, editingSoulFor, showToast, t.status.error, t],
   );
 
   const handleSaveSoul = async (name: string) => {
@@ -558,7 +553,7 @@ export default function ProfilesPage() {
       activeSoulRequest.current = null;
       setEditingSoulFor(null);
     } catch (e) {
-      showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+      showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
     } finally {
       setSoulSaving(false);
     }
@@ -604,7 +599,7 @@ export default function ProfilesPage() {
       }
     } catch (e) {
       if (activeDescRequest.current === name) {
-        showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+        showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
       }
     } finally {
       descSavingCount.current -= 1;
@@ -638,7 +633,7 @@ export default function ProfilesPage() {
       }
     } catch (e) {
       if (activeDescRequest.current === name) {
-        showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+        showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
       }
     } finally {
       describingCount.current -= 1;
@@ -681,7 +676,7 @@ export default function ProfilesPage() {
       );
       setEditingModelFor(null);
     } catch (e) {
-      showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+      showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
     } finally {
       setModelSaving(false);
     }
@@ -708,7 +703,7 @@ export default function ProfilesPage() {
       const res = await api.getProfileSetupCommand(name);
       cmd = res.command;
     } catch (e) {
-      showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+      showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
       return;
     }
     if (await copyTextToClipboard(cmd)) {
@@ -726,11 +721,11 @@ export default function ProfilesPage() {
           showToast(`${t.profiles.deleted}: ${name}`, "success");
           load();
         } catch (e) {
-          showToast(`${t.status.error}: ${errorMessage(e)}`, "error");
+          showToast(`${t.status.error}: ${errorMessage(e, t)}`, "error");
           throw e;
         }
       },
-      [load, showToast, t.profiles.deleted, t.status.error],
+      [load, showToast, t.profiles.deleted, t.status.error, t],
     ),
   });
 

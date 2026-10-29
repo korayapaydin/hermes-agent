@@ -10,6 +10,7 @@ import { BUILTIN_THEMES, THEME_DEFAULT_FONT_ID, useTheme } from "@/themes";
 import type { DashboardTheme, FontChoice, ThemeListEntry } from "@/themes";
 import { useI18n } from "@/i18n";
 import { cn } from "@/lib/utils";
+import { pageCopy } from "@/lib/page-copy";
 
 /**
  * Compact theme picker mounted next to the language switcher in the header.
@@ -27,6 +28,7 @@ import { cn } from "@/lib/utils";
 export function ThemeSwitcher({ collapsed = false, dropUp = false }: ThemeSwitcherProps) {
   const { themeName, availableThemes, setTheme, fontId, fontChoices, setFont } = useTheme();
   const { t } = useI18n();
+  const theme = pageCopy(t, "theme");
   const [open, setOpen] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -58,7 +60,7 @@ export function ThemeSwitcher({ collapsed = false, dropUp = false }: ThemeSwitch
 
   const current = availableThemes.find((th) => th.name === themeName);
   const label = current?.label ?? themeName;
-  const sheetTitle = t.theme?.title ?? "Theme";
+  const sheetTitle = theme.title;
 
   return (
     <div ref={wrapperRef} className="relative">
@@ -71,8 +73,8 @@ export function ThemeSwitcher({ collapsed = false, dropUp = false }: ThemeSwitch
             ? "text-text-secondary hover:text-foreground hover:bg-transparent"
             : "px-2 py-1 normal-case tracking-normal font-normal text-xs text-text-secondary hover:text-foreground",
         )}
-        title={`${t.theme?.switchTheme ?? "Switch theme"}: ${label}`}
-        aria-label={t.theme?.switchTheme ?? "Switch theme"}
+        title={`${theme.switchTheme}: ${label}`}
+        aria-label={theme.switchTheme}
         aria-expanded={open}
         aria-haspopup="listbox"
       >
@@ -225,6 +227,7 @@ const FONT_CATEGORY_LABEL_KEY: Record<FontChoice["category"], "fontSans" | "font
  *  to clear the override. Each row previews itself in its own font. */
 function FontSection({ fontChoices, fontId, setFont }: FontSectionProps) {
   const { t } = useI18n();
+  const theme = pageCopy(t, "theme");
   const order: FontChoice["category"][] = ["sans", "serif", "mono"];
   return (
     <>
@@ -234,7 +237,7 @@ function FontSection({ fontChoices, fontId, setFont }: FontSectionProps) {
           <Typography
             className="text-display text-xs tracking-[0.12em] text-text-tertiary"
           >
-            {t.theme?.fontTitle ?? "Font"}
+            {theme.fontTitle}
           </Typography>
         </span>
       </div>
@@ -250,10 +253,10 @@ function FontSection({ fontChoices, fontId, setFont }: FontSectionProps) {
         <span aria-hidden className="h-4 w-9 shrink-0" />
         <div className="flex min-w-0 flex-1 flex-col gap-0.5">
           <Typography className="truncate text-xs tracking-normal">
-            {t.theme?.fontDefault ?? "Theme default"}
+            {theme.fontDefault}
           </Typography>
           <Typography className="truncate text-xs tracking-normal text-text-tertiary">
-            {t.theme?.fontDefaultHint ?? "Use the active theme's font"}
+            {theme.fontDefaultHint}
           </Typography>
         </div>
         <Check
@@ -267,7 +270,7 @@ function FontSection({ fontChoices, fontId, setFont }: FontSectionProps) {
       {order.map((cat) => {
         const fonts = fontChoices.filter((f) => f.category === cat);
         if (fonts.length === 0) return null;
-        const catLabel = t.theme?.[FONT_CATEGORY_LABEL_KEY[cat]] ?? cat;
+        const catLabel = theme[FONT_CATEGORY_LABEL_KEY[cat]];
         return (
           <div key={cat}>
             <div className="px-3 pb-0.5 pt-1.5">

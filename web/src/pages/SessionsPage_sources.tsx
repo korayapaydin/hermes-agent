@@ -8,6 +8,7 @@ import {
   Play,
   Terminal,
 } from "lucide-react";
+import type { Translations } from "@/i18n/types";
 
 export const SOURCE_CONFIG: Record<string, { icon: typeof Terminal; color: string }> =
   {
@@ -61,10 +62,10 @@ export function sourceBelongsToCategory(
   return !isAutomationSource(source);
 }
 
-export function sourceLabel(source: string): string {
+export function sourceLabel(source: string, t: Translations): string {
   switch (source) {
     case "api_server":
-      return "API server";
+      return t.source!.apiServer!;
     case "acp":
       return "ACP";
     case "cli":

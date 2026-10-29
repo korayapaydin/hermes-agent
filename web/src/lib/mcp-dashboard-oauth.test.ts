@@ -1,4 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
+import { en } from "@/i18n/en";
 import { completeMcpDashboardOAuth } from "./mcp-dashboard-oauth";
 
 describe("completeMcpDashboardOAuth", () => {
@@ -33,6 +34,7 @@ describe("completeMcpDashboardOAuth", () => {
 
     const result = await completeMcpDashboardOAuth({
       serverName: "reports",
+      t: en,
       start,
       status,
       open,
@@ -54,6 +56,7 @@ describe("completeMcpDashboardOAuth", () => {
     await expect(
       completeMcpDashboardOAuth({
         serverName: "reports",
+      t: en,
         start: async () => ({
           flow_id: "flow-2",
           server_name: "reports",
@@ -74,6 +77,7 @@ describe("completeMcpDashboardOAuth", () => {
     await expect(
       completeMcpDashboardOAuth({
         serverName: "reports",
+      t: en,
         start,
         status: vi.fn(),
         open: vi.fn().mockReturnValue(null),
@@ -98,6 +102,7 @@ describe("completeMcpDashboardOAuth", () => {
     await expect(
       completeMcpDashboardOAuth({
         serverName: "reports",
+      t: en,
         start: async () => ({
           flow_id: "flow-closed",
           server_name: "reports",
@@ -128,6 +133,7 @@ describe("completeMcpDashboardOAuth", () => {
 
     const result = await completeMcpDashboardOAuth({
       serverName: "reports",
+      t: en,
       start: async () => ({
         flow_id: "flow-retry",
         server_name: "reports",

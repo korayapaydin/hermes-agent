@@ -71,7 +71,7 @@ export function SystemActionsProvider({
             .join(". ");
           const verdict = ok
             ? shared
-              ? sharedGatewayRestartedMessage(shared.length)
+              ? sharedGatewayRestartedMessage(shared.length, t)
               : owed
                 ? ""
                 : t.status.actionFinished
@@ -98,6 +98,7 @@ export function SystemActionsProvider({
     t.status.actionFinished,
     t.status.actionFinishedOwed,
     t.status.actionFailed,
+    t,
   ]);
 
   const runAction = useCallback(

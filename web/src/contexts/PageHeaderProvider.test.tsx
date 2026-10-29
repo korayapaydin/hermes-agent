@@ -8,7 +8,11 @@ import { usePageHeader } from "./usePageHeader";
 import ChannelsPage from "@/pages/ChannelsPage";
 import FilesPage from "@/pages/FilesPage";
 
-vi.mock("@/i18n", () => ({ useI18n: () => ({ t: { common: { cancel: "Cancel", delete: "Delete" } } }) }));
+// One stable object: the pages key their effects on `t`, so a fresh literal per render would re-run them.
+vi.mock("@/i18n", () => {
+  const t = { common: { cancel: "Cancel", delete: "Delete" } };
+  return { useI18n: () => ({ t }) };
+});
 vi.mock("@/lib/resolve-page-title", () => ({ resolvePageTitle: (path: string) => path }));
 vi.mock("@/lib/api", () => ({
   api: {

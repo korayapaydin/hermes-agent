@@ -15,6 +15,7 @@ import { cn, themedBody } from "@/lib/utils";
 import { queryMatchesProviderOnly } from "@/lib/model-picker-filter";
 import { fuzzyRank, modelSearchText } from "@hermes/shared";
 import { errorMessage } from "@/lib/api-error";
+import { useI18n } from "@/i18n";
 import {
   formatPickerCurrentLabel,
   isAutoPickerCurrent,
@@ -90,6 +91,7 @@ interface Props {
 }
 
 export function ModelPickerDialog(props: Props) {
+  const { t } = useI18n();
   const {
     gw,
     sessionId,
@@ -159,7 +161,7 @@ export function ModelPickerDialog(props: Props) {
       })
       .catch((e) => {
         if (closedRef.current) return;
-        setError(errorMessage(e));
+        setError(errorMessage(e, t));
       })
       .finally(() => {
         if (closedRef.current) return;
@@ -178,7 +180,7 @@ export function ModelPickerDialog(props: Props) {
       })
       .catch((e) => {
         if (closedRef.current) return;
-        setError(errorMessage(e));
+        setError(errorMessage(e, t));
       })
       .finally(() => {
         if (closedRef.current) return;
@@ -299,7 +301,7 @@ export function ModelPickerDialog(props: Props) {
         }
         onClose();
       } catch (e) {
-        setError(errorMessage(e));
+        setError(errorMessage(e, t));
       } finally {
         setApplying(false);
       }
@@ -327,7 +329,7 @@ export function ModelPickerDialog(props: Props) {
         }
         onClose();
       } catch (e) {
-        setError(errorMessage(e));
+        setError(errorMessage(e, t));
       } finally {
         setApplying(false);
       }
@@ -437,7 +439,7 @@ export function ModelPickerDialog(props: Props) {
         <footer className="border-t border-border p-3 flex items-center justify-between gap-3 flex-wrap">
           {alwaysGlobal ? (
             <span className="text-xs text-muted-foreground">
-              Saves to config.yaml — applies to new sessions.
+              {t.models.savesToConfig!}
             </span>
           ) : (
             <div className="flex items-center gap-2">
@@ -527,6 +529,7 @@ function ProviderColumn({
   /** The links below navigate away; the full-screen dialog must close or it keeps covering the target page. */
   onClose(): void;
 }) {
+  const { t } = useI18n();
   return (
     <div className="border-r border-border overflow-y-auto">
       {loading && (
@@ -540,7 +543,7 @@ function ProviderColumn({
       {!loading && !error && providers.length === 0 && (
         <div className="p-4 text-xs text-muted-foreground">
           {query || total > 0 ? (
-            <span className="italic">No providers match your search.</span>
+            <span className="italic">{t.models.noProvidersMatch!}</span>
           ) : (
             <div className="flex flex-col gap-2">
               <span>{NO_PROVIDERS_MESSAGE}</span>

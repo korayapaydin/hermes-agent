@@ -6,30 +6,33 @@
  * `Error: Error: 404: {"detail":"Server 'foo' not found"}`. This module turns
  * that into a plain sentence (`Server 'foo' not found`) while keeping the
  * status and raw body on the error object for diagnostics.
+ *
+ * A status- or transport-derived sentence is generated copy, so `errorMessage`
+ * renders it from the active locale's catalog; a server `detail` passes through
+ * untouched, because it is the operator's only precise diagnostic.
  */
 
+import type { Translations } from "@/i18n/types";
+import { en } from "@/i18n/en";
+import { pageCopy } from "@/lib/page-copy";
+
+/** Which copy an ApiError carries: the server's own detail, or a generated sentence. */
+type CopySource = "detail" | "status" | "unreachable";
+
 /** The dashboard's own backend could not be reached at all (fetch rejected). */
-export const API_UNREACHABLE_MESSAGE =
-  "Hermes dashboard cannot reach the Hermes service. Is `hermes dashboard` still running?";
+export const API_UNREACHABLE_MESSAGE = en.error.apiUnreachable;
 
-/** Status → plain sentence, used when the body carries no usable `detail`. */
-const STATUS_COPY: Record<number, string> = {
-  400: "The dashboard sent a request the server could not understand.",
-  401: "Your dashboard session has expired. Reload the page to sign in again.",
-  403: "You are not allowed to do that on this dashboard.",
-  404: "The server could not find what the dashboard asked for.",
-  409: "That change conflicts with the current state on the server.",
-  413: "That upload is too large for the server to accept.",
-  422: "Some of the entered values are not valid.",
-  429: "Too many requests. Wait a moment and try again.",
-  500: "The Hermes service hit an internal error.",
-  502: "The dashboard proxy could not reach the Hermes service.",
-  503: "The Hermes service is not ready yet. Try again in a moment.",
-  504: "The Hermes service took too long to respond.",
-};
+/** Statuses with a catalog sentence; anything else falls back to `error.unexpected`. */
+const STATUSES = [400, 401, 403, 404, 409, 413, 422, 429, 500, 502, 503, 504] as const;
 
-export function humanizeStatus(status: number): string {
-  return STATUS_COPY[status] ?? `The Hermes service answered with an unexpected error (${status}).`;
+function hasStatusCopy(status: number): status is (typeof STATUSES)[number] {
+  return (STATUSES as readonly number[]).includes(status);
+}
+
+/** English sentence for a status, kept on the error so `.message` stays readable in logs. */
+function statusMessage(status: number): string {
+  if (!hasStatusCopy(status)) return en.error.unexpected(status);
+  return en.error.status[status];
 }
 
 /** Pull a human sentence out of a FastAPI-style error body, or null. */
@@ -74,13 +77,19 @@ export class ApiError extends Error {
   readonly body: string;
   /** Request URL (path only), for diagnostics. */
   readonly url: string;
+  /** Where `message` came from; `errorMessage` localizes everything but `detail`. */
+  readonly copy: CopySource;
 
-  constructor(message: string, init: { status: number; body: string; url: string }) {
+  constructor(
+    message: string,
+    init: { status: number; body: string; url: string; copy: CopySource },
+  ) {
     super(message);
     this.name = "ApiError";
     this.status = init.status;
     this.body = init.body;
     this.url = init.url;
+    this.copy = init.copy;
   }
 
   /** Multi-line technical detail for a Copy-details action or console. */
@@ -92,20 +101,31 @@ export class ApiError extends Error {
 
 export function apiErrorFromResponse(status: number, body: string, url: string): ApiError {
   const detail = extractDetail(body);
-  return new ApiError(detail ?? humanizeStatus(status), { status, body, url });
+  if (detail) return new ApiError(detail, { status, body, url, copy: "detail" });
+  return new ApiError(statusMessage(status), { status, body, url, copy: "status" });
 }
 
 export function apiErrorFromNetworkFailure(cause: unknown, url: string): ApiError {
   const body = cause instanceof Error ? `${cause.name}: ${cause.message}` : String(cause);
-  return new ApiError(API_UNREACHABLE_MESSAGE, { status: 0, body, url });
+  return new ApiError(API_UNREACHABLE_MESSAGE, { status: 0, body, url, copy: "unreachable" });
+}
+
+function localizedCopy(err: ApiError, t: Translations): string {
+  const copy = pageCopy(t, "error");
+  if (err.copy === "unreachable") return copy.apiUnreachable;
+  if (err.copy === "status") {
+    return hasStatusCopy(err.status) ? copy.status[err.status] : copy.unexpected(err.status);
+  }
+  return err.message || err.name;
 }
 
 /**
  * The one way to turn a caught `unknown` into toast/inline text. Never yields
  * a `Error: Error:` double prefix because it reads `.message`, not `String(e)`.
+ * Generated sentences follow the active locale; server details pass through.
  */
-export function errorMessage(err: unknown): string {
-  if (err instanceof Error) return err.message || err.name;
+export function errorMessage(err: unknown, t: Translations): string {
+  if (err instanceof ApiError) return localizedCopy(err, t);
   if (typeof err === "string") return err;
   return String(err);
 }

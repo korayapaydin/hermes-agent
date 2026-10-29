@@ -85,9 +85,9 @@ export default function LogsPage() {
           }
         }, 50);
       })
-      .catch((err) => setError(errorMessage(err)))
+      .catch((err) => setError(errorMessage(err, t)))
       .finally(() => setLoading(false));
-  }, [file, lineCount, level, component]);
+  }, [file, lineCount, level, component, t]);
 
   useLayoutEffect(() => {
     setAfterTitle(

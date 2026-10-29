@@ -117,7 +117,6 @@ import {
 import { PluginSlot } from "@/plugins";
 import { useTheme } from "@/themes";
 import { useProfileScope } from "@/contexts/useProfileScope";
-import { errorMessage } from "@/lib/api-error";
 import { SGR_MOUSE_RE } from "@/lib/pty-mouse-report";
 
 // Per-tab keep-alive identity (`?attach=`): lives in pty-attach-token.ts so a
@@ -1222,7 +1221,7 @@ export default function ChatPage({ isActive = true }: { isActive?: boolean }) {
         url = await api.buildWsUrl("/api/pty", params);
       } catch (err) {
         if (unmounting || ticketSuperseded) return;
-        console.warn(`[chat] PTY ticket request failed: ${errorMessage(err)}`);
+        console.warn(`[chat] PTY ticket request failed: ${err instanceof Error ? err.message : String(err)}`);
         failTicketAttempt();
         return;
       }

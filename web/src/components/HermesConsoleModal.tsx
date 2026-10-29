@@ -19,6 +19,7 @@ import {
 import { cn, themedBody } from "@/lib/utils";
 import { useTheme } from "@/themes";
 import { errorMessage } from "@/lib/api-error";
+import { useI18n } from "@/i18n";
 
 type ConsoleFrame =
   | {
@@ -104,6 +105,7 @@ function isPrintable(data: string): boolean {
 }
 
 export function HermesConsoleModal({ open, onClose }: HermesConsoleModalProps) {
+  const { t } = useI18n();
   const modalRef = useModalBehavior({ open, onClose });
   const hostRef = useRef<HTMLDivElement | null>(null);
   const termRef = useRef<XtermTerminal | null>(null);
@@ -453,7 +455,7 @@ export function HermesConsoleModal({ open, onClose }: HermesConsoleModalProps) {
       } catch (err) {
         if (cancelled) return;
         setConnectionState("error");
-        console.warn(`[console] connect failed: ${errorMessage(err)}`);
+        console.warn(`[console] connect failed: ${errorMessage(err, t)}`);
         writeLine(
           term,
           "\x1b[31mConsole could not connect to the dashboard server. Check that `hermes dashboard` is running, then click Reconnect.\x1b[0m",
@@ -476,7 +478,7 @@ export function HermesConsoleModal({ open, onClose }: HermesConsoleModalProps) {
       activeCommandRef.current = false;
       hasReadyFrameRef.current = false;
     };
-  }, [connectNonce, handleFrame, handleInputData, open, profile, theme]);
+  }, [connectNonce, handleFrame, handleInputData, open, profile, theme, t]);
 
   useEffect(() => {
     if (!open) return;

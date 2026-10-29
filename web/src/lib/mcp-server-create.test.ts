@@ -1,10 +1,14 @@
 import { describe, expect, it } from "vitest";
 
-import { buildMcpServerCreate, emptyMcpServerDraft } from "./mcp-server-create";
+import { en } from "@/i18n/en";
+import { type McpServerDraft, buildMcpServerCreate, emptyMcpServerDraft } from "./mcp-server-create";
+
+/** These tests assert the copy, not the locale mechanism, so they run on English. */
+const buildServer = (draft: McpServerDraft) => buildMcpServerCreate(draft, en);
 
 describe("buildMcpServerCreate", () => {
   it("builds an HTTP Bearer request without stdio fields", () => {
-    const server = buildMcpServerCreate({
+    const server = buildServer({
       ...emptyMcpServerDraft(),
       name: " Linear ",
       url: " https://mcp.linear.app/mcp ",
@@ -25,7 +29,7 @@ describe("buildMcpServerCreate", () => {
 
   it("builds OAuth and unauthenticated HTTP requests without a token", () => {
     expect(
-      buildMcpServerCreate({
+      buildServer({
         ...emptyMcpServerDraft(),
         name: "oauth",
         url: "https://example.com/mcp",
@@ -38,7 +42,7 @@ describe("buildMcpServerCreate", () => {
     });
 
     expect(
-      buildMcpServerCreate({
+      buildServer({
         ...emptyMcpServerDraft(),
         name: "public",
         url: "https://example.com/mcp",
@@ -50,7 +54,7 @@ describe("buildMcpServerCreate", () => {
   });
 
   it("parses stdio arguments and environment assignments", () => {
-    const server = buildMcpServerCreate({
+    const server = buildServer({
       ...emptyMcpServerDraft(),
       name: "local",
       transport: "stdio",
@@ -71,17 +75,17 @@ describe("buildMcpServerCreate", () => {
   });
 
   it("rejects missing transport fields and Bearer tokens", () => {
-    expect(() => buildMcpServerCreate(emptyMcpServerDraft())).toThrow(
+    expect(() => buildServer(emptyMcpServerDraft())).toThrow(
       "Name required",
     );
     expect(() =>
-      buildMcpServerCreate({
+      buildServer({
         ...emptyMcpServerDraft(),
         name: "remote",
       }),
     ).toThrow("URL required");
     expect(() =>
-      buildMcpServerCreate({
+      buildServer({
         ...emptyMcpServerDraft(),
         name: "remote",
         url: "https://example.com/mcp",
@@ -89,7 +93,7 @@ describe("buildMcpServerCreate", () => {
       }),
     ).toThrow("Bearer token required");
     expect(() =>
-      buildMcpServerCreate({
+      buildServer({
         ...emptyMcpServerDraft(),
         name: "local",
         transport: "stdio",

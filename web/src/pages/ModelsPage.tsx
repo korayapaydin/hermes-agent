@@ -207,6 +207,7 @@ function UseAsMenu({
   auxTasks: AuxiliaryTaskAssignment[];
   onAssigned(): void;
 }) {
+  const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -248,7 +249,7 @@ function UseAsMenu({
       onAssigned();
       setOpen(false);
     } catch (e) {
-      setError(errorMessage(e));
+      setError(errorMessage(e, t));
     } finally {
       setBusy(false);
     }
@@ -553,6 +554,7 @@ function AuxiliaryTasksModal({
   const [picker, setPicker] = useState<PickerTarget | null>(null);
   const [resetBusy, setResetBusy] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
+  const { t } = useI18n();
   const modalRef = useModalBehavior({ open: true, onClose });
 
   const resetAllAux = async () => {
@@ -706,10 +708,10 @@ function AuxiliaryTasksModal({
           open={confirmReset}
           onCancel={() => setConfirmReset(false)}
           onConfirm={() => void resetAllAux()}
-          title="Reset auxiliary models"
-          description="Reset every auxiliary task to 'auto'? This overrides any per-task overrides you've set."
+          title={t.models!.resetAuxiliaryModels!}
+          description={t.models!.resetEveryAuxiliary!}
           destructive
-          confirmLabel="Reset all"
+          confirmLabel={t.system!.resetAll!}
           loading={resetBusy}
         />
       </div>
@@ -728,6 +730,7 @@ function MoaModelsModal({
   onClose(): void;
   onSaved(next: MoaConfigResponse): void;
 }) {
+  const { t } = useI18n();
   const [draft, setDraft] = useState<MoaConfigResponse>(config);
   const [selected, setSelected] = useState(config.default_preset || Object.keys(config.presets)[0] || "default");
   const [newName, setNewName] = useState("");
@@ -768,7 +771,7 @@ function MoaModelsModal({
       onSaved(saved);
       onClose();
     } catch (e) {
-      setError(errorMessage(e));
+      setError(errorMessage(e, t));
     } finally {
       setBusy(false);
     }
@@ -1188,9 +1191,9 @@ export default function ModelsPage() {
         setData(models);
         setAux(auxData);
       })
-      .catch((err) => setError(errorMessage(err)))
+      .catch((err) => setError(errorMessage(err, t)))
       .finally(() => setLoading(false));
-  }, [days]);
+  }, [days, t]);
 
   const refreshAux = useCallback(() => {
     api
@@ -1328,13 +1331,10 @@ export default function ModelsPage() {
               </div>
               {!showTokens && (
                 <p className="mt-4 text-xs text-text-tertiary leading-relaxed">
-                  Token & cost analytics are hidden because the local counts
-                  exclude auxiliary calls (compression, vision, web extract,
-                  …) and provider retries, so they diverge from your provider
-                  bill. Enable{" "}
+                  {t.analytics!.tokenAnalyticsHiddenLead!}{" "}
                   <span className="font-mono">dashboard.show_token_analytics</span>{" "}
-                  in <a href="/config" className="underline">Config</a> to
-                  show the local debug estimate anyway.
+                  in <a href="/config" className="underline">{t.app.nav.config}</a>{" "}
+                  {t.models!.showLocalDebugEstimate!}
                 </p>
               )}
             </CardContent>

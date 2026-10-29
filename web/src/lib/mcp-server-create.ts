@@ -1,4 +1,5 @@
 import type { McpHttpAuth, McpServerCreate } from "@/lib/api";
+import type { Translations } from "@/i18n/types";
 
 export type McpTransport = "http" | "stdio";
 
@@ -47,15 +48,16 @@ function parseEnv(raw: string): Record<string, string> {
   return env;
 }
 
-export function buildMcpServerCreate(draft: McpServerDraft): McpServerCreate {
+export function buildMcpServerCreate(draft: McpServerDraft, t: Translations): McpServerCreate {
+  const copy = t.mcp!.create!;
   const name = draft.name.trim();
-  if (!name) throw new Error("Name required");
+  if (!name) throw new Error(copy.nameRequired!);
 
   if (draft.transport === "http") {
     const url = draft.url.trim();
-    if (!url) throw new Error("URL required");
+    if (!url) throw new Error(copy.urlRequired!);
     if (draft.httpAuth === "header" && !draft.bearerToken.trim()) {
-      throw new Error("Bearer token required");
+      throw new Error(copy.bearerTokenRequired!);
     }
 
     const server: McpServerCreate = { name, url };
@@ -67,7 +69,7 @@ export function buildMcpServerCreate(draft: McpServerDraft): McpServerCreate {
   }
 
   const command = draft.command.trim();
-  if (!command) throw new Error("Command required");
+  if (!command) throw new Error(copy.commandRequired!);
 
   const server: McpServerCreate = { name, command };
   const args = parseArgs(draft.args);

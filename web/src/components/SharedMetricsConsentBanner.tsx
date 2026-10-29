@@ -3,6 +3,7 @@ import { BarChart3, X } from "lucide-react";
 import { api, type SharedMetricsConsent } from "@/lib/api";
 import { useProfileScope } from "@/contexts/useProfileScope";
 import { useI18n } from "@/i18n";
+import { pageCopy } from "@/lib/page-copy";
 
 const DOCS_URL =
   "https://hermes-agent.nousresearch.com/docs/developer-guide/relay-shared-metrics";
@@ -17,6 +18,7 @@ const STORAGE_KEY = "sharedMetricsOfferDismissed";
  */
 export function SharedMetricsConsentBanner() {
   const { t } = useI18n();
+  const app = pageCopy(t, "app");
   const { profile } = useProfileScope();
   // Keyed by the profile it was read for, so a profile switch hides a stale answer at once.
   const [loaded, setLoaded] = useState<{ profile: string; consent: SharedMetricsConsent } | null>(
@@ -76,33 +78,31 @@ export function SharedMetricsConsentBanner() {
   return (
     <div
       role="region"
-      aria-label={t.app.sharedMetricsTitle ?? "Help improve Hermes?"}
+      aria-label={app.sharedMetricsTitle}
       data-testid="shared-metrics-consent-banner"
       className="flex flex-wrap items-center gap-2 border-b border-current/20 bg-current/5 px-4 py-1.5 text-xs text-midground"
     >
       <BarChart3 className="h-3.5 w-3.5 shrink-0" />
-      <span className="font-semibold">{t.app.sharedMetricsTitle ?? "Help improve Hermes?"}</span>
+      <span className="font-semibold">{app.sharedMetricsTitle}</span>
       <span className="min-w-0 flex-1 opacity-80">
         {failed
-          ? (t.app.sharedMetricsSaveFailed ?? "Couldn't save your choice")
+          ? app.sharedMetricsSaveFailed
           : consent.reask
-            ? (t.app.sharedMetricsReaskBody ??
-              'Asking once more: an earlier version could save "No thanks" before you saw this question.')
-            : (t.app.sharedMetricsBody ??
-            "Shared metrics are bounded counters, never prompts, files, paths or error text. Sharing sends them to Nous once a day.")}{" "}
+            ? app.sharedMetricsReaskBody
+            : app.sharedMetricsBody}{" "}
         <a href={DOCS_URL} target="_blank" rel="noreferrer" className="underline">
-          {t.app.sharedMetricsDetails ?? "Details"}
+          {app.sharedMetricsDetails}
         </a>
       </span>
       <button type="button" disabled={saving} className={choice} onClick={() => answer(true, true)}>
-        {t.app.sharedMetricsShare ?? "Share with Nous"}
+        {app.sharedMetricsShare}
       </button>
       <button type="button" disabled={saving} className={choice} onClick={() => answer(false, false)}>
-        {t.app.sharedMetricsOff ?? "No thanks"}
+        {app.sharedMetricsOff}
       </button>
       <button
         type="button"
-        aria-label={t.app.dismiss ?? "Dismiss"}
+        aria-label={app.dismiss}
         onClick={dismiss}
         className="shrink-0 opacity-70 hover:opacity-100"
       >

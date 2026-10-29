@@ -1,5 +1,6 @@
 import type { StatusResponse } from "@/lib/api";
 import { ApiError } from "@/lib/api-error";
+import type { Translations } from "@/i18n/types";
 
 /** Profiles a gateway restart would blip when the managed profile is carried by the shared
  *  multiplexer (default first). `null` for a standalone gateway or an older backend without
@@ -16,34 +17,33 @@ export function sharedGatewayProfiles(
   );
 }
 
-export function sharedGatewayRestartDescription(profiles: string[]): string {
-  return `All bots on this device reconnect: ${profiles.join(", ")}`;
+export function sharedGatewayRestartDescription(profiles: string[], t: Translations): string {
+  return t.sharedGateway!.reconnectAll!(profiles.join(", "));
 }
 
-export function sharedGatewayRestartedMessage(count: number): string {
-  return `Shared gateway restarted (${count} ${count === 1 ? "bot" : "bots"})`;
+export function sharedGatewayRestartedMessage(count: number, t: Translations): string {
+  return t.sharedGateway!.restarted!(count);
 }
 
-/** Raw `gateway_state` values (gateway/status.py) → what they mean for the user. */
-const GATEWAY_STATE_COPY: Record<string, string> = {
-  running: "Running — messaging channels are online",
-  starting: "Starting up",
-  degraded: "Running with some channels offline — see Logs",
-  stopped: "Stopped — messaging channels are offline",
-  startup_failed: "Failed to start — see Logs",
-};
+/** Raw `gateway_state` values (gateway/status.py) that have catalog copy. */
+const GATEWAY_STATES = ["running", "starting", "degraded", "stopped", "startup_failed"] as const;
+type GatewayStateKey = (typeof GATEWAY_STATES)[number];
 
-/** A `degraded` record of a dead process is a watchdog exit, not a live gateway with channels down. */
-const GATEWAY_EXITED_DEGRADED_COPY = "Exited: a watchdog stopped a wedged gateway — see Logs";
+function isGatewayState(state: string): state is GatewayStateKey {
+  return (GATEWAY_STATES as readonly string[]).includes(state);
+}
 
 /** Plain description of the gateway's state; null/unknown falls back to running/stopped. */
 export function gatewayStateDescription(
   state: string | null | undefined,
   running: boolean | undefined,
+  t: Translations,
 ): string {
-  if (state === "degraded" && running === false) return GATEWAY_EXITED_DEGRADED_COPY;
-  if (state && GATEWAY_STATE_COPY[state]) return GATEWAY_STATE_COPY[state];
-  return running ? GATEWAY_STATE_COPY.running : GATEWAY_STATE_COPY.stopped;
+  const copy = t.gateway!.state!;
+  // A `degraded` record of a dead process is a watchdog exit, not a live gateway with channels down.
+  if (state === "degraded" && running === false) return copy.exitedDegraded!;
+  if (state && isGatewayState(state)) return copy[state]!;
+  return running ? copy.running! : copy.stopped!;
 }
 
 /** True when the state points at Logs as the next step. */
@@ -51,27 +51,28 @@ export function gatewayStateNeedsLogs(state: string | null | undefined): boolean
   return state === "startup_failed" || state === "degraded";
 }
 
-const GATEWAY_VERB_COPY: Record<"start" | "stop" | "restart", string> = {
-  start: "Could not start the gateway",
-  stop: "Could not stop the gateway",
-  restart: "Could not restart the gateway",
-};
-
 /** Toast for a failed Start/Stop/Restart: lead with the outcome, then the detail, then the fix.
  *  `error` (the caught value) decides whether the Logs pointer makes sense: when the dashboard
  *  itself is unreachable (ApiError.status 0) the Logs page cannot load either, so it is omitted. */
 export function gatewayActionFailedMessage(
   verb: "start" | "stop" | "restart",
   detail: string,
-  error?: unknown,
+  error: unknown,
+  t: Translations,
 ): string {
+  const action = t.gateway!.action!;
+  const verbCopy: Record<typeof verb, string> = {
+    start: action.couldNotStart!,
+    stop: action.couldNotStop!,
+    restart: action.couldNotRestart!,
+  };
   const trimmed = detail.trim().replace(/\.+$/, "");
   const ended = /[!?]$/.test(trimmed);
   const head = trimmed
-    ? `${GATEWAY_VERB_COPY[verb]}: ${trimmed}${ended ? "" : "."}`
-    : `${GATEWAY_VERB_COPY[verb]}.`;
+    ? `${verbCopy[verb]}: ${trimmed}${ended ? "" : "."}`
+    : `${verbCopy[verb]}.`;
   const unreachable = error instanceof ApiError && error.status === 0;
-  return unreachable ? head : `${head} Open Logs for details.`;
+  return unreachable ? head : `${head} ${action.openLogs!}`;
 }
 
 /** A 409 on gateway start/stop for a served profile carries the multiplexer explanation in

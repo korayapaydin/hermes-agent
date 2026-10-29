@@ -284,7 +284,7 @@ export default function ConfigPage() {
       await api.saveConfig(config);
       showToast(t.config.configSaved, "success");
     } catch (e) {
-      showToast(`${t.config.failedToSave}: ${errorMessage(e)}`, "error");
+      showToast(`${t.config.failedToSave}: ${errorMessage(e, t)}`, "error");
     } finally {
       setSaving(false);
     }
@@ -300,7 +300,7 @@ export default function ConfigPage() {
         .then(setConfig)
         .catch(() => {});
     } catch (e) {
-      showToast(`${t.config.failedToSaveYaml}: ${errorMessage(e)}`, "error");
+      showToast(`${t.config.failedToSaveYaml}: ${errorMessage(e, t)}`, "error");
     } finally {
       setYamlSaving(false);
     }

@@ -130,17 +130,19 @@ vi.mock("@/contexts/useProfileScope", () => ({
 vi.mock("@/themes", () => ({
   useTheme: () => ({ theme: { terminalBackground: "#000000" } }),
 }));
-vi.mock("@/i18n", () => ({
-  useI18n: () => ({
-    t: {
-      app: {
-        closeModelTools: "Close model tools",
-        modelToolsSheetSubtitle: "Tools",
-        modelToolsSheetTitle: "Model",
-      },
+vi.mock("@/i18n", () => {
+  // One catalog instance for the whole file: `t` must keep its identity across
+  // renders, otherwise every effect that lists it in its deps re-runs (a PTY
+  // reconnect per render).
+  const t = {
+    app: {
+      closeModelTools: "Close model tools",
+      modelToolsSheetSubtitle: "Tools",
+      modelToolsSheetTitle: "Model",
     },
-  }),
-}));
+  };
+  return { useI18n: () => ({ t }) };
+});
 vi.mock("@/lib/dashboard-auth-reload", () => ({
   maybeReloadForLoopbackWsAuthFailure,
 }));

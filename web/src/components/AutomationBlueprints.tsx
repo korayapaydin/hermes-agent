@@ -13,6 +13,7 @@ import { api } from "@/lib/api";
 import type { AutomationBlueprint, AutomationBlueprintField } from "@/lib/automation-blueprints";
 import { cn, themedBody } from "@/lib/utils";
 import { errorMessage } from "@/lib/api-error";
+import { useI18n } from "@/i18n";
 
 interface AutomationBlueprintsProps {
   profile: string;
@@ -175,6 +176,7 @@ function BlueprintCard({
  * via the same create_job path as everything else.
  */
 export function AutomationBlueprints({ profile, onCreated }: AutomationBlueprintsProps) {
+  const { t } = useI18n();
   const { toast, showToast } = useToast();
   const [blueprints, setBlueprints] = useState<AutomationBlueprint[] | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -190,12 +192,12 @@ export function AutomationBlueprints({ profile, onCreated }: AutomationBlueprint
         }
       })
       .catch((e) => {
-        if (!cancelled) setLoadError(errorMessage(e));
+        if (!cancelled) setLoadError(errorMessage(e, t));
       });
     return () => {
       cancelled = true;
     };
-  }, [profile]);
+  }, [profile, t]);
 
   if (loadError) {
     return <p className="text-sm text-red-500">Couldn't load blueprints: {loadError}</p>;
