@@ -561,7 +561,10 @@ def check_for_updates(*, install_root: Path | None = None, home: Path | None = N
     result["fetchedAt"] = int(now * 1000)
     source_target = None
     if not _is_full_sha(co.head):
-        result.update(error="head-unavailable", message="Could not read the installed revision.")
+        from hermes_cli.i18n_tr import MESSAGE_TR
+
+        result.update(error="head-unavailable", message="Could not read the installed revision.",
+                      message_tr=MESSAGE_TR["head_unavailable"])
     elif branch is None:
         source_target = _resolve_channel(result, channel, co, forward_only=forward_only)
         if source_target is not None and not source_target.commit:

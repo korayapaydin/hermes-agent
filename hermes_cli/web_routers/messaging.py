@@ -201,6 +201,17 @@ def _platform_enablement(
     return enabled, configured, home_channel
 
 
+def _platform_description_tr(platform_id: str) -> str:
+    """The Turkish card description for a platform, or "" when the pack has none.
+
+    The English ``description`` stays in the payload: a client reads ``description_tr``
+    only when its own UI language is Turkish, so an English caller sees no change.
+    """
+    from hermes_cli.i18n_tr import PLATFORM_DESCRIPTIONS_TR
+
+    return str(PLATFORM_DESCRIPTIONS_TR.get(platform_id) or "")
+
+
 def _messaging_platform_payload(
     entry: dict[str, Any], env_on_disk: dict[str, str], runtime: dict | None,
     scoped: bool = False, profile_home: Optional[Path] = None, source_keys: Collection[str] = (),
@@ -270,6 +281,7 @@ def _messaging_platform_payload(
 
     payload = {
         "id": platform_id, "name": entry["name"], "description": entry["description"],
+        "description_tr": _platform_description_tr(platform_id),
         "docs_url": entry["docs_url"], "enabled": enabled, "configured": configured,
         "gateway_running": gateway_running, "state": state, "error_code": error_code,
         "error_message": error_message, "updated_at": runtime_platform.get("updated_at"),

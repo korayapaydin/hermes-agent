@@ -17,6 +17,7 @@ from typing import Any, Dict, List, Optional
 from fastapi import APIRouter, HTTPException, Request
 
 from hermes_cli.config import format_docker_update_message, recommended_update_command_for_method
+from hermes_cli.i18n_tr import MESSAGE_TR
 from hermes_cli.update_contract import COMMIT_BUILD_UPDATE_MESSAGE, is_commit_build
 from hermes_cli.version_info import get_version_info
 from hermes_cli.web_deps import LateState, late
@@ -56,6 +57,9 @@ _UPDATE_ACTION_COMPLETED_RE = re.compile(r"^=== hermes-update completed ([0-9a-f
 _UPDATE_ACTION_STARTED_RE = re.compile(r"^=== hermes-update started .* ([0-9a-f]{32}) ===$")
 
 _MANAGED_EXTERNALLY_MESSAGE = "Hermes updates are managed outside this dashboard in containerized environments."
+# Turkish copy of the same notice. A Turkish client prefers it; every other
+# language keeps the English message.
+_MANAGED_EXTERNALLY_MESSAGE_TR = MESSAGE_TR["managed_externally"]
 
 # Per-kind dashboard error codes the UI keys on, by admission-refusal code.
 _UPDATE_REFUSAL_ERROR_CODES = {
@@ -230,12 +234,16 @@ async def gateway_drain(request: Request):
     }
 
 
-def _update_refused(error: str, message: str, update_command: str) -> dict[str, Any]:
+def _update_refused(error: str, message: str, update_command: str,
+                    message_tr: str = "") -> dict[str, Any]:
     _record_completed_action("hermes-update", message, exit_code=1)
-    return {
+    payload: dict[str, Any] = {
         "ok": False, "pid": None, "name": "hermes-update", "error": error, "message": message,
         "update_command": update_command,
     }
+    if message_tr:
+        payload["message_tr"] = message_tr
+    return payload
 
 
 @router.post("/api/hermes/update")
@@ -246,8 +254,9 @@ async def update_hermes():
 
     if _dashboard_local_update_managed_externally():
         message = _MANAGED_EXTERNALLY_MESSAGE + " The built-in local updater is disabled here."
+        message_tr = _MANAGED_EXTERNALLY_MESSAGE_TR + " " + MESSAGE_TR["managed_externally_local_off"]
         # No runnable command exists here: the outer launcher/image owns updates.
-        return _update_refused("dashboard_update_managed_externally", message, "")
+        return _update_refused("dashboard_update_managed_externally", message, "", message_tr)
 
     # Shared admission gate: marker-first, then the docker/nix/apt heuristics —
     # one decision with the CLI paths.
@@ -312,6 +321,7 @@ async def check_hermes_update(force: bool = False, profile: Optional[str] = None
             "behind": None,
             "update_available": False, "can_apply": False,
             "update_command": "", "message": _MANAGED_EXTERNALLY_MESSAGE,
+            "message_tr": _MANAGED_EXTERNALLY_MESSAGE_TR,
         }
 
     install_method = detect_install_method(_server_path("PROJECT_ROOT"))
@@ -342,7 +352,18 @@ async def check_hermes_update(force: bool = False, profile: Optional[str] = None
 
     payload["behind"] = behind
     if behind is None:
-        payload["message"] = "Couldn't reach the update source — try again later."
+        # The check could not run. A source check that names a reason (e.g. an
+        # unreadable revision) carries it — keep that instead of the generic
+        # "could not reach the source" text, in both languages.
+        if status.get("error"):
+            payload["error"] = status["error"]
+            if status.get("message"):
+                payload["message"] = status["message"]
+            if status.get("message_tr"):
+                payload["message_tr"] = status["message_tr"]
+        else:
+            payload["message"] = "Couldn't reach the update source — try again later."
+            payload["message_tr"] = MESSAGE_TR["source_unreachable"]
     elif behind == 0 and status.get("held"):
         version = status.get("sourceVersion")
         payload.update(held=status["held"], source_version=version,
@@ -350,6 +371,7 @@ async def check_hermes_update(force: bool = False, profile: Optional[str] = None
                                "runtime its sessions use. It stays on this build until a newer release ships.")
     elif behind == 0:
         payload["message"] = "You're on the latest version."
+        payload["message_tr"] = MESSAGE_TR["up_to_date"]
     else:
         payload["update_available"] = True
         if status.get("rollback"):

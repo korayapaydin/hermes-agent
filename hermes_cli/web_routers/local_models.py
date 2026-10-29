@@ -613,12 +613,28 @@ def _installed(entry, variant) -> bool:
                 / f.local_name).is_file() for f in entry.install_files(variant))
 
 
+def _model_description_tr(entry) -> str:
+    """Turkish one-liner for a local model: the pack first, the catalog field second.
+
+    The catalogue refreshes from the upstream JSON (which carries no Turkish), so
+    the shipped ``i18n_tr`` map is what keeps a refreshed catalog translated.
+    """
+    try:
+        from hermes_cli.i18n_tr import MODEL_DESCRIPTIONS_TR
+    except ImportError:  # a missing pack must never break the catalogue
+        return getattr(entry, "description_tr", "") or ""
+    return MODEL_DESCRIPTIONS_TR.get(entry.id) or getattr(entry, "description_tr", "") or ""
+
+
 def _catalog_row(entry, budget, recommended, recommended_reason, staged_ids) -> dict[str, Any]:
     choice = catalog.select_variant(entry, budget)
     # Any variant of this family on disk counts as downloaded.
     dl = next((v for v in entry.variants if v.model_id in staged_ids and _installed(entry, v)), None)
     row: dict[str, Any] = {
         "id": entry.id, "display_name": entry.display_name, "description": entry.description,
+        # Turkish one-liner for the same model; a Turkish client prefers it,
+        # every other language keeps the English `description`.
+        "description_tr": _model_description_tr(entry),
         "native_context": entry.n_ctx_train, "native_context_label": _k_label(entry.n_ctx_train),
         "recommended": entry.id == recommended,
         "recommended_reason": recommended_reason if entry.id == recommended else None,

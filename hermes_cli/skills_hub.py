@@ -484,7 +484,9 @@ def browse_skills(page: int = 1, page_size: int = 20, source: str = "all") -> di
     deduped, page_items, page, total_pages, _start = _rank_and_page(all_results, page, page_size)
     return {
         "items": [{**_row(r, "name", "description", "source"), "trust": r.trust_level,
-                   "identifier": r.identifier} for r in page_items],
+                   "identifier": r.identifier,
+                   # Turkish copy of the description, when the skill ships one.
+                   "description_tr": getattr(r, "description_tr", "") or ""} for r in page_items],
         "page": page, "total_pages": total_pages, "total": len(deduped)}
 
 
@@ -518,7 +520,10 @@ def inspect_skill(identifier: str) -> Optional[dict]:
     if not ident or not meta:
         return None
     out = {**_row(meta, "name", "description", "source", "identifier"),
-           "tags": list(meta.tags) if meta.tags else []}
+           "tags": list(meta.tags) if meta.tags else [],
+           # Turkish copy of the description, when the skill ships one. The
+           # English text stays: a client in another language uses it unchanged.
+           "description_tr": getattr(meta, "description_tr", "") or ""}
     preview = _skill_md_preview(bundle)
     if preview is not None:
         out["skill_md_preview"] = preview

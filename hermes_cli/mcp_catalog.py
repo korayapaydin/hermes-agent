@@ -112,6 +112,9 @@ class CatalogEntry:
     source: str
     transport: TransportSpec
     auth: AuthSpec
+    # Turkish copy of `description`, when the manifest ships one. The English
+    # text stays: a client in another language uses it unchanged.
+    description_tr: str = ""
     connector_slug: Optional[str] = None
     tools: ToolsSpec = field(default_factory=ToolsSpec)
     install: Optional[InstallSpec] = None
@@ -340,6 +343,7 @@ def _parse_manifest(path: Path) -> CatalogEntry:
     install = _parse_install(path, data.get("install"))
     return CatalogEntry(
         name=name, description=description, source=str(data.get("source") or "").strip(),
+        description_tr=str(data.get("description_tr") or "").strip(),
         transport=transport, auth=auth, connector_slug=connector_slug, tools=tools, install=install,
         post_install=str(data.get("post_install") or ""), suggest=suggest, manifest_path=path,
     )

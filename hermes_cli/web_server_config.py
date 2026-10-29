@@ -271,7 +271,27 @@ def _config_schema_with_virtual_fields() -> dict[str, dict[str, Any]]:
     return ordered
 
 
-CONFIG_SCHEMA = _config_schema_with_virtual_fields()
+def _attach_translated_descriptions(schema: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Add a ``description_tr`` and ``label_tr`` to every field the Turkish pack covers.
+
+    The English ``description``/label stays exactly as it was -- a Turkish client
+    prefers ``description_tr``/``label_tr`` when its UI language is Turkish and falls back
+    to the English copy otherwise.
+    """
+    from hermes_cli.i18n_tr import CONFIG_DESCRIPTIONS_TR
+    from hermes_cli.i18n_tr_labels import CONFIG_FIELD_LABELS_TR
+
+    for key, entry in schema.items():
+        translated_desc = CONFIG_DESCRIPTIONS_TR.get(key)
+        if translated_desc:
+            entry["description_tr"] = translated_desc
+        translated_label = CONFIG_FIELD_LABELS_TR.get(key)
+        if translated_label:
+            entry["label_tr"] = translated_label
+    return schema
+
+
+CONFIG_SCHEMA = _attach_translated_descriptions(_config_schema_with_virtual_fields())
 
 
 def _is_command_provider_block(value: Any) -> bool:

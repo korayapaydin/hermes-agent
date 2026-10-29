@@ -8,6 +8,7 @@ from contextlib import suppress
 from pathlib import Path
 from typing import Any, Dict, List
 
+from agent.skill_utils import strip_description_tr
 from tools.skills_tool_setup import SkillReadinessStatus
 
 logger = logging.getLogger("tools.skills_tool")
@@ -154,6 +155,9 @@ def _serve_plugin_skill(
     rendered_content = content if not preprocess else _preprocess_skill(
         content, skill_md.parent, session_id, "Could not preprocess plugin skill %s:%s",
         namespace, bare)
+    # Same model-facing projection as the local-skill path: the Turkish copy of
+    # the description is UI-only and must not enter the transcript.
+    rendered_content = strip_description_tr(rendered_content)
     return _json({
         "success": True, "name": qualified_name, "content": banner + rendered_content,
         "description": _truncate_description(str(parsed_frontmatter.get("description", ""))),

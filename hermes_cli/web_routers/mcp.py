@@ -402,6 +402,8 @@ def _catalog_entry_json(entry: Any, installed: bool, enabled: bool) -> dict[str,
     return {
         "name": entry.name,
         "description": entry.description,
+        # The Turkish copy of the description, when the manifest ships one.
+        "description_tr": entry.description_tr,
         "connector_slug": entry.connector_slug,
         "source": entry.source,
         "transport": transport.type,

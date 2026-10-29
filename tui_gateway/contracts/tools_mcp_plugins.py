@@ -185,6 +185,9 @@ class SkillBrowseItem(OpenModel):
 
     name: str = ""
     description: str = ""
+    # Turkish copy of the description, when the skill ships one. The English
+    # text stays: a client in another language uses it unchanged.
+    description_tr: str = ""
     source: str = ""
     trust: str | None = None
     identifier: str | None = None
@@ -195,6 +198,8 @@ class SkillInspectInfo(OpenModel):
 
     name: str | None = None
     description: str | None = None
+    # Turkish copy of the description, when the skill ships one.
+    description_tr: str | None = None
     source: str | None = None
     identifier: str | None = None
     tags: list[str] | None = None

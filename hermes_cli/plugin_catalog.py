@@ -93,6 +93,9 @@ class PluginCatalogEntry:
     onboarding: bool = False     # curated: offered on the desktop onboarding card
     capabilities: CatalogCapabilities = field(default_factory=CatalogCapabilities)
     known_issues: list[str] = field(default_factory=list)  # #124058: informational; drivers come from plugin-catalog/*.yaml
+    # Turkish copy of `description`, when the catalogue ships one. The
+    # English text stays: a client in another language uses it unchanged.
+    description_tr: str = ""
 
     @property
     def install_identifier(self) -> str:
@@ -103,6 +106,7 @@ class PluginCatalogEntry:
         caps = self.capabilities
         return {
             "name": self.name, "repo": self.repo, "sha": self.sha, "description": self.description,
+            "description_tr": self.description_tr,
             "maintainer": self.maintainer, "tier": self.tier, "category": self.category,
             "requires_hermes": self.requires_hermes,
             "subdir": self.subdir, "docs_url": self.docs_url, "version": self.version, "image": self.image,
@@ -164,6 +168,7 @@ def entry_from_mapping(data: Any, label: str) -> Optional[PluginCatalogEntry]:
     return PluginCatalogEntry(
         name=name, repo=repo, sha=sha,
         description=str(data.get("description") or "").strip(),
+        description_tr=str(data.get("description_tr") or "").strip(),
         maintainer=str(data.get("maintainer") or "").strip(), tier=tier, category=category,
         requires_hermes=str(data.get("requires_hermes") or "").strip(),
         subdir=str(data.get("subdir") or "").strip(), docs_url=str(data.get("docs_url") or "").strip(),

@@ -111,6 +111,11 @@ def plugin_settings_fields(plugin_id: str, plugin_dir: Optional[Path]) -> list[d
             "description": str(spec.get("description") or ""),
             "required": bool(spec.get("required")),
         }
+        # A plugin (or the Turkish pack) may ship a translated description; the
+        # English copy stays for every other language.
+        description_tr = str(spec.get("description_tr") or "").strip()
+        if description_tr:
+            field["description_tr"] = description_tr
         if kind == "secret":
             env = secret_env_name(plugin_id, key, spec)
             field.update({"env": env, "has_value": get_env_value(env) is not None})

@@ -78,7 +78,10 @@ def _skill_meta_to_payload(m) -> dict:
     return {
         "name": m.name, "description": m.description, "source": m.source,
         "identifier": m.identifier, "trust_level": m.trust_level, "repo": m.repo,
-        "tags": list(m.tags or [])}
+        "tags": list(m.tags or []),
+        # Turkish copy of the description, when the skill ships one. The English
+        # text stays: a client in another language uses it unchanged.
+        "description_tr": getattr(m, "description_tr", "") or ""}
 
 
 def _clear_skills_prompt_cache() -> None:
@@ -257,6 +260,8 @@ async def preview_skill_hub(identifier: str = "", profile: Optional[str] = None)
             "identifier": getattr(m, "identifier", ident) or ident,
             "trust_level": getattr(m, "trust_level", "community") or "community",
             "repo": getattr(m, "repo", None), "tags": list(getattr(m, "tags", None) or []),
+            # Turkish copy of the description, when the skill ships one.
+            "description_tr": getattr(m, "description_tr", "") or "",
             "skill_md": skill_md, "files": sorted(files.keys())}
 
     return await _hub_lookup(_run, ident, "skills hub preview failed", "Hub preview failed")

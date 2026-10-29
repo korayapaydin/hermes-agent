@@ -871,6 +871,107 @@ def is_skill_description_truncated_for_prompt(frontmatter: dict[str, Any]) -> bo
     return len(_normalize_skill_description(frontmatter)) > SKILL_PROMPT_DESC_LIMIT
 
 
+# A frontmatter key line: optional indentation, an optionally quoted ``description_tr``,
+# then the colon. ``description_tr_x`` and ``xdescription_tr`` never match.
+_DESCRIPTION_TR_KEY_RE = re.compile(r"^([ \t]*)['\"]?description_tr['\"]?\s*:")
+# A block scalar value: ``|``/``>`` with optional chomping and indent indicators.
+_BLOCK_SCALAR_RE = re.compile(r"[|>][+-]?[0-9]*$")
+
+
+def strip_description_tr(content: str) -> str:
+    """Return *content* without the frontmatter's top-level ``description_tr`` key.
+
+    ``description_tr`` is the Turkish copy of a skill's description — a UI-only field
+    (dashboard, desktop app, site, TUI, CLI). The model never needs it, and it must not
+    ride into the conversation: a tool result joins the transcript and is re-sent on
+    every turn, so a localized line breaks the cached prompt prefix and multiplies the
+    user's cost.
+
+    Only the key goes away — plus the lines its value spans, so a block scalar leaves
+    no orphan text behind. Every other frontmatter line and the whole body stay
+    byte-for-byte, so the served text matches the file as it was before the translation
+    was added. Content without frontmatter, or without the key, is returned unchanged.
+    """
+    if not content or "description_tr" not in content:
+        return content
+    body = content.removeprefix("\ufeff")
+    if not body.startswith("---"):
+        return content
+    # The same closing-fence rule as ``parse_frontmatter``.
+    end = re.search(r"\n---\s*\n", body[3:])
+    if end is None:
+        return content
+    frontmatter_end = end.start() + 3
+    frontmatter = body[3:frontmatter_end]
+    projected = _drop_description_tr_key(frontmatter)
+    if projected == frontmatter:
+        return content
+    return content[:len(content) - len(body)] + body[:3] + projected + body[frontmatter_end:]
+
+
+def _indent_of(line: str) -> int:
+    return len(line) - len(line.lstrip())
+
+
+def _root_indent(lines: list[str]) -> Optional[int]:
+    """Indentation of the frontmatter's top-level mapping (the smallest key indent)."""
+    indents = [_indent_of(line) for line in lines if line.strip()]
+    return min(indents) if indents else None
+
+
+def _value_extent(lines: list[str], key_index: int, root_indent: int) -> int:
+    """Index just past the value of the key at *key_index* (its own line excluded).
+
+    A block scalar owns every following line that is blank or more indented than the
+    mapping's level; a plain or quoted scalar owns the continuation lines that are more
+    indented than the key. Anything else starts the next key.
+    """
+    value = lines[key_index].split(":", 1)[1].strip() if ":" in lines[key_index] else ""
+    index = key_index + 1
+    if _BLOCK_SCALAR_RE.fullmatch(value):
+        while index < len(lines):
+            if not lines[index].strip():
+                # A blank line belongs to the block only when a deeper line follows it.
+                lookahead = index
+                while lookahead < len(lines) and not lines[lookahead].strip():
+                    lookahead += 1
+                if lookahead < len(lines) and _indent_of(lines[lookahead]) > root_indent:
+                    index = lookahead
+                    continue
+                break
+            if _indent_of(lines[index]) > root_indent:
+                index += 1
+                continue
+            break
+        return index
+    while index < len(lines) and lines[index].strip() and _indent_of(lines[index]) > root_indent:
+        index += 1
+    return index
+
+
+def _drop_description_tr_key(frontmatter: str) -> str:
+    """The frontmatter text without its top-level ``description_tr`` key."""
+    lines = frontmatter.split("\n")
+    root_indent = _root_indent(lines)
+    if root_indent is None:
+        return frontmatter
+    drop: set[int] = set()
+    index = 0
+    while index < len(lines):
+        match = _DESCRIPTION_TR_KEY_RE.match(lines[index])
+        # A deeper key belongs to a nested mapping (metadata.hermes.*), not the
+        # top-level description: it stays.
+        if match is None or len(match.group(1)) != root_indent:
+            index += 1
+            continue
+        end = _value_extent(lines, index, root_indent)
+        drop.update(range(index, end))
+        index = end
+    if not drop:
+        return frontmatter
+    return "\n".join(line for i, line in enumerate(lines) if i not in drop)
+
+
 def iter_skill_index_files(skills_dir: Path, filename: str):
     """Walk skills_dir yielding sorted paths matching *filename*; prunes
     EXCLUDED_SKILL_DIRS and support dirs of skill roots."""

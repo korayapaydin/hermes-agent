@@ -17,7 +17,8 @@ from hermes_constants import get_hermes_home
 from tools.registry import registry, tool_error
 from hermes_cli.config import cfg_get
 from agent.skill_utils import (
-    EXCLUDED_SKILL_DIRS as _EXCLUDED_SKILL_DIRS, is_skill_support_path as _is_skill_support_path)
+    EXCLUDED_SKILL_DIRS as _EXCLUDED_SKILL_DIRS, is_skill_support_path as _is_skill_support_path,
+    strip_description_tr)
 from tools.skills_tool_setup import (
     SkillReadinessStatus, _build_setup_note, _capture_required_environment_variables,
     _get_required_environment_variables, _is_env_var_persisted, _is_remote_env_backend)
@@ -668,6 +669,13 @@ def skill_view(
         readiness, readiness_extras = _skill_readiness(frontmatter, skill_name)
         rendered_content = content if not preprocess else _preprocess_skill(
             content, skill_dir, task_id, "Could not preprocess skill content for %s", skill_name)
+        # The model-facing projection: the Turkish copy of the description is a
+        # UI-only field and must not enter the transcript (it would break the
+        # cached prompt prefix). Applied to the RENDERED content, after the
+        # frontmatter was parsed from the raw text — parsing reads `content`,
+        # so the raw text stays untouched and the served text is byte-identical
+        # to the file as it was before the translation was added.
+        rendered_content = strip_description_tr(rendered_content)
         # ── pm tool deps (`deps: [ffmpeg]` frontmatter) ──────────────
         # Loading the skill IS the activation moment: ensure each declared
         # pm package now so the skill's commands work when the model runs

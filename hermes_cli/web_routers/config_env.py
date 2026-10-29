@@ -164,6 +164,22 @@ def _provider_card(d, description: str, url, *, is_password: bool, advanced: boo
     }
 
 
+def _env_description_tr(env_var: str) -> str:
+    """The Turkish copy of an env var's description, when the pack carries one.
+
+    The provider card reuses the env var's prose, so the same translation
+    covers both. Every other language keeps the English description. A plugin
+    manifest may ship its own ``description_tr`` on the env entry; that wins.
+    """
+    info = OPTIONAL_ENV_VARS.get(env_var) or {}
+    own = str(info.get("description_tr") or "")
+    if own:
+        return own
+    from hermes_cli.i18n_tr import ENV_DESCRIPTIONS_TR
+
+    return str(ENV_DESCRIPTIONS_TR.get(env_var) or "")
+
+
 _AUTH_TYPE_ENV_VARS = {
     "aws_sdk": (
         ("AWS_REGION", lambda d, var: f"{d.label} ({var})"),
@@ -205,6 +221,7 @@ def _catalog_provider_env_metadata() -> dict:
             "provider": entry["provider"],
             "provider_label": entry["provider_label"],
             "description": entry["description"],
+            "description_tr": entry.get("description_tr", ""),
             "url": entry["url"],
             "primary": bool(entry.get("provider_primary")),
         }
@@ -233,6 +250,7 @@ def _catalog_provider_env_metadata() -> dict:
                 d, d.description, d.signup_url or None, is_password=True, advanced=False,
             )
             entry["provider_primary"] = index == 0
+            entry["description_tr"] = _env_description_tr(env_var)
             _add_provider_env(
                 env_var,
                 entry,
@@ -243,6 +261,7 @@ def _catalog_provider_env_metadata() -> dict:
                 d.base_url_env_var,
                 _provider_card(d, f"{d.label} base URL override", None, is_password=False, advanced=True),
             )
+            meta[d.base_url_env_var]["description_tr"] = _env_description_tr(d.base_url_env_var)
 
         # Providers without api_key_env_vars would otherwise be invisible on
         # the Keys tab: AWS-SDK providers (Bedrock) authenticate via the AWS
@@ -279,6 +298,8 @@ def _get_env_vars_sync(profile: Optional[str] = None):
             "is_set": bool(value),
             "redacted_value": redacted_credential_preview(value),
             "description": info.get("description") or cat_meta.get("description", ""),
+            # Turkish copy of the same description, when the pack carries one.
+            "description_tr": info.get("description_tr") or cat_meta.get("description_tr", ""),
             "url": info.get("url") if info.get("url") is not None else cat_meta.get("url"),
             "category": info.get("category") or cat_meta.get("category", ""),
             "is_password": info.get("password", cat_meta.get("is_password", False)),

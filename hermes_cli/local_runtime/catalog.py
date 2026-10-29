@@ -125,6 +125,9 @@ class CatalogEntry:
     # MoE. With memory bandwidth this predicts decode speed — the physics half of the
     # recommendation.
     decode_fraction: float = 1.0
+    # Turkish one-liner for the same model. Optional: a client that speaks
+    # Turkish prefers it, every other language keeps the English `description`.
+    description_tr: str = ""
     # False lists the entry for explicit choice only: it is never the automatic recommendation or
     # quickstart's pick on any machine, so it needs no quality ordering.
     recommend: bool = True
@@ -330,7 +333,7 @@ _SCALAR_FIELDS = {
     "n_vocab": (int, 0), "sampling": (dict, {}), "min_engine": (str, ""),
     "quality": (int, 0), "decode_fraction": (float, 1.0), "architecture": (str, ""),
     "recommend": (bool, True), "draft_spec_type": (str, "draft-dspark"), "draft_depth": (int, 3),
-    "draft_min_engine": (str, ""),
+    "draft_min_engine": (str, ""), "description_tr": (str, ""),
 }
 
 
